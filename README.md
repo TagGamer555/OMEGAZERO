@@ -9,4 +9,4 @@ KillerIKY#72XX - main creator (me)
 
 Renale#92XX - helped a lot with testing and ideas!!
 
-Fresh791 - great help with scripts.
+Fresh791 - great help with code structures.
