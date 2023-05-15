@@ -1,0 +1,21 @@
+{
+  "type": "PowerNode",
+  "name": "Cobalt Node",
+  "description": "Node made of cobalt, that can connect in every direction.",
+  "size": 1,
+  "health": 125,
+  "laserRange": 12,
+  "maxNodes": 5,
+  "requirements": [
+    {
+      "item": "cobalt",
+      "amount": 8
+    }
+  ],
+  "category": "power",
+  "research": "beam-node",
+  "powerCapacity": 1500,
+  "laserColor1": "647FBA",
+  "laserColor2": "ffffff",
+  "laserScale": 0.6
+}

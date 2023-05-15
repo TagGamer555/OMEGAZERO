@@ -1,0 +1,54 @@
+{
+ "type": "tank",
+ "name": "[green]Markdown[]",
+ "description": "Tier two support tank.",
+ "hitSize": 12,
+ "health": 1200,
+ "armor": 9,
+ "treadFrames": 4,
+ "hovering": false,
+ "outlineColor": "2D2F39",
+ "speed": 1.2,
+ "envDisabled": 0,
+ "drag": 0.1,
+ "accel": 0.1,
+ "rotateSpeed": 2,
+ "omniMovement": false, //I hope this works out!!!
+ "baseRotateSpeed": 2,
+ "commandLimit": 888,
+ "itemCapacity": 0,
+ "flying": false,
+ "commandRadius": 666, //lol
+ "drownTimeMultiplier": "1",
+  "weapons": [
+    {
+	  "name": "markdown-weapon",
+      "mirror": false,
+      "shootSound": "shootSmite",
+      "x": 0,
+      "y": 0,
+      "reload": 75,
+	  "inaccuracy": 0,
+      "rotate": true,
+      "noAttack": false,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 120,
+        "healPercent": 5,
+        "length": 120,
+		"width": 60, //big fat laser DAMN
+        "colors": ["95FC8040", "95FC80", "ffffff"]
+        "collidesTeam": true,
+        "collidesTiles": true,
+        "collidesAir": true,
+        "collidesBlocks": true,
+      }
+    }
+	],
+	"research": {
+  "parent": "beacon",
+  "requirements": [
+  "beryllium/88", //88 > 69
+  ],
+	},
+}

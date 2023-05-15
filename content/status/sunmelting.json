@@ -1,0 +1,17 @@
+{
+	"type": "status",
+          "name": "[yellow]Sunmelting[]",
+          "damage": 0.75,
+          "permanent": false,
+          "alwaysUnlocked": true,
+          "speedMultiplier": 0.1,
+          "reloadMultiplier": 0.1,
+          "healthMultiplier": 0.1,
+          "effect": {
+            "type": "ParticleEffect",
+            "particles": 16,
+            "colorFrom": "F2E878",
+            "colorTo": "D89F6B",
+            "interp": "circleOut"
+          }
+}

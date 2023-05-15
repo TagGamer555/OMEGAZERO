@@ -1,0 +1,33 @@
+{
+  "type": "SolidPump",
+  "name": "Water Pump",
+  "description": "Pumps water out, similarly to water extractor. Self explanatory?",
+  "health": 120,
+  "result": "water",
+  "hasPower": true,
+  "attribute": "water",
+  "hasLiquids": true,
+  "size": 1,
+  "affinities": ["water"],
+  "pumpAmount": 0.075,
+  "consumes": {
+    "power": 0.65
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 12
+    },
+    {
+      "item": "graphite",
+      "amount": 6
+    },
+    {
+      "item": "metaglass",
+      "amount": 12
+    }
+  ],
+  "category": "production",
+  "research": "OMEGAZERO",
+  "liquidCapacity": 400
+}

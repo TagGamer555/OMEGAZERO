@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "[orange]Starlight Forge[]"
+description: "Makes an excessivly durable alloy. Used by [orange]Astro[] faction in large amounts."
+liquidCapacity: 80
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.35
+  items: {
+    items: [
+      titanium/2
+	  tungsten/4
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.25
+  }
+}
+requirements: [
+  silicon/15
+  graphite/15
+  titanium/45
+]
+category: crafting
+research: OMEGAZERO
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: astro-alloy/4

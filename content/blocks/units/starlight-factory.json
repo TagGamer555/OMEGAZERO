@@ -1,0 +1,108 @@
+{
+  "type": "unitFactory",
+  "name": "[orange]Starlight Factory[]",
+  "description": "Produces units of [orange]Astro[]'s faction.",
+  "size": 3,
+  "itemCapacity": 24,
+  "consumes": {
+    "power": 0.45,
+  },
+  "plans": [
+    {
+      "unit": "hydro-jet",
+      "requirements": [
+        {
+          "item": "astro-alloy",
+          "amount": 5
+        }
+      ],
+      "time": 400
+    },
+    {
+      "unit": "drone",
+      "requirements": [
+        {
+          "item": "astro-alloy",
+          "amount": 8
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "astral",
+      "requirements": [
+        {
+          "item": "astro-alloy",
+          "amount": 12
+        }
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "erupt",
+      "requirements": [
+        {
+          "item": "astro-alloy",
+          "amount": 34
+        }
+      ],
+      "time": 4000
+    },
+    {
+      "unit": "sentry",
+      "requirements": [
+        {
+          "item": "astro-alloy",
+          "amount": 3
+        }
+      ],
+      "time": 200
+    },
+    {
+      "unit": "retra",
+      "requirements": [
+        {
+          "item": "astro-alloy",
+          "amount": 6
+        }
+      ],
+      "time": 600
+    },
+    {
+      "unit": "miner",
+      "requirements": [
+        {
+          "item": "astro-alloy",
+          "amount": 8
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "creal",
+      "requirements": [
+        {
+          "item": "astro-alloy",
+          "amount": 12
+        }
+      ],
+      "time": 800
+    }
+  ],
+  "requirements": [
+    {
+      "item": "astro-alloy",
+      "amount": 12
+    },
+    {
+      "item": "titanium",
+      "amount": 25
+    },
+    {
+      "item": "silicon",
+      "amount": 15
+    }
+  ],
+  "category": "units",
+  "research": "OMEGAZERO"
+}

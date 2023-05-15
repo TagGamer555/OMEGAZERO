@@ -1,0 +1,16 @@
+{
+  "name": "Cobalt Crate",
+  "description": "Small crate made out of cobalt. Cannot expand core storage capacity.",
+  "type": "StorageBlock",
+  "size": 1,
+  "hasItems": true,
+  "itemCapacity": 35,
+  "health": 600,
+  "coreMerge": false,
+  "category": "effect",
+  "research": "mod-gate-effect",
+  "requirements": [
+    "cobalt/40",
+    "silicon/8"
+  ]
+}

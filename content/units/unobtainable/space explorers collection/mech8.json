@@ -1,0 +1,42 @@
+{
+  "type": "mech",
+  "name": "Mech (8)",
+  "description": "Mech, equipped with clockwork assault rifle.",
+  "speed": 0.55,
+  "flying": false,
+  "health": 550,
+  "weapons": [
+    {
+	  "name": "blaster8",
+      "x": 4.5,
+      "y": 0,
+      "reload": 40,
+      "spacing": 0,
+      "mirror": false,
+        "alternate": false,
+		"top": true,
+		"shoot": {
+"type": "ShootPattern",
+"shots": 3,
+"shotDelay": 4,
+}
+      "bullet": {
+        "type": "BasicBulletType",
+		"inaccuracy": 3,
+        "speed": 5,
+        "damage": 8,
+        "width": 6,
+        "height": 9,
+        "lifetime": 30,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "FFFFA3"
+        "backColor": "FFFFA3",
+        "trailColor": "FFFFA3",
+        "frontColor": "ffffff",
+        "trailWidth": 1,
+        "trailLength": 3
+      }
+    }
+  ]
+}

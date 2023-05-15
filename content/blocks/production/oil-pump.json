@@ -1,0 +1,38 @@
+{
+  "type": "SolidPump",
+  "name": "Oil Pump",
+  "description": "Pumps oil out. Self explanatory?",
+  "health": 120,
+  "result": "oil",
+  "hasPower": true,
+  "attribute": "oil",
+  "hasLiquids": true,
+  "size": 1,
+  "affinities": ["sand"],
+  "pumpAmount": 0.15,
+  "consumes": {
+    "power": 1.15
+  },
+  "requirements": [
+    {
+      "item": "titanium",
+      "amount": 5
+    },
+    {
+      "item": "plastanium",
+      "amount": 2
+    },
+    {
+      "item": "graphite",
+      "amount": 10
+    },
+    {
+      "item": "metaglass",
+      "amount": 12
+    }
+  ],
+  "powerUse": 0.1,
+  "category": "production",
+  "research": "OMEGAZERO",
+  "liquidCapacity": 400
+}

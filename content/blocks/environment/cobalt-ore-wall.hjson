@@ -1,0 +1,4 @@
+name: "Cobalt Ore (Wall)" //REMEMBER! [], () and {} should ALWAYS be encased with DOUBLE QUOTES!!!
+type: oreBlock
+itemDrop: cobalt
+wallOre: true

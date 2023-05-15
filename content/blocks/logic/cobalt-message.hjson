@@ -1,0 +1,17 @@
+type: MessageBlock
+size: 1
+name: Cobalt Message
+description: A message, made out of cobalt.
+health: 120
+
+requirements: [
+cobalt/6
+silver/2
+]
+
+maxNewlines: 36
+maxTextLength: 220
+
+category: logic
+alwaysUnlocked: false
+//buildVisibility: "shown"

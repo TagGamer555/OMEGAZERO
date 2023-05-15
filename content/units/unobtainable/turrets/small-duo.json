@@ -1,0 +1,27 @@
+{
+  "type": "mech",
+  "localizedName": "Duo",
+  "flying": false,
+  "drawCell": false,
+  "health": 125,
+  "speed": 0.95,
+  "weapons": [
+    {
+      "x": -2,
+      "y": 1,
+      "reload": 20,
+      "alternate": true,
+      "inaccuracy": 2,
+      "mirror": true,
+      "rotate": false,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 12,
+        "height": 9,
+        "width": 7,
+        "homingPower": 0.1,
+        "lifetime": 60
+      }
+    }
+  ]
+}

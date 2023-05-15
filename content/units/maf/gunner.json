@@ -1,0 +1,37 @@
+{
+  "type": "flying",
+  "flying": true,
+  "name": "[#ffffdd]Gunner",
+  "description": "A really powerful unit that shoots rounds of long-ranged slugs. Weak in direct combat.",
+  "research": "maf",
+  "speed": 2.15,
+  "accel": 0.08,
+  "drag": 0.04,
+  "health": 125,
+  "engineOffset": 5.75,
+  "engineColor": "ffffaa",
+  "engineColorInner": "ffffdd",
+  "targetFlags": ["generator"],
+  "hitSize": 9,
+  "itemCapacity": 25,
+  "weapons": [
+    {
+      "y": 0,
+      "x": 2,
+      "reload": 2,
+      "ejectEffect": "casing1",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 20,
+        "damage": 2,
+        "width": 5,
+        "height": 5,
+        "lifetime": 30,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "frontColor": "ffffdd",
+        "backColor": "ffffaa"
+      }
+    }
+  ]
+}

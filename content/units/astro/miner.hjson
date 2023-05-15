@@ -1,0 +1,21 @@
+type: payload
+name: "[orange]Starvester"
+description: "Lightweight astral drone with ability to harvest ores."
+health: 240
+armor: 12
+speed: 2.4
+mineTier: 4
+mineSpeed: 4
+drag: 0.04
+accel: 0.08
+
+payloadCapacity: 300
+lowAltitude: true
+flying: true
+
+engineColor: E57A16
+engineColorInner: FFFFFF
+
+buildSpeed: 0.25
+
+itemCapacity: 40

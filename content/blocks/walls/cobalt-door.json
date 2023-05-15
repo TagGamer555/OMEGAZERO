@@ -1,0 +1,21 @@
+{
+  "type": "door",
+  "name": "Cobalt Door",
+  "description": "Door made of cobalt and graphite. Not blue enough.",
+  "size": 1,
+  "health": 950,
+  "requirements": [
+    {
+      "item": "cobalt",
+      "amount": 6
+    },
+    {
+      "item": "graphite",
+      "amount": 4
+    }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "OMEGAZERO"
+  }
+}

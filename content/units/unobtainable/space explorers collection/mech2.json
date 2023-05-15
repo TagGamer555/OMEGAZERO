@@ -1,0 +1,38 @@
+{
+  "type": "mech",
+  "name": "Mech (2)",
+  "description": "Mech, equipped with amazing machine gun.",
+  "speed": 0.55,
+  "flying": false,
+  "health": 550,
+  "weapons": [
+    {
+	  "name": "blaster1",
+      "x": 5,
+      "y": 0,
+      "reload": 10,
+	  "shootSound": "shootSnap",
+      "spacing": 0,
+      "mirror": false,
+        "alternate": false,
+		"top": true,
+      "bullet": {
+        "type": "BasicBulletType",
+		"inaccuracy": 12,
+        "speed": 7.5,
+        "damage": 6,
+        "width": 6,
+        "height": 9,
+        "lifetime": 27.5,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "8DEDBB"
+        "backColor": "8DEDBB",
+        "trailColor": "8DEDBB",
+        "frontColor": "ffffff",
+        "trailWidth": 1,
+        "trailLength": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "unitFactory",
+  "name": "[green]Support Fabricator[]",
+  "description": "Produces Erekir support ground unit.",
+  "size": 3,
+  "itemCapacity": 24,
+  "consumes": {
+    "power": 0.25,
+  },
+  "plans": [
+    {
+      "unit": "beacon",
+      "requirements": [
+        {
+          "item": "beryllium",
+          "amount": 45
+        },
+        {
+          "item": "silicon",
+          "amount": 25
+        }
+      ],
+      "time": 800
+    }
+  ],
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 90
+    },
+    {
+      "item": "silicon",
+      "amount": 50
+    },
+    {
+      "item": "graphite",
+      "amount": 30
+    }
+  ],
+  "category": "units",
+  "research": "OMEGAZERO"
+}

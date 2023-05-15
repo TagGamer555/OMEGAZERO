@@ -1,0 +1,44 @@
+{
+  "type": "payload",
+  "name": "[blue]River",
+  "description": "LW Spaceship. Used for carrying things 'round in space.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 2.55,
+  "payloadCapacity": 275,
+  
+  "armor": 15,
+  "commandLimit": 888,
+  "health": 420,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 5,
+  "weapons": [
+    {
+	  "name": "river-weapon",
+	  "inaccuracy": 0,
+      "x": 2.5,
+      "y": 0,
+      "reload": 30,
+      "spacing": 0,
+      "mirror": true,
+	  "top": false,
+        "alternate": true
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "damage": 10,
+        "lifetime": 20,
+        "width": 8,
+        "height": 8,
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+        }
+    }
+  ],
+"hitSize": 7.5,
+"research": "OMEGAZERO"
+}

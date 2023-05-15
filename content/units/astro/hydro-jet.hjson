@@ -1,0 +1,54 @@
+type: payload
+name: "[orange]Hydro Jet[]"
+description: "One of the [orange]Astro[]'s creations. Sprinkles water everywhere."
+health: 120
+armor: 2
+speed: 4.3
+drag: 0.04
+accel: 0.04
+
+engineColor: E57A16
+engineColorInner: FFFFFF
+engineOffset: 6
+
+payloadCapacity: 200
+itemCapacity: 20
+lowAltitude: true
+flying: true
+
+buildSpeed: 1
+
+  weapons: [
+    {
+    top: false
+	shootSound: invalid
+    y: 0
+    reload: 9
+    ejectEffect: none
+    x: 0
+    bullet: {
+      type: LiquidBulletType
+      liquid: water
+      damage: 2
+      drag: 0.009
+      speed: 2.5
+      shootEffect: shootSmall
+      lifetime: 57
+      collidesAir: true
+      fragBullets: 2
+      status: wet
+      statusDuration: 120
+      fragBullet: {
+        type: LiquidBulletType
+        liquid: water
+        knockback: 1.6
+        speed: 1
+        damage: 2
+        lifetime: 40
+        collidesAir: false
+        status: wet
+        statusDuration: 60
+      }
+      }
+    }
+  ]

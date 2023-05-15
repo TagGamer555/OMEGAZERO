@@ -1,0 +1,21 @@
+{
+  "type": "door",
+  "name": "Copper Door",
+  "description": "Door made of copper. And silicon too, I guess...",
+  "size": 1,
+  "health": 360,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 6
+    },
+    {
+      "item": "silicon",
+      "amount": 4
+    }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "OMEGAZERO"
+  }
+}

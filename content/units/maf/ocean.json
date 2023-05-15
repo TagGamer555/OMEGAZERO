@@ -1,0 +1,86 @@
+{
+  "type": "flying",
+  "name": "[#ccaaff]Ocean",
+  "description": "Very wierd unit.",
+  "research": "maf",
+  "mineSpeed": 0.666,
+  "mineTier": 3,
+  "buildSpeed": 0.333,
+  "engineColor": "ccaaff",
+  "engineColorInner": "eeddff",
+  "armor": 3,
+  "itemCapacity": 20,
+  "speed": 2.55,
+  "drag": 0.04,
+  "accel": 0.08,
+  "canHeal": true,
+  "drawBuildBeam": true,
+  "health": 275,
+  "mineHardnessScaling": true,
+  "flying": true,
+  "weapons": [
+    {
+      "mirror": false,
+      "shootSound": "laser",
+      "x": 0,
+      "y": 0,
+      "reload": 125,
+	  "inaccuracy": 45,
+      "rotate": false,
+      "noAttack": false,
+      "range": 100,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 35,
+        "length": 90,
+        "colors": ["ffdddd", "ffffff", "ffaaaa"]
+        "collidesTeam": true,
+        "collidesTiles": true,
+        "collidesAir": true,
+        "collidesBlocks": true,
+      }
+    },
+    {
+      "mirror": false,
+      "shootSound": "laser",
+      "x": 0,
+      "y": 0,
+      "reload": 125,
+	  "inaccuracy": 45,
+      "rotate": false,
+      "noAttack": false,
+      "range": 100,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 35,
+        "length": 90,
+        "colors": ["ffffdd", "ffffff", "ffffaa"]
+        "collidesTeam": true,
+        "collidesTiles": true,
+        "collidesAir": true,
+        "collidesBlocks": true,
+      }
+    },
+    {
+      "mirror": false,
+      "shootSound": "laser",
+      "x": 0,
+      "y": 0,
+      "reload": 125,
+	  "inaccuracy": 45,
+      "rotate": false,
+      "noAttack": false,
+      "range": 100,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 35,
+        "length": 90,
+        "colors": ["ddddff", "ffffff", "aaaaff"]
+        "collidesTeam": true,
+        "collidesTiles": true,
+        "collidesAir": true,
+        "collidesBlocks": true,
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Rhyolite Drill",
+  "description": "Large and heavy drill, made out of space rock, called Rhyolite. Optionally uses Nitrogen for speedup.",
+  "type": "Drill",
+  "size": 3,
+  "itemCapacity": 25,
+  "tier": 5,
+  "drillTime": 244,
+  "drawMineItem": false,
+  "consumes": {
+    "liquid": {
+      "liquid": "nitrogen",
+      "amount": 0.009,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "rhyolite",
+      "amount": 45
+    }
+  ],
+  "category": "production",
+  "research": "OMEGAZERO"
+}

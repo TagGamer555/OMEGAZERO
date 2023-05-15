@@ -1,0 +1,9 @@
+type: Wall
+health: 50
+name: "Astro Wallpaper"
+description: "A... wallpaper?"
+category: effect
+
+requirements: [
+astro-alloy/1
+]

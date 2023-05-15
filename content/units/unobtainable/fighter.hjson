@@ -1,0 +1,30 @@
+type: flying
+name: "Fighter"
+description: "Lightweight, missile-packed fighter."
+health: 360
+controller: fighterAI
+engineSize: 0
+armor: 3
+speed: 3.55
+drag: 0.04
+accel: 0.08
+
+lowAltitude: true
+flying: true
+
+weapons: [
+{
+x: 0
+y: 0
+mirror: false
+alternate: false
+reload: 300
+shootSound: missile
+bullet: {
+type: basicBulletType
+damage: 0
+lifetime: 0
+spawnUnit: shocker-missile
+}
+}
+]

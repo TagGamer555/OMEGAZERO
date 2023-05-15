@@ -1,0 +1,10 @@
+type: Wall
+health: 50
+name: "Astro Wreck"
+variants: 3
+description: "Some eroded wreck... what happened to these makes me a little terrified."
+category: effect
+
+requirements: [
+scrap/6
+]

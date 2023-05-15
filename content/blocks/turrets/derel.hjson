@@ -1,0 +1,51 @@
+name: "[#F2E878]Derel"
+description: Space turret goes pew pew
+type: PowerTurret
+targetAir: true
+health: 420
+range: 220
+reload: 120
+size: 2
+shootSound: shootSmite
+heatColor: F2E878
+consumes: {
+power: 3.5
+}
+chargeTime: 5
+firstShotDelay: 30
+chargeBeginEffect: {
+type: ParticleEffect
+lifetime: 5
+length: 0
+particles: 1
+sizeFrom: 0
+sizeTo: 2
+colorFrom: F2E878
+}
+chargeEffects: 6
+chargeEffect: {
+type: ParticleEffect
+particles: 1
+lifetime: 24
+baseLength: 10
+length: -10
+line: true
+strokeFrom: 0
+strokeTo: 1
+lenFrom: 0
+lenTo: 3
+colorFrom: F2E878
+}
+shootType: {
+type: LaserBulletType
+length: 200
+width: 75
+damage: 200
+colors: [F2E87840, F2E878, ffffff]
+}
+category: turret
+research: OMEGAZERO
+requirements: [
+tungsten/15
+silicon/40
+]

@@ -1,0 +1,26 @@
+{
+  "name": "Bulk Copper Wall",
+  "description": "This wall could last a storm or two!",
+  "type": "Wall",
+  "health": 500,
+  "size": 1,
+  "drawer": {
+"type": "DrawMulti"
+"drawers": [
+{
+"type": "DrawDefault"
+}
+{
+"type": "DrawRegion"
+"suffix": "-handle",
+}
+]
+}
+  "requirements": [
+  "copper/12"
+]
+  "category": "defense",
+  "research": {
+   "parent": "OMEGAZERO"
+  }
+}

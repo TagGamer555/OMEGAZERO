@@ -1,0 +1,46 @@
+{
+  "type": "legs",
+  "name": "Spider (2)",
+  "description": "Spider, equipped with creo machine gun.",
+  "speed": 0.7,
+  "drag": 0.4,
+  "hitSize": 7,
+  "rotateSpeed": 3,
+  "health": 650,
+  "immunities": ["unmoving"],
+  "legCount": 6,
+  "legLength": 7.5,
+  "legForwardScl": 0.6,
+  "legMoveSpace": 1.4,
+  "hovering": true,
+  "armor": 0,
+  "shadowElevation": 0.2,
+  "groundLayer": 74,
+  "weapons": [
+    {
+    "top": false,
+    "shootY": 3,
+    "reload": 15,
+    "ejectEffect": "none",
+    "x": 0,
+    "shootSound": "blaster",
+      "bullet": {
+        "type": "BasicBulletType",
+		"inaccuracy": 7.5,
+        "speed": 7.25,
+        "damage": 5,
+        "width": 6,
+        "height": 8,
+        "lifetime": 40,
+		"status": "burning",
+		"statusLength": 30,
+        "hitColor": "FF785E"
+        "backColor": "FF785E",
+        "trailColor": "FF785E",
+        "frontColor": "ffffff",
+        "trailWidth": 1,
+        "trailLength": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "GenericCrafter",
+  "name": "Life Tank",
+  "description": "Grows Neoplasm.",
+  "outputLiquid": {
+    "liquid": "neoplasm",
+    "amount": 0.75
+  },
+  "health": 1220,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom" 
+      }
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "neoplasm" 
+      }
+      {
+        "type": "DrawDefault",
+      }
+    ]
+  },
+  "liquidCapacity": 120,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": false,
+  "consumes": {
+    "power": 0.95,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.2
+    },
+  },
+  "requirements": [
+
+    {
+      "item": "beryllium",
+      "amount": 80
+    },
+    {
+      "item": "silicon",
+      "amount": 75
+    },
+    {
+      "item": "tungsten",
+      "amount": 125
+    },
+    {
+      "item": "graphite",
+      "amount": 65
+    }
+  ],
+  "category": "crafting",
+  "research": "OMEGAZERO"
+}

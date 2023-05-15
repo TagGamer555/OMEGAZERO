@@ -1,0 +1,33 @@
+{
+  "type": "SolarGenerator",
+  "name": "Windmill",
+  "description": "Generates power using dust particles found in Erekir's athmosphere. These particles push the blades of the mill. Be careful, as it wastes precious space you would want to build on.\n [darkgray]I don't know how to make a stable generator that runs on nothing, so this one runs on solar enegy. Yeah...[]",
+  "drawer": {
+"type": "DrawMulti"
+"drawers": [
+{
+"type": "DrawDefault"
+}
+{
+"type": "DrawRegion"
+"spinSprite": "true"
+"rotateSpeed": 6
+"suffix": "-rotator"
+}
+{
+"type": "DrawRegion"
+"suffix": "-top"
+}
+]
+}
+  "size": 2,
+  "health": 450,
+  "explodeOnFull": false,
+  "category": "power",
+  "research": "OMEGAZERO",
+  "powerProduction": 1.2,
+  "hasLiquids": false,
+  "requirements": [
+    "beryllium/120"
+  ]
+}

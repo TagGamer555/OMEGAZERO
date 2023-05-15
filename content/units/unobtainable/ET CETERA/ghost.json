@@ -1,0 +1,52 @@
+{
+  "type": "flying",
+  "name": "[clear]GHOST",
+  "description": "[clear]IT SEES YOU",
+  "engineOffset": 5.75,
+  "engineColor": "ffffff",
+  "engineColorInner": "ffffff",
+  "drag": 0.04,
+  "accel": 0.08,
+  "speed": 2.25,
+  
+  "armor": 999999,
+  "commandLimit": 888,
+  "health": 999999,
+  "flying": true,
+  "rotateWeapon": true,
+  "rotateSpeed": 15,
+  "itemCapacity": 999,
+  "weapons": [
+    {
+      "range": 200,
+      "x": 0,
+      "y": 2,
+      "reload": 7.5,
+      "spacing": 0,
+      "mirror": false,
+        "alternate": false
+      "shootSound": "shootsAlt",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 12,
+        "damage": 1000,
+        "buildingDamageMultiplier": 0,
+        "lifetime": 45,
+        "width": 3,
+        "height": 12,
+        "homingRange": 180,
+        "homingPower": 0.25,
+        "hitColor": "ffffff"
+        "backColor": "ffffff",
+        "trailColor": "ffffff",
+        "frontColor": "ffffff",
+        "trailWidth": 1,
+        "trailLength": 6,
+        "pierceCap": 24,
+        "pierce": true
+        }
+    }
+  ],
+"hitSize": 9,
+"research": "OMEGAZERO"
+}

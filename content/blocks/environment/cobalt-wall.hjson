@@ -1,0 +1,5 @@
+type: staticWall
+name: Cobalt Wall
+attributes: {
+sand: 1.2
+}

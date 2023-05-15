@@ -1,0 +1,55 @@
+name: "[#F2E878]Sun"
+description: Shoots sunbeams that just burn...
+type: PowerTurret
+targetAir: true
+health: 1240
+range: 440
+reload: 240
+size: 3
+shootSound: shootSmite
+heatColor: F2E878
+consumes: {
+power: 9
+}
+chargeTime: 5
+firstShotDelay: 30
+chargeBeginEffect: {
+type: ParticleEffect
+lifetime: 5
+length: 0
+particles: 1
+sizeFrom: 0
+sizeTo: 2
+colorFrom: F2E878
+}
+chargeEffects: 6
+chargeEffect: {
+type: ParticleEffect
+particles: 1
+lifetime: 24
+baseLength: 10
+length: -10
+line: true
+strokeFrom: 0
+strokeTo: 1
+lenFrom: 0
+lenTo: 3
+colorFrom: F2E878
+}
+shootType: {
+type: LaserBulletType
+length: 400
+width: 125
+damage: 2400
+status: sunmelting
+statusLength: 360
+colors: [F2E87840, F2E878, ffffff]
+}
+category: turret
+research: OMEGAZERO
+requirements: [
+carbide/120
+oxide/240
+surge-alloy/60
+phase-fabric/60
+]

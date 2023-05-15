@@ -1,0 +1,102 @@
+{
+  "type": "flying",
+  "name": "[#ddbbff]Cruiser",
+  "description": "<???>",
+  "engineOffset": 10,
+  "engineSize": 0,
+  "drag": 0.016,
+  "accel": 0.08,
+  "speed": 0.8,
+  
+  "armor": 45,
+  "commandLimit": 888,
+  "health": 18000,
+  "flying": true,
+  "rotateWeapon": true,
+  "rotateSpeed": 15,
+  "itemCapacity": 10,
+  "weapons": [
+    {
+	  "name": "rune-main",
+      "x": 0,
+      "y": 0,
+      "reload": 300,
+      "spacing": 0,
+      "mirror": false,
+        "alternate": false,
+		"top": true,
+      "shootSound": "blaster",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 8,
+        "damage": 750,
+        "width": 11,
+        "height": 13,
+        "lifetime": 45,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "aabbff"
+        "backColor": "aabbff",
+        "trailColor": "aabbff",
+        "frontColor": "aabbff",
+        "trailWidth": 1.5,
+        "trailLength": 13
+      }
+    },
+    {
+	  "name": "rune-mini",
+      "x": 6,
+      "y": 2,
+      "reload": 5,
+      "spacing": 0,
+      "mirror": true,
+        "alternate": true,
+		"top": true,
+      "shootSound": "blaster",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 12,
+        "damage": 30,
+        "width": 3,
+        "height": 12,
+        "lifetime": 35,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "aabbff"
+        "backColor": "aabbff",
+        "trailColor": "aabbff",
+        "frontColor": "aabbff",
+        "trailWidth": 1,
+        "trailLength": 4
+      }
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "reload": 500,
+      "spacing": 0,
+      "mirror": false,
+        "alternate": false,
+		"top": false,
+      "shootSound": "blaster",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 20,
+        "damage": 12000,
+        "width": 8,
+        "height": 24,
+        "lifetime": 20,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "aabbff"
+        "backColor": "aabbff",
+        "trailColor": "aabbff",
+        "frontColor": "aabbff",
+        "trailWidth": 2.2,
+        "trailLength": 22,
+        "pierce": true
+      }
+    }
+  ],
+"hitSize": 17.5
+}

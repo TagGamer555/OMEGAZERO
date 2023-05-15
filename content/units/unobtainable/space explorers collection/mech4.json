@@ -1,0 +1,42 @@
+{
+  "type": "mech",
+  "name": "Mech (4)",
+  "description": "Mech, equipped with stunning shotgun.",
+  "speed": 0.55,
+  "flying": false,
+  "health": 550,
+  "weapons": [
+    {
+	  "name": "blaster4",
+      "x": 5,
+      "y": 0,
+  "shoot": {
+	  "type": "ShootPattern",
+	  "shots": 4
+  },
+      "reload": 75,
+      "spacing": 0,
+      "mirror": false,
+        "alternate": false,
+		"top": true,
+		"shootSound": "artillery",
+      "bullet": {
+        "type": "BasicBulletType",
+		"inaccuracy": 17.5,
+        "speed": 7.5,
+        "damage": 4.5,
+        "width": 6,
+        "height": 9,
+        "lifetime": 22.5,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "FFAA7F"
+        "backColor": "FFAA7F",
+        "trailColor": "FFAA7F",
+        "frontColor": "ffffff",
+        "trailWidth": 1,
+        "trailLength": 1.5
+      }
+    }
+  ]
+}

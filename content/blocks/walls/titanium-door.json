@@ -1,0 +1,21 @@
+{
+  "type": "door",
+  "name": "Titanium Door",
+  "description": "Door made of titanium and silicon... Wait a second...",
+  "size": 1,
+  "health": 400,
+  "requirements": [
+    {
+      "item": "titanium",
+      "amount": 6
+    },
+    {
+      "item": "silicon",
+      "amount": 4
+    }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "OMEGAZERO"
+  }
+}

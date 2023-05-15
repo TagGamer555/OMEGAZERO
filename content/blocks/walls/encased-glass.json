@@ -1,0 +1,15 @@
+{
+  "name": "Encased Glass",
+  "description": "Suitable for a bunker, as it keeps the radiation outside. The thorium gives it a nice, purple tint. Unlike normal Metaglass Wall, this one has much more health, so if you are crazy enough, you can use this as a wall!",
+  "type": "Wall",
+  "health": 680,
+  "size": 1,
+  "requirements": [
+  "metaglass/2"
+  "thorium/4"
+]
+  "category": "defense",
+  "research": {
+   "parent": "OMEGAZERO"
+  }
+}

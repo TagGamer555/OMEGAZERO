@@ -1,0 +1,39 @@
+{
+  "type": "mech",
+  "localizedName": "Hail",
+  "flying": false,
+  "health": 125,
+  "speed": 0.95,
+  "drawCell": false,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 2,
+      "reload": 60,
+      "inaccuracy": 1,
+      "shootSound": "bang",
+      "rotate": false,
+      "mirror": false,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "damage": 25,
+        "speed": 3,
+        "lifetime": 80,
+        "knockback": 0.8,
+        "hitEffect": "blastExplosion",
+        "width": 13,
+        "height": 13,
+        "collidesTiles": false,
+        "splashDamageRadius": 20,
+        "splashDamage": 45,
+        "status": "burning",
+        "statusDuration": 720,
+        "frontColor": "f8ad42",
+        "backColor": "f68021",
+        "makeFire": true,
+        "trailEffect": "incendTrail"
+      }
+    }
+  ],
+   "research": "flying-scorch"
+}

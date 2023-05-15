@@ -1,0 +1,15 @@
+{
+  "name": "Bulk Glass",
+  "description": "Glass, incased in a Titanium frame. Looks good, with it's titanium-blue color. Unlike Metaglass Wall, has more health, so can be used as a wall substitute.",
+  "type": "Wall",
+  "health": 440,
+  "size": 1,
+  "requirements": [
+  "metaglass/2"
+  "titanium/4"
+]
+  "category": "defense",
+  "research": {
+   "parent": "OMEGAZERO"
+  }
+}

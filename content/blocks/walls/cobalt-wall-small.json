@@ -1,0 +1,14 @@
+{
+  "name": "Cobalt Wall",
+  "description": "Wall, fashioned out of cobalt.",
+  "type": "Wall",
+  "health": 750,
+  "size": 1,
+  "requirements": [
+  "cobalt/6"
+]
+  "category": "defense",
+  "research": {
+   "parent": "OMEGAZERO"
+  }
+}

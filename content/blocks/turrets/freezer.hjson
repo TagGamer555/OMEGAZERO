@@ -1,0 +1,66 @@
+type: LiquidTurret
+name: "[#aabbff]Freezer"
+description: An opposite of a scorch. Uses liquids instead of items.
+size: 1
+health: 240
+range: 112
+reload: 7
+recoilAmount: 1
+targetAir: false
+shootSound: flame
+ammoTypes: {
+  water: {
+    damage: 2
+    speed: 6
+    pierce: true
+    pierceBuilding: true
+    ammoMultiplier: 5
+    status: freezing
+    lifetime: 18
+    despawnEffect: none
+    width: 0.01
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 140
+      lifetime: 36
+      interp: circleOut
+      cone: 3
+      colorFrom: aabbff
+      colorTo: 6677bb
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+  }
+  cryofluid: {
+  damage: 12
+    speed: 6
+    pierce: true
+    pierceBuilding: true
+    ammoMultiplier: 7
+    status: freezing
+    lifetime: 18
+    width: 0.01
+    despawnEffect: none
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 140
+      lifetime: 36
+      interp: circleOut
+      cone: 3
+      colorFrom: aaddff
+      colorTo: 6699bb
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+  }
+}
+category: turret
+research: omegazero
+requirements: [
+  graphite/35
+  titanium/15
+]

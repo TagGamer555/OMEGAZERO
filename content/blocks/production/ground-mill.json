@@ -1,0 +1,51 @@
+{
+  "type": "GenericCrafter",
+  "name": "Ground Mill",
+  "description": "Mills the ground to produce sand.",
+  "size": 2,
+  "drawer": {
+"type": "DrawMulti"
+"drawers": [
+{
+"type": "DrawDefault"
+}
+{
+"type": "DrawRegion"
+"spinSprite": "true"
+"rotateSpeed": 1
+"suffix": "-rotator"
+}
+{
+"type": "DrawRegion"
+"suffix": "-top"
+}
+]
+}
+  "attribute": "sand", //hope that works lol
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "loopSound": "crush",
+  "craftTime": 120,
+  "loopSoundVolume": 1.3,
+  "itemCapacity": 24,
+  "consumes": {
+    "power": 1.1,
+  },
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 45
+    },
+    {
+      "item": "graphite",
+      "amount": 45
+    }
+  ],
+  "category": "production",
+  "research": "OMEGAZERO",
+  "outputItem": {
+    "item": "sand",
+    "amount": 4
+  }
+}

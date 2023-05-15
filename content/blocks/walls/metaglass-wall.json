@@ -1,0 +1,14 @@
+{
+  "name": "Metaglass Wall",
+  "description": "It could be useful, if it wasn't so brittle.",
+  "type": "Wall",
+  "health": 80,
+  "size": 1,
+  "requirements": [
+  "metaglass/2"
+]
+  "category": "defense",
+  "research": {
+   "parent": "OMEGAZERO"
+  }
+}

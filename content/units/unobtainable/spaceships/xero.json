@@ -1,0 +1,61 @@
+{
+  "type": "flying",
+  "name": "[blue]Xero",
+  "description": "LW Offensive Spaceship. Used primarly for attacking.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 3.55,
+  
+  "armor": 5,
+  "commandLimit": 888,
+  "health": 340,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 5,
+  "weapons": [
+    {
+	  "inaccuracy": 0,
+      "x": 0,
+      "y": 2,
+      "reload": 45,
+      "spacing": 0,
+      "mirror": true,
+	  "top": true,
+        "alternate": true
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "damage": 30,
+        "lifetime": 25,
+        "width": 8,
+        "height": 8,
+		"backColor": "EDF2A8",
+		"hitColor": "EDF2A8",
+		"trailColor": "EDF2A8",
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+		"fragBullets": 5,
+		"fragBullet": {
+		"type": "BasicBulletType",
+        "speed": 6,
+        "damage": 6,
+        "lifetime": 12.5,
+        "width": 8,
+        "height": 8,
+		"backColor": "EDF2A8",
+		"hitColor": "EDF2A8",
+		"trailColor": "EDF2A8",
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+		"fragBullets": 3
+		}
+        }
+    }
+  ],
+"hitSize": 7.5,
+"research": "OMEGAZERO"
+}

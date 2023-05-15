@@ -1,0 +1,15 @@
+{
+  "name": "Scrap Crate",
+  "description": "Small crate made out of scrap. Why would you ever need this?",
+  "type": "StorageBlock",
+  "size": 1,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "health": 100,
+  "coreMerge": false,
+  "category": "effect",
+  "research": "mod-gate-effect",
+  "requirements": [
+    "scrap/24"
+  ]
+}

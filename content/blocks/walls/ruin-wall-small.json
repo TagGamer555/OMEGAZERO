@@ -1,0 +1,17 @@
+{
+  "name": "Ruin Wall",
+  "description": "An old-looking wall. I bet this one is 10000 years old... or older.",
+  "type": "Wall",
+  "health": 213450,
+  "size": 1,
+  "requirements": [
+  "titanium/40"
+  "thorium/40"
+  "silicon/40"
+  "scrap/100"
+]
+  "category": "defense",
+  "research": {
+   "parent": "OMEGAZERO"
+  }
+}

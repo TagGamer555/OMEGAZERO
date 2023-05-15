@@ -1,0 +1,8 @@
+type: material
+name: "Dust"
+description: "Dirt-colored space dust."
+cost: 2
+color: 623C35
+envEnabled: 16
+envEnabled: 0
+

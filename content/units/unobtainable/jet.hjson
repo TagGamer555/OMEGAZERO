@@ -1,0 +1,33 @@
+type: flying
+name: "Jet"
+description: "Very fast jet unit, with an energy field."
+health: 165
+controller: fighterAI
+armor: 0
+speed: 5
+drag: 0.04
+accel: 0.08
+
+lowAltitude: true
+flying: true
+
+abilities: [
+{
+type: EnergyFieldAbility
+damage: 4
+size: 20
+color: 9E78DC
+hitBuildings: true
+hitUnits: true
+healPercent: 0
+maxTargets: 2
+range: 32
+reload: 60
+status: sapped
+sectors: 3
+shootSound: zap
+statusDuration: 60
+targetAir: true
+targetGround: true
+}
+]

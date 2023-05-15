@@ -1,0 +1,37 @@
+{
+  "type": "mech",
+  "name": "[orange]Sentry[]",
+  "description": "Movable sentry. Great.",
+  "speed": 0.75,
+  "flying": false,
+  "health": 350,
+  "weapons": [
+    {
+	  "name": "turret",
+      "x": 0,
+      "y": 0,
+      "reload": 60,
+      "spacing": 0,
+      "mirror": false,
+        "alternate": false,
+		"top": true,
+      "shootSound": "blaster",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 10,
+        "damage": 30,
+        "width": 3,
+        "height": 9,
+        "lifetime": 15,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "E2B488"
+        "backColor": "E2B488",
+        "trailColor": "E2B488",
+        "frontColor": "ffffff",
+        "trailWidth": 1,
+        "trailLength": 4
+      }
+    }
+  ]
+}
