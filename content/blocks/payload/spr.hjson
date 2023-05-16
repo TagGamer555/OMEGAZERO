@@ -1,0 +1,10 @@
+type: PayloadRouter
+requirements: [
+copper/2
+graphite/2
+]
+size: 1
+category: units
+health: 190
+name: Small Payload Router
+description: A one-ninth of a standard Payload Router.

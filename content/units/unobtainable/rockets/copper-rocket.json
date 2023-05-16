@@ -1,0 +1,15 @@
+{
+  "type": "payload",
+  "name": "Copper Rocket",
+  "description": "A Rocket.",
+  "flying": true,
+  "speed": 6,
+  "accel": 0.04,
+  "drag": 0.04,
+  "health": 600,
+  "omniMovement": false,
+  "deathExplosionEffect": "massiveExplosion",
+  "trailLength": 22,
+  "payloadCapacity": 200,
+  "itemCapacity": 40
+}

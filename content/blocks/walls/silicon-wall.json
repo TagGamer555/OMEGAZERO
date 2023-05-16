@@ -1,0 +1,14 @@
+{
+  "name": "Silicon Wall",
+  "description": "Wall made out of expensive silicon. Just why?",
+  "type": "Wall",
+  "health": 300,
+  "size": 1,
+  "requirements": [
+  "silicon/6"
+]
+  "category": "defense",
+  "research": {
+   "parent": "OMEGAZERO"
+  }
+}

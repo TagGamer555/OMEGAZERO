@@ -1,0 +1,61 @@
+type: tank
+name: Argon
+description: Tier 1 Tank. Can withstand large amounts of damage. Perfect for sieging.
+immunities: [corroded]
+outlineColor: 476647
+//controller: AttackerAI
+
+hitSize: 12
+omniMovement: false
+faceTarget: false
+treadPullOffset: 3
+speed: 0.75
+rotateSpeed: 3.5
+health: 325
+armor: 3
+itemCapacity: 0
+treadRects: [
+{
+x: 7
+y: -26
+width: 14
+height: 51
+}
+]
+researchCostMultiplier: 0
+research: rufo
+
+weapons: [
+{
+name: argon-unit-weapon
+shootY: 2
+rotateSpeed: 2.25
+x: 0
+y: 0
+mirror: false
+alternate: false
+reload: 60
+top: true
+recoil: 1
+rotate: true
+bullet: {
+type: basicBulletType
+sprite: kiky5-crystal
+inaccuracy: 0
+speed: 5
+damage: 10
+buildingDamageMultiplier: 1.25
+width: 4
+height: 8
+lifetime: 35
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+hitColor: C6E52D
+backColor: C6E52D
+trailColor: C6E52D
+frontColor: ffffff
+trailWidth: 1.8
+trailLength: 4
+}
+}
+]

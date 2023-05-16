@@ -1,0 +1,18 @@
+type: ConsumeGenerator
+name: Acidic Generator
+description: Generator that uses Acid's properties to generate power.
+size: 1
+health: 200
+itemDuration: 60
+consumes: {
+liquid: acid-liquid/0.1
+}
+category: power
+research: core-acidator
+powerProduction: 0.25
+hasLiquids: true
+liquidCapacity: 10
+requirements: [
+iron/30
+calcium/40
+]

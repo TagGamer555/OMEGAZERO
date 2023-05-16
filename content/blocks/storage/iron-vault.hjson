@@ -1,0 +1,13 @@
+name: Iron Vault
+desciption: A vault, which can store items. Stored items can be retreaved with an unloader.
+health: 1200
+size: 3
+itemCapacity: 120
+coreMerge: false
+category: effect
+research: iron-container
+type: StorageBlock
+requirements: [
+iron/150
+calcium/50
+]

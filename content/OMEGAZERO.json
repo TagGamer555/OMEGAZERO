@@ -1,0 +1,13 @@
+
+"name": "[#ffbbdd]OMEGAZERO",
+"description": "Contains the entire tech tree of OMEGAZERO.",
+"health": 0,
+"buildVisibility": "hidden",
+"alwaysUnlocked": true,
+"research": {
+"root": true,
+"name": "[#ffbbdd]OMEGAZERO",
+"requiresUnlock": false,
+"alwaysUnlocked": true
+}
+"size": 1

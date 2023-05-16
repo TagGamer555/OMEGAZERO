@@ -1,0 +1,21 @@
+{
+  "type": "door",
+  "name": "Carbide Door",
+  "description": "CW",
+  "size": 1,
+  "health": 750,
+  "requirements": [
+    {
+      "item": "carbide",
+      "amount": 9
+    },
+    {
+      "item": "silicon",
+      "amount": 6
+    }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "OMEGAZERO"
+  }
+}

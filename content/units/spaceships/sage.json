@@ -1,0 +1,47 @@
+{
+  "type": "flying",
+  "name": "[blue]Sage",
+  "description": "LW Spaceship. Has a use that I don't know.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 2.95,
+  
+  "armor": 2,
+  "commandLimit": 888,
+  "health": 500,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 5,
+  "weapons": [
+    {
+	  "inaccuracy": 0,
+      "x": 0,
+      "y": 1,
+      "reload": 10,
+      "spacing": 0,
+      "mirror": false,
+	  "top": false,
+	  "shootSound": "sap",
+        "alternate": false
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0.05,
+        "length": 100,
+		"status": "sapped",
+		"statusLength": 60
+        "damage": 12,
+        "shootEffect": "shootSmall",
+        "hitColor": "8A73C6",
+        "Color": "8A73C6",
+        "despawnEffect": "none",
+        "width": 0.5,
+        "lifetime": 30,
+        "knockback": -0.5
+      }
+    }
+  ],
+"hitSize": 7.5,
+"research": "OMEGAZERO"
+}

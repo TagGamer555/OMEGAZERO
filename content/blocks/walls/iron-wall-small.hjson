@@ -1,0 +1,10 @@
+type: wall
+name: Iron Wall
+description: Small wall, made of Iron.
+health: 300
+size: 1
+requirements: [
+iron/8
+]
+research: core-acidator
+category: defense

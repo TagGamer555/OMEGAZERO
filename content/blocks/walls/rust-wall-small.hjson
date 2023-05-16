@@ -1,0 +1,10 @@
+type: wall
+name: Rust Wall
+description: Small wall, made of Rust.
+health: 360
+size: 1
+requirements: [
+rust/8
+]
+research: iron-wall-small
+category: defense

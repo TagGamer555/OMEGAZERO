@@ -1,0 +1,10 @@
+type: DuctRouter
+name: Iron Duct Router
+description: A duct router, made of Iron.
+requirements: [
+iron/6
+]
+speed: 6
+health: 45
+research: iron-duct
+itemCapacity: 1

@@ -1,0 +1,17 @@
+{
+  "type": "payload",
+  "name": "Thorium Rocket",
+  "description": "A Rocket.",
+  "flying": true,
+ "outlineColor": "2D2F39",
+ "envDisabled": 0,
+  "speed": 6.4,
+  "accel": 0.04,
+  "drag": 0.04,
+  "health": 1200,
+  "omniMovement": false,
+  "deathExplosionEffect": "massiveExplosion",
+  "trailLength": 22,
+  "payloadCapacity": 600,
+  "itemCapacity": 120
+}

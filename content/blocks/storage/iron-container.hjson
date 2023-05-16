@@ -1,0 +1,13 @@
+name: Iron Container
+desciption: A container, which can store items. Stored items can be retreaved with an unloader.
+health: 400
+size: 2
+itemCapacity: 40
+coreMerge: false
+category: effect
+research: core-acidator
+type: StorageBlock
+requirements: [
+iron/75
+calcium/25
+]

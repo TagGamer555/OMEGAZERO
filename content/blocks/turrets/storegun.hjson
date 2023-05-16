@@ -4,6 +4,7 @@ name: "Storegun"
 description: "It's a gun attached to a storage crate... Not very useful, but can... be useful?... I mean, you can't retrieve items back... you can't, right?"
 health: 890
 size: 1
+squareSprite: false
 requirements: [
 beryllium/20
 graphite/10

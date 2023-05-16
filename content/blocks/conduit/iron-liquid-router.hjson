@@ -1,0 +1,11 @@
+type: liquidRouter
+health: 75
+name: Iron Liquid Router
+solid: false
+description: A liquid router made out of Iron.
+liquidCapacity: 30
+category: liquid
+research: iron-conduit
+requirements: [
+iron/5
+]

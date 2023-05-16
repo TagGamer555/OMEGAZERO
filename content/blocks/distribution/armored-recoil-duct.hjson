@@ -1,0 +1,11 @@
+type: duct
+name: Armored Recoil Duct
+description: A duct that uses recoiling force to push items forward at rapid speeds. Inputs on the sides are blocked, due to extra armor.
+requirements: [
+thorium/4
+silicon/4
+graphite/4
+]
+armored: true
+speed: 3
+health: 140

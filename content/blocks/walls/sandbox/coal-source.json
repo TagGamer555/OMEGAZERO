@@ -1,0 +1,9 @@
+{
+  "name": "Coal Source",
+  "type": "Wall",
+  "health": 600,
+  "itemDrop": "coal",
+  "size": 1,
+  "buildVisibility": "sandboxOnly",
+  "category": "defense"
+}

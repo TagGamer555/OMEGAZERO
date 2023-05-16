@@ -1,0 +1,7 @@
+{
+	"type": "status",
+          "name": "[green]Super Boost[]",
+          "permanent": false,
+          "alwaysUnlocked": true,
+          "reloadMultiplier": 100000,
+}

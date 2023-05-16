@@ -1,0 +1,14 @@
+type: battery
+name: Cell Battery
+description: A small battery, capable of storing some power. Highly armored.
+size: 1
+category: power
+health: 300
+consumes: {
+powerBuffered: 500
+}
+requirements: [
+iron/45
+calcium/45
+]
+research: calcium-node

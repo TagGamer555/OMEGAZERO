@@ -1,0 +1,65 @@
+type: itemTurret
+name: Storm
+description: One of the best turrets. Can target both air and ground, making it an effective and versatile turret.
+health: 960
+outlineColor: 476647
+range: 240
+size: 3
+heatColor: C6E52D
+recoil: 4
+squareSprite: false
+category: turret
+research: ark
+shootSound: shootSnap
+reload: 10
+shootY: 9.5
+targetAir: true
+targetGround: true
+rotateSpeed: 4
+requirements: [
+rust/215
+calcite-alloy/65
+]
+ammoTypes: {
+sulphur: {
+damage: 70
+type: BasicBulletType
+lifetime: 45
+speed: 6.5
+buildingDamageMultiplier: 0.3
+status: burning
+statusDuration: 80
+width: 3
+height: 12
+sprite: kiky5-crystal
+frontColor: ffffff
+backColor: DDC96E
+trailColor: DDC96E
+trailWidth: 0.5
+trailLength: 5
+}
+}
+
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: -extra
+mirror: false
+progress: recoil
+moveX: 0
+moveY: 2
+moveRot: 0
+under: true
+moves: [
+{
+type: PartMove
+progress: recoil
+moveRot: 0
+moveY: 2
+}
+]
+}
+]
+}

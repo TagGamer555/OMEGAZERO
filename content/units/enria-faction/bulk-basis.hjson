@@ -1,0 +1,7 @@
+type: mech
+speed: 0.2
+health: 250
+itemCapacity: 0
+name: Bulk
+armor: 2
+controller: attackerAi

@@ -1,0 +1,40 @@
+type: flying
+flying: true
+name: Rail
+lowAltitude: true
+health: 75
+speed: 2
+drag: 0.04
+accel: 0.08
+armor: 0
+itemCapacity: 0
+controller: attackerAi
+
+targetFlags: [factory]
+circleTarget: true
+faceTarget: false
+targetAir: false
+weapons: [
+{
+minShootVelocity: 0.75
+shootCone: 180
+ejectEffect: none
+ignoreRotation: true
+shootSound: none
+reload: 12
+inaccuracy: 15
+bullet: {
+type: BombBulletType
+frontColor: FC8E6C
+backColor: F15454
+splashDamageRadius: 25
+splashDamage: 15
+buildingDamageMultiplier: 2
+width: 8
+height: 12
+hitEffect: flakExplosion
+shootEffect: none
+smokeEffect: none
+}
+}
+]

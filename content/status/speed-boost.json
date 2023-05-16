@@ -1,0 +1,7 @@
+{
+	"type": "status",
+          "name": "[coral]Speed Boost[]",
+          "permanent": false,
+          "alwaysUnlocked": true,
+          "speedMultiplier": 1000,
+}

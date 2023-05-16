@@ -1,0 +1,9 @@
+{
+  "name": "Lead Source",
+  "type": "Wall",
+  "health": 600,
+  "itemDrop": "lead",
+  "size": 1,
+  "buildVisibility": "sandboxOnly",
+  "category": "defense"
+}

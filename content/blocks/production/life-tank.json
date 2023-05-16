@@ -1,6 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Life Tank",
+  "squareSprite": false,
   "description": "Grows Neoplasm.",
   "outputLiquid": {
     "liquid": "neoplasm",

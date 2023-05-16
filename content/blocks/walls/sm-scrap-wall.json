@@ -1,0 +1,14 @@
+{
+  "name": "Smooth Scrap Wall",
+  "description": "Well-refined and well-defined scrap wall. Much better.",
+  "type": "Wall",
+  "health": 320,
+  "size": 1,
+  "requirements": [
+  "scrap/18"
+]
+  "category": "defense",
+  "research": {
+   "parent": "OMEGAZERO"
+  }
+}

@@ -1,0 +1,11 @@
+type: OverdriveProjector
+health: 200
+name: Sandbox Overdriver
+description: Boosts up small area by very large numbers. Sandbox only.
+buildVisibility: sandboxOnly
+category: effect
+size: 1
+range: 60
+baseColor: ffffff
+speedBoost: 10000
+hasBoost: false

@@ -1,0 +1,13 @@
+type: Pump
+name: Iron Pump
+description: Slowly pumps out liquids in small amounts. Great for early-game.
+hasLiquids: true
+liquidCapacity: 2
+size: 1
+pumpAmount: 0.025
+category: liquid
+research: core-acidator
+requirements: [
+iron/10
+]
+squareSprite: false

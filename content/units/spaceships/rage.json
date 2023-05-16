@@ -1,0 +1,47 @@
+{
+  "type": "flying",
+  "name": "[blue]Rage",
+  "description": "MW Spaceship. Can't figure out what good stuff it does.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 3.15,
+  
+  "armor": 4,
+  "commandLimit": 888,
+  "health": 720,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 5,
+  "weapons": [
+    {
+	  "inaccuracy": 7.5,
+      "x": 0,
+      "y": 1,
+      "reload": 5,
+      "spacing": 0,
+      "mirror": false,
+	  "top": false,
+	  "shootSound": "sap",
+        "alternate": false
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0.05,
+        "length": 100,
+		"status": "sapped",
+		"statusLength": 60
+        "damage": 8,
+        "shootEffect": "shootSmall",
+        "hitColor": "8A73C6",
+        "Color": "8A73C6",
+        "despawnEffect": "none",
+        "width": 0.5,
+        "lifetime": 30,
+        "knockback": -0.75
+      }
+    }
+  ],
+"hitSize": 10,
+"research": "OMEGAZERO"
+}

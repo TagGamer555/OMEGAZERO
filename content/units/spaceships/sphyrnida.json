@@ -1,0 +1,47 @@
+{
+  "type": "payload",
+  "name": "[blue]Sphyrnida",
+  "description": "MW Spaceship. Heavier carring unit.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 2.35,
+  "payloadCapacity": 550,
+  
+  "armor": 20,
+  "commandLimit": 888,
+  "health": 880,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 50,
+  "weapons": [
+    {
+	  "inaccuracy": 0,
+      "x": 0,
+      "y": 0,
+      "reload": 40,
+      "spacing": 0,
+      "mirror": false,
+	  "top": false,
+        "alternate": false
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "damage": 30,
+        "lifetime": 25,
+		"homingPower": 0.02,
+		"homingRange": 120,
+		"status": "blasted",
+		"statusLength": 120,
+        "width": 10,
+        "height": 10,
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+        }
+    }
+  ],
+"hitSize": 10,
+"research": "OMEGAZERO"
+}

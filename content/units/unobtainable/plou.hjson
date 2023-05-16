@@ -1,0 +1,67 @@
+type: flying
+name: "[red]Plou[]"
+description: "One of the [red]Crux[]'s crations. It's-a-heli-copter!"
+health: 675
+armor: 4
+engineSize: 0
+speed: 2.15
+drag: 0.04
+accel: 0.08
+
+itemCapacity: 24
+lowAltitude: true
+flying: true
+weapons: [
+{
+name: blaster4
+x: 3
+y: 0
+mirror: true
+alternate: true
+shoot: {
+type: shootPattern
+shots: 2
+}
+reload: 20
+top: true
+bullet: {
+type: basicBulletType
+		inaccuracy: 3
+        speed: 7.5
+        damage: 24
+        width: 6
+        height: 9
+        lifetime: 25
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        hitColor: FFAA7F
+        backColor: FFAA7F
+        trailColor: FFAA7F
+        frontColor: ffffff
+        trailWidth: 1
+        trailLength: 1.5
+}
+}
+]
+abilities: [
+  {
+    type: StatusFieldAbility
+	effect: nothing
+    duration: 15
+    reload: 15
+    range: 16
+    parentizeEffects: true
+    activeEffect: {
+      followParent: true
+      rotWithParent: true
+      particles: 1
+      lifetime: 20
+      length: 0
+      region: kiky5-plou-rotator
+      sizeFrom: 10
+      sizeTo: 10
+      spin: 10
+      layer: 95.1
+    }
+  }
+]

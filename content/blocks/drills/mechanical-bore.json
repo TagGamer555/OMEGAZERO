@@ -1,0 +1,24 @@
+{
+  "type": "BeamDrill",
+  "name": "Mechanical Bore",
+  "description": "A wall version of Mechanical Drill.",
+  "size": 1,
+  "category": "production",
+  "research": "mechanical-drill",
+  "requirements": [
+    "copper/36"  
+  ],
+  "tier": 2,
+  "range": 1,
+  "drillTime": 420,
+  "fogRadius": 2,
+  "researchCost": ["copper/36"],
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.0028,
+      "optional": true,
+      "booster": true
+    }
+  }
+} 

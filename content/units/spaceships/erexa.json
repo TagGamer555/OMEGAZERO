@@ -1,0 +1,61 @@
+{
+  "type": "flying",
+  "name": "[blue]Erexa",
+  "description": "MW Offensive Spaceship. Used primarly for attacking.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 3.35,
+  
+  "armor": 10,
+  "commandLimit": 888,
+  "health": 700,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 5,
+  "weapons": [
+    {
+	  "inaccuracy": 0,
+      "x": 3,
+      "y": 0,
+      "reload": 60,
+      "spacing": 0,
+      "mirror": true,
+	  "top": true,
+        "alternate": true
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "damage": 40,
+        "lifetime": 30,
+        "width": 8,
+        "height": 8,
+		"backColor": "EDF2A8",
+		"hitColor": "EDF2A8",
+		"trailColor": "EDF2A8",
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+		"fragBullets": 7,
+		"fragBullet": {
+		"type": "BasicBulletType",
+        "speed": 6,
+        "damage": 12,
+        "lifetime": 12.5,
+        "width": 8,
+        "height": 8,
+		"backColor": "EDF2A8",
+		"hitColor": "EDF2A8",
+		"trailColor": "EDF2A8",
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+		"fragBullets": 3
+		}
+        }
+    }
+  ],
+"hitSize": 10,
+"research": "OMEGAZERO"
+}

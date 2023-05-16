@@ -1,0 +1,29 @@
+{
+  "type": "mech",
+  "name": "[coral]Thorn[]",
+  "description": "[coral]Decoy[] class unit that does not do any direct damage, but has an ability to attack any enemy nearby, giving hurtful Thorns status.",
+  "speed": 0.5,
+  "flying": false,
+  "health": 500,
+  "armor": 4,
+  "itemCapacity": 10
+  "abilities": [
+  {
+	  "type": "EnergyFieldAbility",
+	  "damage": 0,
+	  "size": 3,
+	  "color": "FFE4C9",
+	  "targetBuildings": "false",
+	  "targetUnits": "true",
+	  "maxTargets": 4,
+	  "range": 48,
+	  "reload": 75,
+	  "status": "thorns",
+	  "sectors": 4,
+	  "shootSound": "invalid",
+	  "statusDuration": 60,
+	  "targetAir": false,
+	  "targetGround": true
+  }	  
+  ]
+}

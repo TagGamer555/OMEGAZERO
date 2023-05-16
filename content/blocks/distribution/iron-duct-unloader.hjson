@@ -1,0 +1,14 @@
+type: DirectionalUnloader
+name: Iron Duct Unloader
+description: Outputs items that are stored in a storage block.
+health: 100
+regionRotated: 1
+underBullets: true
+squareSprite: false
+research: iron-duct-router
+category: distribution
+solid: false
+requirements: [
+iron/12
+calcium/8
+]

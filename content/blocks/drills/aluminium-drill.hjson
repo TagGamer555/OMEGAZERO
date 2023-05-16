@@ -1,0 +1,17 @@
+name: Aluminium Drill
+description: Takes up small space and mines quite slowly.
+type: Drill
+health: 120
+hasLiquids: false
+size: 1
+itemCapacity: 2
+tier: 2
+drillTime: 480
+drawMineItem: true
+requirements: [
+calcium/12
+aluminium/6
+iron/12
+]
+category: production
+research: iron-drill

@@ -1,0 +1,17 @@
+{
+  "type": "payload",
+  "name": "Beryllium Rocket",
+  "description": "A Rocket.",
+  "flying": true,
+ "outlineColor": "2D2F39",
+ "envDisabled": 0,
+  "speed": 6,
+  "accel": 0.04,
+  "drag": 0.04,
+  "health": 600,
+  "omniMovement": false,
+  "deathExplosionEffect": "massiveExplosion",
+  "trailLength": 22,
+  "payloadCapacity": 200,
+  "itemCapacity": 40
+}

@@ -1,0 +1,14 @@
+{
+	"type": "status",
+          "name": "Thorns",
+          "damage": 0.1,
+          "permanent": false,
+          "alwaysUnlocked": true,
+          "effect": {
+            "type": "ParticleEffect",
+            "particles": 16,
+            "colorFrom": "D2AE8D",
+            "colorTo": "FFE4C9",
+            "interp": "circleIn"
+          }
+}

@@ -1,0 +1,15 @@
+type: liquidRouter
+health: 350
+size: 2
+name: Iron Liquid Container
+solid: true
+squareSprite: false
+liquidPadding: 1.5
+description: A liquid container made out of Iron.
+liquidCapacity: 400
+category: liquid
+research: iron-liquid-router
+requirements: [
+iron/30
+calcium/20
+]

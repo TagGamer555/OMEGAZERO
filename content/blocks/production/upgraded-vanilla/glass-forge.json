@@ -1,0 +1,43 @@
+{
+  "type": "GenericCrafter",
+  "name": "Glass Forge",
+  "description": "This is one of the upgrades for Kiln. It uses same amount of lead and sand, but crafts much faster than usual.",
+  "size": 2,
+  "health": 360,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "loopSound": "hum",
+  "craftTime": 15,
+  "loopSoundVolume": 1.3,
+  "itemCapacity": 10,
+  "consumes": {
+  "items": {
+	  "items": [
+  "lead/1",
+  "sand/1"
+  ]
+  }
+  "power": 0.9,
+  },
+  "requirements": [
+    {
+      "item": "graphite",
+      "amount": 45
+    },
+    {
+      "item": "titanium",
+      "amount": 65
+    },
+    {
+      "item": "metaglass",
+      "amount": 30
+    }
+  ],
+  "category": "crafting",
+  "research": "kiln",
+  "outputItem": {
+    "item": "metaglass",
+    "amount": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "flying",
+  "name": "[blue]Nuva",
+  "description": "HW Offensive Spaceship. Used primarly for attacking, equipped with homing dart launchers. The launchers use pneumatic force to launch darts, but have no recoil.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 3.1,
+  
+  "armor": 15,
+  "commandLimit": 888,
+  "health": 1160,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 0,
+  "weapons": [
+    {
+	  "inaccuracy": 12,
+      "x": 5,
+      "y": 0,
+      "reload": 30,
+      "spacing": 0,
+	  "shoot": {
+		  "type": "ShootPattern",
+		  "shots": 2
+	  }
+      "mirror": true,
+	  "top": true,
+        "alternate": true
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "damage": 25,
+        "lifetime": 30,
+        "width": 4,
+        "height": 8,
+		"backColor": "EDF2A8",
+		"hitColor": "EDF2A8",
+		"trailColor": "EDF2A8",
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+		"homingPower": 0.005,
+		"homingRange": 100
+        }
+    }
+  ],
+"hitSize": 12,
+"research": "OMEGAZERO"
+}

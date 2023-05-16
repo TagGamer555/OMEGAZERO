@@ -1,0 +1,56 @@
+type: crawl
+name: "Volcano"
+description: "Renale that loves slag."
+health: 950
+flying: false
+range: 0.1
+speed: 1.35
+armor: 8
+hitsize: 8
+omniMovement: false
+rotateSpeed: 2.6
+drownTimeMultiplier: 3
+segments: 3
+drawBody: false
+drawCell: false
+crushDamage: 0.35
+controller: HugAI
+targetAir: false
+segmentOffset: 3
+segmentScl: 3
+segmentPhase: 3
+segmentMag: 0.5
+research: renale
+
+ weapons: [
+  {
+  x: 0
+  y: 0
+  mirror: false
+  rotate: true
+  top: true
+  alternate: false
+  shoot: {
+  type: shootPattern
+  shots: 4
+  shotDelay: 80
+  }
+  reload: 20
+  bullet: {
+  inaccuracy: 5
+  speed: 8
+  damage: 5
+  width: 9
+  height: 7
+  lifetime: 30
+  shootEffect: shootSmall
+  shootEffect: shootSmallSmoke
+  hitColor: FFCD66
+  backColor: FFCD66
+  frontColor: ffffff
+  trailColor: FFCD66
+  trailWidth: 1
+  trailLength: 8
+  }
+  }
+	]

@@ -1,0 +1,66 @@
+type: flying
+flying: true
+name: Dragger
+description: Core unit, that said to protect the Core from any attacks. Equipped with a weapon that shoots arcs.
+speed: 6
+drag: 0.04
+accel: 0.08
+health: 320
+armor: 4
+engineSize: 0
+controller: BuilderAI
+//isEnemy: false
+mineWalls: true
+mineFloor: true
+mineTier: 2
+mineSpeed: 8
+buildSpeed: 2
+outlineColor: 476647
+itemCapacity: 45
+mineHardnessScaling: false
+hitSize: 10
+fogRadius: 0
+//targettable: false
+//hittable: false
+
+engines: [
+{
+x: 6
+y: -2
+rotation: 315
+radius: 2.5
+}
+{
+x: 0
+y: -6.5
+rotation: 270
+radius: 3.25
+}
+{
+x: -6
+y: -2
+rotation: 225
+radius: 2.5
+}
+]
+
+weapons: [
+{
+reload: 10
+x: 0
+y: 0
+mirror: false
+alternate: false
+shootSound: invalid
+bullet: {
+type: LightningBulletType
+lightningLength: 10
+damage: 24
+lightningColor: C6E52D
+buildingDamageMultiplier: 0
+shootEffect: none
+ejectEffect: none
+smokeEffect: none
+}
+}
+]

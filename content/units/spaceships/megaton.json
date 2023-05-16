@@ -1,0 +1,65 @@
+{
+  "type": "flying",
+  "name": "[blue]Megaton",
+  "description": "HW Spaceship. Used for mining ores, has two alternating cannons that shoot highly-fragging shells.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 1.5,
+  
+  "armor": 20,
+  "commandLimit": 888,
+  "mineTier": 4,
+  "mineSpeed": 4,
+  "health": 1750,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 120,
+"hitSize": 12,
+  "weapons": [
+    {
+	  "inaccuracy": 0,
+	  "name": "megaton-weapon",
+      "x": 6,
+      "y": 0,
+      "reload": 120,
+      "spacing": 0,
+      "mirror": true,
+	  "top": true,
+        "alternate": true,
+		"shootSound": "artillery",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "damage": 60,
+        "lifetime": 30,
+        "width": 9,
+        "height": 9,
+		"backColor": "FFEE99",
+		"hitColor": "FFEE99",
+		"trailColor": "FFEE99",
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+		"fragBullets": 10,
+		"fragBullet": {
+		"type": "BasicBulletType",
+        "speed": 6,
+        "damage": 5,
+        "lifetime": 6.125,
+        "width": 4,
+        "height": 4,
+		"backColor": "FFEE99",
+		"hitColor": "FFEE99",
+		"trailColor": "FFEE99",
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4,
+		"fragBullets": 3
+		}
+        }
+    }
+  ],
+"research": "OMEGAZERO"
+}

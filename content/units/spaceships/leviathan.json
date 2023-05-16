@@ -1,0 +1,51 @@
+{
+  "type": "payload",
+  "name": "[blue]Leviathan",
+  "description": "HW Spaceship. An insanely armored unit, which purpose is to defend against large groups of enemies.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 2.15,
+  "payloadCapacity": 850,
+  
+  "armor": 34,
+  "commandLimit": 888,
+  "health": 1440,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 85,
+  "weapons": [
+    {
+      "mirror": false,
+      "shootSound": "railgun",
+      "x": 0,
+      "y": 3,
+      "reload": 120,
+	  "inaccuracy": 0,
+      "rotate": false,
+      "noAttack": false,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 45,
+        "length": 124,
+        "colors": ["FDB380", "D06B53", "ffffff"]
+        "collidesTeam": true,
+        "collidesTiles": true,
+        "collidesAir": true,
+        "collidesBlocks": true
+      }
+    }
+  ],
+  "abilities": [
+  {
+	  "type": "ForceFieldAbility",
+	  "radius": 20,
+	  "regen": 2,
+	  "max": 1000,
+	  "cooldown": 800
+  }
+  ]
+"hitSize": 12,
+"research": "OMEGAZERO"
+}

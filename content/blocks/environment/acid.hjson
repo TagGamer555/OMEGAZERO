@@ -1,0 +1,13 @@
+name: Acid
+liquidDrop: acid-liquid
+cacheLayer: water
+variants: 0
+emitLight: true
+lightRadius: 40
+lightColor: 9CCC3D08
+type: floor
+isLiquid: true
+status: corroded
+statusDuration: 60
+drownTime: 120
+speedMultiplier: 0.2

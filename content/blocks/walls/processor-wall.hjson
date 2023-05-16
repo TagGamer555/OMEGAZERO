@@ -1,0 +1,15 @@
+type: LogicBlock
+health: 600
+name: Processor Wall
+size: 1
+
+range: 20
+instructionsPerTick: 1
+
+category: logic
+
+requirements: [
+copper/12
+thorium/2
+silicon/20
+]

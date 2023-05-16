@@ -1,0 +1,87 @@
+{
+  "type": "flying",
+  "name": "[blue]Seraph",
+  "description": "HW Spaceship. Can't figure out what good stuff it does.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 3.5,
+  
+  "armor": 6,
+  "commandLimit": 888,
+  "health": 1320,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 0,
+  "weapons": [
+    {
+	  "inaccuracy": 5,
+      "x": 0,
+      "y": 4,
+      "reload": 10,
+      "mirror": false,
+	  "top": false,
+	  "shootSound": "invalid",
+        "alternate": false
+      "bullet": {
+        "type": "LightningBulletType",
+        "lightningLength": 25,
+        "damage": 20,
+        "lightningColor": "BF92F8"
+      }
+    },
+	{
+	  "x": 0,
+	  "y": 4,
+      "reload": 120,
+	  "shootSound": "sap",
+	  "shoot": {
+		  "type": "ShootPattern",
+		  "shots": 2
+	  }
+      "mirror": false,
+	  "top": false,
+      "alternate": false,
+	  "bullet": {
+      "type": "BasicBulletType",
+      "speed": 3,
+      "lifetime": 55,
+      "width": 18,
+      "height": 18,
+      "status": "sapped",
+      "damage": 40,
+      "splashDamage": 10,
+      "splashDamageRadius": 16,
+      "sprite": "particle",
+      "frontColor": "BF92F8",
+      "backColor": "8A73C6",
+      "weaveMag": 5,
+      "weaveScale": 4,
+      "trailChance": -1,
+      "trailEffect": {
+        "region": "particle",
+        "length": 0,
+        "cone": 360,
+        "particles": 1,
+        "sizeFrom": 4,
+        "sizeTo": 0.5,
+        "colorFrom": "BF92F8",
+        "colorTo": "8A73C6"
+      },
+      "hitEffect": {
+        "type": "WaveEffect",
+        "sizeFrom": 0,
+        "sizeTo": 18,
+        "strokeFrom": 3,
+        "strokeTo": 0.2,
+        "colorFrom": "BF92F8",
+        "colorTo": "8A73C6"
+      },
+      "despawnHit": true
+    }
+	}
+  ],
+"hitSize": 12,
+"research": "OMEGAZERO"
+}

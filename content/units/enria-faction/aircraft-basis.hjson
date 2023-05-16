@@ -1,0 +1,11 @@
+type: flying
+flying: true
+name: Aircraft
+lowAltitude: true
+health: 75
+speed: 2
+drag: 0.04
+accel: 0.08
+armor: 0
+itemCapacity: 0
+controller: attackerAi

@@ -1,0 +1,9 @@
+type: Duct
+name: Recoil Duct
+description: A duct that uses recoiling force to push items forward at rapid speeds.
+requirements: [
+titanium/3
+graphite/3
+]
+speed: 3
+health: 75

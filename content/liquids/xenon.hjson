@@ -1,0 +1,11 @@
+name: Xenon
+description: Extremely rare gas.
+heatCapacity: 0
+explosiveness: 0.1
+temperature: 0.15
+gas: true
+color: F9E57F
+gasColor: F9E57F
+flammability: 0.2
+research: aluminium
+coolant: false

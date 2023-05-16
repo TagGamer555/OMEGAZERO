@@ -5,8 +5,17 @@
  "hitSize": 12,
  "health": 1200,
  "armor": 9,
- "treadFrames": 4,
+  "treadPullOffset": 5,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 17,
+      "height": 76
+    }
+  ],
  "hovering": false,
+  "faceTarget": false,
  "outlineColor": "2D2F39",
  "speed": 1.2,
  "envDisabled": 0,

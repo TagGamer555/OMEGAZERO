@@ -1,0 +1,60 @@
+type: tank
+name: Boron
+description: Tier 2 Tank. Can withstand large amounts of damage. Perfect for sieging.
+immunities: [corroded, slow]
+outlineColor: 476647
+//controller: AttackerAI
+
+hitSize: 18
+omniMovement: false
+faceTarget: false
+treadPullOffset: 5
+speed: 0.7
+rotateSpeed: 2.6
+health: 650
+armor: 6
+itemCapacity: 0
+treadRects: [
+{
+x: 13
+y: -38
+width: 17
+height: 76
+}
+]
+researchCostMultiplier: 0
+research: argon-unit
+
+weapons: [
+{
+name: boron-weapon
+shootY: 2
+rotateSpeed: 2
+x: 0
+y: 0
+mirror: false
+alternate: false
+reload: 120
+shootSound: artillery
+top: true
+recoil: 0
+rotate: true
+bullet: {
+damage: 0
+splashDamage: 20
+splashDamageRadius: 30
+type: ArtilleryBulletType
+hitEffect: flakExplosion
+despawnEffect: flakExplosion
+collideAir: false
+lifetime: 75
+speed: 3.25
+buildingDamageMultiplier: 2.25
+width: 7.5
+height: 12
+sprite: kiky5-crystal
+frontColor: ffffff
+backColor: C6E52D
+}
+}
+]

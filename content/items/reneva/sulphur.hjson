@@ -1,0 +1,6 @@
+name: Sulphur
+description: Very volatile material, that can be used as an effective fuel.
+flammability: 0.75
+explosiveness: 0.75
+color: DDC96E
+research: acid-liquid

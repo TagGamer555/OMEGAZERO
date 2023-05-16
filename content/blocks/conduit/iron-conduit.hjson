@@ -1,0 +1,9 @@
+type: conduit
+health: 30
+name: Iron Conduit
+description: A conduit made of iron. Can transport liquids forward.
+category: liquid
+research: core-acidator
+requirements: [
+iron/3
+]

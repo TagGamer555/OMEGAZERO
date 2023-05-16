@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "Beryllium Part Constructor",
+  "description": "Makes some parts.",
+  "size": 2,
+  "health": 400,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "loopSound": "crush",
+  "craftTime": 60,
+  "loopSoundVolume": 1.3,
+  "itemCapacity": 40,
+  "consumes": {
+  "items": {
+	  "items": [
+  "beryllium/20",
+  ]
+  }
+  "power": 1.2,
+  },
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 45
+    },
+    {
+      "item": "silicon",
+      "amount": 30
+    }
+  ],
+  "category": "crafting",
+  "research": "OMEGAZERO",
+  "outputItem": {
+    "item": "beryllium-parts",
+    "amount": 1
+  }
+}

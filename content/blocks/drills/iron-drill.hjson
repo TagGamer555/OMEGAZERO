@@ -1,0 +1,15 @@
+name: Iron Drill
+description: Takes up small space and mines quite slowly. Your first drill.
+type: Drill
+health: 80
+hasLiquids: false
+size: 1
+itemCapacity: 1
+tier: 1
+drillTime: 640
+drawMineItem: true
+requirements: [
+iron/8
+]
+category: production
+research: core-acidator

@@ -1,0 +1,12 @@
+type: OverflowDuct
+name: Iron Underflow Duct
+description: Outputs intputted items to front if paths on sides are blocked.
+invert: true
+health: 100
+squareSprite: false
+research: iron-duct
+category: distribution
+solid: false
+requirements: [
+iron/8
+]

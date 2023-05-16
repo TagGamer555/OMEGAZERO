@@ -1,0 +1,54 @@
+{
+  "type": "mech",
+  "name": "[coral]Orbit[]",
+  "description": "[coral]Decoy[] class unit that shoots a non-homing bullet, that explodes into homing frag. An upgrade to [coral]Swirl.",
+  "speed": 0.5,
+  "flying": false,
+  "health": 640,
+  "armor": 0,
+  "itemCapacity": 10,
+  "weapons": [
+    {
+	  "name": "orbit-weapon",
+	  "inaccuracy": 0,
+      "x": 0,
+      "y": 0,
+      "reload": 75,
+      "mirror": false,
+	  "top": true,
+        "alternate": false
+      "shootSound": "blaster",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 8,
+        "damage": 46,
+        "lifetime": 24,
+        "width": 3,
+        "height": 12,
+        "hitColor": "88A4FF"
+        "backColor": "88A4FF",
+        "trailColor": "88A4FF",
+        "frontColor": "ffffff",
+        "trailWidth": 1,
+        "trailLength": 8,
+		"fragBullets": 5,
+		"fragBullet": {
+		"type": "BasicBulletType",
+        "speed": 10,
+        "damage": 8,
+        "lifetime": 24,
+        "homingRange": 240,
+        "homingPower": 0.20,
+        "width": 3,
+        "height": 8,
+		"backColor": "88A4FF",
+		"hitColor": "88A4FF",
+		"trailColor": "88A4FF",
+        "frontColor": "ffffff",
+        "trailWidth": 1.25,
+        "trailLength": 4
+		}
+        }
+    }
+  ]
+}

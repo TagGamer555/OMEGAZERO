@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Oxidiser
+description: Makes Rust with Iron, Water and Ozone.
+liquidCapacity: 10
+squareSprite: false
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.2
+  items: {
+    items: [
+      iron/8
+    ]
+  },
+  liquids: [
+    water/0.02
+	ozone/0.02
+  ]
+}
+requirements: [
+  iron/70
+  calcium/45
+]
+category: crafting
+research: acidic-sorter
+outputItem: rust/8

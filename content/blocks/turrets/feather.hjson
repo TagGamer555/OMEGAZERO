@@ -1,0 +1,93 @@
+type: itemTurret
+name: Feather
+description: Your first and probably most reliable turret. It is a single-target turret, also is extremely cheap! Can shoot either Iron or Rust.
+health: 240
+outlineColor: 476647
+range: 150
+size: 1
+recoil: 1.25
+squareSprite: false
+category: turret
+research: soluble
+shootSound: shootAlt
+reload: 120
+shootY: 6.35
+targetAir: true
+targetGround: true
+rotateSpeed: 3
+requirements: [
+iron/65
+]
+ammoTypes: {
+iron: {
+damage: 50
+type: BasicBulletType
+lifetime: 25
+speed: 6.5
+buildingDamageMultiplier: 0.35
+width: 2
+height: 10
+sprite: kiky5-crystal
+frontColor: ffffff
+backColor: BAB5B0
+trailColor: BAB5B0
+trailWidth: 0.5
+trailLength: 5
+},
+rust: {
+damage: 64
+type: BasicBulletType
+lifetime: 25
+speed: 6.5
+buildingDamageMultiplier: 0.35
+width: 2
+height: 10
+sprite: kiky5-crystal
+frontColor: ffffff
+backColor: BCA48D
+trailColor: BCA48D
+trailWidth: 0.5
+trailLength: 5
+},
+sulphur: {
+damage: 20
+type: BasicBulletType
+lifetime: 25
+speed: 6.5
+buildingDamageMultiplier: 0.35
+status: burning
+statusDuration: 60
+width: 2
+height: 10
+sprite: kiky5-crystal
+frontColor: ffffff
+backColor: DDC96E
+trailColor: DDC96E
+trailWidth: 0.5
+trailLength: 5
+}
+}
+
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: -barrel
+mirror: false
+progress: recoil
+moveX: 0
+moveY: -2
+moveRot: 0
+under: true
+moves: [
+{
+type: PartMove
+progress: recoil
+moveRot: 0
+moveY: -2
+}
+]
+}
+]
+}

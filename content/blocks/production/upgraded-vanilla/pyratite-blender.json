@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Pyratite Blender",
+  "description": "This is one of the upgrades for Pyratite Mixer. Instead of using lead, coal and sand, it uses much simpler materials like scrap and coal, but requires water to cool down.",
+  "size": 2,
+  "health": 420,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "loopSound": "hum",
+  "craftTime": 50,
+  "loopSoundVolume": 1.3,
+  "itemCapacity": 10,
+  "consumes": {
+  "items": {
+	  "items": [
+  "scrap/3",
+  "coal/1"
+  ]
+  },
+  "liquids": {
+	  "liquids": [
+  "water/0.05"
+  ]
+  },
+  "power": 0.8,
+  },
+  "requirements": [
+    {
+      "item": "graphite",
+      "amount": 45
+    },
+    {
+      "item": "titanium",
+      "amount": 65
+    },
+    {
+      "item": "pyratite",
+      "amount": 30
+    }
+  ],
+  "category": "crafting",
+  "research": "pyratite-mixer",
+  "outputItem": {
+    "item": "pyratite",
+    "amount": 1
+  }
+}

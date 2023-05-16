@@ -1,0 +1,53 @@
+{
+  "type": "GenericCrafter",
+  "name": "Acidic Sorter",
+  "description": "Acidic Sorter, which sorts acid.",
+  "size": 2,
+  "health": 360,
+  "squareSprite": false,
+  "hasLiquids": "true",
+  "requirements": [
+    {"item": "iron", "amount": 45},
+    {"item": "calcium", "amount": 30}
+  ],
+  "category": "crafting",
+  "research": "core-acidator",
+  "researchCostMultiplier": 1.2,
+  "craftTime": 180,
+  "rotate": true,
+  "invertFlip": true,
+  "liquidCapacity": 4,
+  "itemCapacity": 12,
+  "consumes": {
+    "power": 0.2,
+    "liquid": {
+      "liquid": "acid-liquid",
+      "amount": 0.1
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "acid-liquid",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawRegion"
+      },
+      {
+        "type": "DrawLiquidOutputs" 
+      }
+    ]
+  },
+  "ambientSound": "electricHum",
+  "ambientSoundVolume": 0.025,
+  "regionRotated1": 3,
+  "outputLiquids": [{"liquid": "ozone", "amount": 0.066666666}, {"liquid": "hydrogen", "amount": 0.0166666666}],
+  "liquidOutputDirections": [1, 3],
+  "outputItem": {
+	  "item": "sulphur",
+	  "amount": 6
+  }
+}

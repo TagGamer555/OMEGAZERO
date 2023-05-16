@@ -1,0 +1,14 @@
+type: PayloadMassDriver
+requirements: [
+copper/20
+graphite/10
+silicon/15
+lead/10
+]
+size: 1
+category: units
+range: 100
+payloadCapacity: 200
+health: 140
+name: Small Payload Mass Driver
+description: A one-ninth of a standard Payload Mass Driver.

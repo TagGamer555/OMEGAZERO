@@ -1,0 +1,49 @@
+type: crawl
+name: "Sneaker"
+description: "Renale that loves moss. Like all of them do, but this one - especially."
+health: 340
+flying: false
+range: 0.1
+speed: 0.95
+armor: 8
+hitsize: 8
+omniMovement: false
+rotateSpeed: 2.6
+drownTimeMultiplier: 3
+segments: 3
+drawBody: false
+drawCell: false
+crushDamage: 0.35
+controller: HugAI
+targetAir: false
+segmentOffset: 3
+segmentScl: 3
+segmentPhase: 3
+segmentMag: 0.5
+research: renale
+
+ weapons: [
+  {
+  x: 0
+  y: 0
+  mirror: false
+  rotate: true
+  top: true
+  alternate: false
+  reload: 30
+  bullet: {
+  inaccuracy: 5
+  speed: 8
+  damage: 2
+  width: 9
+  height: 7
+  status: sapped
+  status: tarred
+  lifetime: 10
+  shootEffect: shootSmall
+  shootEffect: shootSmallSmoke
+  trailWidth: 1
+  trailLength: 12
+  }
+  }
+	]

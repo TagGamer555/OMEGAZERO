@@ -1,0 +1,15 @@
+type: legs
+name: Spider
+speed: 0.25
+health: 100
+itemCapacity: 0
+controller: attackerAi
+armor: 0
+drag: 0.4
+rotateSpeed: 4
+legCount: 6
+legLength: 8
+legForwardScl: 0.6
+legMoveSpace: 1.4
+hovering: true
+shadowElevation: 0.2

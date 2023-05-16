@@ -1,0 +1,9 @@
+{
+  "name": "Beryllium Source",
+  "type": "Wall",
+  "health": 600,
+  "itemDrop": "beryllium",
+  "size": 1,
+  "buildVisibility": "sandboxOnly",
+  "category": "defense"
+}

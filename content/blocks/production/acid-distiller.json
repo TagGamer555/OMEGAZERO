@@ -1,0 +1,42 @@
+{
+  "type": "GenericCrafter",
+  "name": "Acid Distiller",
+  "squareSprite": false,
+  "description": "Makes Water and Sulphur out of inputted Acid.",
+  "outputLiquid": {
+    "liquid": "water",
+    "amount": 0.02
+  },
+  "outputItem": {
+	  "item": "sulphur",
+	  "amount": 1
+  }
+  "health": 275
+  "liquidCapacity": 10,
+  "itemCapacity": 10,
+  "size": 2,
+  "craftTime": 180,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "consumes": {
+    "power": 0.25,
+    "liquid": {
+      "liquid": "acid-liquid",
+      "amount": 0.1
+    },
+  },
+  "requirements": [
+
+    {
+      "item": "iron",
+      "amount": 45
+    },
+    {
+      "item": "calcium",
+      "amount": 75
+    }
+  ],
+  "category": "crafting",
+  "research": "acidic-sorter"
+}

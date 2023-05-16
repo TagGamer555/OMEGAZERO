@@ -1,0 +1,21 @@
+{
+  "type": "door",
+  "name": "Beryllium Door",
+  "description": "Erekir door lmao.",
+  "size": 1,
+  "health": 300,
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 9
+    },
+    {
+      "item": "silicon",
+      "amount": 6
+    }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "OMEGAZERO"
+  }
+}

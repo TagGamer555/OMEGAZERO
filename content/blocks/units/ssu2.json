@@ -1,0 +1,44 @@
+{
+  "type": "Reconstructor",
+  "name": "[blue]Spaceship Reconstructor[]",
+  "description": "Upgrades inputted [blue]Spaceship[] units to Tier 3.",
+  "constructTime": 6400,
+  "size": 3,
+  "consumes": {
+    "power": 1.25,
+    "items": {
+      "items": [
+        "graphite/75",
+        "silicon/60",
+		"lead/45"
+      ]
+    }
+  },
+  "upgrades": [
+    ["sphyrnida", "leviathan"], ["erexa", "nuva"], ["crusher", "megaton"], ["rage", "seraph"]
+  ],
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 420
+    },
+    {
+      "item": "silicon",
+      "amount": 90
+    },
+    {
+      "item": "lead",
+      "amount": 420
+    },
+    {
+      "item": "graphite",
+      "amount": 140
+    },
+    {
+      "item": "titanium",
+      "amount": 120
+    }
+  ],
+  "category": "units",
+  "research": "ssu"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "door",
+  "name": "Lab Door",
+  "description": "Door, typically found in labs.",
+  "size": 1,
+  "health": 900,
+  "requirements": [
+    {
+      "item": "plastanium",
+      "amount": 6
+    },
+    {
+      "item": "titanium",
+      "amount": 4
+    }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "OMEGAZERO"
+  }
+}

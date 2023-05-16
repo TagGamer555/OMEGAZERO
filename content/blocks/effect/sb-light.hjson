@@ -1,0 +1,14 @@
+
+name: Sandbox Light
+description: Lights up vast area. Sandbox only.
+type: lightBlock
+category: effect
+
+size: 1
+health: 200
+brightness: 0.5
+radius: 20000
+
+buildVisibility: sandboxOnly
+
+research: OMEGAZERO

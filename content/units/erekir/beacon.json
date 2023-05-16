@@ -6,9 +6,18 @@
  "health": 540,
  "armor": 5,
  "envDisabled": 0,
- "treadFrames": 69,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
  "controller": "HealerAI",
  "hovering": false,
+  "faceTarget": false,
  "outlineColor": "2D2F39",
  "speed": 1.5,
  "drag": 0.1,

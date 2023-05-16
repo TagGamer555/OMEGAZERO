@@ -1,0 +1,33 @@
+{
+  "type": "mech", //means this is a two-legged unit, but sprite makes it having 4 legs, instead of 2
+  "name": "[coral]Swift[]", //not actual "in-code" name
+  "description": "[coral]Decoy[] class unit that thrusts itself forward.",
+  "speed": 0.75, //very fast speed
+  "flying": false, //it's a ground unit
+  "health": 520, //moderately high health for such small unit
+  "weapons": [
+    {
+	  "name": "swift-weapon", //sprite that renderer should use - not actual name (in-game)
+      "x": 0, //the X position of weapon is 0, meaning it's centered
+      "y": 0, //the Y position of weapon is 0, meaning it's centered
+	  "recoil": 0, //weapon does not have visual recoil when fired
+      "reload": 90, //in ticks, 1S = 60T
+      "spacing": 0, //not sure what this does
+      "mirror": false, //does weapon have same mirrored version?
+        "alternate": false, //do mirrored weapons alternate?
+		"top": true, //not sure
+      "shootSound": "shotgun", //shoot sound. can be found in mindustry.jar/sounds, must be equal to target file name for correct play
+      "bullet": { //define bullet properties
+        "type": "ShrapnelBulletType", //the one "spiky laser" that Fuse uses - it's a vanilla shotgun turret.
+		"recoil": -30, //makes unit thrust forward
+        "length": 45, //length of bullet
+        "damage": 45, //damage this bullet deals
+		"status": "slow", //apply status to hit target
+		"ejectEffect": "none", //no ejection effects
+		"shootEffect": "none", //no shooting effects
+        "width": 10, //width of laser
+		"toColor": "F2E878" //to what color the laser changes. In this example, I picked "Surge Alloy" color (using Paint.net)
+      }
+    }
+  ]
+}

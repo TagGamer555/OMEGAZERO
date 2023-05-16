@@ -1,0 +1,21 @@
+{
+  "type": "flying",
+  "name": "[blue]Crusher",
+  "description": "MW Spaceship. Used for mining ores.",
+  "engineSize": 0,
+  "drag": 0.08,
+  "accel": 0.04,
+  "speed": 1.8,
+  
+  "armor": 15,
+  "commandLimit": 888,
+  "mineTier": 3,
+  "mineSpeed": 1.5,
+  "health": 960,
+  "flying": true,
+  "rotateWeapon": false,
+  "rotateSpeed": 15,
+  "itemCapacity": 70,
+"hitSize": 10,
+"research": "OMEGAZERO"
+}

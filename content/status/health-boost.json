@@ -1,0 +1,7 @@
+{
+	"type": "status",
+          "name": "[blue]Health Boost[]",
+          "permanent": false,
+          "alwaysUnlocked": true,
+          "healthMultiplier": 100000,
+}

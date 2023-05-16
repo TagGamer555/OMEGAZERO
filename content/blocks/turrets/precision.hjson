@@ -1,0 +1,177 @@
+
+type: liquidTurret
+name: "Precision"
+description: "A gun that shoots a precision laser, similar to Serpulo's Foreshadow."
+health: 360
+size: 2
+heatColor: FFBDD4
+outlineColor: 476647
+heatColor: C6E52D
+shootSound: railgun
+loopSound: none
+squareSprite: false
+requirements: [
+iron/95
+rust/25
+]
+
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: -extra
+heatColor: FFBDD4
+mirror: true
+progress: warmup
+moveX: 2
+moveY: 0
+moveRot: 0
+under: true
+moves: [
+{
+type: PartMove
+progress: warmup
+moveRot: 0
+moveX: 2
+}
+]
+},
+{
+type: RegionPart
+suffix: -barrel
+heatColor: FFBDD4
+mirror: false
+progress: recoil
+moveX: 0
+moveY: -1
+moveRot: 0
+under: true
+moves: [
+{
+type: PartMove
+progress: recoil
+moveRot: 0
+moveY: -1
+}
+]
+}
+]
+}
+
+category: turret
+research: {
+parent: soluble
+}
+targetAir: true
+targetGround: false
+inaccuracy: 0
+reload: 100
+recoil: 3
+range: 300
+rotateSpeed: 12.5
+ammoTypes: {
+ozone: {
+type: PointBulletType
+shootEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+sides: 0
+sizeFrom: 15
+strokeFrom: 3
+strokeTo: 0
+lifetime: 23
+colorFrom: ffccde
+colorTo: ffccde
+}
+{
+type: ParticleEffect
+particles: 1
+length: 0
+lifetime: 23
+sizeFrom: 15
+colorFrom: ffccde
+colorTo: ffccde
+region: kiky5-precision-rail-hit
+}
+]
+}
+hitEffect: {
+type: MultiEffect
+effects: [{
+type: WaveEffect
+sides: 0
+sizeFrom: 15
+sizeTo: 20
+strokeFrom: 3.5
+strokeTo: 0
+colorFrom: ffccde
+colorTo: ffccde
+lifetime: 15
+}
+{
+type: ParticleEffect
+particles: 1
+length: 0
+lifetime: 23
+sizeFrom: 15
+colorFrom: ffccde
+colorTo: ffccde
+region: kiky5-precision-rail-hit
+}]
+}
+despawnEffect: {
+type: MultiEffect
+effects: [{
+type: WaveEffect
+sides: 0
+sizeFrom: 15
+sizeTo: 20
+strokeFrom: 3.5
+strokeTo: 0
+colorFrom: ffccde
+colorTo: ffccde
+lifetime: 23
+}
+{
+type: ParticleEffect
+particles: 1
+length: 0
+lifetime: 23
+sizeFrom: 15
+colorFrom: ffccde
+colorTo: ffccde
+region: kiky5-precision-rail-hit
+}]
+}
+smokeEffect: {
+type: ParticleEffect
+particles: 8
+cone: 360
+lifetime: 80
+sizeFrom: 8
+sizeTo: 0
+length: 35
+colorFrom: ffccde
+colorTo: ffccde70
+}
+trailEffect: {
+type: ParticleEffect
+length: 0
+particles: 1
+lifetime: 23
+sizeFrom: 17
+colorFrom: ffccde
+colorTo: ffccde
+region: kiky5-precision-rail
+}
+trailSpacing: 20
+damage: 100
+collidesGround: false
+hitColor: ffccde
+hitShake: 1
+speed: 200
+}
+}

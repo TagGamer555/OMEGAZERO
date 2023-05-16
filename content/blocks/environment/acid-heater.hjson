@@ -1,0 +1,4 @@
+name: Acid Heater
+type: floor
+variants: 3
+attributes: [heat]
