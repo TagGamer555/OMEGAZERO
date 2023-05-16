@@ -2,6 +2,7 @@ type: liquidRouter
 health: 75
 name: Iron Liquid Router
 solid: false
+squareSprite: false
 description: A liquid router made out of Iron.
 liquidCapacity: 30
 category: liquid

@@ -1,6 +1,7 @@
 type: DuctRouter
 name: Iron Duct Router
 description: A duct router, made of Iron.
+squareSprite: false
 requirements: [
 iron/6
 ]

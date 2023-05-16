@@ -6,7 +6,7 @@ solid: true
 squareSprite: false
 liquidPadding: 2
 description: A liquid tank made out of Iron.
-liquidCapacity: 1200
+liquidCapacity: 2400
 category: liquid
 research: rlc
 requirements: [

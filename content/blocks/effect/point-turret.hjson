@@ -5,10 +5,10 @@ size: 1
 outlineColor: 476647
 health: 200
 range: 100
-reload: 10
+reload: 20
 hasPower: true
 shootLength: 10
-bulletDamage: 10
+bulletDamage: 2
 consumes: {
 power: 0.75
 }

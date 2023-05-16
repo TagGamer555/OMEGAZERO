@@ -2,7 +2,7 @@ name: Iron Vault
 desciption: A vault, which can store items. Stored items can be retreaved with an unloader.
 health: 1200
 size: 3
-itemCapacity: 120
+itemCapacity: 800
 coreMerge: false
 category: effect
 research: iron-container

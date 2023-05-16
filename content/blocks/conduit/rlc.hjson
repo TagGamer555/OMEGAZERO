@@ -6,7 +6,7 @@ solid: true
 squareSprite: false
 liquidPadding: 1.5
 description: A liquid container made out of Iron.
-liquidCapacity: 400
+liquidCapacity: 800
 category: liquid
 research: iron-liquid-router
 requirements: [

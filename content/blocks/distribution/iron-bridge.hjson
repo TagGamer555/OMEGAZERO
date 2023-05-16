@@ -1,6 +1,7 @@
 type: DuctBridge
 name: Iron Duct Bridge
 description: A duct bridge, made of Iron.
+squareSprite: false
 requirements: [
 iron/6
 ]
