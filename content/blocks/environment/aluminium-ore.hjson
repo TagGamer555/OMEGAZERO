@@ -1,0 +1,5 @@
+{
+name: Aluminium Ore
+type: oreBlock
+itemDrop: aluminium
+}
