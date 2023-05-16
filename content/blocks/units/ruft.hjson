@@ -1,0 +1,41 @@
+{
+  type: Reconstructor
+  name: Unit Refabricator
+  description: Upgrades moved in unit to tier 2.
+  size: 3
+  consumes: {
+    power: 0.8
+    liquid: carbon/0.1
+    items: {
+      items: [
+        rust/25
+        quartz/85
+		aluminium/25
+		steel/55
+      ]
+    }
+  }
+  upgrades: [
+    [argon-unit,boron] 
+  ]
+  requirements: [
+    {
+      item: rust
+      amount: 250
+    }
+    {
+      item: quartz
+      amount: 175
+    }
+    {
+      item: steel
+      amount: 125
+    }
+    {
+      item: aluminium
+      amount: 55
+    }
+  ]
+  category: units
+  research: rufo
+}

@@ -22,8 +22,8 @@ width: 17
 height: 76
 }
 ]
-researchCostMultiplier: 0
 research: argon-unit
+targetAir: false
 
 weapons: [
 {
@@ -41,13 +41,13 @@ recoil: 0
 rotate: true
 bullet: {
 damage: 0
-splashDamage: 20
+splashDamage: 30
 splashDamageRadius: 30
 type: ArtilleryBulletType
 hitEffect: flakExplosion
 despawnEffect: flakExplosion
 collideAir: false
-lifetime: 75
+lifetime: 60
 speed: 3.25
 buildingDamageMultiplier: 2.25
 width: 7.5

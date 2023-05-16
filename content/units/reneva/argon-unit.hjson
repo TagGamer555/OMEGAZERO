@@ -22,7 +22,6 @@ width: 14
 height: 51
 }
 ]
-researchCostMultiplier: 0
 research: rufo
 
 weapons: [
