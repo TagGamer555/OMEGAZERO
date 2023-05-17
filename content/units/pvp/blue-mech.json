@@ -12,7 +12,7 @@
       "y": 0,
       "reload": 10,
       "spacing": 0,
-	  "shootSound": "invalid",
+	  "shootSound": "spark",
       "mirror": false,
         "alternate": false,
 		"top": true,
