@@ -23,7 +23,7 @@
         "damage": 22,
         "width": 3,
         "height": 11,
-        "lifetime": 25,
+        "lifetime": 12.5,
         "shootEffect": "shootSmall",
         "smokeEffect": "shootSmallSmoke",
         "hitColor": "FDB380"
