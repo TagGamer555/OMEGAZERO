@@ -1,0 +1,9 @@
+type: CoreBlock
+name: "Core Pad (red)"
+description: A core pad used to summon a Red Mech.
+size: 2
+health: 1000
+itemCapacity: 0
+unitType: red-mech
+unitCapModifier: 0
+buildVisibility: editorOnly

@@ -1,0 +1,38 @@
+{
+  "type": "mech",
+  "name": "Mech (R)",
+  "description": "A red class mech with powerful rifle.",
+  "speed": 0.6,
+  "flying": false,
+  "health": 600,
+  "weapons": [
+    {
+	  "name": "red-mech-weapon",
+      "x": 4.5,
+      "y": 0,
+      "reload": 30,
+      "spacing": 0,
+	  "shootSound": "shootSnap",
+      "mirror": false,
+        "alternate": false,
+		"top": true,
+      "bullet": {
+        "type": "BasicBulletType",
+		"inaccuracy": 2,
+        "speed": 15,
+        "damage": 22,
+        "width": 3,
+        "height": 11,
+        "lifetime": 25,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "FDB380"
+        "backColor": "FDB380",
+        "trailColor": "FDB380",
+        "frontColor": "ffffff",
+        "trailWidth": 1,
+        "trailLength": 4
+      }
+    }
+  ]
+}
