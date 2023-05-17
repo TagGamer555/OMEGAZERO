@@ -1,0 +1,13 @@
+{
+type: CoreBlock
+name: "Core Pad (Green)"
+description: A core pad used to summon a Green Mech.
+size: 2
+health: 1000
+itemCapacity: 0
+unitType: green-mech
+unitCapModifier: 0
+buildVisibility: sandboxOnly
+solid: false
+squareSprite: false
+}
