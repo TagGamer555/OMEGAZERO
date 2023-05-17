@@ -15,5 +15,6 @@
   "healPercent": 100,
   "buildVisibility": "editorOnly",
   "category": "defense",
-  "variants": 2
+  "variants": 2,
+  "priviliged": true
 }
