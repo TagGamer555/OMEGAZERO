@@ -16,5 +16,5 @@
   "buildVisibility": "editorOnly",
   "category": "defense",
   "variants": 2,
-  "priviliged": true
+  "privileged": true
 }
