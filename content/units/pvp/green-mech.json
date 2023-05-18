@@ -25,7 +25,7 @@
 	  "name": "green-mech-weapon",
       "x": 4.5,
       "y": 0,
-      "reload": 10,
+      "reload": 6,
       "spacing": 0,
 	  "shootSound": "shootSnap",
       "mirror": false,

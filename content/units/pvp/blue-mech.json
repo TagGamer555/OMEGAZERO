@@ -18,8 +18,8 @@
 		"top": true,
       "bullet": {
         "type": "LightningBulletType",
-        "lightningLength": 10,
-        "damage": 30,
+        "lightningLength": 8,
+        "damage": 15,
         "lightningColor": "D0EFFF"
       }
     }
