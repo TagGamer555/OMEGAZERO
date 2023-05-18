@@ -35,7 +35,7 @@
         "type": "BasicBulletType",
 		"inaccuracy": 12,
         "speed": 15,
-        "damage": 8,
+        "damage": 10,
         "width": 3,
         "height": 11,
         "lifetime": 7.5,
