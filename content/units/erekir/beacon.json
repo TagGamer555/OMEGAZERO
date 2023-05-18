@@ -15,20 +15,18 @@
       "height": 51
     }
   ],
- "controller": "HealerAI",
  "hovering": false,
-  "faceTarget": false,
+ "faceTarget": false,
  "outlineColor": "2D2F39",
  "speed": 1.5,
  "drag": 0.1,
  "accel": 0.1,
  "rotateSpeed": 2,
- "omniMovement": false, //I hope this works out!!!
+ "omniMovement": false,
  "baseRotateSpeed": 2,
  "commandLimit": 888,
  "itemCapacity": 0,
  "flying": false,
- "commandRadius": 666, //lol
  "drownTimeMultiplier": "1",
  "weapons": [
   {
@@ -52,10 +50,5 @@
 	}
   }
 	],
-	"research": {
-  "parent": "nothing",
-  "requirements": [
-  "beryllium/88", //88 > 69
-  ],
-	},
+ "research": "support-fabricator"
 }
