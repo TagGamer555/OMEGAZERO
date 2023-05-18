@@ -1,0 +1,12 @@
+{
+type: CoreBlock
+name: "Core Pad (Spectator)"
+size: 1
+health: 1000
+itemCapacity: 0
+unitType: spectator
+unitCapModifier: 0
+buildVisibility: sandboxOnly
+solid: false
+squareSprite: false
+}
