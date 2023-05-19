@@ -1,0 +1,48 @@
+{
+type: legs
+name: Flint
+description: A tier one spider capable of shooting curved lasers.
+speed: 0.425
+health: 240
+itemCapacity: 0
+armor: 4
+drag: 0.4
+rotateSpeed: 4
+legCount: 6
+legLength: 8
+legForwardScl: 0.6
+legMoveSpace: 1.4
+hovering: true
+shadowElevation: 0.2
+
+weapons: {
+	{
+	x: 0
+	y: 0
+	shootY: 2.5
+	reload: 45
+	mirror: false
+	alternating: false
+	shootSound: spark
+	bullet: {
+		width: 0
+		height: 0
+		speed: 30
+		lifetime: 5
+		keepVelocity: false
+		drag: 0.003
+		hitEffect: none
+		despawnEffect: none
+		shootEffect: none
+		smokeEffect: none
+		ejectEffect: none
+		hitColor: C6E52D
+		backColor: C6E52D
+		trailColor: C6E52D
+		frontColor: ffffff
+		trailWidth: 1
+		trailLength: 200
+	}
+	}
+}
+}
