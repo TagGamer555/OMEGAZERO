@@ -43,6 +43,5 @@ weapons: {
 		trailWidth: 1
 		trailLength: 200
 	}
-	}
 }
 }
