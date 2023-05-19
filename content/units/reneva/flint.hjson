@@ -25,16 +25,17 @@ weapons: [
 	mirror: false
 	shoot: {
 		type: ShootPattern
-		shots: 4
+		shots: 8
 		shotDelay: 2
 	}
+	inaccuracy: 10
 	alternating: false
-	shootSound: missile
+	shootSound: blaster
 	bullet: {
 		width: 0
 		height: 0
 		speed: 30
-		damage: 20
+		damage: 12
 		buildingDamageMultiplier: 0.45
 		lifetime: 12.5
 		keepVelocity: false
