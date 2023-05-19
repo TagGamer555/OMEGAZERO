@@ -44,12 +44,12 @@ weapons: [
 	bullet: {
 		width: 0
 		height: 0
-		speed: -2
+		speed: 0
 		damage: 8
 		buildingDamageMultiplier: 0.45
-		lifetime: 30
+		lifetime: 40
 		keepVelocity: false
-		drag: -0.3
+		drag: -0.1
 		hitEffect: none
 		despawnEffect: none
 		shootEffect: none
