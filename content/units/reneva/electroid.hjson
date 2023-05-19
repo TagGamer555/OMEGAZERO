@@ -1,7 +1,7 @@
 {
 type: legs
-name: Flint
-description: A tier one spider capable of shooting curved lasers.
+name: Electroid
+description: A Tier One Spider capable of shooting laser-like bullets.
 speed: 0.75
 outlineColor: 476647
 health: 240
@@ -21,25 +21,25 @@ weapons: [
 	x: 0
 	y: 0
 	shootY: 0
-	reload: 45
+	reload: 90
 	mirror: false
 	shoot: {
 		type: ShootPattern
 		shots: 8
-		shotDelay: 2
+		shotDelay: 5
 	}
-	inaccuracy: 10
+	inaccuracy: 30
 	alternating: false
 	shootSound: blaster
 	bullet: {
 		width: 0
 		height: 0
-		speed: 30
-		damage: 12
+		speed: -2
+		damage: 8
 		buildingDamageMultiplier: 0.45
-		lifetime: 12.5
+		lifetime: 30
 		keepVelocity: false
-		drag: 0.3
+		drag: -0.3
 		hitEffect: none
 		despawnEffect: none
 		shootEffect: none
@@ -47,11 +47,11 @@ weapons: [
 		ejectEffect: none
 		homingPower: 0.1
 		homingRange: 40
-		hitColor: C6E52D
-		backColor: C6E52D
-		trailColor: C6E52D
+		hitColor: ffffff
+		backColor: ffffff
+		trailColor: ffffff
 		frontColor: ffffff
-		trailWidth: 1
+		trailWidth: 1.25
 		trailLength: 500
 	}
 }
