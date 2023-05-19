@@ -9,7 +9,7 @@ itemCapacity: 0
 armor: 4
 drag: 0.4
 rotateSpeed: 4
-legCount: 8
+legCount: 6
 legLength: 8
 legForwardScl: 0.6
 legMoveSpace: 1.4
@@ -40,7 +40,7 @@ weapons: [
 		smokeEffect: none
 		ejectEffect: none
 		weaveScale: 24
-		weaveMag: 24
+		weaveMag: 1
 		hitColor: C6E52D
 		backColor: C6E52D
 		trailColor: C6E52D
