@@ -20,7 +20,7 @@ weapons: [
 	{
 	x: 0
 	y: 0
-	shootY: 2.5
+	shootY: 0
 	reload: 45
 	mirror: false
 	alternating: false
@@ -31,16 +31,16 @@ weapons: [
 		speed: 30
 		damage: 60
 		buildingDamageMultiplier: 0.45
-		lifetime: 7.5
+		lifetime: 10
 		keepVelocity: false
-		drag: 0.03
+		drag: 0.3
 		hitEffect: none
 		despawnEffect: none
 		shootEffect: none
 		smokeEffect: none
 		ejectEffect: none
-		weaveScale: 6
-		weaveMag: 6
+		weaveScale: 24
+		weaveMag: 24
 		hitColor: C6E52D
 		backColor: C6E52D
 		trailColor: C6E52D
