@@ -45,7 +45,7 @@ weapons: [
 	bullet: {
 		width: 0
 		height: 0
-		speed: 0
+		speed: 0.01
 		damage: 8
 		buildingDamageMultiplier: 0.45
 		lifetime: 40
