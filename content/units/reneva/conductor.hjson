@@ -16,7 +16,7 @@ legMoveSpace: 1
 //legLengthScl: 0.96
 //legForwardScl: 1.1
 legPhysicsLayer: false
-legGroupSize: 2
+legGroupSize: 4
 legCount: 8
 legLength: 12
 legForwardScl: 0.6
