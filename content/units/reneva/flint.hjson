@@ -23,8 +23,13 @@ weapons: [
 	shootY: 0
 	reload: 45
 	mirror: false
+	shoot: {
+		type: ShootPattern
+		shots: 8
+		shotDelay: 2
+	}
 	alternating: false
-	shootSound: spark
+	shootSound: release
 	bullet: {
 		width: 0
 		height: 0
@@ -39,8 +44,8 @@ weapons: [
 		shootEffect: none
 		smokeEffect: none
 		ejectEffect: none
-		weaveScale: 4
-		weaveMag: 1
+		homingPower: 1
+		homingRange: 40
 		hitColor: C6E52D
 		backColor: C6E52D
 		trailColor: C6E52D
