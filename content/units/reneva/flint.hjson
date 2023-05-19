@@ -15,7 +15,7 @@ legMoveSpace: 1.4
 hovering: true
 shadowElevation: 0.2
 
-weapons: {
+weapons: [
 	{
 	x: 0
 	y: 0
@@ -44,5 +44,5 @@ weapons: {
 		trailLength: 200
 	}
 }
-}
+]
 }
