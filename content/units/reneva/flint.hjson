@@ -25,18 +25,18 @@ weapons: [
 	mirror: false
 	shoot: {
 		type: ShootPattern
-		shots: 8
+		shots: 4
 		shotDelay: 2
 	}
 	alternating: false
-	shootSound: release
+	shootSound: missile
 	bullet: {
 		width: 0
 		height: 0
 		speed: 30
-		damage: 60
+		damage: 20
 		buildingDamageMultiplier: 0.45
-		lifetime: 10
+		lifetime: 12.5
 		keepVelocity: false
 		drag: 0.3
 		hitEffect: none
@@ -44,7 +44,7 @@ weapons: [
 		shootEffect: none
 		smokeEffect: none
 		ejectEffect: none
-		homingPower: 1
+		homingPower: 0.1
 		homingRange: 40
 		hitColor: C6E52D
 		backColor: C6E52D
