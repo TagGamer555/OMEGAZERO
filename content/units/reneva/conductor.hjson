@@ -30,15 +30,15 @@ shadowElevation: 0.2
 weapons: [
 	{
 	name: conductor-weapon
-	x: 3
+	x: 5
 	y: 0
 	shootY: 0
-	reload: 80
+	reload: 120
 	mirror: true
 	shoot: {
 		type: ShootPattern
-		shots: 6
-		shotDelay: 2
+		shots: 8
+		shotDelay: 10
 	}
 	inaccuracy: 0
 	alternating: true
@@ -46,7 +46,7 @@ weapons: [
 	bullet: {
 		type: LightningBulletType
 		lightningLength: 12
-		damage: 10
+		damage: 15
 		lightningColor: ffffff
 	}
 }
