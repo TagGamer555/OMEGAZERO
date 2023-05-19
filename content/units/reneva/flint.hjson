@@ -39,7 +39,7 @@ weapons: [
 		shootEffect: none
 		smokeEffect: none
 		ejectEffect: none
-		weaveScale: 24
+		weaveScale: 4
 		weaveMag: 1
 		hitColor: C6E52D
 		backColor: C6E52D
