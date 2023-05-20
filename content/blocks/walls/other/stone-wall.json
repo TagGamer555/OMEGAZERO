@@ -4,7 +4,7 @@
   "type": "Wall",
   "health": 80,
   "size": 1,
-  "variations": 3,
+  "variants": 3,
   "buildVisibility": "sandboxOnly",
   "category": "defense"
 }

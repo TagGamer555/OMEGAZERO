@@ -26,8 +26,8 @@ beryllium/100
 
 liquidCapacity: 0.3
 consumes: {
-power: 8
-liquid: hydrogen/0.1
+power: 5
+liquid: hydrogen/0.03333333333333
 }
 
 shootType: {
@@ -39,11 +39,15 @@ frontColor: ffffff
 trailColor: D0EFFF
 trailWidth: 1.2
 trailLength: 12
-damage: 24
+damage: 32
 pierce: true
 pierceCap: 2
-lifeTime: 25
+lifeTime: 30
+hitEffect: none
+smokeEffect: none
+despawnEffect: none
 speed: 4
+buildingDamageMultiplier: 0.55
 fragBullets: 4
 fragBullet: {
 type: LightningBulletType
