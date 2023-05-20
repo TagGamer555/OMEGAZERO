@@ -8,6 +8,7 @@
     "amount": 0.1
   },
   "health": 540,
+  "liquidPadding": 1.5
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -18,7 +19,6 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "slag", 
-		"liquidPadding": 1.5
       }
       {
         "type": "DrawDefault",
