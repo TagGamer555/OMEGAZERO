@@ -1,0 +1,54 @@
+type: tank
+name: Javelin
+description: Tonk.
+//controller: AttackerAI
+
+hitSize: 18
+omniMovement: false
+faceTarget: false
+treadPullOffset: 5
+speed: 0.65
+rotateSpeed: 2.6
+health: 560
+armor: 3
+itemCapacity: 0
+treadRects: [
+{
+x: 13
+y: -38
+width: 17
+height: 76
+}
+]
+targetAir: false
+
+weapons: [
+{
+name: javelin-weapon
+shootY: 2
+rotateSpeed: 2
+x: 0
+y: 0
+mirror: false
+alternate: false
+reload: 120
+shootSound: laser
+top: true
+recoil: 2
+shake: 2
+rotate: true
+bullet: {
+shootEffect: lancerLaserShoot
+smokeEffect: none
+type: LaserBulletType
+buildingDamageMultiplier: 0.25
+hitEffect: hitLancer
+hitSize: 4
+lifetime: 16
+drawSize: 400
+collidesAir: false
+length: 173
+pierceCap: 4
+}
+}
+]
