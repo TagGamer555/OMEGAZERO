@@ -14,14 +14,14 @@
   "consumes": {
   "items": {
 	  "items": [
-  "stone/1",
+  "stone-item/1",
   ]
   }
   "power": 2.4,
   },
   "requirements": [
     {
-      "item": "item-stone",
+      "item": "stone-item",
       "amount": 45
     },
     {
