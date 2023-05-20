@@ -1,0 +1,81 @@
+{
+type: PowerTurret
+name: Reserve
+description: Small turret which uses Hydrogen to shoot electric orbs.
+health: 800
+outlineColor: 2D2F39
+range: 180
+heatColor: ff8822
+size: 2
+recoil: 1
+squareSprite: false
+category: turret
+research: breach
+shootSound: spark
+reload: 120
+shootY: 0
+targetAir: true
+targetGround: true
+rotateSpeed: 0.9
+requirements: [
+tungsten/80
+silicon/120
+graphite/140
+beryllium/100
+]
+
+liquidCapacity: 0.3
+consumes: {
+power: 3.25
+liquid: {
+hydrogen/0.1
+}
+}
+
+shootType: {
+width: 5
+height: 8
+hitColor: D0EFFF
+backColor: D0EFFF
+frontColor: ffffff
+trailColor: D0EFFF
+trailWidth: 1.2
+trailLength: 12
+damage: 20
+pierce: true
+pierceCap: 2
+fragBullets: 4
+fragBullet: {
+type: LightningBulletType
+lightningLength: 20
+lightningColor: D0EFFF
+damage: 12
+buildingDamageMultiplier: 0.3
+}
+}
+
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: -extra
+mirror: true
+progress: recoil
+heatColor: ff8822
+moveX: 0
+moveY: -2
+moveRot: -10
+under: false
+moves: [
+{
+type: PartMove
+progress: recoil
+moveRot: -10
+moveY: -2
+}
+]
+}
+]
+}
+}
