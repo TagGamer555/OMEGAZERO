@@ -3,7 +3,10 @@
   "name": "Freezing Machine",
   "squareSprite": false,
   "description": "Freezes water and turns it into Ice.",
-  "result": "ice-item",
+  "outputItem": {
+    "item": "ice-item",
+    "amount": 1
+  },
   "health": 440,
   "liquidPadding": 1.5
   "drawer": {

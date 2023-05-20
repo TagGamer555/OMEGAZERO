@@ -1,0 +1,11 @@
+{
+  "name": "Stone Wall",
+  "description": "Sturdy wall made of stone.",
+  "type": "Wall",
+  "health": 450,
+  "size": 1,
+  "requirements": [
+  "stone-item/8"
+]
+  "category": "defense"
+}

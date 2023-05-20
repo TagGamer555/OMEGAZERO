@@ -1,0 +1,12 @@
+{
+  "name": "Ice Wall",
+  "description": "Fragile insulating wall, made out of ice.",
+  "type": "Wall",
+  "health": 200,
+  "insulated": true,
+  "size": 1,
+  "requirements": [
+  "ice-item/8"
+]
+  "category": "defense"
+}

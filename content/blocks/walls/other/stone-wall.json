@@ -3,6 +3,7 @@
   "description": "A wall made out of stone.",
   "type": "Wall",
   "health": 80,
+  "itemDrop": "sand",
   "size": 1,
   "variants": 3,
   "buildVisibility": "sandboxOnly",

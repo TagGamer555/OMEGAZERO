@@ -3,7 +3,10 @@
   "name": "Slag Solidifier",
   "squareSprite": false,
   "description": "Solidifies Slag into Stone.",
-  "result": "stone-item/4"
+  "outputItem": {
+    "item": "stone-item",
+    "amount": 4
+  },
   "health": 640,
   "liquidPadding": 1.5
   "drawer": {
