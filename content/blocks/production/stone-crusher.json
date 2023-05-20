@@ -21,7 +21,7 @@
   },
   "requirements": [
     {
-      "item": "stone",
+      "item": "item-stone",
       "amount": 45
     },
     {

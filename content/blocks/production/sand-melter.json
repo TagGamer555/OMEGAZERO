@@ -33,7 +33,11 @@
   "hasItems": true,
   "consumes": {
     "power": 6,
-    "item": "sand/4"
+    "items": {
+		"items": [
+	"sand/4"
+	]
+	}
   },
   "requirements": [
 
