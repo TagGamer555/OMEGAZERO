@@ -27,9 +27,7 @@ beryllium/100
 liquidCapacity: 0.3
 consumes: {
 power: 3.25
-liquid: [
-hydrogen/0.1
-]
+liquid: hydrogen/0.1
 }
 
 shootType: {
