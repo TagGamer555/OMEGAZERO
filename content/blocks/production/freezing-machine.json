@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "Freezing Machine",
+  "squareSprite": false,
+  "description": "Freezes water and turns it into Ice.",
+  "result": "ice-item",
+  "health": 440,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom" 
+      }
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water", 
+		"liquidPadding": 1.5
+      }
+      {
+        "type": "DrawDefault",
+      }
+    ]
+  },
+  "liquidCapacity": 10,
+  "size": 2,
+  "craftTime": 120,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "consumes": {
+    "power": 4,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.1
+    },
+  },
+  "requirements": [
+
+    {
+      "item": "lead",
+      "amount": 60
+    },
+    {
+      "item": "copper",
+      "amount": 90
+    },
+    {
+      "item": "graphite",
+      "amount": 30
+    },
+    {
+      "item": "stone",
+      "amount": 20
+    }
+  ],
+  "category": "crafting"
+}

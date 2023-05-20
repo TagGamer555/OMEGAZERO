@@ -1,0 +1,51 @@
+{
+  "type": "GenericCrafter",
+  "name": "Slag Solidifier",
+  "squareSprite": false,
+  "description": "Solidifies Slag into Stone.",
+  "result": "stone/4"
+  "health": 640,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom" 
+      }
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "slag", 
+		"liquidPadding": 1.5
+      }
+      {
+        "type": "DrawDefault",
+      }
+    ]
+  },
+  "liquidCapacity": 12,
+  "size": 3,
+  "craftTime": 120,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "consumes": {
+    "power": 6,
+    "liquid": "slag/0.1"
+  },
+  "requirements": [
+
+    {
+      "item": "copper",
+      "amount": 75
+    },
+    {
+      "item": "graphite",
+      "amount": 90
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    }
+  ],
+  "category": "crafting"
+}

@@ -1,0 +1,5 @@
+type: material
+name: Stone
+description: Solid form of slag. Much harded, but can be shattered into sand.
+cost: 6
+color: 666666
