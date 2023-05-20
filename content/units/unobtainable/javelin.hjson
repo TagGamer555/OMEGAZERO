@@ -38,6 +38,7 @@ recoil: 2
 shake: 2
 rotate: true
 bullet: {
+damage: 140
 shootEffect: lancerLaserShoot
 smokeEffect: none
 type: LaserBulletType
