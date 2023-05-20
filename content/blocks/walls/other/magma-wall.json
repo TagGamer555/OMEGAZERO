@@ -1,0 +1,10 @@
+{
+  "name": "Magma Stone Wall",
+  "description": "A wall made out of magma stone.",
+  "type": "Wall",
+  "health": 140,
+  "size": 1,
+  "variations": 3,
+  "buildVisibility": "sandboxOnly",
+  "category": "defense"
+}

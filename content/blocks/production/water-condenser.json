@@ -1,0 +1,16 @@
+{
+  "type": "SolidPump",
+  "name": "Water Condenser",
+  "description": "Condenses water from the vapor in the air. Also becomes faster on hotter blocks.",
+  "health": 450,
+  "result": "water",
+  "hasPower": false,
+  "attribute": "water",
+  "hasLiquids": true,
+  "size": 3,
+  "affinities": ["heat"],
+  "pumpAmount": 0.05,
+  "buildVisibility": "sandboxOnly",
+  "category": "production",
+  "liquidCapacity": 100
+}

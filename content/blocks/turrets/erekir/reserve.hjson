@@ -16,7 +16,7 @@ reload: 120
 shootY: 0
 targetAir: true
 targetGround: true
-rotateSpeed: 0.9
+rotateSpeed: 1.5
 requirements: [
 tungsten/80
 silicon/120
@@ -26,7 +26,7 @@ beryllium/100
 
 liquidCapacity: 0.3
 consumes: {
-power: 3.25
+power: 8
 liquid: hydrogen/0.1
 }
 
@@ -39,13 +39,15 @@ frontColor: ffffff
 trailColor: D0EFFF
 trailWidth: 1.2
 trailLength: 12
-damage: 20
+damage: 24
 pierce: true
 pierceCap: 2
+lifeTime: 25
+speed: 4
 fragBullets: 4
 fragBullet: {
 type: LightningBulletType
-lightningLength: 20
+lightningLength: 4
 lightningColor: D0EFFF
 damage: 12
 buildingDamageMultiplier: 0.3
@@ -62,15 +64,15 @@ mirror: true
 progress: recoil
 heatColor: ff8822
 moveX: 0
-moveY: -2
-moveRot: -10
+moveY: -1
+moveRot: -30
 under: false
 moves: [
 {
 type: PartMove
 progress: recoil
-moveRot: -10
-moveY: -2
+moveRot: -30
+moveY: -1
 }
 ]
 }

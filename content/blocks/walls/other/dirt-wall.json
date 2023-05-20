@@ -1,0 +1,10 @@
+{
+  "name": "Dirt Wall",
+  "description": "A wall made out of dirt.",
+  "type": "Wall",
+  "health": 50,
+  "size": 1,
+  "variations": 3,
+  "buildVisibility": "sandboxOnly",
+  "category": "defense"
+}

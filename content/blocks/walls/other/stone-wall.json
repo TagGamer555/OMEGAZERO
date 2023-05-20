@@ -1,0 +1,10 @@
+{
+  "name": "Stone Wall",
+  "description": "A wall made out of stone.",
+  "type": "Wall",
+  "health": 80,
+  "size": 1,
+  "variations": 3,
+  "buildVisibility": "sandboxOnly",
+  "category": "defense"
+}
