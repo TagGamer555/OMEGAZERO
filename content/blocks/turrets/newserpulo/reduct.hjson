@@ -46,7 +46,7 @@
 			speed: 4
 			lifetime: 20
 			ammoMultiplier: 2
-			weaveScale: 4
+			weaveScale: 8
 			reloadMultiplier: 1.2
 			width: 0
 			height: 0
