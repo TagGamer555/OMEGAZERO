@@ -1,0 +1,43 @@
+{
+	type: itemTurret
+	name: Reduct
+	description: A small turret, made out of stone, which shoots some flames.
+	health: 360
+	size: 1
+	outlineColor: 1E1E26
+	squareSprite: false
+	requirements: [
+		lead/20
+		stone-item/35
+		graphite/10
+	]
+	category: turret
+	research: minima
+	inaccuracy: 20
+	shootSound: flame
+	shoot: {
+		type: shootPattern
+		shots: 4
+	}
+	reload: 24
+	recoil: 0.1
+	shootY: 3.75
+	range: 70
+	ammoTypes: {
+		coal: {
+			damage: 10
+			speed: 4
+			lifetime: 20
+			ammoMultiplier: 4
+			weaveScale: 1.5
+			reloadMultiplier: 1
+			width: 0
+			height: 0
+			trailColor: FFA95F
+			trailWidth: 1
+			trailLength: 4
+			status: burning
+			statusDuration: 60
+		}
+	}
+}
