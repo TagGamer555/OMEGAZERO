@@ -19,7 +19,7 @@
 	shootY: 1
 	range: 90
 	ammoTypes: {
-		stone: {
+		stone-item: {
 			damage: 12
 			speed: 15
 			lifetime: 15
