@@ -23,7 +23,7 @@
 			damage: 8
 			speed: 11.25
 			ammoMultiplier: 1
-			lifetime: 12
+			lifetime: 10
 			width: 0
 			height: 0
 			trailColor: AB98D2
@@ -35,7 +35,7 @@
 			speed: 11.25
 			reloadMultiplier: 0.9
 			ammoMultiplier: 4
-			lifetime: 12
+			lifetime: 10
 			width: 0
 			height: 0
 			trailColor: 646464
@@ -46,7 +46,7 @@
 		metaglass: {
 			damage: 10
 			speed: 11.25
-			lifetime: 12
+			lifetime: 10
 			width: 0
 			height: 0
 			ammoMultiplier: 3
@@ -57,18 +57,18 @@
 			fragBullet: {
 				damage: 3
 				speed: 5
-				lifetime: 15
+				lifetime: 5
 				width: 0
 				height: 0
 				trailColor: EBEDF5
-				trailWidth: 1
+				trailWidth: 1.125
 				trailLength: 1
 			}
 		}
 		pyratite: {
 			damage: 20
 			speed: 12.5
-			lifetime: 10
+			lifetime: 9
 			ammoMultiplier: 1
 			reloadMultiplier: 1.1
 			width: 0
