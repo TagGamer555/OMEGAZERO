@@ -16,14 +16,14 @@
 	inaccuracy: 5
 	reload: 24
 	recoil: 0.225
-	shootY: 1
+	shootY: 4
 	range: 90
 	ammoTypes: {
 		lead: {
 			damage: 8
 			speed: 11.25
 			ammoMultiplier: 1
-			lifetime: 10
+			lifetime: 8
 			width: 0
 			height: 0
 			trailColor: AB98D2
@@ -35,7 +35,7 @@
 			speed: 11.25
 			reloadMultiplier: 0.9
 			ammoMultiplier: 4
-			lifetime: 10
+			lifetime: 8
 			width: 0
 			height: 0
 			trailColor: 646464
@@ -46,7 +46,7 @@
 		metaglass: {
 			damage: 10
 			speed: 11.25
-			lifetime: 10
+			lifetime: 8
 			width: 0
 			height: 0
 			ammoMultiplier: 3
@@ -57,7 +57,7 @@
 			fragBullet: {
 				damage: 3
 				speed: 5
-				lifetime: 5
+				lifetime: 8
 				width: 0
 				height: 0
 				trailColor: EBEDF5
@@ -68,9 +68,9 @@
 		pyratite: {
 			damage: 20
 			speed: 12.5
-			lifetime: 9
+			lifetime: 8
 			ammoMultiplier: 1
-			reloadMultiplier: 1.1
+			reloadMultiplier: 1.25
 			width: 0
 			height: 0
 			trailColor: FFA95F
