@@ -8,7 +8,7 @@
 	squareSprite: false
 	requirements: [
 		copper/20
-		stone/35
+		stone-item/35
 		silicon/10
 	]
 	category: turret
