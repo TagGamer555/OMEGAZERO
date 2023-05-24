@@ -21,15 +21,15 @@
 	ammoTypes: {
 		stone-item: {
 			damage: 12
-			speed: 15
-			lifetime: 15
+			speed: 22.5
+			lifetime: 7.5
 			width: 0
 			height: 0
 			smokeEffect: none
 			hitEffect: none
 			despawnEffect: none
-			trailColor: 646464
-			trailWidth: 3
+			trailColor: 646464ff
+			trailWidth: 1.25
 			trailLength: 6
 			recoil: 0.25
 		}
