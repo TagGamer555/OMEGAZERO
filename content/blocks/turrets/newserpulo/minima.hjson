@@ -1,0 +1,37 @@
+{
+	type: itemTurret
+	name: Minima
+	description: A small turret, made out of stone, which shoots some fast bullets.
+	health: 340
+	size: 1
+	outlineColor: 000000
+	squareSprite: false
+	requirements: [
+		copper/20
+		stone/35
+		silicon/10
+	]
+	category: turret
+	research: slag-solidifier
+	inaccuracy: 5
+	reload: 24
+	recoil: 0.225
+	shootY: 1
+	range: 90
+	ammoTypes: {
+		stone: {
+			damage: 12
+			speed: 15
+			lifetime: 15
+			width: 0
+			height: 0
+			smokeEffect: none
+			hitEffect: none
+			despawnEffect: none
+			trailColor: 646464
+			trailWidth: 3
+			trailLength: 6
+			recoil: 0.25
+		}
+	}
+}

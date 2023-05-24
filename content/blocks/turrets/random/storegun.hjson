@@ -1,0 +1,99 @@
+
+type: itemTurret
+name: "Storegun"
+description: "It's a gun attached to a storage crate... Not very useful, but can... be useful?... I mean, you can't retrieve items back... you can't, right?"
+health: 890
+size: 1
+squareSprite: false
+requirements: [
+beryllium/20
+graphite/10
+silicon/10
+tungsten/5
+]
+category: effect
+//research: {
+//parent: OMEGAZERO
+//objectives: [OMEGAZERO]
+//}
+reload: 30
+recoil: 2
+range: 100
+rotateSpeed: 10
+group: walls
+shootSound: shootAlt
+
+		shoot: {
+		type: ShootPattern
+		shots: 3
+		shotDelay: 6
+		}
+
+shootEffect: {
+type: MultiEffect
+effects: [shootSmall
+{
+type: ParticleEffect
+particles: 6
+lenFrom: 3
+lenTo: 0
+lifetime: 15
+length: 15
+line: true
+cone: 30
+}
+]
+}
+ammoTypes: {
+beryllium: {
+        //sprite: none
+        type: BasicBulletType
+        speed: 5
+		damage: 5
+		width: 6
+        height: 8
+        lifetime: 25
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        hitColor: 92DD7E
+        backColor: 92DD7E
+        trailColor: 92DD7E
+        frontColor: ffffff
+        trailWidth: 1
+        trailLength: 4.5
+}
+tungsten: {
+        //sprite: none
+        type: BasicBulletType
+        speed: 5
+		damage: 10
+		width: 6
+        height: 8
+        lifetime: 25
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        hitColor: A0B0C8
+        backColor: A0B0C8
+        trailColor: A0B0C8
+        frontColor: ffffff
+        trailWidth: 1
+        trailLength: 4.5
+}
+thorium: {
+        //sprite: none
+        type: BasicBulletType
+        speed: 5
+		damage: 20
+		width: 6
+        height: 8
+        lifetime: 25
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        hitColor: F8A3C7
+        backColor: F8A3C7
+        trailColor: F8A3C7
+        frontColor: ffffff
+        trailWidth: 1
+        trailLength: 4.5
+}
+}
