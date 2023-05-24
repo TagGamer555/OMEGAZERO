@@ -19,7 +19,7 @@
 		type: shootPattern
 		shots: 4
 	}
-	reload: 24
+	reload: 20
 	recoil: 0.1
 	shootY: 3.75
 	range: 70
@@ -29,11 +29,13 @@
 			speed: 4
 			lifetime: 20
 			ammoMultiplier: 4
-			weaveScale: 1.5
+			weaveScale: 4
 			reloadMultiplier: 1
 			width: 0
 			height: 0
 			trailColor: FFA95F
+			hitEffect: none
+			despawnEffect: none
 			trailWidth: 1
 			trailLength: 4
 			status: burning
