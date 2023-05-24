@@ -25,6 +25,8 @@
 	range: 70
 	ammoTypes: {
 		coal: {
+			weaveScale: 3.5
+			weaveMag: 3.5
 			damage: 3
 			speed: 4
 			lifetime: 20
@@ -41,6 +43,8 @@
 			statusDuration: 60
 		}
 		pyratite: {
+			weaveScale: 3.5
+			weaveMag: 3.5
 			damage: 6
 			speed: 4
 			lifetime: 20
