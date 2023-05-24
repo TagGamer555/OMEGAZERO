@@ -1,0 +1,46 @@
+{
+	type: GenericCrafter
+	name: Alpha Fuser
+	description: Fuses Sand, Coal, Lead and Copper into Alpha.
+	size: 2
+	requirements: [
+		copper/40
+		lead/40
+		sand/40
+		coal/40
+	]
+	category: crafting
+	research: mechanical-drill
+	craftTime: 120
+	itemCapacity: 10
+	consumes: {
+		items: {
+			items: [
+				copper/2
+				sand/2
+				lead/2
+				coal/2
+			]
+		}
+	}
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: EDA666
+				glowIntensity: 0.3
+				glowScale: 1
+			}
+		]
+	}
+	ambientSound: none
+	outputItem: {
+		item: alpha-item
+		amount: 4
+	}
+}
