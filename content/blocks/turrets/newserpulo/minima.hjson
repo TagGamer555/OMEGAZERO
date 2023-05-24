@@ -19,19 +19,64 @@
 	shootY: 1
 	range: 90
 	ammoTypes: {
-		stone-item: {
-			damage: 12
-			speed: 22.5
-			lifetime: 7.5
+		lead: {
+			damage: 8
+			speed: 11.25
+			ammoMultiplier: 1
+			lifetime: 15
 			width: 0
 			height: 0
-			smokeEffect: none
-			hitEffect: none
-			despawnEffect: none
-			trailColor: 646464ff
+			trailColor: AB98D2
+			trailWidth: 1
+			trailLength: 3
+		}
+		stone-item: {
+			damage: 12
+			speed: 11.25
+			reloadMultiplier: 0.9
+			ammoMultiplier: 4
+			lifetime: 15
+			width: 0
+			height: 0
+			trailColor: 646464
 			trailWidth: 1.25
-			trailLength: 6
-			recoil: 0.25
+			trailLength: 3
+			knockback: 0.1
+		}
+		stone-item: {
+			damage: 10
+			speed: 11.25
+			lifetime: 15
+			width: 0
+			height: 0
+			ammoMultiplier: 3
+			trailColor: EBEDF5
+			trailWidth: 1
+			trailLength: 3
+			fragBullets: 3
+			fragBullet: {
+				damage: 3
+				speed: 5
+				lifetime: 15
+				width: 0
+				height: 0
+				trailColor: EBEDF5
+				trailWidth: 0.75
+				trailLength: 1
+			}
+		pyratite: {
+			damage: 20
+			speed: 12.5
+			lifetime: 14
+			ammoMultiplier: 1
+			reloadMultiplier: 1.1
+			width: 0
+			height: 0
+			trailColor: FFA95F
+			trailWidth: 1
+			trailLength: 4
+			status: burning
+			statusDuration: 90
 		}
 	}
 }
