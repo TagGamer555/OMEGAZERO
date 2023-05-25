@@ -1,0 +1,8 @@
+{
+type: Wall
+health: 40
+name: Lattice
+category: effect
+solid: false
+buildVisibility: sandboxOnly
+}

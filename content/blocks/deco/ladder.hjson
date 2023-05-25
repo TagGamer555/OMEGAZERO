@@ -1,0 +1,8 @@
+{
+type: Wall
+health: 40
+name: Ladder
+category: effect
+solid: false
+buildVisibility: sandboxOnly
+}

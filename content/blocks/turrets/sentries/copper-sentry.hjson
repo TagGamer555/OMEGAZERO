@@ -1,0 +1,37 @@
+type: itemTurret
+name: Copper Sentry
+health: 240
+range: 150
+size: 1
+recoil: 1.25
+squareSprite: false
+category: defense
+
+buildVisibility: sandboxOnly
+
+reload: 60
+shootY: 6.35
+targetAir: true
+targetGround: true
+rotateSpeed: 5
+requirements: [
+copper/6
+titanium/4
+silicon/8
+graphite/4
+]
+ammoTypes: {
+copper: {
+damage: 80
+type: BasicBulletType
+lifetime: 25
+speed: 6.5
+buildingDamageMultiplier: 0.35
+width: 8
+height: 8
+sprite: missile-large
+frontColor: ffffff
+trailWidth: 0.5
+trailLength: 5
+}
+}
