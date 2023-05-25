@@ -16,7 +16,7 @@
 	shootSound: blaster
 	inaccuracy: 0
 	reload: 60
-	recoil: 0.225
+	recoil: 0.3
 	shootY: 3
 	range: 120
 	ammoTypes: {
@@ -47,10 +47,11 @@
 				hittable: false
 				absorbable: false
 				damage: 0
-				shrinkY: 0.2
-				shrinkX: 0.2
+				shrinkY: 0
 				keepVelocity: false
-				drag: 0.03
+				drag: 0.3
+				frontColor: 2CFF77
+				backColor: 2CFF77
 			}
 		}
 		graphite: {
@@ -83,7 +84,9 @@
 				shrinkY: 0.2
 				shrinkX: 0.2
 				keepVelocity: false
-				drag: 0.03
+				drag: 0.3
+				frontColor: ACE4FC
+				backColor: ACE4FC
 			}
 		}
 		alpha-item: {
@@ -116,7 +119,9 @@
 				shrinkY: 0.2
 				shrinkX: 0.2
 				keepVelocity: false
-				drag: 0.03
+				drag: 0.3
+				frontColor: FFBB7F
+				backColor: FFBB7F
 			}
 		}
 	}
