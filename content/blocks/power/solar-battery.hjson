@@ -1,14 +1,18 @@
-type: battery
-name: Cell Battery
-description: A small battery, capable of storing some power. Highly armored.
-size: 1
-category: power
-health: 300
-consumes: {
-powerBuffered: 500
+{
+	type: SolarGenerator
+	name: Solar Battery
+	description: A medium-sized battery with small solar panel.
+	size: 2
+	category: power
+	health: 480
+	powerProduction: 0.02
+	consumes: {
+		powerBuffered: 1200
+	}
+	requirements: [
+		lead/35
+		silicon/15
+		titanium/20
+	]
+	research: solar-panel
 }
-requirements: [
-iron/45
-calcium/45
-]
-research: calcium-node
