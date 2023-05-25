@@ -13,6 +13,7 @@
 	]
 	category: turret
 	research: minima
+	shootSound: blaster
 	inaccuracy: 0
 	reload: 60
 	recoil: 0.225
@@ -32,17 +33,22 @@
 			trailColor: 2CFF77
 			trailWidth: 1
 			trailLength: 3
+			hitEffect: none
+			despawnEffect: none
 			fragBullets: 3
 			fragBullet: {
 				sprite: kiky5-star-bullet
 				despawnEffect: none
 				hitEffect: none
-				collideAir: false
-				collideGround: false
-				lifetime: 10
+				collidesAir: false
+				collidesGround: false
+				lifetime: 20
 				speed: 4
 				hittable: false
 				absorbable: false
+				damage: 0
+				shrinkY: 0.2
+				shrinkX: 0.2
 			}
 		}
 		graphite: {
@@ -58,17 +64,22 @@
 			trailColor: ACE4FC
 			trailWidth: 1
 			trailLength: 3
+			hitEffect: none
+			despawnEffect: none
 			fragBullets: 3
 			fragBullet: {
 				sprite: kiky5-star-bullet
 				despawnEffect: none
 				hitEffect: none
-				collideAir: false
-				collideGround: false
-				lifetime: 10
+				collidesAir: false
+				collidesGround: false
+				lifetime: 20
 				speed: 4
 				hittable: false
 				absorbable: false
+				damage: 0
+				shrinkY: 0.2
+				shrinkX: 0.2
 			}
 		}
 		alpha-item: {
@@ -84,17 +95,22 @@
 			trailColor: FFBB7F
 			trailWidth: 1
 			trailLength: 3
+			hitEffect: none
+			despawnEffect: none
 			fragBullets: 3
 			fragBullet: {
 				sprite: kiky5-star-bullet
 				despawnEffect: none
 				hitEffect: none
-				collideAir: false
-				collideGround: false
-				lifetime: 10
+				collidesAir: false
+				collidesGround: false
+				lifetime: 20
 				speed: 4
 				hittable: false
 				absorbable: false
+				damage: 0
+				shrinkY: 0.2
+				shrinkX: 0.2
 			}
 		}
 	}
