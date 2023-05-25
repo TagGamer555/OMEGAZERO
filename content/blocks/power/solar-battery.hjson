@@ -6,6 +6,7 @@
 	category: power
 	health: 480
 	powerProduction: 0.02
+	hasPower: true
 	consumes: {
 		powerBuffered: 1200
 	}
