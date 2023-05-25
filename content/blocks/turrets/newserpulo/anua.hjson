@@ -1,0 +1,101 @@
+{
+	type: itemTurret
+	name: Anua
+	description: A small turret, made out of stone, which shoots fast ionised materials.
+	health: 360
+	size: 1
+	outlineColor: 1E1E26
+	squareSprite: false
+	requirements: [
+		alpha-item/20
+		stone-item/35
+		silicon/30
+	]
+	category: turret
+	research: minima
+	inaccuracy: 0
+	reload: 60
+	recoil: 0.225
+	shootY: 3
+	range: 120
+	ammoTypes: {
+		copper: {
+			damage: 12
+			pierce: true
+			pirceCap: 3
+			speed: 15
+			ammoMultiplier: 3
+			reloadMultiplier: 1
+			lifetime: 8
+			width: 0
+			height: 0
+			trailColor: 2CFF77
+			trailWidth: 1
+			trailLength: 3
+			fragBullets: 3
+			fragBullet: {
+				sprite: kiky5-star-bullet
+				despawnEffect: none
+				hitEffect: none
+				collideAir: false
+				collideGround: false
+				lifetime: 10
+				speed: 4
+				hittable: false
+				absorbable: false
+			}
+		}
+		graphite: {
+			damage: 10
+			pierce: true
+			pirceCap: 4
+			speed: 15
+			ammoMultiplier: 2
+			reloadMultiplier: 0.95
+			lifetime: 8
+			width: 0
+			height: 0
+			trailColor: ACE4FC
+			trailWidth: 1
+			trailLength: 3
+			fragBullets: 3
+			fragBullet: {
+				sprite: kiky5-star-bullet
+				despawnEffect: none
+				hitEffect: none
+				collideAir: false
+				collideGround: false
+				lifetime: 10
+				speed: 4
+				hittable: false
+				absorbable: false
+			}
+		}
+		alpha-item: {
+			damage: 20
+			pierce: true
+			pirceCap: 3
+			speed: 15
+			ammoMultiplier: 1
+			reloadMultiplier: 1.25
+			lifetime: 8
+			width: 0
+			height: 0
+			trailColor: FFBB7F
+			trailWidth: 1
+			trailLength: 3
+			fragBullets: 3
+			fragBullet: {
+				sprite: kiky5-star-bullet
+				despawnEffect: none
+				hitEffect: none
+				collideAir: false
+				collideGround: false
+				lifetime: 10
+				speed: 4
+				hittable: false
+				absorbable: false
+			}
+		}
+	}
+}
