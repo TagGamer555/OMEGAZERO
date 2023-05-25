@@ -13,20 +13,20 @@
 	]
 	category: turret
 	research: minima
-	inaccuracy: 20
+	inaccuracy: 16
 	shootSound: flame
 	shoot: {
 		type: shootPattern
-		shots: 4
+		shots: 6
 	}
-	reload: 20
+	reload: 24
 	recoil: 0.1
 	shootY: 4
 	range: 70
 	ammoTypes: {
 		coal: {
-			weaveScale: 1.5
-			weaveMag: 1.5
+			weaveScale: 2
+			weaveMag: 2
 			damage: 3
 			speed: 4
 			lifetime: 20
@@ -43,8 +43,8 @@
 			statusDuration: 60
 		}
 		pyratite: {
-			weaveScale: 1.5
-			weaveMag: 1.5
+			weaveScale: 2
+			weaveMag: 2
 			damage: 6
 			speed: 4
 			lifetime: 20
@@ -61,8 +61,8 @@
 			statusDuration: 120
 		}
 		alpha-item: {
-			weaveScale: 1.5
-			weaveMag: 1.5
+			weaveScale: 2
+			weaveMag: 2
 			damage: 10
 			speed: 4
 			lifetime: 20
@@ -70,7 +70,7 @@
 			reloadMultiplier: 1
 			width: 0
 			height: 0
-			trailColor: EDA666
+			trailColor: CE735E
 			hitEffect: none
 			despawnEffect: none
 			trailWidth: 1

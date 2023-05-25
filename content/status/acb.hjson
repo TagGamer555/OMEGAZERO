@@ -2,6 +2,7 @@
 	type: status
 	name: "[#EDA666]Alpha Chemical Burn[]"
 	damage: 0.4
+	speedMultiplier: 0.85
 	permanent: false
 	alwaysUnlocked: false
 	researchCostMultiplier: 0
