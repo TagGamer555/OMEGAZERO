@@ -49,6 +49,8 @@
 				damage: 0
 				shrinkY: 0.2
 				shrinkX: 0.2
+				keepVelocity: false
+				drag: 0.03
 			}
 		}
 		graphite: {
@@ -80,6 +82,8 @@
 				damage: 0
 				shrinkY: 0.2
 				shrinkX: 0.2
+				keepVelocity: false
+				drag: 0.03
 			}
 		}
 		alpha-item: {
@@ -111,6 +115,8 @@
 				damage: 0
 				shrinkY: 0.2
 				shrinkX: 0.2
+				keepVelocity: false
+				drag: 0.03
 			}
 		}
 	}
