@@ -1,0 +1,13 @@
+{
+	name: Alpha Wall
+	description: A wall made out of Alpha. Very sturdy.
+	type: Wall
+	health: 360
+	insulated: false
+	size: 1
+	requirements: [
+		alpha-item/8
+	]
+	category: defense
+	research: alpha-fuser
+}

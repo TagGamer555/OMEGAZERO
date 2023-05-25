@@ -1,0 +1,51 @@
+{
+	type: liquidTurret
+	name: Tribe
+	description: A small turret, made out of stone, which shoots burst of Oil onto the ground targets.
+	health: 360
+	loopSound: none
+	targetAir: false
+	size: 1
+	outlineColor: 1E1E26
+	squareSprite: false
+	requirements: [
+		metaglass/10
+		stone-item/35
+		titanium/10
+	]
+	category: turret
+	research: minima
+	inaccuracy: 12
+	shootSound: mineDeploy
+	shoot: {
+		type: shootPattern
+		shots: 9
+	}
+	reload: 60
+	recoil: 0.1
+	shootY: 4
+	hasLiquids: true
+	hasItems: false
+	range: 70
+	ammoTypes: {
+		oil: {
+			damage: 0
+			speed: 4
+			lifetime: 30
+			keepVelocity: false
+			drag: 0.03
+			ammoMultiplier: 1
+			reloadMultiplier: 1
+			width: 0
+			height: 0
+			trailColor: 313131
+			hitEffect: none
+			despawnEffect: none
+			trailWidth: 1
+			trailLength: 4
+			status: tarred
+			statusDuration: 120
+			knockback: 0.5
+		}
+	}
+}

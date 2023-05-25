@@ -6,7 +6,7 @@
   "insulated": true,
   "size": 1,
   "requirements": [
-  "ice-item/8"
-]
+    "ice-item/8"
+  ]
   "category": "defense"
 }
