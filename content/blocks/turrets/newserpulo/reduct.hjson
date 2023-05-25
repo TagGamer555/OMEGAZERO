@@ -25,8 +25,8 @@
 	range: 70
 	ammoTypes: {
 		coal: {
-			weaveScale: 3.5
-			weaveMag: 3.5
+			weaveScale: 1.5
+			weaveMag: 1.5
 			damage: 3
 			speed: 4
 			lifetime: 20
@@ -43,8 +43,8 @@
 			statusDuration: 60
 		}
 		pyratite: {
-			weaveScale: 3.5
-			weaveMag: 3.5
+			weaveScale: 1.5
+			weaveMag: 1.5
 			damage: 6
 			speed: 4
 			lifetime: 20
@@ -58,6 +58,24 @@
 			trailWidth: 1
 			trailLength: 4
 			status: burning
+			statusDuration: 120
+		}
+		alpha-item: {
+			weaveScale: 1.5
+			weaveMag: 1.5
+			damage: 10
+			speed: 4
+			lifetime: 20
+			ammoMultiplier: 1
+			reloadMultiplier: 1
+			width: 0
+			height: 0
+			trailColor: EDA666
+			hitEffect: none
+			despawnEffect: none
+			trailWidth: 1
+			trailLength: 4
+			status: acb
 			statusDuration: 120
 		}
 	}

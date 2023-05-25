@@ -1,0 +1,15 @@
+{
+	type: status
+	name: "[#EDA666]Alpha Chemical Burn[]"
+	damage: 0.4
+	permanent: false
+	alwaysUnlocked: false
+	researchCostMultiplier: 0
+	effect: {
+		type: ParticleEffect
+		particles: 2
+		colorFrom: EDA666
+		colorTo: ffffff
+		interp: circleOut
+	}
+}

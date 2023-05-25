@@ -33,7 +33,7 @@
 				type: DrawGlowRegion
 				alpha: 1
 				color: EDA666
-				glowIntensity: 0.3
+				glowIntensity: 0.1
 				glowScale: 1
 			}
 		]
