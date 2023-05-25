@@ -1,7 +1,7 @@
 {
 	type: itemTurret
 	name: Anua
-	description: A small turret, made out of stone, which shoots fast ionised materials.
+	description: "A small turret, made out of stone, which shoots fast ionised materials.\n[scarlet]This turret doesn't acutally has frag, frag has been use to make effects.[]"
 	health: 360
 	size: 1
 	outlineColor: 1E1E26

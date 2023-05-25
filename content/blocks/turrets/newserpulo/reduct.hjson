@@ -34,11 +34,18 @@
 			reloadMultiplier: 1
 			width: 0
 			height: 0
-			trailColor: FF785E
+			trailEffect: {
+				type: ParticleEffect
+				particles: 6	
+				cone: 12
+				length: 5
+				colorFrom: FF785E
+				colorTo: C85C51
+				sizeFrom: 2
+				sizeTo: 0.3
+			}
 			hitEffect: none
 			despawnEffect: none
-			trailWidth: 1
-			trailLength: 4
 			status: burning
 			statusDuration: 60
 		}
@@ -52,11 +59,18 @@
 			reloadMultiplier: 1.2
 			width: 0
 			height: 0
-			trailColor: FFA95F
+			trailEffect: {
+				type: ParticleEffect
+				particles: 6	
+				cone: 12
+				length: 5
+				colorFrom: FFA95F
+				colorTo: D27E47
+				sizeFrom: 2
+				sizeTo: 0.3
+			}
 			hitEffect: none
 			despawnEffect: none
-			trailWidth: 1
-			trailLength: 4
 			status: burning
 			statusDuration: 120
 		}
@@ -70,11 +84,18 @@
 			reloadMultiplier: 1
 			width: 0
 			height: 0
-			trailColor: CE735E
+			trailEffect: {
+				type: ParticleEffect
+				particles: 6	
+				cone: 12
+				length: 5
+				colorFrom: EDA666
+				colorTo: AF4753
+				sizeFrom: 2
+				sizeTo: 0.3
+			}
 			hitEffect: none
 			despawnEffect: none
-			trailWidth: 1
-			trailLength: 4
 			status: acb
 			statusDuration: 120
 		}
