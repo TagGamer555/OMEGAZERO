@@ -1,0 +1,16 @@
+type: BeamNode
+name: Alpha Beam Node
+description: A Beam Node, made of Alpha.
+health: 120
+range: 12
+requirements: [
+alpha/4
+]
+category: power
+research: alpha-fuser
+consumes: {
+powerBuffered: 200
+}
+laserColor1: EDA666
+laserColor2: ffffff
+laserScale: 0.3
