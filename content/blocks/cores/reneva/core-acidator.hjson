@@ -1,24 +1,26 @@
-type: CoreBlock
-name: "Core: Acidator"
-description: "Tier One Core of the Reneva planet. If Core is destroyed, the sector is lost."
-size: 4
-health: 5000
-itemCapacity: 2500
-unitType: lurker
-unitCapModifier: 12
-squareSprite: false
-researchCostMultiplier: 0
-requiresUnlock: false
-alwaysUnlocked: true
-requirements: [
-iron/2000
-calcium/1200
-]
-research: {
-root: true
-name: Reneva
-planet: reneva
-requiresUnlock: false
-alwaysUnlocked: true
+{
+	type: CoreBlock
+	name: "Core: Acidator"
+	description: "Tier One Core of the Reneva planet. If Core is destroyed, the sector is lost."
+	size: 4
+	health: 5000
+	itemCapacity: 2500
+	unitType: lurker
+	unitCapModifier: 12
+	squareSprite: false
+	researchCostMultiplier: 0
+	requiresUnlock: false
+	alwaysUnlocked: true
+	requirements: [
+		iron/2000
+		calcium/1200
+	]
+	research: {
+		root: true
+		name: Reneva
+		planet: reneva
+		requiresUnlock: false
+		alwaysUnlocked: true
+	}
+	category: effect
 }
-category: effect
