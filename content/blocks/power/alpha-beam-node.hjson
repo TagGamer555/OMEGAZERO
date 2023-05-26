@@ -4,7 +4,7 @@ description: A Beam Node, made of Alpha.
 health: 120
 range: 12
 requirements: [
-alpha/4
+alpha-item/4
 ]
 category: power
 research: alpha-fuser
