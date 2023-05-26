@@ -52,4 +52,4 @@ allowWaves: true
 defaultCore: core-acidator
 parent: sun
 solarSystem: sun
-launchCandidates: [core-acidator]
+launchCandidates: []
