@@ -2,4 +2,4 @@ name: Iron
 description: Hard and dense material, used most times as a foundation.
 color: BAB5B0
 research: core-acidator
-envEnabled: 16
+envDisabled: 16

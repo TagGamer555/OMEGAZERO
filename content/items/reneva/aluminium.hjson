@@ -2,4 +2,4 @@ name: Aluminium
 description: Light and durable material, used for advanced things like armor and ammunition.
 color: DAE5E5
 research: rust
-envEnabled: 16
+envDisabled: 16
