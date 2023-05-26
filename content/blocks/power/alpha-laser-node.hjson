@@ -1,0 +1,18 @@
+type: PowerNode
+name: Alpha Laser Node
+description: A Laser Node, made of Alpha.
+health: 80
+laserRange: 8
+maxNodes: 4
+requirements: [
+alpha-item/2
+]
+hasPower: true
+category: power
+research: alpha-fuser
+consumes: {
+powerBuffered: 200
+}
+laserColor1: EDA666
+laserColor2: CE735E
+laserScale: 0.3
