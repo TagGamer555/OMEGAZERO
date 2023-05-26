@@ -10,9 +10,6 @@ alpha-item/2
 hasPower: true
 category: power
 research: alpha-fuser
-consumes: {
-powerBuffered: 200
-}
 laserColor1: EDA666
 laserColor2: CE735E
 laserScale: 0.3
