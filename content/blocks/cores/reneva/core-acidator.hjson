@@ -17,6 +17,7 @@ calcium/1200
 research: {
 root: true
 name: Reneva
+planet: reneva
 requiresUnlock: false
 alwaysUnlocked: true
 }
