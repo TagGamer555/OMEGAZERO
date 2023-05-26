@@ -49,7 +49,7 @@ hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
-defaultCore: core-acidator
+defaultCore: kiky5-core-acidator
 parent: sun
 solarSystem: sun
 launchCandidates: []
