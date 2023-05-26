@@ -6,11 +6,12 @@ range: 12
 requirements: [
 alpha-item/4
 ]
+hasPower: true
 category: power
 research: alpha-fuser
 consumes: {
 powerBuffered: 200
 }
 laserColor1: EDA666
-laserColor2: ffffff
+laserColor2: CE735E
 laserScale: 0.3
