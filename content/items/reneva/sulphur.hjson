@@ -4,3 +4,4 @@ flammability: 0.75
 explosiveness: 0.75
 color: DDC96E
 research: acid-liquid
+envEnabled: 16
