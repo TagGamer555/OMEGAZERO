@@ -19,19 +19,5 @@
 		alpha-item/24
 		silicon/12
 	]
-	drawer: {
-		type: DrawMulti
-		drawers: [
-			{
-				type: DrawRegion
-			}
-			{
-				type: DrawGlowRegion
-				alpha: 1
-				color: EDA666
-				glowIntensity: 0.1
-				glowScale: 1
-			}
-		]
-	}
+	category: production
 }
