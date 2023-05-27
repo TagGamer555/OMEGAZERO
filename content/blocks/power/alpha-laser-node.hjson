@@ -3,7 +3,7 @@ name: Alpha Laser Node
 description: A Laser Node, made of Alpha.
 health: 80
 laserRange: 8
-maxNodes: 4
+maxNodes: 8
 requirements: [
 alpha-item/2
 ]
