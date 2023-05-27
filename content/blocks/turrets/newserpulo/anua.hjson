@@ -1,7 +1,7 @@
 {
 	type: itemTurret
 	name: Anua
-	description: "A small turret, made out of stone, which shoots fast ionised materials.\n[scarlet]This turret doesn't acutally has frag, frag has been used to make effects.[]"
+	description: A small turret, made out of stone, which shoots fast ionised materials.
 	health: 360
 	size: 1
 	outlineColor: 1E1E26
@@ -33,26 +33,20 @@
 			trailColor: 2CFF77
 			trailWidth: 1
 			trailLength: 3
-			hitEffect: none
-			despawnEffect: none
-			fragBullets: 3
-			fragBullet: {
-				sprite: kiky5-star-bullet
-				despawnEffect: none
-				hitEffect: none
-				collidesAir: false
-				collidesGround: false
-				lifetime: 20
-				speed: 4
-				hittable: false
-				absorbable: false
-				damage: 0
-				shrinkY: 0
-				keepVelocity: false
-				drag: 0.3
-				frontColor: 2CFF77
-				backColor: 2CFF77
+			hitEffect: {
+				type: ParticleEffect
+				lifetime: 60
+				length: 0
+				speed: 0
+				sizeFrom: 18
+				sizeTo: 0
+				particles: 1
+				lightColor: 2CFF77
+				colorFrom: ffffff
+				colorTo: 2CFF77
+				region: kiky5-star-bullet
 			}
+			despawnEffect: none
 		}
 		graphite: {
 			damage: 10
@@ -67,27 +61,20 @@
 			trailColor: ACE4FC
 			trailWidth: 1
 			trailLength: 3
-			hitEffect: none
-			despawnEffect: none
-			fragBullets: 3
-			fragBullet: {
-				sprite: kiky5-star-bullet
-				despawnEffect: none
-				hitEffect: none
-				collidesAir: false
-				collidesGround: false
-				lifetime: 20
-				speed: 4
-				hittable: false
-				absorbable: false
-				damage: 0
-				shrinkY: 0.2
-				shrinkX: 0.2
-				keepVelocity: false
-				drag: 0.3
-				frontColor: ACE4FC
-				backColor: ACE4FC
+			hitEffect: {
+				type: ParticleEffect
+				lifetime: 60
+				length: 0
+				speed: 0
+				sizeFrom: 18
+				sizeTo: 0
+				particles: 1
+				lightColor: ACE4FC
+				colorFrom: ffffff
+				colorTo: ACE4FC
+				region: kiky5-star-bullet
 			}
+			despawnEffect: none
 		}
 		alpha-item: {
 			damage: 20
@@ -102,27 +89,20 @@
 			trailColor: FFBB7F
 			trailWidth: 1
 			trailLength: 3
-			hitEffect: none
-			despawnEffect: none
-			fragBullets: 3
-			fragBullet: {
-				sprite: kiky5-star-bullet
-				despawnEffect: none
-				hitEffect: none
-				collidesAir: false
-				collidesGround: false
-				lifetime: 20
-				speed: 4
-				hittable: false
-				absorbable: false
-				damage: 0
-				shrinkY: 0.2
-				shrinkX: 0.2
-				keepVelocity: false
-				drag: 0.3
-				frontColor: FFBB7F
-				backColor: FFBB7F
+			hitEffect: {
+				type: ParticleEffect
+				lifetime: 60
+				length: 0
+				speed: 0
+				sizeFrom: 18
+				sizeTo: 0
+				particles: 1
+				lightColor: FFBB7F
+				colorFrom: ffffff
+				colorTo: FFBB7F
+				region: kiky5-star-bullet
 			}
+			despawnEffect: none
 		}
 	}
 }
