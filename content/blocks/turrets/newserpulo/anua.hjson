@@ -46,7 +46,17 @@
 				colorTo: 2CFF77
 				region: kiky5-star-bullet
 			}
-			despawnEffect: none
+			despawnEffect: {
+				type: ParticleEffect
+				lifetime: 60
+				length: 0
+				sizeFrom: 18
+				particles: 1
+				lightColor: ACE4FC
+				colorFrom: ffffff
+				colorTo: ACE4FC
+				region: kiky5-star-bullet
+			}
 		}
 		graphite: {
 			damage: 10
@@ -65,16 +75,24 @@
 				type: ParticleEffect
 				lifetime: 60
 				length: 0
-				speed: 0
 				sizeFrom: 18
-				sizeTo: 0
 				particles: 1
 				lightColor: ACE4FC
 				colorFrom: ffffff
 				colorTo: ACE4FC
 				region: kiky5-star-bullet
 			}
-			despawnEffect: none
+			despawnEffect: {
+				type: ParticleEffect
+				lifetime: 60
+				length: 0
+				sizeFrom: 18
+				particles: 1
+				lightColor: ACE4FC
+				colorFrom: ffffff
+				colorTo: ACE4FC
+				region: kiky5-star-bullet
+			}
 		}
 		alpha-item: {
 			damage: 20
@@ -102,7 +120,17 @@
 				colorTo: FFBB7F
 				region: kiky5-star-bullet
 			}
-			despawnEffect: none
+			despawnEffect: {
+				type: ParticleEffect
+				lifetime: 60
+				length: 0
+				sizeFrom: 18
+				particles: 1
+				lightColor: ACE4FC
+				colorFrom: ffffff
+				colorTo: ACE4FC
+				region: kiky5-star-bullet
+			}
 		}
 	}
 }
