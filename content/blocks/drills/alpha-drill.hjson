@@ -1,0 +1,37 @@
+{
+	name: Alpha Drill
+	description: A slow drill, made out of Alpha. Can store cast amounts of items.
+	type: Drill
+	size: 2
+	itemCapacity: 10
+	tier: 3
+	drillTime: 360
+	drawMineItem: true
+	consumes: {
+		liquid: {
+			liquid: water
+			amount: 0.06
+			optional: true
+			booster: true
+		}
+	}
+	requirements: [
+		alpha-item/24
+		silicon/12
+	]
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: EDA666
+				glowIntensity: 0.1
+				glowScale: 1
+			}
+		]
+	}
+}
