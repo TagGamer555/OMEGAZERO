@@ -38,7 +38,7 @@
 				lifetime: 60
 				length: 0
 				speed: 0
-				sizeFrom: 18
+				sizeFrom: 8
 				sizeTo: 0
 				particles: 1
 				lightColor: 2CFF77
@@ -50,11 +50,11 @@
 				type: ParticleEffect
 				lifetime: 60
 				length: 0
-				sizeFrom: 18
+				sizeFrom: 8
 				particles: 1
-				lightColor: ACE4FC
+				lightColor: 2CFF77
 				colorFrom: ffffff
-				colorTo: ACE4FC
+				colorTo: 2CFF77
 				region: kiky5-star-bullet
 			}
 		}
@@ -75,7 +75,7 @@
 				type: ParticleEffect
 				lifetime: 60
 				length: 0
-				sizeFrom: 18
+				sizeFrom: 8
 				particles: 1
 				lightColor: ACE4FC
 				colorFrom: ffffff
@@ -86,7 +86,7 @@
 				type: ParticleEffect
 				lifetime: 60
 				length: 0
-				sizeFrom: 18
+				sizeFrom: 8
 				particles: 1
 				lightColor: ACE4FC
 				colorFrom: ffffff
@@ -112,7 +112,7 @@
 				lifetime: 60
 				length: 0
 				speed: 0
-				sizeFrom: 18
+				sizeFrom: 8
 				sizeTo: 0
 				particles: 1
 				lightColor: FFBB7F
@@ -124,11 +124,11 @@
 				type: ParticleEffect
 				lifetime: 60
 				length: 0
-				sizeFrom: 18
+				sizeFrom: 8
 				particles: 1
-				lightColor: ACE4FC
+				lightColor: FFBB7F
 				colorFrom: ffffff
-				colorTo: ACE4FC
+				colorTo: FFBB7F
 				region: kiky5-star-bullet
 			}
 		}
