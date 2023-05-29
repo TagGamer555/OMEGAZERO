@@ -13,7 +13,7 @@
 	]
 	category: turret
 	research: minima
-	shootSound: payloadDrop
+	shootSound: plasmaDrop
 	inaccuracy: 0
 	reload: 180
 	recoil: 0.5
@@ -32,6 +32,12 @@
 			damage: 10
 			speed: 2
 			lifetime: 90
+			shrinkY: 0
+			shrinkX: -2
+			shootEffect: none
+			smokeEffect: none
+			hitEffect: none
+			despawnEffect: none
 		}
 	}
 }
