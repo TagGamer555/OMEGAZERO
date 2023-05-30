@@ -1,0 +1,90 @@
+{
+	name: Vanguard
+	description: More powerful version of Breach.
+	type: ItemTurret
+	category: turret
+	
+	requirements: [
+		beryllium/250
+		silicon/200
+		graphite/350
+		tungsten/75
+	]
+	
+	research: breach
+	outlineColor: 2D2F39
+	shootSound: shootAlt
+	squareSprite: false
+	inaccuracy: 0
+	ammoTypes: {
+		beryllium: {
+			hitColor: 92DD7E
+			trailColor: 92DD7E
+			backColor: 92DD7E
+			frontColor: ffffff
+			hitEffect: hitBulletColor
+			despawnEffect: hitBulletColor
+			buildingDamageMultiplier: 0.3
+			damage: 85
+			width: 12
+			hitSize: 7
+			height: 20
+			shootEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: shootBigColor
+						color: 92DD7E
+					}
+					{
+						type: colorSparkBig
+						color: 92DD7E
+					}
+				]
+			}
+			smokeEffect: shootBigSmoke
+			ammoMultiplier: 1
+			pierceCap: 2
+			pierce: true
+			pierceBuilding: true
+			trailWidth: 2.1
+			trailLegth: 10
+		}
+		tungsten: {
+			hitColor: A0B0C8
+			trailColor: A0B0C8
+			backColor: A0B0C8
+			frontColor: ffffff
+			hitEffect: hitBulletColor
+			despawnEffect: hitBulletColor
+			buildingDamageMultiplier: 0.3
+			damage: 95
+			width: 13
+			hitSize: 7
+			height: 19
+			shootEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: shootBigColor
+						color: A0B0C8
+					}
+					{
+						type: colorSparkBig
+						color: A0B0C8
+					}
+				]
+			}
+			smokeEffect: shootBigSmoke
+			ammoMultiplier: 1
+			pierceCap: 3
+			pierce: true
+			pierceBuilding: true
+			trailWidth: 2.2
+			trailLegth: 11
+			rangeChange: 40
+		}
+	}
+	
+	coolantMultiplier: 6
+}
