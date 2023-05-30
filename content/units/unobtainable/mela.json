@@ -7,6 +7,8 @@
   "canBoost": true,
   "boostSpeedMultiplier": 1.2,
   "health": 600,
+  "buildSpeed": 3,
+  "mineSpeed": 6,
   "weapons": [
     {
 	  "name": "mela-weapon",
@@ -21,9 +23,9 @@
         "type": "LaserBoltBulletType",
         "speed": 5,
         "damage": 24,
-        "healPercent": 0.1,
+        "healPercent": 5,
         "collidesTeam": true,
-        "lifetime": 40,
+        "lifetime": 35,
         "shootEffect": "shootSmall",
         "smokeEffect": "shootSmallSmoke",
         "hitColor": "A0B0C8"
