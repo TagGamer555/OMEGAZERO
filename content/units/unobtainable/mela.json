@@ -2,10 +2,12 @@
   "type": "mech",
   "name": "Mela",
   "description": "Alternate of Nova.",
-  "speed": 0.7,
+  "speed": 0.6,
   "flying": false,
   "canBoost": true,
-  "boostSpeedMultiplier": 1.2,
+  "engineSize": 5,
+  "engineOffset": -0.5,
+  "itemCapacity": 40,
   "health": 600,
   "buildSpeed": 3,
   "mineSpeed": 6,
@@ -33,5 +35,20 @@
         "frontColor": "ffffff"
       }
     }
+  ],
+  "abilities": [
+    {
+      "type": "RepairFieldAbility", 
+      "range": 40,
+      "amount": 30,
+      "reload": 180,
+      "activeEffect": {
+        "type": "WaveEffect",
+        "sizeFrom": 0,
+        "sizeTo": 20,
+        "colorFrom": "ffffff",
+        "colorTo": "ffffff"
+      }
+    },
   ]
 }
