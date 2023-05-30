@@ -10,7 +10,7 @@
   "weapons": [
     {
 	  "name": "mela-weapon",
-      "x": 3,
+      "x": 4,
       "y": 0,
       "reload": 60,
       "mirror": true,
