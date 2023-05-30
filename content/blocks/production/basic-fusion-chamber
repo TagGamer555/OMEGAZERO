@@ -22,7 +22,7 @@
 	hasItems: true
 	
 	consumes: {
-		liquid: water/3
+		liquid: water/0.3
 		power: 2
 		items: {
 			items: [
