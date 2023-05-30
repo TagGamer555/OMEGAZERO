@@ -5,8 +5,6 @@
   "speed": 0.6,
   "flying": false,
   "canBoost": true,
-  "engineSize": 5,
-  "engineOffset": -0.5,
   "itemCapacity": 40,
   "health": 600,
   "buildSpeed": 3,

@@ -1,0 +1,16 @@
+type: battery
+name: Advanced Transistor
+description: A transistor, capable of storing some power. Very armored.
+size: 1
+category: power
+health: 420
+consumes: {
+powerBuffered: 400
+}
+requirements: [
+copper/15
+lead/12
+silicon/4
+titanium/10
+]
+research: basic-transistor

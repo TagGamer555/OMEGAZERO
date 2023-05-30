@@ -1,0 +1,16 @@
+type: battery
+name: Armored Transistor
+description: A transistor, capable of storing some power. Exceptionally armored.
+size: 1
+category: power
+health: 600
+consumes: {
+powerBuffered: 350
+}
+requirements: [
+metaglass/6
+thorium/14
+silicon/2
+graphite/8
+]
+research: advanced-transistor
