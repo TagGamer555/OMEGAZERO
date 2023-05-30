@@ -13,7 +13,7 @@
 	]
 	category: turret
 	research: minima
-	shootSound: plasmaDrop
+	shootSound: plasmadrop
 	inaccuracy: 0
 	reload: 180
 	recoil: 0.5

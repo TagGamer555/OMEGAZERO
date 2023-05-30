@@ -1,0 +1,15 @@
+type: battery
+name: Large Transistor
+description: A larger transistor, capable of storing lots of power. Highly armored.
+size: 1
+category: power
+health: 1200
+consumes: {
+powerBuffered: 800
+}
+requirements: [
+lead/32
+graphite/24
+silicon/16
+]
+research: basic-transistor

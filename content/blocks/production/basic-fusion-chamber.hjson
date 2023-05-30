@@ -1,0 +1,41 @@
+{
+	type: ImpactCrafter
+	name: Basic Fusion Chamber
+	description: Fuses Alpha and Water to produce Titanium. Requires power to start up. After startup, can generate power on it's own.
+	
+	health: 400
+	size: 2
+	itemCapacity: 10
+	liquidCapacity: 10
+	itemDuration: 60
+	warmupSpeed: 0.01
+	explosionRadius: 6
+	explosionDamage: 300
+	ambientSoundVolume: 0.05
+	powerProduction: 6
+	
+	ambientSound: pulse
+	
+	squareSprite: false
+	hasPower: true
+	hasLiquids: true
+	hasItems: true
+	
+	consumes: {
+		liquid: water/3
+		item: alpha-item/1
+		power: 2
+	}
+	
+	outputItem: {
+		item: titanium
+		amount: 1
+	}
+	
+	requirements: [
+		graphite/30
+		titanium/20
+		silicon/10
+		alpha-item/20
+	]
+}
