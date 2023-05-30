@@ -23,8 +23,12 @@
 	
 	consumes: {
 		liquid: water/3
-		item: alpha-item/1
 		power: 2
+		items: {
+			items: [
+				alpha-item/1
+			]
+		}
 	}
 	
 	outputItem: {
