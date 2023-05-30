@@ -1,0 +1,35 @@
+{
+  "type": "mech",
+  "name": "Mela",
+  "description": "Alternate of Nova.",
+  "speed": 0.7,
+  "flying": false,
+  "canBoost": true,
+  "boostSpeedMultiplier": 1.2,
+  "health": 600,
+  "weapons": [
+    {
+	  "name": "mela-weapon",
+      "x": 4.5,
+      "y": 0,
+      "reload": 60,
+      "mirror": true,
+      "alternate": false,
+	  "inaccuracy": 0,
+	  "top": true,
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "speed": 5,
+        "damage": 24,
+        "healPercent": 0.1,
+        "collidesTeam": true,
+        "lifetime": 40,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "hitColor": "A0B0C8"
+        "backColor": "A0B0C8",
+        "frontColor": "ffffff"
+      }
+    }
+  ]
+}
