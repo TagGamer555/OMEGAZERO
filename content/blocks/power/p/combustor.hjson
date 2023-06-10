@@ -4,6 +4,7 @@
 	type: ConsumeGenerator
 	powerProduction: 4
 	itemDuration: 90
+	squareSprite: false
 	
 	ambientSound: smelter
 	ambientSoundVolume: 0.05
@@ -34,7 +35,7 @@
 				type: DrawGlowRegion
 				alpha: 1
 				color: D1D6DF
-				glowIntensity: 0.1
+				glowIntensity: 0.4
 				glowScale: 1
 			}
 		]
