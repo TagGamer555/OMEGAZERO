@@ -3,6 +3,7 @@
 	name: Basic Cryofluid Mixer
 	description: Harness the power of Fluxite to harness the power of Cryofluid.
 	size: 2
+	squareSprite: false
 	drawer: {
 		type: DrawMulti
 		drawers: [
@@ -13,7 +14,7 @@
 			{
 				type: DrawLiquidTile
 				drawLiquid: cryofluid
-				liquidPadding: 1.5
+				alpha: 1.5
 			}
 			{
 				type: DrawDefault
