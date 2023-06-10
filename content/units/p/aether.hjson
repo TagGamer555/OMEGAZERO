@@ -1,0 +1,50 @@
+{
+	type: flying
+	flying: true
+	name: Aether
+	description: "Tier 2 drone of [#DAE0E5]Valkyrie[] class. Shoots close-ranged starflames."
+	lowAltitude: true
+	health: 440
+	armor: 2
+	speed: 3.2
+	drag: 0.04
+	accel: 0.08
+	itemCapacity: 20
+	trailLength: 12
+
+	weapons: [
+		{
+			name: aether-weapon
+			x: 0
+			y: 0
+			mirror: false
+			alternate: false
+			reload: 10
+			top: true
+			shootSound: flame
+			inaccuracy: 10
+			shoot: {
+				type: ShootPattern
+				shots: 3
+			}
+			bullet: {
+				type: RegularBulletType
+				sprite: kiky5-star-bullet
+				frontColor: DAE0E5
+				backColor: ffffff
+				lifetime: 30
+				drag: 0.03
+				hitEffect: none
+				shootEffect: none
+				despawnEffect: none
+				smokeEffect: none
+				speed: 5
+				damage: 20
+				shrinkY: 0.5
+				shrinkX: 0.5
+				width: 4
+				height: 4
+			}
+		}
+	]
+}
