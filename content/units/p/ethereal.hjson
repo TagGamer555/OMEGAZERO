@@ -46,12 +46,13 @@
 				collideGround: false
 				shrinkY: 0.5
 				shrinkX: 0.5
-				width: 12
-				height: 12
+				width: 20
+				height: 20
 				fragBullets: 1
 				fragBullet: {
 					damage: 0
 					lifetime: 0
+					speed: 0
 					width: 0
 					height: 0
 					splashDamage: 45
@@ -60,7 +61,7 @@
 						type: ParticleEffect
 						lifetime: 60
 						length: 0
-						sizeFrom: 8
+						sizeFrom: 20
 						particles: 1
 						lightColor: DAE0E5
 						colorFrom: ffffff
