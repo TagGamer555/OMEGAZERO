@@ -1,7 +1,7 @@
 type: battery
 name: Large Transistor
 description: A larger transistor, capable of storing lots of power. Highly armored.
-size: 1
+size: 2
 category: power
 health: 1200
 consumes: {
