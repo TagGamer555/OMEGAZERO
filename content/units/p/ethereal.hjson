@@ -1,0 +1,54 @@
+{
+	type: flying
+	flying: true
+	name: Ethereal
+	description: Tier 1 drone of [#DAE0E5]Valkyrie[] class. Uses markings, that summon lasers down from the sky.
+	lowAltitude: true
+	health: 220
+	speed: 3
+	drag: 0.04
+	accel: 0.08
+	armor: 0
+	itemCapacity: 10
+	trailLength: 10
+	targetAir: false
+
+	weapons: [
+		{
+			x: 0
+			y: 0
+			mirror: false
+			alternate: false
+			reload: 60
+			top: true
+			shootSound: blaster
+			inaccuracy: 30
+			bullet: {
+				type: RegularBulletType
+				sprite: kiky5-mark-bullet
+				frontColor: DAE0E5
+				backColor: ffffff
+				lifetime: 120
+				drag: 0.09
+				hitEffect: none
+				shootEffect: none
+				despawnEffect: none
+				smokeEffect: none
+				speed: 10
+				damage: 0
+				absorbable: false
+				inaccuracy: 30
+				collideAir: false
+				collideGround: false
+				fragBullets: 1
+				fragBullet: {
+					lifetime: 0
+					width: 0
+					height: 0
+					splashDamage: 45
+					splashDamageRadius: 30
+				}
+			}
+		}
+	]
+}
