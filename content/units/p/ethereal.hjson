@@ -2,7 +2,7 @@
 	type: flying
 	flying: true
 	name: Ethereal
-	description: Tier 1 drone of [#DAE0E5]Valkyrie[] class. Uses markings, that summon lasers down from the sky.
+	description: "Tier 1 drone of [#DAE0E5]Valkyrie[] class. Uses markings, that summon lasers down from the sky."
 	lowAltitude: true
 	health: 220
 	speed: 3
