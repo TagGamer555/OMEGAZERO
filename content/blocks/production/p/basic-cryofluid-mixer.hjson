@@ -1,0 +1,62 @@
+{
+	type: GenericCrafter
+	name: Basic Cryofluid Mixer
+	description: Harness the power of Fluxite to harness the power of Cryofluid.
+	size: 2
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawLiquidTile
+				drawLiquid: cryofluid
+				liquidPadding: 1.5
+			}
+			{
+				type: DrawDefault
+			}
+			{
+				type: DrawRegion
+				spinSprite: true
+				rotateSpeed: 2
+				suffix: -rotator
+			}
+			{
+				type: DrawRegion
+				suffix: -top
+			}
+		]
+	}
+	
+	hasPower: true
+	hasItems: true
+	hasLiquids: true
+	craftTime: 60
+	itemCapacity: 10
+	consumes: {
+		power: 1.5
+		items: {
+			items: [
+				fluxite/3
+			]
+		}
+		liquid: water/1
+	}
+	
+	outputLiquid: {
+		liquid: cryofluid
+		amount: 0.5
+	}
+	
+	research: fluxite
+	category: crafting
+	
+	requirements: [
+		fluxite/40
+		sand/10
+		graphite/30
+	]
+}
