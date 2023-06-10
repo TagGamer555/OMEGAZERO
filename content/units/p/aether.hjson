@@ -11,6 +11,7 @@
 	accel: 0.08
 	itemCapacity: 20
 	trailLength: 12
+	size: 8
 
 	weapons: [
 		{
@@ -35,15 +36,13 @@
 				lifetime: 30
 				drag: 0.03
 				hitEffect: none
-				shootEffect: none
 				despawnEffect: none
-				smokeEffect: none
 				speed: 5
 				damage: 20
-				shrinkY: 0.5
-				shrinkX: 0.5
-				width: 4
-				height: 4
+				shrinkY: -1
+				shrinkX: -1
+				width: 8
+				height: 8
 			}
 		}
 	]
