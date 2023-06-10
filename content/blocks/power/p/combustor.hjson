@@ -2,10 +2,11 @@
 	name: Combustor
 	description: Larger and more powerful combustion generator.
 	type: ConsumeGenerator
-	powerProduction: 4
+	powerProduction: 4.25
 	itemDuration: 90
 	squareSprite: false
 	
+	category: power
 	ambientSound: smelter
 	ambientSoundVolume: 0.05
 	
