@@ -11,7 +11,7 @@
 	accel: 0.08
 	itemCapacity: 20
 	trailLength: 12
-	size: 8
+	hitSize: 8
 
 	weapons: [
 		{
@@ -35,14 +35,34 @@
 				backColor: ffffff
 				lifetime: 30
 				drag: 0.03
-				hitEffect: none
-				despawnEffect: none
+				hitEffect: {
+					type: ParticleEffect
+					lifetime: 60
+					length: 0
+					sizeFrom: 4
+					particles: 1
+					lightColor: DAE0E5
+					colorFrom: ffffff
+					colorTo: DAE0E5
+					region: kiky5-star-bullet
+				}
+				despawnEffect: {
+					type: ParticleEffect
+					lifetime: 60
+					length: 0
+					sizeFrom: 4
+					particles: 1
+					lightColor: DAE0E5
+					colorFrom: ffffff
+					colorTo: DAE0E5
+					region: kiky5-star-bullet
+				}
 				speed: 5
 				damage: 20
-				shrinkY: -1
-				shrinkX: -1
-				width: 8
-				height: 8
+				shrinkY: -0.75
+				shrinkX: -0.75
+				width: 5
+				height: 5
 			}
 		}
 	]
