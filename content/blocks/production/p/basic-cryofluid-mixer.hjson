@@ -14,7 +14,7 @@
 			{
 				type: DrawLiquidTile
 				drawLiquid: cryofluid
-				alpha: 1
+				drawLiquidPadding: 1.5
 			}
 			{
 				type: DrawDefault
@@ -44,12 +44,12 @@
 				fluxite/3
 			]
 		}
-		liquid: water/1
+		liquid: water/0.1
 	}
 	
 	outputLiquid: {
 		liquid: cryofluid
-		amount: 0.5
+		amount: 0.05
 	}
 	
 	research: fluxite
