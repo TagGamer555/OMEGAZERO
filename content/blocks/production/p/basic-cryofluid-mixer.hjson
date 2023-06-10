@@ -12,9 +12,9 @@
 				suffix: -bottom
 			}
 			{
-				type: DrawLiquidTile
+				type: DrawLiquidRegion
 				drawLiquid: cryofluid
-				alpha: 1
+				suffix: -liquid
 			}
 			{
 				type: DrawDefault
