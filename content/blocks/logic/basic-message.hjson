@@ -1,0 +1,16 @@
+{
+	type: MessageBlock
+	name: Basic Message
+	description: Message that is made out of basic materials. Stores more text.
+	health: 160
+
+	requirements: [
+		copper/6
+	]
+
+	maxNewlines: 64
+	maxTextLength: 440
+
+	category: logic
+	research: micro-processor
+}
