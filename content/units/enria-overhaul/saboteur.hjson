@@ -46,7 +46,7 @@
 			drawCell: true
 			reload: 30
 			mirror: false
-			rotate: false
+			rotate: true
 			inaccuracy: 10
 			bullet: {
 				damage: 30
