@@ -1,14 +1,14 @@
 {
 	type: itemTurret
 	name: Anua
-	description: A small turret, made out of stone, which shoots fast ionised materials.
+	description: A small turret, made out of alpha, which shoots fast ionised materials.
 	health: 360
 	size: 1
 	outlineColor: 1E1E26
 	squareSprite: false
 	requirements: [
-		alpha-item/20
-		stone-item/35
+		alpha-item/35
+		lead/20
 		silicon/30
 	]
 	category: turret

@@ -1,7 +1,7 @@
 {
 	type: liquidTurret
 	name: Tribe
-	description: A small turret, made out of stone, which shoots burst of Oil onto the ground targets.
+	description: A small turret, made out of alpha, which shoots burst of Oil onto the ground targets.
 	health: 360
 	loopSound: none
 	targetAir: false
@@ -10,7 +10,7 @@
 	squareSprite: false
 	requirements: [
 		metaglass/10
-		stone-item/35
+		alpha-item/35
 		titanium/10
 	]
 	category: turret

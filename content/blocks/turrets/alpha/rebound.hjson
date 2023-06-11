@@ -1,14 +1,14 @@
 {
 	type: itemTurret
 	name: Rebound
-	description: A small turret, made out of stone, which shoots slow-moving sound waves.
+	description: A small turret, made out of alpha, which shoots slow-moving sound waves.
 	health: 360
 	size: 1
 	outlineColor: 1E1E26
 	squareSprite: false
 	requirements: [
 		alpha-item/20
-		stone-item/35
+		graphite/35
 		metaglass/30
 	]
 	category: turret

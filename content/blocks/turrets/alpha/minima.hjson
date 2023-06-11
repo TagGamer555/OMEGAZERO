@@ -1,14 +1,14 @@
 {
 	type: itemTurret
 	name: Minima
-	description: A small turret, made out of stone, which shoots some fast bullets.
+	description: A small turret, made out of alpha, which shoots some fast bullets.
 	health: 360
 	size: 1
 	outlineColor: 1E1E26
 	squareSprite: false
 	requirements: [
 		copper/20
-		stone-item/35
+		alpha-item/35
 		silicon/10
 	]
 	category: turret
