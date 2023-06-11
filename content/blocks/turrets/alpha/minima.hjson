@@ -30,7 +30,7 @@
 			trailWidth: 1
 			trailLength: 3
 		}
-		stone-item: {
+		graphite: {
 			damage: 12
 			speed: 11.25
 			reloadMultiplier: 0.9
@@ -38,7 +38,7 @@
 			lifetime: 8
 			width: 0
 			height: 0
-			trailColor: 646464
+			trailColor: ACE4FC
 			trailWidth: 1.25
 			trailLength: 3
 			knockback: 0.1
