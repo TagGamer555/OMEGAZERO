@@ -1,0 +1,59 @@
+{
+	type: flying
+	flying: false
+	name: Saboteur
+	description: Small hovering unit with weak machine gun.
+	hovering: true
+	lowAltitude: false
+	engineSize: 0
+	health: 240
+	speed: 1.75
+	drag: 0.04
+	accel: 0.08
+	armor: 2
+	itemCapacity: 10
+	rotateSpeed: 5
+	parts: [
+		{
+			type: HoverPart
+			mirror: true
+			x: 3.5
+			y: 3.5
+			radius: 5
+			phase: 170
+			color: FFE08F
+			stroke: 2
+			layerOffset: -0.001
+		}
+		{
+			type: HoverPart
+			mirror: true
+			x: 3.5
+			y: -3.5
+			radius: 5
+			phase: 170
+			color: FFE08F
+			stroke: 2
+			layerOffset: -0.001
+		}
+	]
+	
+	weapons: [
+		{
+			name: saboteur-weapon
+			x: 0
+			y: 0
+			drawCell: true
+			reload: 30
+			mirror: false
+			inaccuracy: 10
+			bullet: {
+				damage: 30
+				buildingDamageMultiplier: 0.333333333333333333
+				speed: 5
+				width: 6
+				height: 8
+			}
+		}
+	]
+}
