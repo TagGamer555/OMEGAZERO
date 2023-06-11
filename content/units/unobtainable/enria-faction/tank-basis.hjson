@@ -1,9 +1,0 @@
-type: tank
-speed: 0.3
-treadPullOffset: 3
-health: 240
-itemCapacity: 0
-rotateSpeed: 3.5
-name: Tank
-armor: 4
-controller: attackerAi

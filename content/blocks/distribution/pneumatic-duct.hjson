@@ -1,9 +1,0 @@
-type: Duct
-name: Pneumatic Duct
-description: A duct that uses pneumatic force to push items forward.
-requirements: [
-copper/2
-graphite/2
-]
-speed: 4
-health: 35

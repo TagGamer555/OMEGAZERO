@@ -1,7 +1,0 @@
-type: mech
-speed: 0.325
-health: 150
-itemCapacity: 0
-name: Mech
-armor: 0
-controller: attackerAi

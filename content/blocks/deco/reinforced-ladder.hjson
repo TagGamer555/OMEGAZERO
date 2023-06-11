@@ -1,8 +1,0 @@
-{
-type: Wall
-health: 40
-name: Reinforced Ladder
-category: effect
-solid: false
-buildVisibility: sandboxOnly
-}

@@ -1,11 +1,11 @@
 name: "kiky5"
-subtitle: ":)"
+subtitle: "Now polished!"
 displayName: "[orange]OMEGA[][purple]ZERO[]"
 description: "This mod is currently INDEV! Come back later if you wish to play the [red]F[][yellow]U[][green]L[][blue]L[] version, haha.\nCurrently it adds shh tonn of garbage OP content, along with some new [orange]RP[] stuff!\nOh and by the way. All the sprites I used are from vanilla. Only some I modified... So, if you want to copy the vanilla sprites without that billinear BS (*angry noises* WHY ANUKE???) you can feel free to copy some, just don't forget that you can't make money with them (or Anuke will turn you into billinear mess)\nJK, have fun playing mod lmao."
-author: "[lime]KillerIKY - lead dev\n[orange]Fresh791 - great help with code structures\n[coral]Renale - testing and some ideas\n[darkgray]ChatGPT - i was lazy"
+author: "[lime]KillerIKY - lead dev\n[coral]Renale - testing and some ideas\n[darkgray]ChatGPT - i was lazy\nAlvar - balancing\nNeonFlames - helped with getting used to GitHub"
 minGameVersion: "136"
-version: "OMEGAxZEROnum2"
+version: "003"
 main: "kiky5.kiky5Mod"
-java: false //maybe not xd
+java: false
 
 //Hello! If you want to copy some scripts, don't forget to mention me in your credit zone! THX.

@@ -1,8 +1,0 @@
-type: material
-name: "Cobalt"
-description: "Raw blue cobalt."
-cost: 1
-color: 5D6396
-envEnabled: 16
-envEnabled: 0
-

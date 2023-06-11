@@ -1,9 +1,0 @@
-{
-  "name": "Tungsten Source",
-  "type": "Wall",
-  "health": 600,
-  "itemDrop": "tungsten",
-  "size": 1,
-  "buildVisibility": "sandboxOnly",
-  "category": "defense"
-}

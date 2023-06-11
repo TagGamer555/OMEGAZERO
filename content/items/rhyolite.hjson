@@ -1,8 +1,0 @@
-type: material
-name: "Rhyolite"
-description: "Dirt-colored space rock."
-cost: 0.8
-color: 623C35
-envEnabled: 16
-envEnabled: 0
-

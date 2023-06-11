@@ -1,8 +1,0 @@
-type: mech
-speed: 0.375
-canBoost: true
-health: 125
-itemCapacity: 0
-name: Jetpack
-armor: 0
-controller: attackerAi
