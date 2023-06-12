@@ -7,7 +7,7 @@
 	powerProduction: 2
 	itemDuration: 60
 	consumes: {
-		water: 0.1
+		liquid: water/0.1
 	}
 	outputLiquid: {
 		liquid: water
