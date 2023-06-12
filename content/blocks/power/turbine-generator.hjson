@@ -24,7 +24,7 @@
 		fluxite/30
 		lead/20
 		metaglass/10
-		alpha/8
+		alpha-item/8
 	]
 	drawer: {
 		type: DrawMulti
