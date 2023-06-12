@@ -1,7 +1,7 @@
 {
 	type: ConsumeGenerator
 	name: Turbine Generator
-	description: Request by [coral]Renale[]. Uses water to spin the turbines, generating power. [maroon]Returns 50% of inputted water.[]
+	description: "Request by [coral]Renale[]. Uses water to spin the turbines, generating power. [maroon]Returns 50% of inputted water.[]"
 	health: 350
 	size: 2
 	powerProduction: 2
