@@ -1,0 +1,12 @@
+{
+	type: ConnectWall
+	name: Barricade
+	description: A barricade, made out of sand.
+	health: 200
+	requirements: [
+		sand/10
+		lead/4
+	]
+	research: copper-wall
+	category: defense
+}
