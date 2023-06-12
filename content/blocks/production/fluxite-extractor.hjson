@@ -1,0 +1,55 @@
+{
+	type: GenericCrafter
+	name: Fluxite Extractor
+	description: Extracts Fluxite deep underground. Uses burnable items as fuel. Produces sand as by-product.
+	
+	consumes: {
+		itemFlammable: {}
+	}
+	
+	size: 3
+	squareSprite: false
+	research: alpha-fuser
+	craftTime: 180
+	category: production
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawRegion
+				spinSprite: true
+				rotateSpeed: 2
+				suffix: -rotator
+			}
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: true
+	itemCapacity: 10
+	health: 440
+	
+	requirements: [
+		copper/60
+		lead/40
+		alpha-item/12
+	]
+	
+	outputItems: [
+		{
+			item: sand
+			amount: 3
+		}
+		{
+			item: fluxite
+			amount: 1
+		}
+	]
+}
