@@ -35,7 +35,7 @@
 			}
 			{
 				type: DrawLiquidTile
-				liquid: water
+				drawLiquid: water
 			}
 			{
 				type: DrawRegion
