@@ -1,0 +1,55 @@
+{
+	type: ConsumeGenerator
+	name: Turbine Generator
+	description: Request by [coral]Renale[]. Uses water to spin the turbines, generating power. [maroon]Returns 50% of inputted water.[]
+	health: 350
+	size: 2
+	powerProduction: 2
+	itemDuration: 60
+	consumes: {
+		water: 0.1
+	}
+	outputLiquid: {
+		liquid: water
+		amount: 0.05
+	}
+	category: power
+	research: fluxite
+	hasLiquids: true
+	hasPower: true
+	hasItems: false
+	liquidCapacity: 0.3
+	requirements: [
+		copper/40
+		fluxite/30
+		lead/20
+		metaglass/10
+		alpha/8
+	]
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawLiquidTile
+				liquid: water
+			}
+			{
+				type: DrawRegion
+				suffix: -rotator
+				spinSprite: true
+				speed: 1
+			}
+			{
+				type: DrawRegion
+				suffix: -rotator-top
+			}
+			{
+				type: DrawDefault
+			}
+		]
+	}
+}

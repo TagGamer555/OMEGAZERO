@@ -1,16 +1,18 @@
 {
 	type: MessageBlock
-	name: Basic Message
-	description: Message that is made out of basic materials. Stores more text.
+	name: Advanced Message
+	description: Message that is made out of more advanced materials. Stores more text.
 	health: 160
+	solid: true
 
 	requirements: [
-		copper/6
+		silicon/8
+		graphite/12
 	]
 
 	maxNewlines: 64
 	maxTextLength: 440
 
 	category: logic
-	research: micro-processor
+	research: message
 }
