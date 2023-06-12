@@ -1,5 +1,4 @@
 {
-	type: ConnectWall
 	name: Barricade
 	description: A barricade, made out of sand.
 	health: 200
