@@ -18,7 +18,7 @@
 	hasLiquids: true
 	hasPower: true
 	hasItems: false
-	liquidCapacity: 0.3
+	liquidCapacity: 18
 	requirements: [
 		copper/40
 		fluxite/30
