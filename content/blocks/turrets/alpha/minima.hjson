@@ -12,7 +12,7 @@
 		silicon/10
 	]
 	category: turret
-	research: slag-solidifier
+	research: alpha-fuser
 	inaccuracy: 5
 	reload: 24
 	recoil: 0.225

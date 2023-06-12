@@ -42,8 +42,6 @@
 				damage: 0
 				absorbable: false
 				inaccuracy: 30
-				collideAir: false
-				collideGround: false
 				shrinkY: 0.5
 				shrinkX: 0.5
 				width: 20

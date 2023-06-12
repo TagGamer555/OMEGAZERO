@@ -43,7 +43,6 @@
 			name: saboteur-weapon
 			x: 0
 			y: 0
-			drawCell: true
 			reload: 30
 			mirror: false
 			rotate: true

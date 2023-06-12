@@ -23,7 +23,6 @@
 		copper: {
 			damage: 12
 			pierce: true
-			pirceCap: 3
 			speed: 15
 			ammoMultiplier: 3
 			reloadMultiplier: 1
@@ -37,7 +36,6 @@
 				type: ParticleEffect
 				lifetime: 60
 				length: 0
-				speed: 0
 				sizeFrom: 8
 				sizeTo: 0
 				particles: 1
@@ -61,7 +59,6 @@
 		graphite: {
 			damage: 10
 			pierce: true
-			pirceCap: 4
 			speed: 15
 			ammoMultiplier: 2
 			reloadMultiplier: 0.95
@@ -97,7 +94,6 @@
 		alpha-item: {
 			damage: 20
 			pierce: true
-			pirceCap: 3
 			speed: 15
 			ammoMultiplier: 1
 			reloadMultiplier: 1.25
@@ -111,7 +107,6 @@
 				type: ParticleEffect
 				lifetime: 60
 				length: 0
-				speed: 0
 				sizeFrom: 8
 				sizeTo: 0
 				particles: 1
