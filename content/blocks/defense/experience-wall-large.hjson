@@ -10,20 +10,4 @@
 	]
 	category: defense
 	research: experience-wall-small
-	
-	drawer: {
-		type: DrawMulti
-		drawers: [
-			{
-				type: DrawDefault
-			}
-			{
-				type: DrawGlowRegion
-				alpha: 1
-				color: ffffff
-				glowIntensity: 1
-				glowScale: 1
-			}
-		]
-	}
 }
