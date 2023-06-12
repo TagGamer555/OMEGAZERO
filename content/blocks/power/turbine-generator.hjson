@@ -41,7 +41,7 @@
 				type: DrawRegion
 				suffix: -rotator
 				spinSprite: true
-				speed: 1
+				rotateSpeed: 2
 			}
 			{
 				type: DrawRegion
