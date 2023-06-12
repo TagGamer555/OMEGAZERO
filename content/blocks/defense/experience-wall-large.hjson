@@ -1,0 +1,29 @@
+{
+	name: Large Experience Wall
+	description: A large wall, made out of solid data. Extremely sturdy. Spans multiple tiles.
+	type: Wall
+	health: 2000
+	insulated: false
+	size: 2
+	requirements: [
+		experience/6
+	]
+	category: defense
+	research: experience-wall-small
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: ffffff
+				glowIntensity: 1
+				glowScale: 1
+			}
+		]
+	}
+}

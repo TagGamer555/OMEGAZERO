@@ -1,0 +1,29 @@
+{
+	name: Experience Wall
+	description: A wall, made out of solid data. Extremely sturdy.
+	type: Wall
+	health: 500
+	insulated: false
+	size: 1
+	requirements: [
+		experience/6
+	]
+	category: defense
+	research: alpha-fuser
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: ffffff
+				glowIntensity: 1
+				glowScale: 1
+			}
+		]
+	}
+}
