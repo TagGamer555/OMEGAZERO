@@ -1,0 +1,43 @@
+{
+	type: GenericCrafter
+	name: Finder
+	description: Finds information.
+	size: 1
+	requirements: [
+		silicon/16
+		graphite/24
+		copper/32
+	]
+	category: crafting
+	research: silicon-smelter
+	craftTime: 60
+	itemCapacity: 10
+	consumes: {
+		power: 0.25
+		items: {
+			items: [
+				silicon/1
+			]
+		}
+	}
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: ffffff
+				glowIntensity: 1
+				glowScale: 1
+			}
+		]
+	}
+	ambientSound: none
+	outputItem: {
+		item: experience
+		amount: 1
+	}
+}
