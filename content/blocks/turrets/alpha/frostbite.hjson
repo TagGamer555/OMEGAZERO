@@ -22,7 +22,7 @@
 		pierce: true
 	}
 	category: turret
-	research: OMEGAZERO
+	research: blitz
 	requirements: [
 		alpha-item/90
 		silicon/45
