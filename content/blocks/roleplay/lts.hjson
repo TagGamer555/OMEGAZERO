@@ -1,0 +1,10 @@
+type: liquidRouter
+health: 2000
+name: Liquid Tile (Solid)
+solid: true
+description: Shares liquids with adjacent liquid-containing blocks. Solid version.
+hasLiquids: true
+liquidCapacity: 2000
+category: effect
+buildVisibility: sandboxOnly
+alwaysUnlocked: true
