@@ -39,4 +39,28 @@
 			trailLength: 4
 		}
 	}
+	
+	drawer: {
+		type: DrawTurret
+		parts: [
+			{
+				type: RegionPart
+				suffix: -barrel
+				mirror: false
+				progress: recoil
+				moveX: 0
+				moveY: -1
+				moveRot: 0
+				under: true
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: 0
+						moveY: -1
+					}
+				]
+			}
+		]
+	}
 }
