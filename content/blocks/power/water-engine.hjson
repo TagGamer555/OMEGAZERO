@@ -1,5 +1,5 @@
 {
-	type: Thermal Generator
+	type: ThermalGenerator
 	name: Water Engine
 	description: "Generates power in wet places. [maroon]More wet place is, more power and more water output.[]"
 	category: power
