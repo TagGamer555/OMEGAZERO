@@ -10,7 +10,7 @@
 	]
 	category: crafting
 	research: mechanical-drill
-	craftTime: 120
+	craftTime: 240
 	itemCapacity: 10
 	consumes: {
 		items: {

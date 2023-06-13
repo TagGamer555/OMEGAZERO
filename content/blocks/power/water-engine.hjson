@@ -1,0 +1,36 @@
+{
+	type: Thermal Generator
+	name: Water Engine
+	description: "Generates power in wet places. [maroon]More wet place is, more power and more water output.[]"
+	category: power
+	research: alpha-fuser
+	requirements: [
+		copper/30
+		lead/20
+		metaglass/10
+		fluxite/20
+		experience/2
+		alpha/4
+	]
+	powerProduction: 0.5
+	generateEffect: {
+		type: ParticleEffect
+		particles: 1
+		lifetime: 60
+		sizeFrom: 4
+		sizeTo: 0
+		length: 20
+		colorFrom: E8EBFF
+		colorTo: 827DE8
+	}
+	effectChance: 0.011
+	size: 2
+	squareSprite: false
+	liquidOutput: {
+		liquid: water
+		amount: 0.01666666666666666666
+	}
+	ambientSound: hum
+	ambientSoundVolume: 0.06
+	attribute: water
+}
