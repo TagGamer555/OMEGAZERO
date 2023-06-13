@@ -2,7 +2,7 @@
 	type: GenericCrafter
 	name: Alpha Collider
 	description: Fuses Sand, Coal, Lead and Copper into Alpha. Requires any radioactive fuel to work.
-	size: 2
+	size: 3
 	requirements: [
 		alpha-item/128
 		experience/30
