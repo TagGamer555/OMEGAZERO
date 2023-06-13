@@ -1,0 +1,8 @@
+{
+	type: Wall
+	category: defense
+	buildVisibility: sandboxOnly
+	name: Metal Floor
+	variants: 2
+	solid: false
+}

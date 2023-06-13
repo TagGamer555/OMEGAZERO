@@ -1,0 +1,8 @@
+{
+	type: Wall
+	category: defense
+	buildVisibility: sandboxOnly
+	name: Grass Floor
+	variants: 2
+	solid: false
+}
