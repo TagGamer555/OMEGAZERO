@@ -39,21 +39,21 @@
 				type: ParticleEffect
 				particles: 3
 				lifetime: 60
-				sizeFrom: 4
+				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: B0B9C0
-				colorTo: 6E7080
+				colorFrom: 0000007F
+				colorTo: 00000000
 			}
 			despawnEffect: {
 				type: ParticleEffect
 				particles: 3
 				lifetime: 60
-				sizeFrom: 4
+				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: B0B9C0
-				colorTo: 6E7080
+				colorFrom: 0000007F
+				colorTo: 00000000
 			}
 			trailWidth: 1
 			trailLength: 4
@@ -75,21 +75,21 @@
 				type: ParticleEffect
 				particles: 3
 				lifetime: 60
-				sizeFrom: 4
+				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: B0B9C0
-				colorTo: 6E7080
+				colorFrom: 0000007F
+				colorTo: 00000000
 			}
 			despawnEffect: {
 				type: ParticleEffect
 				particles: 3
 				lifetime: 60
-				sizeFrom: 4
+				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: B0B9C0
-				colorTo: 6E7080
+				colorFrom: 0000007F
+				colorTo: 00000000
 			}
 			trailWidth: 1
 			trailLength: 4
@@ -111,21 +111,21 @@
 				type: ParticleEffect
 				particles: 3
 				lifetime: 60
-				sizeFrom: 4
+				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: B0B9C0
-				colorTo: 6E7080
+				colorFrom: 0000007F
+				colorTo: 00000000
 			}
 			despawnEffect: {
 				type: ParticleEffect
 				particles: 3
 				lifetime: 60
-				sizeFrom: 4
+				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: B0B9C0
-				colorTo: 6E7080
+				colorFrom: 0000007F
+				colorTo: 00000000
 			}
 			trailWidth: 1
 			trailLength: 4
