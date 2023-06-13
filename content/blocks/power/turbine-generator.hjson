@@ -4,7 +4,7 @@
 	description: "Request by [coral]Renale[]. Uses water to spin the turbines, generating power. [maroon]Returns 50% of inputted water.[]"
 	health: 350
 	size: 2
-	powerProduction: 2
+	powerProduction: 0.5
 	itemDuration: 60
 	consumes: {
 		liquid: water/0.1

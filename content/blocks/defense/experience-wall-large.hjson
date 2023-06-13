@@ -6,7 +6,7 @@
 	insulated: false
 	size: 2
 	requirements: [
-		experience/6
+		experience/24
 	]
 	category: defense
 	research: experience-wall-small
