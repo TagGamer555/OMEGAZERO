@@ -1,19 +1,21 @@
 {
 	type: GenericCrafter
-	name: Finder
-	description: Finds information.
-	size: 1
+	name: Searcher
+	description: Searches information.
+	size: 2
 	requirements: [
-		silicon/16
-		graphite/24
-		copper/32
+		silicon/24
+		titanium/64
+		metaglass/24
+		alpha-item/16
+		experience/12
 	]
 	category: crafting
-	research: silicon-smelter
+	research: finder
 	craftTime: 600
-	itemCapacity: 10
+	itemCapacity: 20
 	consumes: {
-		power: 0.25
+		power: 0.5
 		items: {
 			items: [
 				silicon/1
@@ -38,6 +40,6 @@
 	ambientSound: none
 	outputItem: {
 		item: experience
-		amount: 1
+		amount: 2
 	}
 }

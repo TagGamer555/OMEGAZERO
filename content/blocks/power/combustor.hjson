@@ -2,7 +2,7 @@
 	name: Combustor
 	description: Larger and more powerful combustion generator.
 	type: ConsumeGenerator
-	powerProduction: 4.25
+	powerProduction: 4.5
 	itemDuration: 90
 	squareSprite: false
 	
@@ -24,6 +24,7 @@
 		copper/40
 		lead/50
 		sand/20
+		experience/10
 	]
 	
 	drawer: {

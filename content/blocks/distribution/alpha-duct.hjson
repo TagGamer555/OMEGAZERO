@@ -5,8 +5,9 @@
 	requirements: [
 		alpha-item/2
 		fluxite/3
+		titanium/1
 	]
-	speed: 4
+	speed: 3
 	research: alpha-fuser
 	health: 70
 	bridgeReplacement: bridge-conveyor
