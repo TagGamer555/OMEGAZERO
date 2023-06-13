@@ -1,0 +1,9 @@
+{
+	type: ItemVoid
+	name: Large Item Void
+	size: 2
+	health: 160
+	alwaysUnlocked: true
+	buildVisibilty: sandboxOnly
+	category: distribution
+}

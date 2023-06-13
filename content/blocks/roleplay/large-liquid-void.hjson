@@ -1,0 +1,9 @@
+{
+	type: LiquidVoid
+	name: Large Liquid Void
+	size: 2
+	health: 160
+	alwaysUnlocked: true
+	buildVisibilty: sandboxOnly
+	category: liquid
+}

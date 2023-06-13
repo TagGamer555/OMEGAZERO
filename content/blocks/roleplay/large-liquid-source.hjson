@@ -1,0 +1,9 @@
+{
+	type: LiquidSource
+	name: Large Liquid Source
+	size: 2
+	health: 160
+	alwaysUnlocked: true
+	buildVisibilty: sandboxOnly
+	category: liquid
+}
