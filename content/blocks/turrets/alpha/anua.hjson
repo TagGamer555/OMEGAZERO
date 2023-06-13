@@ -33,27 +33,60 @@
 			trailWidth: 1
 			trailLength: 3
 			hitEffect: {
-				type: ParticleEffect
-				lifetime: 60
-				length: 0
-				sizeFrom: 8
-				sizeTo: 0
-				particles: 1
-				lightColor: 2CFF77
-				colorFrom: ffffff
-				colorTo: 2CFF77
-				region: kiky5-star-bullet
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: 2CFF77
+						colorFrom: ffffff
+						colorTo: 2CFF77
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: 2CFF77
+						colorFrom: ffffff
+						colorTo: 2CFF77
+					}
+				]
 			}
 			despawnEffect: {
-				type: ParticleEffect
-				lifetime: 60
-				length: 0
-				sizeFrom: 8
-				particles: 1
-				lightColor: 2CFF77
-				colorFrom: ffffff
-				colorTo: 2CFF77
-				region: kiky5-star-bullet
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: 2CFF77
+						colorFrom: ffffff
+						colorTo: 2CFF77
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: 2CFF77
+						colorFrom: ffffff
+						colorTo: 2CFF77
+					}
+				]
 			}
 		}
 		graphite: {
@@ -69,26 +102,60 @@
 			trailWidth: 1
 			trailLength: 3
 			hitEffect: {
-				type: ParticleEffect
-				lifetime: 60
-				length: 0
-				sizeFrom: 8
-				particles: 1
-				lightColor: ACE4FC
-				colorFrom: ffffff
-				colorTo: ACE4FC
-				region: kiky5-star-bullet
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: ACE4FC
+						colorFrom: ffffff
+						colorTo: ACE4FC
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: ACE4FC
+						colorFrom: ffffff
+						colorTo: ACE4FC
+					}
+				]
 			}
 			despawnEffect: {
-				type: ParticleEffect
-				lifetime: 60
-				length: 0
-				sizeFrom: 8
-				particles: 1
-				lightColor: ACE4FC
-				colorFrom: ffffff
-				colorTo: ACE4FC
-				region: kiky5-star-bullet
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: ACE4FC
+						colorFrom: ffffff
+						colorTo: ACE4FC
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: ACE4FC
+						colorFrom: ffffff
+						colorTo: ACE4FC
+					}
+				]
 			}
 		}
 		alpha-item: {
@@ -104,27 +171,60 @@
 			trailWidth: 1
 			trailLength: 3
 			hitEffect: {
-				type: ParticleEffect
-				lifetime: 60
-				length: 0
-				sizeFrom: 8
-				sizeTo: 0
-				particles: 1
-				lightColor: FFBB7F
-				colorFrom: ffffff
-				colorTo: FFBB7F
-				region: kiky5-star-bullet
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: FFBB7F
+						colorFrom: ffffff
+						colorTo: FFBB7F
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: FFBB7F
+						colorFrom: ffffff
+						colorTo: FFBB7F
+					}
+				]
 			}
 			despawnEffect: {
-				type: ParticleEffect
-				lifetime: 60
-				length: 0
-				sizeFrom: 8
-				particles: 1
-				lightColor: FFBB7F
-				colorFrom: ffffff
-				colorTo: FFBB7F
-				region: kiky5-star-bullet
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: FFBB7F
+						colorFrom: ffffff
+						colorTo: FFBB7F
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: FFBB7F
+						colorFrom: ffffff
+						colorTo: FFBB7F
+					}
+				]
 			}
 		}
 	}

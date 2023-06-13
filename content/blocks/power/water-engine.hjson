@@ -26,7 +26,7 @@
 	effectChance: 0.011
 	size: 2
 	squareSprite: false
-	liquidOutput: {
+	outputLiquid: {
 		liquid: water
 		amount: 0.01666666666666666666
 	}
