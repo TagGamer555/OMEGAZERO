@@ -35,8 +35,26 @@
 			width: 0
 			height: 0
 			trailColor: FF785E
-			hitEffect: none
-			despawnEffect: none
+			hitEffect: {
+				type: ParticleEffect
+				particles: 3
+				lifetime: 60
+				sizeFrom: 4
+				sizeTo: 0
+				length: 20
+				colorFrom: B0B9C0
+				colorTo: 6E7080
+			}
+			despawnEffect: {
+				type: ParticleEffect
+				particles: 3
+				lifetime: 60
+				sizeFrom: 4
+				sizeTo: 0
+				length: 20
+				colorFrom: B0B9C0
+				colorTo: 6E7080
+			}
 			trailWidth: 1
 			trailLength: 4
 			status: burning
@@ -53,8 +71,26 @@
 			width: 0
 			height: 0
 			trailColor: FFA95F
-			hitEffect: none
-			despawnEffect: none
+			hitEffect: {
+				type: ParticleEffect
+				particles: 3
+				lifetime: 60
+				sizeFrom: 4
+				sizeTo: 0
+				length: 20
+				colorFrom: B0B9C0
+				colorTo: 6E7080
+			}
+			despawnEffect: {
+				type: ParticleEffect
+				particles: 3
+				lifetime: 60
+				sizeFrom: 4
+				sizeTo: 0
+				length: 20
+				colorFrom: B0B9C0
+				colorTo: 6E7080
+			}
 			trailWidth: 1
 			trailLength: 4
 			status: burning
@@ -71,8 +107,26 @@
 			width: 0
 			height: 0
 			trailColor: CE735E
-			hitEffect: none
-			despawnEffect: none
+			hitEffect: {
+				type: ParticleEffect
+				particles: 3
+				lifetime: 60
+				sizeFrom: 4
+				sizeTo: 0
+				length: 20
+				colorFrom: B0B9C0
+				colorTo: 6E7080
+			}
+			despawnEffect: {
+				type: ParticleEffect
+				particles: 3
+				lifetime: 60
+				sizeFrom: 4
+				sizeTo: 0
+				length: 20
+				colorFrom: B0B9C0
+				colorTo: 6E7080
+			}
 			trailWidth: 1
 			trailLength: 4
 			status: acb
