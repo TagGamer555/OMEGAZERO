@@ -39,17 +39,17 @@
 				suffix: -extra
 				mirror: true
 				progress: recoil
-				moveX: 2
-				moveY: -0.5
-				moveRot: 25
+				moveX: 4
+				moveY: -1
+				moveRot: -25
 				under: true
 				moves: [
 					{
 						type: PartMove
 						progress: recoil
-						moveRot: 25
-						moveX: 2
-						moveY: -0.5
+						moveRot: -25
+						moveX: 4
+						moveY: -1
 					}
 				]
 			}
