@@ -1,0 +1,14 @@
+{
+	name: Large Insulator Wall
+	description: Large insulating wall. Spans multiple tiles.
+	type: Wall
+	health: 2000
+	insulated: true
+	size: 2
+	requirements: [
+		oxide/8
+		silicon/16
+	]
+	category: defense
+	research: insulator-wall-small
+}

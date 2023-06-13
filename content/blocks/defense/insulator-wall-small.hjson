@@ -1,0 +1,14 @@
+{
+	name: Insulator Wall
+	description: Insulating wall.
+	type: Wall
+	health: 500
+	insulated: true
+	size: 1
+	requirements: [
+		oxide/2
+		silicon/4
+	]
+	category: defense
+	research: tungsten-wall
+}
