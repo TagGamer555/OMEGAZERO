@@ -14,27 +14,29 @@
 		experience/30
 	]
 	category: turret
+	shootSound: snapShoot
 	research: minima
+	ammoPerShot: 20
 	inaccuracy: 3
 	shoot: {
 		type: shootPattern
 		shots: 20
-		shotDelay: 1
+		shotDelay: 5
 	}
-	reload: 120
+	reload: 240
 	recoil: 0.2
 	shootY: 6
-	range: 100
+	range: 160
 	ammoTypes: {
 		lead: {
 			damage: 10
-			speed: 7
-			lifetime: 20
-			ammoMultiplier: 5
+			speed: 14
+			lifetime: 10
+			ammoMultiplier: 2
 			reloadMultiplier: 1
 			width: 0
 			height: 0
-			trailColor: FF785E
+			trailColor: AB98D2
 			trailWidth: 1
 			trailLength: 4
 		}
