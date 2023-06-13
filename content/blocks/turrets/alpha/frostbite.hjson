@@ -1,0 +1,56 @@
+{
+	name: Frostbite
+	description: A medium turret, made out of alpha, which shoots freezing lasers.
+	type: PowerTurret
+	health: 1440
+	range: 110
+	reload: 120
+	size: 2
+	shootSound: laser
+	consumes: {
+		power: 5.66666666666666666666666666666666
+	}
+	shootType: {
+		type: LaserBulletType
+		length: 100
+		width: 30
+		damage: 80
+		colors: [C1BFFB, 827DE8, E8EBFF]
+		status: freezing
+		statusDuration: 300
+		pierce: true
+	}
+	category: turret
+	research: OMEGAZERO
+	requirements: [
+		alpha-item/90
+		silicon/45
+		metaglass/50
+		fluxite/40
+		experience/30
+	]
+	
+	drawer: {
+		type: DrawTurret
+		parts: [
+			{
+				type: RegionPart
+				suffix: -extra
+				mirror: true
+				progress: recoil
+				moveX: 2
+				moveY: -0.5
+				moveRot: 0
+				under: true
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: 2
+						moveY: -0.5
+					}
+				]
+			}
+		]
+	}
+}
