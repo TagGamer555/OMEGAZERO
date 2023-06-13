@@ -10,7 +10,7 @@
 		metaglass/10
 		fluxite/20
 		experience/2
-		alpha/4
+		alpha-item/4
 	]
 	powerProduction: 0.5
 	generateEffect: {
