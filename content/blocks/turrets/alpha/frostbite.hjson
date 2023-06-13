@@ -5,6 +5,7 @@
 	health: 1440
 	range: 110
 	reload: 120
+	shootY: 1.5
 	size: 2
 	shootSound: laser
 	consumes: {
@@ -40,13 +41,14 @@
 				progress: recoil
 				moveX: 2
 				moveY: -0.5
-				moveRot: 0
+				moveRot: 25
 				under: true
 				moves: [
 					{
 						type: PartMove
 						progress: recoil
-						moveRot: 2
+						moveRot: 25
+						moveX: 2
 						moveY: -0.5
 					}
 				]
