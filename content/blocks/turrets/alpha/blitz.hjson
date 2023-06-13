@@ -31,7 +31,7 @@
 		lead: {
 			damage: 10
 			speed: 14
-			lifetime: 10
+			lifetime: 12
 			ammoMultiplier: 2
 			reloadMultiplier: 1
 			width: 0
@@ -39,6 +39,32 @@
 			trailColor: AB98D2
 			trailWidth: 1
 			trailLength: 4
+		}
+		graphite: {
+			damage: 15
+			speed: 14
+			lifetime: 12
+			ammoMultiplier: 1
+			reloadMultiplier: 0.9
+			width: 0
+			height: 0
+			trailColor: 95ABD8
+			trailWidth: 1
+			trailLength: 4
+		}
+		alpha-item: {
+			damage: 20
+			speed: 14
+			lifetime: 12
+			ammoMultiplier: 3
+			reloadMultiplier: 1.1
+			width: 0
+			height: 0
+			trailColor: EDA666
+			trailWidth: 1
+			trailLength: 4
+			status: acb
+			statusDuration: 120
 		}
 	}
 	
