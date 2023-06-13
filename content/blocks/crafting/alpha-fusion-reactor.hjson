@@ -4,7 +4,7 @@
 	description: Fuses Sand, Coal, Lead and Copper into Alpha. Requires any radioactive fuel to work.
 	size: 2
 	requirements: [
-		alpha/128
+		alpha-item/128
 		experience/30
 		metaglass/80
 		fluxite/80
