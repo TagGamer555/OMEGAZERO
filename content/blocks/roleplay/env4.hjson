@@ -1,6 +1,7 @@
 {
 	type: Wall
 	category: defense
+	buildVisibility: sandboxOnly
 	name: Crystalline Wall
 	variants: 2
 	solid: true

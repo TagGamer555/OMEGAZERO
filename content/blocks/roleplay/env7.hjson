@@ -1,6 +1,7 @@
 {
 	type: Wall
 	category: defense
+	buildVisibility: sandboxOnly
 	name: Beryllium Ore
 	variants: 2
 	solid: true

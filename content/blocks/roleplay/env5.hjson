@@ -1,6 +1,7 @@
 {
 	type: Wall
 	category: defense
+	buildVisibility: sandboxOnly
 	name: Ferric Wall
 	variants: 2
 	solid: true
