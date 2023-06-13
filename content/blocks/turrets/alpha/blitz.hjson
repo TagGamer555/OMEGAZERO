@@ -14,7 +14,7 @@
 		experience/30
 	]
 	category: turret
-	shootSound: snapShoot
+	shootSound: shootSnap
 	research: minima
 	ammoPerShot: 20
 	inaccuracy: 3
