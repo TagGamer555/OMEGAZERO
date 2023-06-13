@@ -1,0 +1,42 @@
+{
+	type: itemTurret
+	name: Blitz
+	description: A medium turret, made out of alpha, which shoots bullets rapidly.
+	health: 1440
+	size: 2
+	outlineColor: 1E1E26
+	squareSprite: false
+	requirements: [
+		lead/80
+		alpha-item/60
+		graphite/40
+		fluxite/20
+		experience/30
+	]
+	category: turret
+	research: minima
+	inaccuracy: 3
+	shoot: {
+		type: shootPattern
+		shots: 20
+		shotDelay: 1
+	}
+	reload: 120
+	recoil: 0.2
+	shootY: 6
+	range: 100
+	ammoTypes: {
+		lead: {
+			damage: 10
+			speed: 7
+			lifetime: 20
+			ammoMultiplier: 5
+			reloadMultiplier: 1
+			width: 0
+			height: 0
+			trailColor: FF785E
+			trailWidth: 1
+			trailLength: 4
+		}
+	}
+}

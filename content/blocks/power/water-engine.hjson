@@ -1,7 +1,7 @@
 {
 	type: ThermalGenerator
 	name: Water Engine
-	description: "Generates power in wet places. [maroon]More wet place is, more power and more water output.[]"
+	description: "Generates power in wet places. [maroon]More wet place is, more power.[]"
 	category: power
 	research: alpha-fuser
 	requirements: [
