@@ -1,0 +1,8 @@
+{
+	type: Wall
+	category: defense
+	name: Tungsten Ore
+	variants: 2
+	solid: true
+	itemDrop: tungsten
+}

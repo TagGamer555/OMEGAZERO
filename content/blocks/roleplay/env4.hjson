@@ -1,0 +1,7 @@
+{
+	type: Wall
+	category: defense
+	name: Crystalline Wall
+	variants: 2
+	solid: true
+}

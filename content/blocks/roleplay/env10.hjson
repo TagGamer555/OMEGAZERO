@@ -1,0 +1,8 @@
+{
+	type: Wall
+	category: defense
+	name: Graphite Ore
+	variants: 2
+	solid: true
+	itemDrop: graphite
+}

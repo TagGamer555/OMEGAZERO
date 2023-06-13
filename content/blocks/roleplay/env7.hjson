@@ -1,0 +1,8 @@
+{
+	type: Wall
+	category: defense
+	name: Beryllium Ore
+	variants: 2
+	solid: true
+	itemDrop: beryllium
+}

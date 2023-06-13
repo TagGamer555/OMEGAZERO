@@ -1,0 +1,9 @@
+{
+	type: Wall
+	category: defense
+	name: Sand Wall
+	variants: 2
+	solid: true
+	itemDrop: sand
+	attributes: [sand]
+}

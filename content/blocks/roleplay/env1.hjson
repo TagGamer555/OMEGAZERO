@@ -1,0 +1,7 @@
+{
+	type: Wall
+	category: defense
+	name: Stone Wall
+	variants: 2
+	solid: true
+}
