@@ -42,8 +42,8 @@
 				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: 0000007F
-				colorTo: 00000000
+				colorFrom: 333333
+				colorTo: 111111
 			}
 			despawnEffect: {
 				type: ParticleEffect
@@ -52,8 +52,8 @@
 				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: 0000007F
-				colorTo: 00000000
+				colorFrom: 333333
+				colorTo: 111111
 			}
 			trailWidth: 1
 			trailLength: 4
@@ -78,8 +78,8 @@
 				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: 0000007F
-				colorTo: 00000000
+				colorFrom: 333333
+				colorTo: 111111
 			}
 			despawnEffect: {
 				type: ParticleEffect
@@ -88,8 +88,8 @@
 				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: 0000007F
-				colorTo: 00000000
+				colorFrom: 333333
+				colorTo: 111111
 			}
 			trailWidth: 1
 			trailLength: 4
@@ -114,8 +114,8 @@
 				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: 0000007F
-				colorTo: 00000000
+				colorFrom: 333333
+				colorTo: 111111
 			}
 			despawnEffect: {
 				type: ParticleEffect
@@ -124,8 +124,8 @@
 				sizeFrom: 2
 				sizeTo: 0
 				length: 20
-				colorFrom: 0000007F
-				colorTo: 00000000
+				colorFrom: 333333
+				colorTo: 111111
 			}
 			trailWidth: 1
 			trailLength: 4
