@@ -1,0 +1,14 @@
+{
+	name: Silicon Wall
+	description: A wall made out of Silicon.
+	type: Wall
+	health: 400
+	insulated: false
+	size: 1
+	requirements: [
+		fluxite/1
+		silicon/5
+	]
+	category: defense
+	research: copper-wall
+}

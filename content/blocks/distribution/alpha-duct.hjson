@@ -4,9 +4,10 @@
 	description: A duct that uses pneumatic force to push items forward.
 	requirements: [
 		alpha-item/2
-		fluxite/1
+		fluxite/3
 	]
 	speed: 4
+	research: alpha-fuser
 	health: 70
 	bridgeReplacement: bridge-conveyor
 }

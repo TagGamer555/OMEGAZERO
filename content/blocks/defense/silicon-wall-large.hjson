@@ -1,0 +1,14 @@
+{
+	name: Large Silicon Wall
+	description: A wall made out of Silicon. Spans multiple tiles.
+	type: Wall
+	health: 1600
+	insulated: false
+	size: 2
+	requirements: [
+		fluxite/4
+		silicon/20
+	]
+	category: defense
+	research: silicon-wall-small
+}
