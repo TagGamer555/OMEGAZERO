@@ -1,0 +1,12 @@
+{
+	type: Duct
+	name: Alpha Duct
+	description: A duct that uses pneumatic force to push items forward.
+	requirements: [
+		alpha-item/2
+		fluxite/1
+	]
+	speed: 4
+	health: 70
+	bridgeReplacement: bridge-conveyor
+}
