@@ -1,0 +1,28 @@
+{
+  type: unitFactory
+  name: Alpha Fabricator
+  description: Produces units. Units can be moved into reconstructors for further upgrading.
+  size: 3
+  consumes: {
+    power: 8
+  }
+  plans: [
+    {
+      unit: saboteur
+      requirements: [
+        copper/80
+		alpha-item/60
+		experience/20
+		silicon/30
+      ]
+      time: 2700
+    }
+  ]
+  requirements: [
+    alpha-item/20
+	fluxite/40
+	experience/12
+  ]
+  category: units
+  research: alpha-fuser
+}
