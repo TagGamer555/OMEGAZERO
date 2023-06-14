@@ -81,7 +81,7 @@
 						colorFrom: 333333
 						colorTo: 111111
 					}
-				trailChance: 1
+				trailChance: 0.8
 				trailColor: 333333
 				speed: 4
 				splashDamageRadius: 20
@@ -89,25 +89,55 @@
 				lifetime: 60
 				hitEffect: 
 					{
-						type: ParticleEffect
-						particles: 6
-						lifetime: 60
-						sizeFrom: 2
-						sizeTo: 0
-						length: 20
-						colorFrom: 333333
-						colorTo: 111111
+						type: multiEffect
+						effects: [
+							{
+								type: ParticleEffect
+								particles: 10
+								lifetime: 120
+								sizeFrom: 8
+								sizeTo: 0
+								length: 20
+								colorFrom: 333333
+								colorTo: 111111
+							}
+							{
+								type: ParticleEffect
+								particles: 12
+								lifetime: 60
+								sizeFrom: 4
+								sizeTo: 0
+								length: 20
+								colorFrom: FFA95F
+								colorTo: FF785E
+							}
+						]
 					}
 				despawnEffect: 
 					{
-						type: ParticleEffect
-						particles: 6
-						lifetime: 60
-						sizeFrom: 2
-						sizeTo: 0
-						length: 20
-						colorFrom: 333333
-						colorTo: 111111
+						type: multiEffect
+						effects: [
+							{
+								type: ParticleEffect
+								particles: 10
+								lifetime: 120
+								sizeFrom: 8
+								sizeTo: 0
+								length: 20
+								colorFrom: 333333
+								colorTo: 111111
+							}
+							{
+								type: ParticleEffect
+								particles: 12
+								lifetime: 60
+								sizeFrom: 4
+								sizeTo: 0
+								length: 20
+								colorFrom: FFA95F
+								colorTo: FF785E
+							}
+						]
 					}
 				weaveScale: 0
 				weaveMag: 0
