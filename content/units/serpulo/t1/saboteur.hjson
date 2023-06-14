@@ -56,9 +56,9 @@
 				smokeEffect: 
 					{
 						type: ParticleEffect
-						particles: 10
-						lifetime: 90
-						sizeFrom: 5
+						particles: 3
+						lifetime: 30
+						sizeFrom: 1
 						sizeTo: 0
 						length: 20
 						colorFrom: 333333

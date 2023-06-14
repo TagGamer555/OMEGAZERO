@@ -51,7 +51,7 @@
 			shootSound: missile
 			bullet: {
 				type: MissileBulletType
-				damage: 60
+				damage: 100
 				buildingDamageMultiplier: 1.1
 				speed: 5
 				width: 7
@@ -101,16 +101,6 @@
 								colorFrom: FFA95F
 								colorTo: FF785E
 							}
-							{
-								type: ParticleEffect
-								particles: 10
-								lifetime: 120
-								sizeFrom: 8
-								sizeTo: 0
-								length: 20
-								colorFrom: 333333
-								colorTo: 111111
-							}
 						]
 					}
 				despawnEffect: 
@@ -126,16 +116,6 @@
 								length: 20
 								colorFrom: FFA95F
 								colorTo: FF785E
-							}
-							{
-								type: ParticleEffect
-								particles: 10
-								lifetime: 120
-								sizeFrom: 8
-								sizeTo: 0
-								length: 20
-								colorFrom: 333333
-								colorTo: 111111
 							}
 						]
 					}
