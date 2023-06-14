@@ -1,0 +1,237 @@
+{
+	type: itemTurret
+	name: Piece
+	description: A small turret, made out of alpha, which shoots slow ionised materials.
+	health: 360
+	size: 1
+	outlineColor: 1E1E26
+	squareSprite: false
+	requirements: [
+		alpha-item/25
+		copper/15
+		fluxite/10
+	]
+	category: turret
+	research: anua
+	shootSound: blaster
+	inaccuracy: 0
+	reload: 60
+	recoil: 0.3
+	shootY: 4.75
+	range: 180
+	ammoTypes: {
+		fluxite: {
+			damage: 30
+			pierce: true
+			speed: 7.5
+			ammoMultiplier: 4
+			reloadMultiplier: 1
+			lifetime: 24
+			width: 0
+			height: 0
+			trailColor: 7585A5
+			trailWidth: 1
+			trailLength: 3
+			hitEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: 7585A5
+						colorFrom: ffffff
+						colorTo: 7585A5
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: 7585A5
+						colorFrom: ffffff
+						colorTo: 7585A5
+						region: kiky5-star-bullet
+					}
+				]
+			}
+			despawnEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: 7585A5
+						colorFrom: ffffff
+						colorTo: 7585A5
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: 7585A5
+						colorFrom: ffffff
+						colorTo: 7585A5
+						region: kiky5-star-bullet
+					}
+				]
+			}
+		}
+		titanium: {
+			damage: 35
+			pierce: true
+			speed: 7.5
+			ammoMultiplier: 4
+			reloadMultiplier: 1.25
+			lifetime: 24
+			width: 0
+			height: 0
+			trailColor: A4B8FA
+			trailWidth: 1
+			trailLength: 3
+			hitEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: A4B8FA
+						colorFrom: ffffff
+						colorTo: A4B8FA
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: A4B8FA
+						colorFrom: ffffff
+						colorTo: A4B8FA
+						region: kiky5-star-bullet
+					}
+				]
+			}
+			despawnEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: A4B8FA
+						colorFrom: ffffff
+						colorTo: A4B8FA
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: A4B8FA
+						colorFrom: ffffff
+						colorTo: A4B8FA
+						region: kiky5-star-bullet
+					}
+				]
+			}
+		}
+		alpha-item: {
+			damage: 44
+			pierce: true
+			speed: 7.5
+			ammoMultiplier: 1
+			reloadMultiplier: 1.25
+			lifetime: 24
+			width: 0
+			height: 0
+			trailColor: FFBB7F
+			trailWidth: 1
+			trailLength: 3
+			hitEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: FFBB7F
+						colorFrom: ffffff
+						colorTo: FFBB7F
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: FFBB7F
+						colorFrom: ffffff
+						colorTo: FFBB7F
+						region: kiky5-star-bullet
+					}
+				]
+			}
+			despawnEffect: {
+				type: MultiEffect
+				effects: [
+					{
+						type: ParticleEffect
+						lifetime: 60
+						length: 0
+						sizeFrom: 8
+						sizeTo: 0
+						particles: 1
+						lightColor: FFBB7F
+						colorFrom: ffffff
+						colorTo: FFBB7F
+						region: kiky5-star-bullet
+					}
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						lightColor: FFBB7F
+						colorFrom: ffffff
+						colorTo: FFBB7F
+						region: kiky5-star-bullet
+					}
+				]
+			}
+		}
+	}
+}
