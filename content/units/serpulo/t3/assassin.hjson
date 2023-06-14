@@ -133,8 +133,8 @@
 		}
 		{
 			name: assassin-weapon-1
-			x: 3
-			y: -3
+			x: 5
+			y: -4
 			rotateSpeed: 6
 			reload: 60
 			mirror: true
@@ -144,7 +144,7 @@
 			shoot: {
 				type: ShootPattern
 				shots: 3
-				shotDelay: 10
+				shotDelay: 4
 			}
 			bullet: {
 				damage: 40
