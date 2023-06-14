@@ -19,7 +19,7 @@
 			type: HoverPart
 			mirror: true
 			x: 0
-			y: 5
+			y: 6
 			radius: 7
 			phase: 170
 			color: FFE08F
