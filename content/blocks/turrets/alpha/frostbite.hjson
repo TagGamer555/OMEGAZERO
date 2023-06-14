@@ -14,9 +14,9 @@
 	}
 	shootType: {
 		type: LaserBulletType
-		length: 100
+		length: 90
 		width: 30
-		damage: 80
+		damage: 125
 		colors: [C1BFFB, 827DE8, E8EBFF]
 		status: freezing
 		statusDuration: 300

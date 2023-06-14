@@ -1,7 +1,7 @@
 {
 	type: liquidTurret
 	name: Tribe
-	description: A small turret, made out of alpha, which shoots burst of Oil onto the ground targets.
+	description: A small turret, made out of alpha, which shoots burst of liquids onto the ground targets.
 	health: 360
 	loopSound: none
 	targetAir: false
@@ -19,7 +19,7 @@
 	shootSound: mineDeploy
 	shoot: {
 		type: shootPattern
-		shots: 9
+		shots: 10
 	}
 	reload: 60
 	recoil: 0.1
@@ -28,6 +28,44 @@
 	hasItems: false
 	range: 70
 	ammoTypes: {
+		water: {
+			damage: 0
+			speed: 4
+			lifetime: 30
+			keepVelocity: false
+			drag: 0.03
+			ammoMultiplier: 1
+			reloadMultiplier: 1
+			width: 0
+			height: 0
+			trailColor: 486ACD
+			hitEffect: none
+			despawnEffect: none
+			trailWidth: 1
+			trailLength: 4
+			status: wet
+			statusDuration: 120
+			knockback: 0.6
+		}
+		slag: {
+			damage: 2
+			speed: 4
+			lifetime: 30
+			keepVelocity: false
+			drag: 0.03
+			ammoMultiplier: 1
+			reloadMultiplier: 1
+			width: 0
+			height: 0
+			trailColor: FFCD66
+			hitEffect: none
+			despawnEffect: none
+			trailWidth: 1
+			trailLength: 4
+			status: melting
+			statusDuration: 120
+			knockback: 0.75
+		}
 		oil: {
 			damage: 0
 			speed: 4
@@ -45,7 +83,26 @@
 			trailLength: 4
 			status: tarred
 			statusDuration: 120
-			knockback: 0.5
+			knockback: 0.8
+		}
+		cryofluid: {
+			damage: 0
+			speed: 4
+			lifetime: 30
+			keepVelocity: false
+			drag: 0.03
+			ammoMultiplier: 1
+			reloadMultiplier: 1
+			width: 0
+			height: 0
+			trailColor: 87CEEB
+			hitEffect: none
+			despawnEffect: none
+			trailWidth: 1
+			trailLength: 4
+			status: freezing
+			statusDuration: 120
+			knockback: 0.9
 		}
 	}
 }

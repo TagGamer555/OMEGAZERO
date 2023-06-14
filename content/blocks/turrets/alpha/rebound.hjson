@@ -20,6 +20,25 @@
 	shootY: 3
 	range: 180
 	ammoTypes: {
+		copper: {
+			width: 8
+			height: 4
+			sprite: kiky5-soundwave
+			frontColor: C8A58F
+			backColor: C8A58F
+			pierce: true
+			pierceBuilding: true
+			buildingDamageMultiplier: 0
+			damage: 10
+			speed: 2
+			lifetime: 90
+			shrinkY: 0
+			shrinkX: -2
+			shootEffect: none
+			smokeEffect: none
+			hitEffect: none
+			despawnEffect: none
+		}
 		metaglass: {
 			width: 8
 			height: 4
@@ -29,7 +48,7 @@
 			pierce: true
 			pierceBuilding: true
 			buildingDamageMultiplier: 0
-			damage: 10
+			damage: 20
 			speed: 2
 			lifetime: 90
 			shrinkY: 0

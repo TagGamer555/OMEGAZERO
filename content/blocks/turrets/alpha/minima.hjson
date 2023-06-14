@@ -14,13 +14,13 @@
 	category: turret
 	research: alpha-fuser
 	inaccuracy: 5
-	reload: 24
+	reload: 20
 	recoil: 0.225
 	shootY: 4
 	range: 90
 	ammoTypes: {
 		lead: {
-			damage: 8
+			damage: 16
 			speed: 11.25
 			ammoMultiplier: 1
 			lifetime: 8
@@ -31,7 +31,7 @@
 			trailLength: 3
 		}
 		graphite: {
-			damage: 12
+			damage: 24
 			speed: 11.25
 			reloadMultiplier: 0.9
 			ammoMultiplier: 4
@@ -44,7 +44,7 @@
 			knockback: 0.1
 		}
 		metaglass: {
-			damage: 10
+			damage: 20
 			speed: 11.25
 			lifetime: 8
 			width: 0
@@ -55,7 +55,7 @@
 			trailLength: 3
 			fragBullets: 3
 			fragBullet: {
-				damage: 3
+				damage: 6
 				speed: 5
 				lifetime: 8
 				width: 0
@@ -66,7 +66,7 @@
 			}
 		}
 		pyratite: {
-			damage: 20
+			damage: 30
 			speed: 12.5
 			lifetime: 8
 			ammoMultiplier: 1

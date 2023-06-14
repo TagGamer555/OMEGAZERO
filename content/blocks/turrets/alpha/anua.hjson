@@ -15,13 +15,13 @@
 	research: minima
 	shootSound: blaster
 	inaccuracy: 0
-	reload: 60
+	reload: 64
 	recoil: 0.3
 	shootY: 3
 	range: 120
 	ammoTypes: {
 		copper: {
-			damage: 12
+			damage: 24
 			pierce: true
 			speed: 15
 			ammoMultiplier: 3
@@ -90,7 +90,7 @@
 			}
 		}
 		graphite: {
-			damage: 10
+			damage: 30
 			pierce: true
 			speed: 15
 			ammoMultiplier: 2
@@ -159,7 +159,7 @@
 			}
 		}
 		alpha-item: {
-			damage: 20
+			damage: 44
 			pierce: true
 			speed: 15
 			ammoMultiplier: 1

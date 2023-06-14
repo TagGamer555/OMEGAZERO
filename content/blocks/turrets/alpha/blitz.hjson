@@ -16,20 +16,20 @@
 	category: turret
 	shootSound: shootSnap
 	research: minima
-	ammoPerShot: 20
+	ammoPerShot: 5
 	inaccuracy: 3
 	shoot: {
 		type: shootPattern
-		shots: 20
+		shots: 5
 		shotDelay: 5
 	}
-	reload: 240
+	reload: 60
 	recoil: 0.2
 	shootY: 6
 	range: 160
 	ammoTypes: {
 		lead: {
-			damage: 10
+			damage: 20
 			speed: 14
 			lifetime: 12
 			ammoMultiplier: 2
@@ -41,7 +41,7 @@
 			trailLength: 4
 		}
 		graphite: {
-			damage: 15
+			damage: 30
 			speed: 14
 			lifetime: 12
 			ammoMultiplier: 1
@@ -53,7 +53,7 @@
 			trailLength: 4
 		}
 		alpha-item: {
-			damage: 20
+			damage: 40
 			speed: 14
 			lifetime: 12
 			ammoMultiplier: 3
