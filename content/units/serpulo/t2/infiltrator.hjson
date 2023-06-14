@@ -6,7 +6,7 @@
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
-	health: 240
+	health: 650
 	speed: 1.75
 	drag: 0.04
 	accel: 0.08
@@ -48,17 +48,18 @@
 			mirror: false
 			rotate: true
 			inaccuracy: 0
-			shootSound: missile
+			shootSound: missileSmall
 			bullet: {
 				type: MissileBulletType
-				damage: 100
+				damage: 80
 				buildingDamageMultiplier: 1.1
 				speed: 5
 				width: 7
 				height: 14
 				shrinkY: 0
 				drag: -0.006
-				homing: false
+				homingRange: 0
+				homingPower: 0
 				smokeEffect: 
 					{
 						type: ParticleEffect
@@ -87,6 +88,8 @@
 				splashDamageRadius: 20
 				splashDamage: 20
 				lifetime: 40
+				hitSound: bang
+				despawnSound: bang
 				hitEffect: 
 					{
 						type: multiEffect
