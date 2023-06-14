@@ -55,7 +55,7 @@
 				buildingDamageMultiplier: 1.1
 				speed: 5
 				width: 7
-				height: 10
+				height: 14
 				shrinkY: 0
 				drag: -0.006
 				homing: false
@@ -64,7 +64,7 @@
 				speed: 4
 				splashDamageRadius: 20
 				splashDamage: 20
-				lifetime: 100
+				lifetime: 75
 				hitEffect: 
 					{
 						type: ParticleEffect
