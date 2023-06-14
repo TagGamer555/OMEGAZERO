@@ -1,0 +1,160 @@
+{
+	type: flying
+	flying: false
+	name: Annihilator
+	description: Large hovering unit with plasma rocket launcher and front lancers.
+	hovering: true
+	lowAltitude: false
+	engineSize: 0
+	health: 1100
+	speed: 1.35
+	drag: 0.04
+	accel: 0.08
+	armor: 10
+	itemCapacity: 160
+	rotateSpeed: 2
+	hitSize: 17.5
+	parts: [
+		{
+			type: HoverPart
+			mirror: true
+			x: 0
+			y: 0
+			radius: 10
+			phase: 170
+			color: FFE08F
+			stroke: 2
+			layerOffset: -0.001
+		}
+	]
+	researchCostMultiplier: 0.25
+	research: none
+	
+	weapons: [
+		{
+			x: 0
+			y: 0
+			rotateSpeed: 999
+			reload: 240
+			mirror: false
+			rotate: true
+			inaccuracy: 15
+			loopSound: spellLoop
+			shootSound: malignShoot
+			shoot: {
+				type: ShootPattern
+				shots: 3
+				shotDelay: 60
+			}
+			bullet: {
+				type: MissileBulletType
+				damage: 120
+				buildingDamageMultiplier: 1.2
+				speed: 8
+				width: 12
+				height: 24
+				shrinkY: 0
+				drag: -0.006
+				smokeEffect: 
+					{
+						type: ParticleEffect
+						particles: 10
+						lifetime: 90
+						sizeFrom: 5
+						sizeTo: 0
+						length: 20
+						colorFrom: 333333
+						colorTo: 111111
+					}
+				trailEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						colorFrom: FF785E
+						colorTo: C85C51
+					}
+				trailChance: 0.8
+				trailColor: FF785E
+				splashDamageRadius: 40
+				splashDamage: 30
+				lifetime: 40
+				hitSound: explosionBig
+				despawnSound: explosionBig
+				hitEffect: 
+					{
+						type: multiEffect
+						effects: [
+							{
+								type: ParticleEffect
+								particles: 16
+								lifetime: 120
+								sizeFrom: 4
+								sizeTo: 0
+								length: 40
+								colorFrom: FF785E
+								colorTo: C85C51
+							}
+						]
+					}
+				despawnEffect: 
+					{
+						type: multiEffect
+						effects: [
+							{
+								type: ParticleEffect
+								particles: 16
+								lifetime: 120
+								sizeFrom: 4
+								sizeTo: 0
+								length: 40
+								colorFrom: FF785E
+								colorTo: C85C51
+							}
+						]
+					}
+				weaveScale: 0
+				weaveMag: 0
+			}
+		}
+		{
+			name: annihilator-weapon-1
+			x: 5
+			y: 4
+			rotateSpeed: 7.5
+			reload: 30
+			mirror: true
+			alternate: true
+			rotate: true
+			inaccuracy: 0
+			shoot: {
+				type: ShootPattern
+				shots: 4
+				shotDelay: 10
+			}
+			bullet: {
+				type: LaserBulletType
+				length: 80
+				width: 10
+				damage: 120
+				status: blasted
+				statusDuration: 60
+				pierce: true
+				smokeEffect: 
+					{
+						type: ParticleEffect
+						particles: 3
+						lifetime: 60
+						sizeFrom: 3
+						sizeTo: 0
+						length: 20
+						colorFrom: 333333
+						colorTo: 111111
+					}
+			}
+		}
+	]
+}
