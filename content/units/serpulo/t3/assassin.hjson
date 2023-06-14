@@ -18,7 +18,7 @@
 		{
 			type: HoverPart
 			mirror: true
-			x: 5
+			x: 0
 			y: 5
 			radius: 7
 			phase: 170
@@ -59,7 +59,7 @@
 			}
 			bullet: {
 				type: MissileBulletType
-				damage: 90
+				damage: 40
 				buildingDamageMultiplier: 1.2
 				speed: 6
 				width: 9
@@ -90,8 +90,8 @@
 					}
 				trailChance: 0.8
 				trailColor: 333333
-				splashDamageRadius: 20
-				splashDamage: 20
+				splashDamageRadius: 30
+				splashDamage: 30
 				lifetime: 40
 				hitSound: bang
 				despawnSound: bang
@@ -140,14 +140,14 @@
 			mirror: true
 			alternate: true
 			rotate: true
-			inaccuracy: 10
+			inaccuracy: 3
 			shoot: {
 				type: ShootPattern
 				shots: 4
 				shotDelay: 2
 			}
 			bullet: {
-				damage: 50
+				damage: 20
 				buildingDamageMultiplier: 0.5
 				speed: 5
 				width: 6
