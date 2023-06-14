@@ -44,7 +44,7 @@
 			name: infiltrator-weapon
 			x: 0
 			y: 0
-			reload: 120
+			reload: 100
 			mirror: false
 			rotate: true
 			inaccuracy: 0
@@ -59,12 +59,34 @@
 				shrinkY: 0
 				drag: -0.006
 				homing: false
+				shootEffect: 
+					{
+						type: ParticleEffect
+						particles: 10
+						lifetime: 90
+						sizeFrom: 5
+						sizeTo: 0
+						length: 20
+						colorFrom: 333333
+						colorTo: 111111
+					}
+				trailEffect: 
+					{
+						type: ParticleEffect
+						particles: 2
+						lifetime: 40
+						sizeFrom: 4
+						sizeTo: 0
+						length: 20
+						colorFrom: 333333
+						colorTo: 111111
+					}
 				trailChance: 1
 				trailColor: 333333
 				speed: 4
 				splashDamageRadius: 20
 				splashDamage: 20
-				lifetime: 75
+				lifetime: 60
 				hitEffect: 
 					{
 						type: ParticleEffect
