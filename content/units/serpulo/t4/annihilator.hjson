@@ -81,9 +81,9 @@
 				trailColor: FF785E
 				splashDamageRadius: 40
 				splashDamage: 30
-				lifetime: 40
-				hitSound: explosionBig
-				despawnSound: explosionBig
+				lifetime: 25
+				hitSound: explosionbig
+				despawnSound: explosionbig
 				hitEffect: 
 					{
 						type: multiEffect
