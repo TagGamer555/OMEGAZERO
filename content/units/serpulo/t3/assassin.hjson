@@ -1,26 +1,26 @@
 {
 	type: flying
 	flying: false
-	name: Infiltrator
-	description: Small hovering unit with rocket launcher.
+	name: Assassin
+	description: Medium hovering unit with barrage rocket launcher and two simple guns.
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
-	health: 650
-	speed: 1.6
+	health: 1250
+	speed: 1.5
 	drag: 0.04
 	accel: 0.08
-	armor: 4
-	itemCapacity: 50
-	rotateSpeed: 4
-	hitSize: 10
+	armor: 8
+	itemCapacity: 120
+	rotateSpeed: 3
+	hitSize: 14
 	parts: [
 		{
 			type: HoverPart
 			mirror: true
-			x: 4
-			y: 4
-			radius: 5
+			x: 5
+			y: 5
+			radius: 7
 			phase: 170
 			color: FFE08F
 			stroke: 2
@@ -29,9 +29,9 @@
 		{
 			type: HoverPart
 			mirror: true
-			x: 4
-			y: -4
-			radius: 5
+			x: 5
+			y: -5
+			radius: 7
 			phase: 170
 			color: FFE08F
 			stroke: 2
@@ -39,30 +39,33 @@
 		}
 	]
 	researchCostMultiplier: 0.25
-	research: alpha-refabricator
+	research: none
 	
 	weapons: [
 		{
-			name: infiltrator-weapon
+			name: assassin-weapon-2
 			x: 0
-			y: 0
-			rotateSpeed: 4
-			reload: 100
+			y: -2
+			rotateSpeed: 2
+			reload: 120
 			mirror: false
 			rotate: true
-			inaccuracy: 0
+			inaccuracy: 15
 			shootSound: missileSmall
+			shoot: {
+				type: ShootPattern
+				shots: 4
+				shotDelay: 10
+			}
 			bullet: {
 				type: MissileBulletType
-				damage: 80
-				buildingDamageMultiplier: 1.1
-				speed: 4
-				width: 7
-				height: 14
+				damage: 90
+				buildingDamageMultiplier: 1.2
+				speed: 6
+				width: 9
+				height: 18
 				shrinkY: 0
 				drag: -0.006
-				homingRange: 0
-				homingPower: 0
 				smokeEffect: 
 					{
 						type: ParticleEffect
@@ -78,7 +81,7 @@
 					{
 						type: ParticleEffect
 						particles: 2
-						lifetime: 40
+						lifetime: 60
 						sizeFrom: 4
 						sizeTo: 0
 						length: 20
@@ -99,10 +102,10 @@
 							{
 								type: ParticleEffect
 								particles: 12
-								lifetime: 60
+								lifetime: 90
 								sizeFrom: 4
 								sizeTo: 0
-								length: 20
+								length: 30
 								colorFrom: FFA95F
 								colorTo: FF785E
 							}
@@ -115,10 +118,10 @@
 							{
 								type: ParticleEffect
 								particles: 12
-								lifetime: 60
+								lifetime: 90
 								sizeFrom: 4
 								sizeTo: 0
-								length: 20
+								length: 30
 								colorFrom: FFA95F
 								colorTo: FF785E
 							}
@@ -126,6 +129,40 @@
 					}
 				weaveScale: 0
 				weaveMag: 0
+			}
+		}
+		{
+			name: assassin-weapon-1
+			x: 3
+			y: -3
+			rotateSpeed: 6
+			reload: 60
+			mirror: true
+			alternate: true
+			rotate: true
+			inaccuracy: 10
+			shoot: {
+				type: ShootPattern
+				shots: 3
+				shotDelay: 10
+			}
+			bullet: {
+				damage: 40
+				buildingDamageMultiplier: 0.5
+				speed: 5
+				width: 6
+				height: 8
+				smokeEffect: 
+					{
+						type: ParticleEffect
+						particles: 3
+						lifetime: 60
+						sizeFrom: 3
+						sizeTo: 0
+						length: 20
+						colorFrom: 333333
+						colorTo: 111111
+					}
 			}
 		}
 	]
