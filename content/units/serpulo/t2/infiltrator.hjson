@@ -86,7 +86,7 @@
 				speed: 4
 				splashDamageRadius: 20
 				splashDamage: 20
-				lifetime: 60
+				lifetime: 40
 				hitEffect: 
 					{
 						type: multiEffect
