@@ -53,6 +53,17 @@
 				speed: 5
 				width: 6
 				height: 8
+				smokeEffect: 
+					{
+						type: ParticleEffect
+						particles: 10
+						lifetime: 90
+						sizeFrom: 5
+						sizeTo: 0
+						length: 20
+						colorFrom: 333333
+						colorTo: 111111
+					}
 			}
 		}
 	]

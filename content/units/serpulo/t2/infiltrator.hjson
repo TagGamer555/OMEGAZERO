@@ -59,7 +59,7 @@
 				shrinkY: 0
 				drag: -0.006
 				homing: false
-				shootEffect: 
+				smokeEffect: 
 					{
 						type: ParticleEffect
 						particles: 10
