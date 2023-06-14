@@ -5,6 +5,7 @@
 	health: 1440
 	range: 110
 	reload: 120
+	outlineColor: 1E1E26
 	shootY: 1.5
 	size: 2
 	shootSound: laser
