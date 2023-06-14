@@ -1,0 +1,69 @@
+{
+	type: itemTurret
+	name: Sector
+	description: A medium turret, made out of alpha, which shoots queues of slow-moving sound waves.
+	health: 1440
+	size: 2
+	outlineColor: 1E1E26
+	squareSprite: false
+	requirements: [
+		alpha-item/90
+		graphite/60
+		metaglass/120
+		fluxite/30
+		experience/30
+	]
+	shoot: {
+		type: ShootPattern
+		shots: 3
+		shotDelay: 20
+	}
+	category: turret
+	research: blitz
+	shootSound: plasmadrop
+	inaccuracy: 0
+	reload: 180
+	recoil: 0.5
+	shootY: 3
+	range: 180
+	ammoTypes: {
+		silicon: {
+			width: 8
+			height: 6
+			sprite: kiky5-soundwave
+			frontColor: 8E9097
+			backColor: 8E9097
+			pierce: true
+			pierceBuilding: true
+			buildingDamageMultiplier: 0
+			damage: 40
+			speed: 4
+			lifetime: 45
+			shrinkY: 0
+			shrinkX: -2
+			shootEffect: none
+			smokeEffect: none
+			hitEffect: none
+			despawnEffect: none
+		}
+		metaglass: {
+			width: 8
+			height: 6
+			sprite: kiky5-soundwave
+			frontColor: EBEDF5
+			backColor: EBEDF5
+			pierce: true
+			pierceBuilding: true
+			buildingDamageMultiplier: 0
+			damage: 50
+			speed: 2
+			lifetime: 90
+			shrinkY: 0
+			shrinkX: -2
+			shootEffect: none
+			smokeEffect: none
+			hitEffect: none
+			despawnEffect: none
+		}
+	}
+}
