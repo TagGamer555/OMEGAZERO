@@ -93,16 +93,6 @@
 						effects: [
 							{
 								type: ParticleEffect
-								particles: 10
-								lifetime: 120
-								sizeFrom: 8
-								sizeTo: 0
-								length: 20
-								colorFrom: 333333
-								colorTo: 111111
-							}
-							{
-								type: ParticleEffect
 								particles: 12
 								lifetime: 60
 								sizeFrom: 4
@@ -110,6 +100,16 @@
 								length: 20
 								colorFrom: FFA95F
 								colorTo: FF785E
+							}
+							{
+								type: ParticleEffect
+								particles: 10
+								lifetime: 120
+								sizeFrom: 8
+								sizeTo: 0
+								length: 20
+								colorFrom: 333333
+								colorTo: 111111
 							}
 						]
 					}
@@ -119,16 +119,6 @@
 						effects: [
 							{
 								type: ParticleEffect
-								particles: 10
-								lifetime: 120
-								sizeFrom: 8
-								sizeTo: 0
-								length: 20
-								colorFrom: 333333
-								colorTo: 111111
-							}
-							{
-								type: ParticleEffect
 								particles: 12
 								lifetime: 60
 								sizeFrom: 4
@@ -136,6 +126,16 @@
 								length: 20
 								colorFrom: FFA95F
 								colorTo: FF785E
+							}
+							{
+								type: ParticleEffect
+								particles: 10
+								lifetime: 120
+								sizeFrom: 8
+								sizeTo: 0
+								length: 20
+								colorFrom: 333333
+								colorTo: 111111
 							}
 						]
 					}
