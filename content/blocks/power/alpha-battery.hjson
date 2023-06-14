@@ -1,0 +1,16 @@
+type: battery
+name: Alpha Battery
+description: A small battery, capable of storing power. Highly armored.
+size: 1
+category: power
+health: 400
+consumes: {
+powerBuffered: 8000
+}
+requirements: [
+alpha-item/10
+lead/20
+copper/20
+silicon/5
+]
+research: alpha-laser-node
