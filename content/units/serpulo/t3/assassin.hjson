@@ -136,18 +136,18 @@
 			x: 5
 			y: -4
 			rotateSpeed: 6
-			reload: 60
+			reload: 40
 			mirror: true
 			alternate: true
 			rotate: true
 			inaccuracy: 10
 			shoot: {
 				type: ShootPattern
-				shots: 3
-				shotDelay: 4
+				shots: 4
+				shotDelay: 2
 			}
 			bullet: {
-				damage: 40
+				damage: 50
 				buildingDamageMultiplier: 0.5
 				speed: 5
 				width: 6
