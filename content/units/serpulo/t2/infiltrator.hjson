@@ -1,0 +1,95 @@
+{
+	type: flying
+	flying: false
+	name: Infiltrator
+	description: Small hovering unit with rocket launcher.
+	hovering: true
+	lowAltitude: false
+	engineSize: 0
+	health: 240
+	speed: 1.75
+	drag: 0.04
+	accel: 0.08
+	armor: 2
+	itemCapacity: 10
+	rotateSpeed: 5
+	hitSize: 10
+	parts: [
+		{
+			type: HoverPart
+			mirror: true
+			x: 4
+			y: 4
+			radius: 5
+			phase: 170
+			color: FFE08F
+			stroke: 2
+			layerOffset: -0.001
+		}
+		{
+			type: HoverPart
+			mirror: true
+			x: 4
+			y: -4
+			radius: 5
+			phase: 170
+			color: FFE08F
+			stroke: 2
+			layerOffset: -0.001
+		}
+	]
+	
+	weapons: [
+		{
+			name: infiltrator-weapon
+			x: 0
+			y: 0
+			reload: 120
+			mirror: false
+			rotate: true
+			inaccuracy: 0
+			shootSound: missile
+			bullet: {
+				type: MissileBulletType
+				damage: 60
+				buildingDamageMultiplier: 1.1
+				speed: 5
+				width: 7
+				height: 10
+				shrinkY: 0
+				drag: -0.03
+				homing: false
+				trailChance: 0.5
+				trailColor: 333333
+				speed: 4
+				splashDamageRadius: 20
+				splashDamage: 20
+				lifetime: 100
+				hitEffect: 
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						colorFrom: 333333
+						colorTo: 111111
+					}
+				despawnEffect: 
+					{
+						type: ParticleEffect
+						particles: 6
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 20
+						colorFrom: 333333
+						colorTo: 111111
+					}
+				weaveScale: 0
+				weaveMag: 0
+			}
+		}
+	]
+}
