@@ -57,9 +57,9 @@
 				width: 7
 				height: 10
 				shrinkY: 0
-				drag: -0.03
+				drag: -0.006
 				homing: false
-				trailChance: 0.5
+				trailChance: 1
 				trailColor: 333333
 				speed: 4
 				splashDamageRadius: 20
