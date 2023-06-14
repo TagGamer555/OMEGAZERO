@@ -13,14 +13,14 @@
 	armor: 10
 	itemCapacity: 160
 	rotateSpeed: 2
-	hitSize: 17.5
+	hitSize: 35
 	parts: [
 		{
 			type: HoverPart
 			mirror: true
 			x: 0
 			y: 0
-			radius: 10
+			radius: 20
 			phase: 170
 			color: FFE08F
 			stroke: 2
@@ -122,10 +122,10 @@
 		}
 		{
 			name: annihilator-weapon-1
-			x: 6
-			y: 5
+			x: 12
+			y: 10
 			rotateSpeed: 7.5
-			reload: 30
+			reload: 60
 			mirror: true
 			alternate: true
 			rotate: true
@@ -134,14 +134,14 @@
 			shoot: {
 				type: ShootPattern
 				shots: 4
-				shotDelay: 10
+				shotDelay: 2
 			}
 			bullet: {
 				type: LaserBulletType
-				length: 80
+				length: 100
 				colors: [FF785E, C85C51, FFFFFF]
-				width: 10
-				damage: 120
+				width: 12
+				damage: 140
 				status: blasted
 				statusDuration: 60
 				pierce: true
