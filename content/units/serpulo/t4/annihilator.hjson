@@ -122,14 +122,15 @@
 		}
 		{
 			name: annihilator-weapon-1
-			x: 5
-			y: 4
+			x: 6
+			y: 5
 			rotateSpeed: 7.5
 			reload: 30
 			mirror: true
 			alternate: true
 			rotate: true
 			inaccuracy: 0
+			shootSound: blaster
 			shoot: {
 				type: ShootPattern
 				shots: 4
@@ -138,6 +139,7 @@
 			bullet: {
 				type: LaserBulletType
 				length: 80
+				colors: [FF785E, C85C51, FFFFFF]
 				width: 10
 				damage: 120
 				status: blasted
