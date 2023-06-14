@@ -6,7 +6,7 @@
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
-	health: 240
+	health: 150
 	speed: 1.75
 	drag: 0.04
 	accel: 0.08
@@ -51,7 +51,7 @@
 			rotate: true
 			inaccuracy: 10
 			bullet: {
-				damage: 40
+				damage: 20
 				buildingDamageMultiplier: 0.25
 				speed: 5
 				width: 6

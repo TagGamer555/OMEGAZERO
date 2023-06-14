@@ -6,7 +6,7 @@
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
-	health: 1250
+	health: 850
 	speed: 1.5
 	drag: 0.04
 	accel: 0.08
@@ -19,7 +19,7 @@
 			type: HoverPart
 			mirror: true
 			x: 0
-			y: 6
+			y: 7
 			radius: 7
 			phase: 170
 			color: FFE08F
@@ -91,7 +91,7 @@
 				trailChance: 0.8
 				trailColor: 333333
 				splashDamageRadius: 30
-				splashDamage: 30
+				splashDamage: 20
 				lifetime: 40
 				hitSound: bang
 				despawnSound: bang
@@ -140,14 +140,14 @@
 			mirror: true
 			alternate: true
 			rotate: true
-			inaccuracy: 3
+			inaccuracy: 0
 			shoot: {
 				type: ShootPattern
 				shots: 4
 				shotDelay: 2
 			}
 			bullet: {
-				damage: 20
+				damage: 12
 				buildingDamageMultiplier: 0.5
 				speed: 5
 				width: 6

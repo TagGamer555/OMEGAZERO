@@ -6,7 +6,7 @@
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
-	health: 650
+	health: 570
 	speed: 1.6
 	drag: 0.04
 	accel: 0.08
@@ -54,7 +54,7 @@
 			shootSound: missileSmall
 			bullet: {
 				type: MissileBulletType
-				damage: 80
+				damage: 45
 				buildingDamageMultiplier: 1.1
 				speed: 4
 				width: 7
@@ -88,7 +88,7 @@
 				trailChance: 0.8
 				trailColor: 333333
 				splashDamageRadius: 20
-				splashDamage: 20
+				splashDamage: 10
 				lifetime: 40
 				hitSound: bang
 				despawnSound: bang
