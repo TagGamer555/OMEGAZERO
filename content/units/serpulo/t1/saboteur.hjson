@@ -2,7 +2,7 @@
 	type: flying
 	flying: false
 	name: Saboteur
-	description: Small hovering unit with weak weapon.
+	description: Small hovering unit with simple weapon.
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
@@ -37,6 +37,8 @@
 			layerOffset: -0.001
 		}
 	]
+	researchCostMultiplier: 0.25
+	research: alpha-fabricator
 	
 	weapons: [
 		{
@@ -57,8 +59,8 @@
 					{
 						type: ParticleEffect
 						particles: 3
-						lifetime: 30
-						sizeFrom: 1
+						lifetime: 60
+						sizeFrom: 3
 						sizeTo: 0
 						length: 20
 						colorFrom: 333333

@@ -10,7 +10,6 @@
     {
       unit: saboteur
       requirements: [
-        copper/60
 		alpha-item/40
 		silicon/30
       ]
