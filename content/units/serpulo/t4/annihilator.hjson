@@ -133,7 +133,7 @@
 		}
 		{
 			name: annihilator-weapon-2
-			x: 5
+			x: 10
 			y: 0
 			rotateSpeed: 5
 			reload: 20
@@ -145,7 +145,7 @@
 				damage: 20
 				buildingDamageMultiplier: 0.6
 				speed: 15
-				lieftime: 10
+				lifetime: 10
 				width: 4
 				height: 9
 				smokeEffect: 
