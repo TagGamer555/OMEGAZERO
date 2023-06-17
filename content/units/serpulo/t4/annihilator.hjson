@@ -19,7 +19,7 @@
 			type: HoverPart
 			mirror: false
 			x: 0
-			y: 7
+			y: 9
 			radius: 7
 			phase: 170
 			color: FFE08F
@@ -30,7 +30,7 @@
 			type: HoverPart
 			mirror: false
 			x: 0
-			y: -7
+			y: -9
 			radius: 7
 			phase: 170
 			color: FFE08F
