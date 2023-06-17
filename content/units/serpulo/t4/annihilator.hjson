@@ -2,25 +2,36 @@
 	type: flying
 	flying: false
 	name: Annihilator
-	description: Large hovering unit with plasma rocket launcher and front lancers.
+	description: Large hovering unit with barrage rocket launcher and two machine guns.
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
-	health: 1100
-	speed: 1.35
+	health: 1050
+	speed: 1.2
 	drag: 0.04
 	accel: 0.08
 	armor: 10
 	itemCapacity: 160
 	rotateSpeed: 2
-	hitSize: 35
+	hitSize: 18
 	parts: [
 		{
 			type: HoverPart
-			mirror: true
+			mirror: false
 			x: 0
-			y: 0
-			radius: 20
+			y: 7
+			radius: 7
+			phase: 170
+			color: FFE08F
+			stroke: 2
+			layerOffset: -0.001
+		}
+		{
+			type: HoverPart
+			mirror: false
+			x: 0
+			y: -7
+			radius: 7
 			phase: 170
 			color: FFE08F
 			stroke: 2
@@ -32,33 +43,33 @@
 	
 	weapons: [
 		{
+			name: annihilator-weapon-1
 			x: 0
 			y: 0
-			rotateSpeed: 999
-			reload: 240
+			rotateSpeed: 1
+			reload: 200
 			mirror: false
 			rotate: true
-			inaccuracy: 15
-			loopSound: spellLoop
-			shootSound: malignShoot
+			inaccuracy: 10
+			shootSound: missileSmall
 			shoot: {
 				type: ShootPattern
-				shots: 3
-				shotDelay: 60
+				shots: 5
+				shotDelay: 10
 			}
 			bullet: {
 				type: MissileBulletType
-				damage: 120
-				buildingDamageMultiplier: 1.2
-				speed: 8
-				width: 12
-				height: 24
+				damage: 60
+				buildingDamageMultiplier: 1.1
+				speed: 6
+				width: 11
+				height: 21
 				shrinkY: 0
 				drag: -0.006
 				smokeEffect: 
 					{
 						type: ParticleEffect
-						particles: 10
+						particles: 12
 						lifetime: 90
 						sizeFrom: 5
 						sizeTo: 0
@@ -69,34 +80,34 @@
 				trailEffect: 
 					{
 						type: ParticleEffect
-						particles: 1
-						lifetime: 60
-						sizeFrom: 2
+						particles: 3
+						lifetime: 75
+						sizeFrom: 4
 						sizeTo: 0
 						length: 20
-						colorFrom: FF785E
-						colorTo: C85C51
+						colorFrom: 333333
+						colorTo: 111111
 					}
 				trailChance: 0.8
-				trailColor: FF785E
+				trailColor: 333333
 				splashDamageRadius: 40
 				splashDamage: 30
-				lifetime: 25
-				hitSound: explosionbig
-				despawnSound: explosionbig
+				lifetime: 50
+				hitSound: bang
+				despawnSound: bang
 				hitEffect: 
 					{
 						type: multiEffect
 						effects: [
 							{
 								type: ParticleEffect
-								particles: 16
-								lifetime: 120
-								sizeFrom: 4
+								particles: 12
+								lifetime: 90
+								sizeFrom: 5
 								sizeTo: 0
 								length: 40
-								colorFrom: FF785E
-								colorTo: C85C51
+								colorFrom: FFA95F
+								colorTo: FF785E
 							}
 						]
 					}
@@ -106,13 +117,13 @@
 						effects: [
 							{
 								type: ParticleEffect
-								particles: 16
-								lifetime: 120
-								sizeFrom: 4
+								particles: 12
+								lifetime: 90
+								sizeFrom: 5
 								sizeTo: 0
 								length: 40
-								colorFrom: FF785E
-								colorTo: C85C51
+								colorFrom: FFA95F
+								colorTo: FF785E
 							}
 						]
 					}
@@ -121,30 +132,22 @@
 			}
 		}
 		{
-			name: annihilator-weapon-1
-			x: 12
-			y: 10
-			rotateSpeed: 7.5
-			reload: 60
+			name: annihilator-weapon-2
+			x: 5
+			y: 0
+			rotateSpeed: 5
+			reload: 20
 			mirror: true
 			alternate: true
 			rotate: true
-			inaccuracy: 0
-			shootSound: blaster
-			shoot: {
-				type: ShootPattern
-				shots: 4
-				shotDelay: 2
-			}
+			inaccuracy: 1
 			bullet: {
-				type: LaserBulletType
-				length: 100
-				colors: [FF785E, C85C51, FFFFFF]
-				width: 12
-				damage: 140
-				status: blasted
-				statusDuration: 60
-				pierce: true
+				damage: 20
+				buildingDamageMultiplier: 0.6
+				speed: 15
+				lieftime: 10
+				width: 4
+				height: 9
 				smokeEffect: 
 					{
 						type: ParticleEffect
