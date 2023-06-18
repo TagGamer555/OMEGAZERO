@@ -1,0 +1,44 @@
+{
+	type: GenericCrafter
+	name: Slag Solidifier
+	description: Solidifies Slag into Basalt. Requires Water as cooling.
+	size: 3
+	requirements: [
+		beryllium/120
+		graphite/90
+		tungsten/40
+	]
+	category: crafting
+	research: silicon-arc-furnace
+	craftTime: 150
+	itemCapacity: 0
+	liquidCapacity: 1
+	consumes: {
+		liquids: {
+			liquids: [
+				water/0.1
+				slag/0.3333333333333333333333333333
+			]
+		}
+	}
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawLiquidTile
+				drawLiquid: slag
+			}
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	outputItem: {
+		item: basalt-ore
+		amount: 3
+	}
+}
