@@ -1,0 +1,5 @@
+name: Basalt
+description: Igneous rock, that has quite sturdy properties.
+cost: 2
+color: 646464
+research: slag
