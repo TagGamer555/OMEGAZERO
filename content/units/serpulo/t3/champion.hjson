@@ -26,16 +26,11 @@
 			mirror: false
 			alternate: false
 			shootSound: shootBig
-			shoot: {
-				type: ShootPattern
-				shots: 3
-				shotDelay: 4
-			}
 			bullet: {
 				type: ShrapnelBulletType
-				damage: 20
+				damage: 40
 				length: 30
-				width: 10
+				width: 4
 				knockback: -0.4
 				toColor: 84F490
 				pierce: true

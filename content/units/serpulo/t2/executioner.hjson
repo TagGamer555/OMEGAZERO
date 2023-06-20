@@ -3,7 +3,7 @@
 	name: Executioner
 	description: Small spider unit, equipped with laser bolts, that repairs allied blocks.
 	speed: 1.1
-	health: 480
+	health: 380
 	itemCapacity: 20
 	armor: 4
 	drag: 0.4
@@ -29,8 +29,8 @@
 			shootSound: sap
 			bullet: {
 				type: LaserBoltBulletType
-				damage: 32
-				lifetime: 30
+				damage: 20
+				lifetime: 20
 				speed: 5
 				collidesTeam: true
 				healPercent: 4
