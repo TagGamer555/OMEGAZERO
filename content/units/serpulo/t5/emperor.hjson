@@ -29,7 +29,7 @@
 			continuous: true
 			bullet: {
 				type: ContinuousLaserBulletType
-				damage: 250
+				damage: 100
 				fadeTime: 20
 				length: 200
 				width: 8
