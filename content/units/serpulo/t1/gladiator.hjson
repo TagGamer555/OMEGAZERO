@@ -1,8 +1,8 @@
 {
 	type: legs
-	name: Galdiator
+	name: Gladiator
 	description: Small spider unit, equipped with close-range sap laser.
-	speed: 0.8
+	speed: 1
 	health: 220
 	itemCapacity: 10
 	armor: 2
