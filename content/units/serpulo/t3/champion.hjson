@@ -1,36 +1,39 @@
 {
 	type: legs
-	name: Gladiator
-	description: Small spider unit, equipped with close-range sap laser.
-	speed: 1
-	health: 140
-	itemCapacity: 10
-	armor: 2
+	name: Champion
+	description: Medium spider unit, equipped with fuse laser.
+	speed: 1.2
+	health: 780
+	itemCapacity: 40
+	armor: 6
 	drag: 0.4
-	rotateSpeed: 4
+	rotateSpeed: 3
+	hitSize: 14
 	legGroupSize: 2
-	legCount: 4
-	legLength: 8
+	legCount: 8
+	legLength: 18
 	legForwardScl: 0.6
 	legMoveSpace: 1.4
 	hovering: true
 	shadowElevation: 0.2
 	legContinuousMove: true
-	research: alpha-fabricator
+	research: alpha-reconstructor
 	weapons: [
 		{
 			x: 0
-			y: 3
-			reload: 20
+			y: 1
+			reload: 30
 			mirror: false
 			alternate: false
-			shootSound: sap
+			shootSound: shootBig
 			bullet: {
-				type: SapBulletType
-				damage: 10
-				sapStrength: 0.02
-				length: 50
-				knockback: -0.2
+				type: ShrapnelBulletType
+				damage: 40
+				length: 30
+				width: 10
+				knockback: -0.4
+				toColor: 84F490
+				pierce: true
 				smokeEffect: none
 				shootEffect: 
 					{

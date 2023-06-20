@@ -11,7 +11,7 @@
 	category: crafting
 	research: silicon-arc-furnace
 	craftTime: 150
-	itemCapacity: 0
+	itemCapacity: 10
 	liquidCapacity: 60
 	consumes: {
 		liquids: {
