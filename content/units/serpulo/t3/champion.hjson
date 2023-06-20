@@ -10,7 +10,7 @@
 	rotateSpeed: 3
 	hitSize: 14
 	legGroupSize: 2
-	legCount: 8
+	legCount: 4
 	legLength: 18
 	legForwardScl: 0.6
 	legMoveSpace: 1.4
@@ -29,7 +29,7 @@
 			shoot: {
 				type: ShootPattern
 				shots: 3
-				shotDelay: 10
+				shotDelay: 2
 			}
 			bullet: {
 				type: ShrapnelBulletType

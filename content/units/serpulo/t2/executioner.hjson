@@ -10,7 +10,7 @@
 	rotateSpeed: 3.5
 	hitSize: 10
 	legGroupSize: 2
-	legCount: 6
+	legCount: 4
 	legLength: 12
 	legForwardScl: 0.6
 	legMoveSpace: 1.4
