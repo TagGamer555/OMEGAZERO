@@ -2,7 +2,7 @@
 	type: flying
 	flying: false
 	name: Annihilator
-	description: Large hovering unit with barrage rocket launcher and two machine guns.
+	description: Large hovering unit with massive barrage rocket launcher and mounted laser.
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
@@ -133,21 +133,23 @@
 		}
 		{
 			name: annihilator-weapon-2
-			x: 10
-			y: 0
-			rotateSpeed: 5
-			reload: 20
+			x: 0
+			y: 10
+			rotateSpeed: 0
+			reload: 180
+			shootSound: laser
 			mirror: true
 			alternate: true
-			rotate: true
-			inaccuracy: 1
+			rotate: false
+			inaccuracy: 0
 			bullet: {
-				damage: 20
+				type: LaserBulletType
+				damage: 150
 				buildingDamageMultiplier: 0.6
-				speed: 15
 				lifetime: 10
-				width: 4
-				height: 9
+				length: 120
+				width: 20
+				pierce: true
 				smokeEffect: 
 					{
 						type: ParticleEffect
