@@ -59,7 +59,7 @@
 			}
 			bullet: {
 				type: MissileBulletType
-				damage: 180
+				damage: 440
 				buildingDamageMultiplier: 1.3
 				speed: 6
 				width: 14
@@ -91,7 +91,7 @@
 				trailChance: 0.8
 				trailColor: 333333
 				splashDamageRadius: 50
-				splashDamage: 90
+				splashDamage: 220
 				lifetime: 50
 				hitSound: bang
 				despawnSound: bang
@@ -146,13 +146,12 @@
 			inaccuracy: 0
 			bullet: {
 				type: ContinuousLaserBulletType
-				damage: 50
+				damage: 125
 				buildingDamageMultiplier: 0.6
 				lifetime: 150
 				fadeTime: 10
-				length: 200
+				length: 150
 				width: 5
-				makeFire: false
 				pierce: true
 				smokeEffect: 
 					{
