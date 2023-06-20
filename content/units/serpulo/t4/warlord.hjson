@@ -1,37 +1,37 @@
 {
 	type: legs
-	name: Champion
-	description: Medium spider unit, equipped with fuse laser.
-	speed: 1.2
-	health: 980
-	itemCapacity: 40
-	armor: 6
+	name: Warlord
+	description: Large spider unit, equipped with laser beam.
+	speed: 1.3
+	health: 1440
+	itemCapacity: 80
+	armor: 8
 	drag: 0.4
-	rotateSpeed: 3
+	rotateSpeed: 2
 	hitSize: 14
 	legGroupSize: 2
 	legCount: 4
-	legLength: 18
+	legLength: 24
 	legForwardScl: 0.6
 	legMoveSpace: 1.4
 	hovering: true
 	shadowElevation: 0.2
 	legContinuousMove: true
-	research: alpha-reconstructor
+	research: alpha-assembler
 	weapons: [
 		{
 			x: 0
 			y: -1
-			reload: 30
+			reload: 90
 			mirror: false
 			alternate: false
-			shootSound: shootBig
+			shootSound: laser
 			bullet: {
-				type: ShrapnelBulletType
-				damage: 80
-				length: 100
-				width: 30
-				knockback: -2
+				type: LaserBulletType
+				damage: 240
+				length: 120
+				width: 40
+				knockback: -4
 				toColor: 84F490
 				pierce: true
 				smokeEffect: none
@@ -39,8 +39,8 @@
 					{
 						type: ParticleEffect
 						particles: 1
-						lifetime: 60
-						sizeFrom: 10
+						lifetime: 90
+						sizeFrom: 15
 						sizeTo: 0
 						length: 0
 						colorFrom: 84F490
