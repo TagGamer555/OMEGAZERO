@@ -1,0 +1,41 @@
+{
+	type: legs
+	name: Executioner
+	description: Small spider unit, equipped with laser bolts, that repairs allied blocks.
+	speed: 1.1
+	health: 480
+	itemCapacity: 20
+	armor: 4
+	drag: 0.4
+	rotateSpeed: 3.5
+	hitSize: 10
+	legGroupSize: 2
+	legCount: 6
+	legLength: 8
+	legForwardScl: 0.6
+	legMoveSpace: 1.4
+	hovering: true
+	shadowElevation: 0.2
+	legContinuousMove: true
+	research: alpha-refabricator
+	targetHealing: true
+	weapons: [
+		{
+			x: 0
+			y: 4
+			reload: 30
+			mirror: false
+			alternate: false
+			shootSound: sap
+			bullet: {
+				type: LaserBoltBulletType
+				damage: 32
+				lifetime: 30
+				speed: 5
+				collidesTeam: true
+				healPercent: 4
+				knockback: -0.4
+			}
+		}
+	]
+}

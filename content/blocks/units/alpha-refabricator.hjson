@@ -15,7 +15,8 @@
     }
   }
   upgrades: [
-    [saboteur,infiltrator] 
+    [saboteur,infiltrator]
+	[gladiator,executioner]
   ]
   requirements: [
     alpha-item/240

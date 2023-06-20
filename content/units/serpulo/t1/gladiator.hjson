@@ -3,7 +3,7 @@
 	name: Gladiator
 	description: Small spider unit, equipped with close-range sap laser.
 	speed: 1
-	health: 220
+	health: 140
 	itemCapacity: 10
 	armor: 2
 	drag: 0.4
@@ -27,7 +27,7 @@
 			shootSound: sap
 			bullet: {
 				type: SapBulletType
-				damage: 20
+				damage: 10
 				sapStrength: 0.02
 				length: 50
 				knockback: -0.2

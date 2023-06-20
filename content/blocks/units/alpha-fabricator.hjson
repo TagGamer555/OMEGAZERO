@@ -15,6 +15,15 @@
       ]
       time: 2700
     }
+    {
+      unit: gladiator
+      requirements: [
+		alpha-item/40
+		silicon/20
+		metaglass/10
+      ]
+      time: 2700
+    }
   ]
   requirements: [
     alpha-item/20
