@@ -6,6 +6,7 @@
   size: 9
   consumes: {
     power: 30
+	liquid: cryofluid/1.25
     items: {
       items: [
         experience/120
