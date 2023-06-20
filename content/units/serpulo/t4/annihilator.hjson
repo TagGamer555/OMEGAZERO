@@ -136,10 +136,10 @@
 			x: 0
 			y: 10
 			rotateSpeed: 0
-			reload: 180
+			reload: 60
 			shootSound: laser
-			mirror: true
-			alternate: true
+			mirror: false
+			alternate: false
 			rotate: false
 			inaccuracy: 0
 			bullet: {
@@ -147,8 +147,8 @@
 				damage: 150
 				buildingDamageMultiplier: 0.6
 				lifetime: 10
-				length: 120
-				width: 20
+				length: 180
+				width: 25
 				pierce: true
 				smokeEffect: 
 					{
