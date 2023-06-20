@@ -31,8 +31,8 @@
 				type: ContinuousLaserBulletType
 				damage: 250
 				fadeTime: 20
-				length: 175
-				width: 20
+				length: 200
+				width: 8
 				knockback: -45
 				lifetime: 180
 				pierce: true
