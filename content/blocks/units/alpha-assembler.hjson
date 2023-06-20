@@ -1,0 +1,31 @@
+{
+  type: Reconstructor
+  name: Alpha Assembler
+  description: Upgrades inputted units into higher tier.
+  constructTime: 960
+  size: 7
+  consumes: {
+    power: 20
+    items: {
+      items: [
+        experience/90
+		silicon/1250
+		alpha-item/225
+		plastanium/400
+		phase-fabric/400
+      ]
+    }
+  }
+  upgrades: [
+    [assassin,annihilator] 
+  ]
+  requirements: [
+    alpha-item/900
+	fluxite/500
+	silicon/400
+	experience/180
+	plastanium/200
+  ]
+  category: units
+  research: alpha-reconstructor
+}

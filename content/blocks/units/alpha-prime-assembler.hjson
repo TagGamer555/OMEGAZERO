@@ -1,0 +1,33 @@
+{
+  type: Reconstructor
+  name: Alpha Prime Assembler
+  description: Upgrades inputted units into final tier.
+  constructTime: 1280
+  size: 9
+  consumes: {
+    power: 30
+    items: {
+      items: [
+        experience/120
+		silicon/2750
+		alpha-item/875
+		plastanium/1600
+		phase-fabric/900
+		surge-alloy/1200
+      ]
+    }
+  }
+  upgrades: [
+    [annihilator,destroyer] 
+  ]
+  requirements: [
+    alpha-item/1200
+	fluxite/1500
+	silicon/1200
+	experience/240
+	plastanium/800
+	surge-alloy/1200
+  ]
+  category: units
+  research: alpha-assembler
+}

@@ -1,0 +1,31 @@
+{
+  type: Reconstructor
+  name: Alpha Reconstructor
+  description: Upgrades inputted units into higher tier.
+  constructTime: 4800
+  size: 5
+  consumes: {
+    power: 15
+    items: {
+      items: [
+        experience/30
+		silicon/100
+		alpha-item/150
+		titanium/90
+		thorium/45
+      ]
+    }
+  }
+  upgrades: [
+    [infiltrator,assassin] 
+  ]
+  requirements: [
+    alpha-item/500
+	fluxite/300
+	silicon/200
+	experience/100
+	thorium/120
+  ]
+  category: units
+  research: alpha-refabricator
+}

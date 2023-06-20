@@ -39,7 +39,7 @@
 		}
 	]
 	researchCostMultiplier: 0.25
-	research: none
+	research: alpha-assembler
 	
 	weapons: [
 		{
