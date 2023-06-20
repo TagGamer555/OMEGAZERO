@@ -3,7 +3,7 @@
 	name: Champion
 	description: Medium spider unit, equipped with fuse laser.
 	speed: 1.2
-	health: 780
+	health: 980
 	itemCapacity: 40
 	armor: 6
 	drag: 0.4
@@ -29,8 +29,8 @@
 			bullet: {
 				type: ShrapnelBulletType
 				damage: 40
-				length: 45
-				width: 15
+				length: 75
+				width: 25
 				knockback: -0.8
 				toColor: 84F490
 				pierce: true
