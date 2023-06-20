@@ -8,9 +8,9 @@
 	armor: 8
 	drag: 0.4
 	rotateSpeed: 2
-	hitSize: 14
+	hitSize: 18
 	legGroupSize: 2
-	legCount: 4
+	legCount: 6
 	legLength: 24
 	legForwardScl: 0.6
 	legMoveSpace: 1.4
