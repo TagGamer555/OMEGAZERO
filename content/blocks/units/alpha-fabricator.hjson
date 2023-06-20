@@ -10,17 +10,17 @@
     {
       unit: saboteur
       requirements: [
-		alpha-item/40
-		silicon/30
+		alpha-item/15
+		silicon/15
       ]
       time: 2700
     }
     {
       unit: gladiator
       requirements: [
-		alpha-item/40
-		silicon/20
-		metaglass/10
+		alpha-item/15
+		silicon/10
+		metaglass/5
       ]
       time: 2700
     }

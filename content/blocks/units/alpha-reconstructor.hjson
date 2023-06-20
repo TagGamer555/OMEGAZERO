@@ -8,16 +8,16 @@
     power: 15
     items: {
       items: [
-        experience/30
-		silicon/100
-		alpha-item/150
-		titanium/90
+        experience/20
+		silicon/120
+		titanium/100
 		thorium/45
       ]
     }
   }
   upgrades: [
-    [infiltrator,assassin] 
+    [infiltrator,assassin]
+	[executioner,champion]
   ]
   requirements: [
     alpha-item/500

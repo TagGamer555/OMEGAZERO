@@ -8,9 +8,9 @@
     power: 10
     items: {
       items: [
-        experience/20
-		silicon/50
-		alpha-item/60
+        experience/10
+		silicon/30
+		alpha-item/25
       ]
     }
   }

@@ -6,19 +6,19 @@
   size: 7
   consumes: {
     power: 20
-	liquid: cryofluid/0.5
+	liquid: cryofluid/1
     items: {
       items: [
-        experience/90
-		silicon/1250
-		alpha-item/225
+        experience/30
+		silicon/825
 		plastanium/400
-		phase-fabric/400
+		thorium/250
       ]
     }
   }
   upgrades: [
-    [assassin,annihilator] 
+    [assassin,annihilator]
+	[champion,warlord]
   ]
   requirements: [
     alpha-item/900
