@@ -1,0 +1,37 @@
+{
+	type: legs
+	name: Galdiator
+	description: Small spider unit, equipped with close-range sap laser.
+	speed: 0.45
+	health: 220
+	itemCapacity: 10
+	armor: 2
+	drag: 0.4
+	rotateSpeed: 4
+	legGroupSize: 2
+	legCount: 4
+	legLength: 8
+	legForwardScl: 0.6
+	legMoveSpace: 1.4
+	hovering: true
+	shadowElevation: 0.2
+	legContinuousMove: true
+	research: alpha-fabricator
+	weapons: [
+		{
+			x: 0
+			y: 3
+			reload: 20
+			mirror: false
+			alternate: false
+			shootSound: sap
+			bullet: {
+				type: SapBulletType
+				damage: 20
+				sapStrength: 0.02
+				length: 80
+				knockback: -0.5
+			}
+		}
+	]
+}
