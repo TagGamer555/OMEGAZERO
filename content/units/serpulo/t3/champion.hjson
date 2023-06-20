@@ -29,8 +29,8 @@
 			bullet: {
 				type: ShrapnelBulletType
 				damage: 40
-				length: 75
-				width: 25
+				length: 100
+				width: 30
 				knockback: -0.8
 				toColor: 84F490
 				pierce: true
