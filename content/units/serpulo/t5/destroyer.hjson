@@ -6,7 +6,7 @@
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
-	health: 1400
+	health: 21000
 	speed: 1
 	drag: 0.04
 	accel: 0.08
