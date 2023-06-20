@@ -21,11 +21,16 @@
 	weapons: [
 		{
 			x: 0
-			y: 1
+			y: 0
 			reload: 30
 			mirror: false
 			alternate: false
 			shootSound: shootBig
+			shoot: {
+				type: ShootPattern
+				shots: 3
+				shotDelay: 10
+			}
 			bullet: {
 				type: ShrapnelBulletType
 				damage: 40
@@ -40,7 +45,7 @@
 						type: ParticleEffect
 						particles: 1
 						lifetime: 30
-						sizeFrom: 4
+						sizeFrom: 8
 						sizeTo: 0
 						length: 0
 						colorFrom: 84F490
