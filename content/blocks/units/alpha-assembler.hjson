@@ -2,7 +2,7 @@
   type: Reconstructor
   name: Alpha Assembler
   description: Upgrades inputted units into higher tier.
-  constructTime: 960
+  constructTime: 9600
   size: 7
   consumes: {
     power: 20

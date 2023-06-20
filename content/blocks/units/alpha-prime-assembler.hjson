@@ -2,7 +2,7 @@
   type: Reconstructor
   name: Alpha Prime Assembler
   description: Upgrades inputted units into final tier.
-  constructTime: 1280
+  constructTime: 12800
   size: 9
   consumes: {
     power: 30
