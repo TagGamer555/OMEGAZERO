@@ -31,7 +31,7 @@
 				damage: 80
 				length: 100
 				width: 30
-				knockback: -2
+				knockback: -5
 				toColor: 84F490
 				pierce: true
 				smokeEffect: none

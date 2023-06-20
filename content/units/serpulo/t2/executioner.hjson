@@ -18,7 +18,6 @@
 	shadowElevation: 0.2
 	legContinuousMove: true
 	research: alpha-refabricator
-	targetHealing: true
 	weapons: [
 		{
 			x: 0
@@ -34,7 +33,7 @@
 				speed: 5
 				collidesTeam: true
 				healPercent: 4
-				knockback: -1
+				knockback: -2.5
 				smokeEffect: none
 				shootEffect: 
 					{

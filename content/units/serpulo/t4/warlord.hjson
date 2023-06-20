@@ -28,11 +28,10 @@
 			shootSound: laser
 			bullet: {
 				type: LaserBulletType
-				damage: 240
+				damage: 300
 				length: 150
 				width: 60
-				knockback: -4
-				toColor: 84F490
+				knockback: -10
 				pierce: true
 				smokeEffect: none
 				shootEffect: 

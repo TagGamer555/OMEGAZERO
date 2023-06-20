@@ -30,7 +30,7 @@
 				damage: 10
 				sapStrength: 0.02
 				length: 50
-				knockback: -0.5
+				knockback: -1
 				smokeEffect: none
 				shootEffect: 
 					{
