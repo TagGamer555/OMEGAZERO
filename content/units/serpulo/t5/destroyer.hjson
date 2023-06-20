@@ -1,25 +1,25 @@
 {
 	type: flying
 	flying: false
-	name: Annihilator
-	description: Large hovering unit with massive barrage rocket launcher and mounted laser.
+	name: Destroyer
+	description: Extremely large hovering unit with rocket canon and meltdown laser.
 	hovering: true
 	lowAltitude: false
 	engineSize: 0
-	health: 1050
-	speed: 1.2
+	health: 1400
+	speed: 1
 	drag: 0.04
 	accel: 0.08
-	armor: 10
-	itemCapacity: 160
-	rotateSpeed: 2
-	hitSize: 18
+	armor: 12
+	itemCapacity: 200
+	rotateSpeed: 1
+	hitSize: 20
 	parts: [
 		{
 			type: HoverPart
 			mirror: false
 			x: 0
-			y: 13
+			y: 15
 			radius: 7
 			phase: 170
 			color: FFE08F
@@ -30,7 +30,7 @@
 			type: HoverPart
 			mirror: false
 			x: 0
-			y: -12.5
+			y: -15
 			radius: 7
 			phase: 170
 			color: FFE08F
@@ -38,39 +38,39 @@
 			layerOffset: -0.001
 		}
 	]
-	researchCostMultiplier: 0.25
+	researchCostMultiplier: 0.2
 	research: none
 	
 	weapons: [
 		{
-			name: annihilator-weapon-1
+			name: destroyer-weapon-1
 			x: 0
 			y: 0
 			rotateSpeed: 1
 			reload: 200
 			mirror: false
 			rotate: true
-			inaccuracy: 10
+			inaccuracy: 0
 			shootSound: missileSmall
 			shoot: {
 				type: ShootPattern
-				shots: 5
-				shotDelay: 10
+				shots: 1
+				shotDelay: 0
 			}
 			bullet: {
 				type: MissileBulletType
-				damage: 60
-				buildingDamageMultiplier: 1.1
+				damage: 180
+				buildingDamageMultiplier: 1.3
 				speed: 6
-				width: 11
-				height: 21
+				width: 14
+				height: 25
 				shrinkY: 0
 				drag: -0.006
 				smokeEffect: 
 					{
 						type: ParticleEffect
 						particles: 12
-						lifetime: 90
+						lifetime: 100
 						sizeFrom: 5
 						sizeTo: 0
 						length: 20
@@ -81,7 +81,7 @@
 					{
 						type: ParticleEffect
 						particles: 3
-						lifetime: 75
+						lifetime: 100
 						sizeFrom: 4
 						sizeTo: 0
 						length: 20
@@ -90,8 +90,8 @@
 					}
 				trailChance: 0.8
 				trailColor: 333333
-				splashDamageRadius: 40
-				splashDamage: 30
+				splashDamageRadius: 50
+				splashDamage: 90
 				lifetime: 50
 				hitSound: bang
 				despawnSound: bang
@@ -101,11 +101,11 @@
 						effects: [
 							{
 								type: ParticleEffect
-								particles: 12
-								lifetime: 90
-								sizeFrom: 5
+								particles: 15
+								lifetime: 120
+								sizeFrom: 6
 								sizeTo: 0
-								length: 40
+								length: 50
 								colorFrom: FFA95F
 								colorTo: FF785E
 							}
@@ -117,11 +117,11 @@
 						effects: [
 							{
 								type: ParticleEffect
-								particles: 12
-								lifetime: 90
-								sizeFrom: 5
+								particles: 15
+								lifetime: 120
+								sizeFrom: 6
 								sizeTo: 0
-								length: 40
+								length: 50
 								colorFrom: FFA95F
 								colorTo: FF785E
 							}
@@ -132,24 +132,24 @@
 			}
 		}
 		{
-			name: annihilator-weapon-2
+			name: destroyer-weapon-2
 			x: 0
-			y: 10
+			y: 12
 			rotateSpeed: 0
 			reload: 60
-			shootSound: laser
+			shootSound: laserbig
 			mirror: false
 			alternate: false
 			rotate: false
 			inaccuracy: 0
-			recoil: 0
 			bullet: {
-				type: LaserBulletType
-				damage: 150
+				type: ContinuousLaserBulletType
+				damage: 50
 				buildingDamageMultiplier: 0.6
-				lifetime: 10
-				length: 180
-				width: 25
+				lifetime: 150
+				fadeTime: 10
+				length: 200
+				width: 20
 				pierce: true
 				smokeEffect: 
 					{
