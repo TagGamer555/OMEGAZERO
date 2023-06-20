@@ -1,0 +1,55 @@
+{
+	type: legs
+	name: Emperor
+	description: Huge spider unit, equipped with laser beam.
+	speed: 1.4
+	health: 23000
+	itemCapacity: 160
+	armor: 10
+	drag: 0.4
+	rotateSpeed: 1
+	hitSize: 22
+	legGroupSize: 2
+	legCount: 6
+	legLength: 28
+	legForwardScl: 0.6
+	legMoveSpace: 1.4
+	hovering: true
+	shadowElevation: 0.2
+	legContinuousMove: true
+	research: alpha-prime-assembler
+	weapons: [
+		{
+			x: 0
+			y: -1
+			reload: 200
+			mirror: false
+			alternate: false
+			shootSound: laserbig
+			continuous: true
+			bullet: {
+				type: ContinuousLaserBulletType
+				damage: 250
+				fadeTime: 20
+				length: 175
+				width: 20
+				knockback: -45
+				lifetime: 180
+				pierce: true
+				smokeEffect: none
+				shootEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 90
+						sizeFrom: 20
+						sizeTo: 0
+						length: 0
+						colorFrom: 84F490
+						colorTo: 62AE7E
+						region: kiky5-diamond-bullet
+					}
+			}
+		}
+	]
+}
