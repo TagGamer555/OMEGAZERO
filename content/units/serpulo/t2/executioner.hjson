@@ -34,7 +34,7 @@
 				speed: 5
 				collidesTeam: true
 				healPercent: 4
-				knockback: -0.4
+				knockback: -1
 				smokeEffect: none
 				shootEffect: 
 					{

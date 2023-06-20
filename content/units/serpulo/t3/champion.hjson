@@ -28,10 +28,10 @@
 			shootSound: shootBig
 			bullet: {
 				type: ShrapnelBulletType
-				damage: 40
+				damage: 80
 				length: 100
 				width: 30
-				knockback: -0.8
+				knockback: -2
 				toColor: 84F490
 				pierce: true
 				smokeEffect: none
