@@ -9,7 +9,6 @@
 	lowAltitude: true
 	outlineColor: 2D2F39
 	envEnabled 4294967295
-	envDisabled: 0
 	circleTarget: true
 	health: 240
 	speed: 3
