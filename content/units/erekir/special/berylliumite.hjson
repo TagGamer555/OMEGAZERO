@@ -8,7 +8,8 @@
 	logicControllable: false
 	lowAltitude: true
 	outlineColor: 2D2F39
-	envDisabled: 16
+	envEnabled: 16
+	envEnabled: 32
 	health: 240
 	speed: 3
 	drag: 0.04

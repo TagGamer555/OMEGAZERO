@@ -32,4 +32,5 @@
   ]
   category: units
   research: alpha-fuser
+	envDisabled: 32
 }

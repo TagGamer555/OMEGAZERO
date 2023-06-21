@@ -9,6 +9,7 @@ alpha-item/2
 ]
 hasPower: true
 category: power
+envDisabled: 32
 research: alpha-fuser
 laserColor1: EDA666
 laserColor2: CE735E
