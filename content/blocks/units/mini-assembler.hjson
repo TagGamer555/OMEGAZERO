@@ -13,7 +13,7 @@
 	research: alpha-fuser
 	plans: [
 		{
-			unit: Salvager
+			unit: salvager
 			requirements: []
 			time: 600
 		}
