@@ -18,7 +18,7 @@
 	hidden: true
 	useUnitCap: false
 	logicControllable: false
-	playControllable: false
+	playerControllable: false
 	allowedInPayloads: false
 	createWreck: false
 }

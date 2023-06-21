@@ -16,7 +16,7 @@
 	width: 4
 	length: 6
 	shieldHealth: 800
-	cooldownNormal: 8
+	cooldownNormal: 0.5
 	consumes: {
 		power: 0.1
 	}
