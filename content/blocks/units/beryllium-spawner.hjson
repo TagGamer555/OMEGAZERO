@@ -13,7 +13,11 @@
 	research: core-bastion
 	consumes: {
 		liquid: water/0.25
-		item: beryllium/24
+		items: {
+			items: [
+				beryllium/24
+			]
+		}
 		power: 2
 	}
 	requirements: [
