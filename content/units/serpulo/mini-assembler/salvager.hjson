@@ -4,6 +4,7 @@
 	name: Salvager
 	description: T0 unit, that will repair allied blocks.
 	lowAltitude: true
+	outlineColor: 1E1E26
 	health: 100
 	speed: 2.75
 	drag: 0.04
