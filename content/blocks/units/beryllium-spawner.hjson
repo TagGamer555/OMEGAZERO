@@ -4,7 +4,7 @@
 	description: Makes very basic attacker units.
 	health: 400
 	requirements: [
-		basalt/60
+		basalt-ore/60
 		beryllium/120
 		graphite/20
 	]
