@@ -1,6 +1,6 @@
 {
 	type: UnitAssembler
-	name: Mini-Assembler (repair)
+	name: Mini-Assembler (Repair)
 	description: Makes very basic repair units.
 	health: 250
 	requirements: [
