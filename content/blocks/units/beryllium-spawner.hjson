@@ -15,14 +15,17 @@
 	plans: [
 		{
 			unit: berylliumite
-			requirements: [
-				beryllium/24
-			]
+			requirements: []
 			time: 600
 		}
 	]
 	consumes: {
 		power: 2
 		liquid: water/0.1
+		items: {
+			items: [
+				beryllium/24
+			]
+		}
 	}
 }
