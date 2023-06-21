@@ -11,7 +11,7 @@
 	size: 1
 	health: 200
 	width: 4
-	length: 4
+	length: 6
 	shieldHealth: 400
 	cooldownNormal: 5
 	consumes: {
