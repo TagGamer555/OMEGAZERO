@@ -1,0 +1,23 @@
+{
+	type: DroneCenter
+	name: Beryllium Spawner
+	description: Spawns Berylliumite units.
+	droneType: berylliumite
+	unitsSpawned: 4
+	statusEffect: none
+	droneConstructTime: 600
+	statusDuration: 0
+	droneRange: 60
+	solid: false
+	configuarble: true
+	research: core-bastion
+	consumes: {
+		liquid: water/0.25
+		item: beryllium/24
+		power/2
+	}
+	requirements: [
+		beryllium/120
+		silicon/30
+	]
+}
