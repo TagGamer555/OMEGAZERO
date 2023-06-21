@@ -1,0 +1,25 @@
+{
+	type: UnitAssembler
+	name: Mini-Assembler
+	description: Makes very basic units.
+	health: 250
+	requirements: [
+		copper/25
+		lead/30
+		graphite/20
+		silicon/15
+	]
+	size: 1
+	research: alpha-fuser
+	plans: [
+		{
+			unit: Salvager
+			requirements: []
+			time: 600
+		}
+	]
+	consumes: {
+		power: 0.75
+		liquid: water/0.2
+	}
+}

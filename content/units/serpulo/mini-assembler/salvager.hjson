@@ -1,0 +1,74 @@
+{
+	type: flying
+	flying: true
+	name: Salvager
+	description: T0 unit, that will repair allied blocks.
+	lowAltitude: true
+	health: 100
+	speed: 2.75
+	drag: 0.04
+	accel: 0.08
+	armor: 0
+	itemCapacity: 0
+	trailLength: 10
+	targetAir: false
+	targetGround: false
+	research: mini-assembler
+
+	weapons: [
+		{
+			x: 0
+			y: 2
+			reload: 60
+			mirror: false
+			alternate: false
+			shootSound: sap
+			bullet: {
+				type: LaserBoltBulletType
+				damage: 0
+				lifetime: 10
+				speed: 5
+				collidesTeam: true
+				healPercent: 1
+				knockback: 0
+				smokeEffect: none
+				shootEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: EDA666
+						region: kiky5-diamond-bullet
+					}
+				hitEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: EDA666
+						region: kiky5-diamond-bullet
+					}
+				despawnEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: EDA666
+						region: kiky5-diamond-bullet
+					}
+			}
+		}
+	]
+}
