@@ -1,0 +1,22 @@
+{
+	type: ForceProjector
+	name: Forcer
+	description: Smaller version of standard Force Projector.
+	category: defense
+	requirements: [
+		alpha-item/8
+		fluxite/4
+		silicon/4
+	]
+	research: alpha-wall
+	size: 1
+	health: 120
+	radius: 20
+	shieldHealth: 200
+	cooldownNormal: 1
+	consumes: {
+		power: 0.2
+	}
+	hasItems: false
+	hasLiquids: false
+}

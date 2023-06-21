@@ -6,14 +6,17 @@
 	requirements: [
 		silicon/2
 		graphite/1
-		alpha-item/1
+		alpha-item/2
+		lead/8
+		copper/8
 	]
+	research: copper-wall
 	size: 1
-	health: 200
+	health: 400
 	width: 4
 	length: 6
-	shieldHealth: 400
-	cooldownNormal: 5
+	shieldHealth: 800
+	cooldownNormal: 1
 	consumes: {
 		power: 0.1
 	}
