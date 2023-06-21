@@ -1,7 +1,7 @@
 {
 	type: UnitAssembler
-	name: Mini-Assembler
-	description: Makes very basic units.
+	name: Mini-Assembler (repair)
+	description: Makes very basic repair units.
 	health: 250
 	requirements: [
 		copper/25
@@ -10,6 +10,7 @@
 		silicon/15
 	]
 	size: 1
+	areaSize: 5
 	research: alpha-fuser
 	plans: [
 		{
