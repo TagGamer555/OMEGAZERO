@@ -12,7 +12,7 @@
 	size: 1
 	areaSize: 5
 	category: units
-	droneType: regret
+	//droneType: regret
 	research: alpha-fuser
 	plans: [
 		{
