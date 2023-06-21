@@ -33,7 +33,7 @@
 	}
 	
 	hasPower: true
-	envDisabled: 32
+	envDisabled: 16
 	hasItems: true
 	hasLiquids: true
 	craftTime: 60

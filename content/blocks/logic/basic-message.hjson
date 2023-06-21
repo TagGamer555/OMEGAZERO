@@ -13,7 +13,7 @@
 	maxNewlines: 64
 	maxTextLength: 440
 
-	envDisabled: 32
+	envDisabled: 16
 	category: logic
 	research: message
 }

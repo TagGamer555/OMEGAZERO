@@ -11,5 +11,5 @@
 	]
 	category: defense
 	research: silicon-wall-small
-	envDisabled: 32
+	envDisabled: 16
 }

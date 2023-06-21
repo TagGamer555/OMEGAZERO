@@ -9,7 +9,7 @@
 		silicon/4
 	]
 	research: alpha-wall
-	envDisabled: 32
+	envDisabled: 16
 	size: 1
 	health: 120
 	radius: 20

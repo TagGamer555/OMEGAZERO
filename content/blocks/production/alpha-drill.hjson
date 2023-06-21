@@ -6,7 +6,7 @@
 	itemCapacity: 10
 	tier: 3
 	drillTime: 360
-	envDisabled: 32
+	envDisabled: 16
 	drawMineItem: true
 	consumes: {
 		liquid: {
