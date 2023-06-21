@@ -1,0 +1,20 @@
+{
+	type: DirectionalForceProjector
+	name: DFFP
+	description: Direction Force Field Projector.
+	category: defense
+	requirements: [
+		silicon/2
+		graphite/1
+		alpha-item/1
+	]
+	size: 1
+	health: 200
+	width: 16.66666666666666666666666666666666666
+	length: 12
+	shieldHealth: 400
+	cooldownNormal: 9
+	consumes: {
+		power: 0.1
+	}
+}
