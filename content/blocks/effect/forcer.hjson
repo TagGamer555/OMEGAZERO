@@ -2,7 +2,7 @@
 	type: ForceProjector
 	name: Forcer
 	description: Smaller version of standard Force Projector.
-	category: defense
+	category: effect
 	requirements: [
 		alpha-item/8
 		fluxite/4

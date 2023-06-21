@@ -1,0 +1,24 @@
+{
+	type: flying
+	name: Regret
+	description: Assembly drone of Serpulo.
+	controller: AssemblerAI
+	
+	flying: true
+	drag: 0.06
+	accel: 0.11
+	speed: 1.3
+	health: 90
+	engineSize: 2
+	payloadCapacity: 0
+	targetable: false
+	bounded: false
+	
+	isEnemy: false
+	hidden: true
+	useUnitCap: false
+	logicControllable: false
+	playControllable: false
+	allowedInPayloads: false
+	createWreck: false
+}
