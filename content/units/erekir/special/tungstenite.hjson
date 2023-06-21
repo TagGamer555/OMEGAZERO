@@ -1,7 +1,7 @@
 {
 	type: flying
 	flying: true
-	name: Berylliumite
+	name: Tungstenite
 	description: Unit, that will attack opponents' blocks.
 	controller: FlyingAI
 	playerControllable: false
@@ -10,14 +10,14 @@
 	outlineColor: 2D2F39
 	envDisabled: 32
 	circleTarget: true
-	health: 240
+	health: 480
 	speed: 3
 	drag: 0.04
 	accel: 0.08
-	armor: 2
+	armor: 4
 	itemCapacity: 0
 	trailLength: 10
-	research: beryllium-spawner
+	research: tungsten-spawner
 
 	weapons: [
 		{
@@ -28,14 +28,14 @@
 			alternate: false
 			shootSound: shootAlt
 			bullet: {
-				damage: 24
+				damage: 48
 				lifetime: 20
 				height: 7
 				width: 5
 				trailWidth: 1.2
 				trailLength: 8
-				trailColor: 92DD7E
-				backColor: 92DD7E
+				trailColor: D0EFFF
+				backColor: D0EFFF
 				frontColor: FFFFFF
 				speed: 5
 				knockback: 0
@@ -49,7 +49,7 @@
 						sizeTo: 0
 						length: 0
 						colorFrom: FFFFFF
-						colorTo: 92DD7E
+						colorTo: D0EFFF
 						region: kiky5-diamond-bullet
 					}
 				hitEffect: 
@@ -61,7 +61,7 @@
 						sizeTo: 0
 						length: 0
 						colorFrom: FFFFFF
-						colorTo: 92DD7E
+						colorTo: D0EFFF
 						region: kiky5-diamond-bullet
 					}
 				despawnEffect: 
@@ -73,7 +73,7 @@
 						sizeTo: 0
 						length: 0
 						colorFrom: FFFFFF
-						colorTo: 92DD7E
+						colorTo: D0EFFF
 						region: kiky5-diamond-bullet
 					}
 			}
