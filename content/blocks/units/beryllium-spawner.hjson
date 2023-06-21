@@ -12,6 +12,7 @@
 	areaSize: 2
 	category: units
 	research: core-bastion
+	itemCapacity: 48
 	plans: [
 		{
 			unit: berylliumite
