@@ -9,7 +9,7 @@
 	statusDuration: 0
 	droneRange: 60
 	solid: false
-	configuarble: false
+	configuarble: true
 	size: 2
 	itemCapacity: 48
 	research: core-bastion
