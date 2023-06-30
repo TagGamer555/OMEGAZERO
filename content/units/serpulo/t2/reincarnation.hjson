@@ -45,9 +45,9 @@
 					{
 						effectY: -1
 						type: ParticleEffect
-						particles: 3
-						lifetime: 20
-						sizeFrom: 4
+						particles: 1
+						lifetime: 60
+						sizeFrom: 3
 						sizeTo: 0
 						length: 3
 						colorFrom: FFFFFF
