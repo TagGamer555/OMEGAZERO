@@ -22,7 +22,7 @@
 			reload: 60
 			mirror: false
 			alternate: false
-			shootSound: laserBolt
+			shootSound: shootAlt
 			recoil: 0
 			shoot: {
 				type: ShootPattern
@@ -41,10 +41,25 @@
 				healPercent: 5
 				knockback: 1.25
 				sprite: kiky5-arrowwave
+				status: wet
+				statusDuration: 60
 				smokeEffect: none
 				pierce: true
 				shrinkY: 0
-				shootEffect: 
+				trailChance: 1
+				trailEffect:
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 60
+						sizeFrom: 1
+						sizeTo: 0
+						length: 5
+						colorFrom: FFFFFF
+						colorTo: 88A4FF
+						region: kiky5-diamond-full
+					}
+				shootEffect:
 					{
 						type: ParticleEffect
 						particles: 1
@@ -56,7 +71,7 @@
 						colorTo: 88A4FF
 						region: kiky5-diamond-bullet
 					}
-				hitEffect: 
+				hitEffect:
 					{
 						type: ParticleEffect
 						particles: 1
@@ -68,7 +83,7 @@
 						colorTo: 88A4FF
 						region: kiky5-diamond-bullet
 					}
-				despawnEffect: 
+				despawnEffect:
 					{
 						type: ParticleEffect
 						particles: 1
