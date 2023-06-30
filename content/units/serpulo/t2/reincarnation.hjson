@@ -19,20 +19,15 @@
 			name: reincarnation-weapon
 			x: 0
 			y: 0
-			reload: 10
+			reload: 5
 			mirror: false
 			alternate: false
 			shootSound: flame
 			recoil: 0.1
-			shoot: {
-				type: ShootPattern
-				shots: 3
-				shotDelay: 5
-			}
 			inaccuracy: 1
 			bullet: {
 				type: BasicBulletType
-				damage: 20
+				damage: 10
 				lifetime: 12.5
 				speed: 7.25
 				collidesTeam: true
@@ -50,11 +45,11 @@
 					{
 						effectY: -1
 						type: ParticleEffect
-						particles: 1
-						lifetime: 60
-						sizeFrom: 2
+						particles: 3
+						lifetime: 20
+						sizeFrom: 1
 						sizeTo: 0
-						length: 5
+						length: 3
 						colorFrom: FFFFFF
 						colorTo: 88A4FF
 						region: kiky5-diamond-full
@@ -71,7 +66,18 @@
 						colorTo: 88A4FF
 						region: kiky5-circle-hollow
 					}
-				hitEffect: none
+				hitEffect:
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 88A4FF
+						region: kiky5-circle-hollow
+					}
 				despawnEffect: none
 			}
 		}
