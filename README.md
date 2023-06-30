@@ -5,9 +5,10 @@ Check my Discord Server: https://discord.gg/sGn9hvPgEE
 
 -- Authors --
 
-KillerIKY#72XX - main creator (me)
+KillerIKY - main creator (me)
+Contact me in Discord, @killeriky
 
-Renale#92XX - helped a lot with testing and ideas!!
+Argon - helped a lot with testing and ideas!!
 
 NeonFlames - commited on GitHub
 
