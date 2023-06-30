@@ -72,7 +72,7 @@
 						length: 0
 						colorFrom: FFFFFF
 						colorTo: 88A4FF
-						region: kiky5-circle-hallow
+						region: kiky5-circle-hollow
 					}
 				hitEffect:
 					{
@@ -84,7 +84,7 @@
 						length: 0
 						colorFrom: FFFFFF
 						colorTo: 88A4FF
-						region: kiky5-circle-hallow
+						region: kiky5-circle-hollow
 					}
 				despawnEffect:
 					{
@@ -96,7 +96,7 @@
 						length: 0
 						colorFrom: FFFFFF
 						colorTo: 88A4FF
-						region: kiky5-circle-hallow
+						region: kiky5-circle-hollow
 					}
 			}
 		}
