@@ -4,7 +4,7 @@
 	name: Recovery
 	description: T1 lightweight airship.
 	lowAltitude: true
-	health: 170
+	health: 150
 	speed: 3.25
 	drag: 0.04
 	accel: 0.08
@@ -16,6 +16,7 @@
 
 	weapons: [
 		{
+			name: recovery-weapon
 			x: 0
 			y: 0
 			reload: 60
@@ -29,8 +30,8 @@
 			}
 			inaccuracy: 3
 			bullet: {
-				type: LaserBoltBulletType
-				damage: 10
+				type: BasicBulletType
+				damage: 8
 				lifetime: 30
 				speed: 4
 				frontColor: FFFFFF
@@ -40,6 +41,7 @@
 				knockback: 1.25
 				sprite: kiky5-arrowwave
 				smokeEffect: none
+				pierce: true
 				shootEffect: 
 					{
 						type: ParticleEffect
