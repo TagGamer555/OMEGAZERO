@@ -47,25 +47,14 @@
 						type: ParticleEffect
 						particles: 3
 						lifetime: 20
-						sizeFrom: 1
+						sizeFrom: 4
 						sizeTo: 0
 						length: 3
 						colorFrom: FFFFFF
 						colorTo: 88A4FF
 						region: kiky5-diamond-full
 					}
-				shootEffect:
-					{
-						type: ParticleEffect
-						particles: 1
-						lifetime: 30
-						sizeFrom: 3
-						sizeTo: 0
-						length: 0
-						colorFrom: FFFFFF
-						colorTo: 88A4FF
-						region: kiky5-circle-hollow
-					}
+				shootEffect: none
 				hitEffect:
 					{
 						type: ParticleEffect
