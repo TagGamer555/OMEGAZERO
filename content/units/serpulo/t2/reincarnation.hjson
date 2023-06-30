@@ -40,7 +40,7 @@
 				smokeEffect: none
 				pierce: true
 				shrinkY: 0
-				trailChance: 1
+				trailChance: 100
 				trailEffect:
 					{
 						effectY: -1
@@ -60,7 +60,7 @@
 						type: ParticleEffect
 						particles: 1
 						lifetime: 30
-						sizeFrom: 3
+						sizeFrom: 4
 						sizeTo: 0
 						length: 0
 						colorFrom: FFFFFF
