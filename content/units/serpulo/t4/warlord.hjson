@@ -11,7 +11,7 @@
 	hitSize: 18
 	legGroupSize: 2
 	legCount: 6
-	legLength: 24
+	legLength: 28
 	legForwardScl: 0.6
 	legMoveSpace: 1.4
 	hovering: true
