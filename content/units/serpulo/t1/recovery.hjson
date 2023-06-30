@@ -42,6 +42,8 @@
 				knockback: 1.25
 				sprite: kiky5-arrowwave
 				status: wet
+				width: 4
+				height: 4
 				statusDuration: 60
 				smokeEffect: none
 				pierce: true
