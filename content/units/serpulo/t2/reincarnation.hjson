@@ -1,0 +1,79 @@
+{
+	type: flying
+	flying: true
+	name: Reincarnation
+	description: T2 lightweight airship.
+	lowAltitude: true
+	health: 300
+	armor: 10
+	speed: 3.2
+	drag: 0.04
+	accel: 0.08
+	itemCapacity: 10
+	trailLength: 12
+	research: alpha-refabricator
+	hitSize: 10
+
+	weapons: [
+		{
+			name: reincarnation-weapon
+			x: 0
+			y: 0
+			reload: 10
+			mirror: false
+			alternate: false
+			shootSound: flame
+			recoil: 0.1
+			shoot: {
+				type: ShootPattern
+				shots: 3
+				shotDelay: 5
+			}
+			inaccuracy: 1
+			bullet: {
+				type: BasicBulletType
+				damage: 20
+				lifetime: 12.5
+				speed: 7.25
+				collidesTeam: true
+				healPercent: 0.5
+				knockback: 0
+				status: freezing
+				width: 0
+				height: 0
+				statusDuration: 60
+				smokeEffect: none
+				pierce: true
+				shrinkY: 0
+				trailChance: 1
+				trailEffect:
+					{
+						effectY: -1
+						type: ParticleEffect
+						particles: 1
+						lifetime: 60
+						sizeFrom: 2
+						sizeTo: 0
+						length: 5
+						colorFrom: FFFFFF
+						colorTo: 88A4FF
+						region: kiky5-diamond-full
+					}
+				shootEffect:
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 88A4FF
+						region: kiky5-circle-hollow
+					}
+				hitEffect: none
+				despawnEffect: none
+			}
+		}
+	]
+}
