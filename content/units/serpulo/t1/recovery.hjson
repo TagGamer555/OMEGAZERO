@@ -31,8 +31,10 @@
 			bullet: {
 				type: LaserBoltBulletType
 				damage: 10
-				lifetime: 10
-				speed: 15
+				lifetime: 15
+				speed: 7.5
+				colorFront: FFFFFF
+				colorBack: 88A4FF
 				collidesTeam: true
 				healPercent: 5
 				knockback: 1.25
