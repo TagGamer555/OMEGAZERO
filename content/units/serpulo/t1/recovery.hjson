@@ -22,7 +22,8 @@
 			reload: 60
 			mirror: false
 			alternate: false
-			shootSound: sap
+			shootSound: laserBolt
+			recoil: 0
 			shoot: {
 				type: ShootPattern
 				shots: 3
@@ -42,6 +43,7 @@
 				sprite: kiky5-arrowwave
 				smokeEffect: none
 				pierce: true
+				shrinkY: 0
 				shootEffect: 
 					{
 						type: ParticleEffect
