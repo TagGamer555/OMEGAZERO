@@ -22,18 +22,18 @@
 		{
 			x: 0
 			y: -1
-			reload: 200
+			reload: 240
 			mirror: false
 			alternate: false
 			shootSound: laserbig
 			continuous: true
 			bullet: {
 				type: ContinuousLaserBulletType
-				damage: 100
-				fadeTime: 20
-				length: 200
+				damage: 140
+				fadeTime: 60
+				length: 100
 				width: 8
-				knockback: -45
+				knockback: -15
 				lifetime: 180
 				pierce: true
 				smokeEffect: none

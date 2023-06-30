@@ -1,0 +1,79 @@
+{
+	type: flying
+	flying: true
+	name: Recovery
+	description: T1 lightweight airship.
+	lowAltitude: true
+	health: 170
+	speed: 3.25
+	drag: 0.04
+	accel: 0.08
+	armor: 5
+	itemCapacity: 0
+	trailLength: 12
+	research: alpha-fabricator
+	hitSize: 10
+
+	weapons: [
+		{
+			x: 0
+			y: 0
+			reload: 60
+			mirror: false
+			alternate: false
+			shootSound: sap
+			shoot: {
+				type: ShootPattern
+				shots: 3
+				shotDelay: 5
+			}
+			inaccuracy: 3
+			bullet: {
+				type: LaserBoltBulletType
+				damage: 10
+				lifetime: 10
+				speed: 15
+				collidesTeam: true
+				healPercent: 5
+				knockback: 1.25
+				smokeEffect: none
+				shootEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 88A4FF
+						region: kiky5-diamond-bullet
+					}
+				hitEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 88A4FF
+						region: kiky5-diamond-bullet
+					}
+				despawnEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 88A4FF
+						region: kiky5-diamond-bullet
+					}
+			}
+		}
+	]
+}
