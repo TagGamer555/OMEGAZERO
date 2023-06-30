@@ -13,6 +13,7 @@
 	trailLength: 12
 	research: alpha-refabricator
 	hitSize: 10
+	rotateSpeed: 3
 
 	weapons: [
 		{
@@ -40,7 +41,7 @@
 				smokeEffect: none
 				pierce: true
 				shrinkY: 0
-				trailChance: 100
+				trailChance: 25
 				trailEffect:
 					{
 						effectY: -1
