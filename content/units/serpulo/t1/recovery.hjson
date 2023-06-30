@@ -31,13 +31,14 @@
 			bullet: {
 				type: LaserBoltBulletType
 				damage: 10
-				lifetime: 15
-				speed: 7.5
+				lifetime: 30
+				speed: 4
 				frontColor: FFFFFF
 				backColor: 88A4FF
 				collidesTeam: true
 				healPercent: 5
 				knockback: 1.25
+				sprite: kiky5-arrowwave
 				smokeEffect: none
 				shootEffect: 
 					{
