@@ -48,13 +48,14 @@
 				smokeEffect: none
 				pierce: true
 				shrinkY: 0
-				trailChance: 1
+				trailChance: 0.5
 				trailEffect:
 					{
+						effectY: -1
 						type: ParticleEffect
 						particles: 1
 						lifetime: 60
-						sizeFrom: 1
+						sizeFrom: 2
 						sizeTo: 0
 						length: 5
 						colorFrom: FFFFFF
@@ -71,7 +72,7 @@
 						length: 0
 						colorFrom: FFFFFF
 						colorTo: 88A4FF
-						region: kiky5-diamond-bullet
+						region: kiky5-cirlce-hallow
 					}
 				hitEffect:
 					{
@@ -83,7 +84,7 @@
 						length: 0
 						colorFrom: FFFFFF
 						colorTo: 88A4FF
-						region: kiky5-diamond-bullet
+						region: kiky5-cirlce-hallow
 					}
 				despawnEffect:
 					{
@@ -95,7 +96,7 @@
 						length: 0
 						colorFrom: FFFFFF
 						colorTo: 88A4FF
-						region: kiky5-diamond-bullet
+						region: kiky5-cirlce-hallow
 					}
 			}
 		}
