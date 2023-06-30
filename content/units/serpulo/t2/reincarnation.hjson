@@ -25,7 +25,7 @@
 			alternate: false
 			shootSound: flame
 			recoil: 0.1
-			inaccuracy: 10
+			inaccuracy: 5
 			bullet: {
 				type: BasicBulletType
 				damage: 10
@@ -41,7 +41,7 @@
 				smokeEffect: none
 				pierce: true
 				shrinkY: 0
-				trailChance: 10
+				trailChance: 2
 				trailEffect:
 					{
 						effectY: -1
