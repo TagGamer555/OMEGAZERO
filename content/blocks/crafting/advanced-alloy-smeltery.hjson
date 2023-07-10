@@ -40,7 +40,7 @@
 	}
 	
 	outputItem: {
-		liquid: advanced-alloy
+		item: advanced-alloy
 		amount: 2
 	}
 	
