@@ -3,7 +3,7 @@
 	name: Advanced Alloy Smeltery
 	description: Smelts Titanium and Graphite into Titanium Graphite alloy, also known as Advanced Alloy.
 	size: 2
-	squareSprite: false
+	squareSprite: false //makes sprite NOT square
 	drawer: {
 		type: DrawMulti
 		drawers: [
