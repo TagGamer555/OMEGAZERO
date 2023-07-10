@@ -1,0 +1,56 @@
+{
+	type: GenericCrafter
+	name: Advanced Alloy Smeltery
+	description: Smelts Titanium and Graphite into Titanium Graphite alloy, also known as Advanced Alloy.
+	size: 2
+	squareSprite: false
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawRegion
+				spinSprite: true
+				rotateSpeed: 2
+				suffix: -rotator
+			}
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasPower: true
+	envDisabled: 16
+	hasItems: true
+	hasLiquids: false
+	craftTime: 240
+	itemCapacity: 10
+	consumes: {
+		power: 1.5
+		items: {
+			items: [
+				titanium/2
+				graphite/3
+			]
+		}
+	}
+	
+	outputItem: {
+		liquid: advanced-alloy
+		amount: 2
+	}
+	
+	research: graphite-press
+	category: crafting
+	
+	requirements: [
+		copper/45
+		lead/85
+		titanium/25
+		graphite/40
+	]
+}
