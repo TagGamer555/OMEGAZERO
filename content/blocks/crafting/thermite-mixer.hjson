@@ -1,6 +1,6 @@
 {
 	type: GenericCrafter
-	name: Advanced Alloy Smeltery
+	name: Thermite Mixer
 	description: Smelts Titanium and Graphite into Titanium Graphite alloy, also known as Thermite.
 	size: 2
 	squareSprite: false
