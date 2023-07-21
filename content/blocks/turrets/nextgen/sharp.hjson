@@ -10,7 +10,7 @@
 	reload: 10
 	outlineColor: 1E1E26
 	shootY: 3
-	size: 2
+	size: 5
 	shootSound: laser
 	consumes: {
 		power: 10
