@@ -14,7 +14,7 @@
 	smokeEffect: none
 	shootY: 3
 	size: 5
-	shootSound: shootSnap
+	shootSound: shootBig
 	consumes: {
 		power: 10
 	}
@@ -28,7 +28,7 @@
 			height: 20
 			trailWidth: 2
 			trailLength: 12
-			buildingDamageMultipier: 0.65
+			buildingDamageMultiplier: 0.65
 		}
 	}
 	
