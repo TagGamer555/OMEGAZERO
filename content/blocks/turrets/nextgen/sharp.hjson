@@ -9,9 +9,12 @@
 	targetGround: false
 	reload: 10
 	outlineColor: 1E1E26
+	shootEffect: none
+	ejectEffect: none
+	smokeEffect: none
 	shootY: 3
 	size: 5
-	shootSound: laser
+	shootSound: shootSnap
 	consumes: {
 		power: 10
 	}
@@ -21,6 +24,8 @@
 			speed: 12
 			lifetime: 30
 			ammoMultiplier: 3
+			width: 8
+			length: 11
 		}
 	}
 	
