@@ -64,6 +64,25 @@
 					}
 				]
 			}
+			{
+				type: RegionPart
+				suffix: -extra2
+				mirror: true
+				progress: recoil
+				moveX: 0
+				moveY: -1
+				moveRot: -10
+				under: false
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: -10
+						moveX: 0
+						moveY: -1
+					}
+				]
+			}
 		]
 	}
 }
