@@ -12,8 +12,8 @@
 	craftTime: 480
 	itemCapacity: 10
 	consumes: {
+		itemFlammable: {}
 		items: {
-			itemFlammable: {}
 			items: [
 				copper/4
 				lead/4
