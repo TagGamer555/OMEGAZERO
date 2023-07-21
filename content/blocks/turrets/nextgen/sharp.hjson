@@ -24,9 +24,9 @@
 			speed: 24
 			lifetime: 15
 			ammoMultiplier: 3
-			width: 11
-			length: 14
-			trailWidth: 1.2
+			width: 14
+			length: 20
+			trailWidth: 2
 			trailLength: 12
 			buildingDamageMultipier: 0.65
 		}
