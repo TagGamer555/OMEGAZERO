@@ -1,0 +1,48 @@
+{
+	type: GenericCrafter
+	name: Atomic Reconstructor
+	description: Reconstructs atoms to recreate structure of the Palladium. Requires extreme amounts of power and Surge Alloy to run.
+	size: 3
+	health: 6000
+	requirements: [
+		surge-alloy/2000
+		silicon/6000
+		thermite/8000
+		copper/10000
+		lead/10000
+		graphite/12000
+		titanium/5000
+	]
+	category: crafting
+	research: core-nucleus
+	craftTime: 36000
+	itemCapacity: 800
+	consumes: {
+		items: {
+			items: [
+				surge-alloy/200
+			]
+		}
+		power: 333.33333333333333333333
+	}
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 0.8
+				color: D1C975
+				glowIntensity: 0.4
+				glowScale: 1
+			}
+		]
+	}
+	ambientSound: none
+	outputItem: {
+		item: palladium
+		amount: 1
+	}
+}
