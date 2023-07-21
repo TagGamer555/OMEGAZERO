@@ -20,23 +20,26 @@
 	}
 	ammoTypes: {
 		surge-alloy: {
-			damage: 240
-			speed: 12
-			lifetime: 30
+			damage: 300
+			speed: 24
+			lifetime: 15
 			ammoMultiplier: 3
-			width: 8
-			length: 11
+			width: 11
+			length: 14
+			trailWidth: 1.2
+			trailLength: 12
+			buildingDamageMultipier: 0.65
 		}
 	}
 	
 	category: turret
 	research: cyclone
 	requirements: [
-		alpha-item/800
-		experience/200
-		thermite/300
-		silicon/100
-		thorium/400
+		alpha-item/850
+		experience/240
+		thermite/240
+		silicon/120
+		thorium/450
 	]
 	
 	drawer: {
