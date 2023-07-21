@@ -1,7 +1,7 @@
 {
 	type: GenericCrafter
 	name: Alpha Collider
-	description: Fuses Sand, Coal, Lead and Copper into Alpha. Requires any radioactive fuel to work.
+	description: Fuses Lead and Copper into Alpha. Requires any radioactive fuel to work. Radioactive fuel helps to mix materials much faster.
 	size: 3
 	requirements: [
 		alpha-item/128
@@ -9,19 +9,18 @@
 		metaglass/80
 		fluxite/80
 		titanium/40
+		thermite/40
 	]
 	category: crafting
 	research: alpha-fuser
-	craftTime: 120
+	craftTime: 240
 	itemCapacity: 20
 	consumes: {
 		itemRadioactive: {}
 		items: {
 			items: [
-				copper/2
-				sand/2
-				lead/2
-				coal/2
+				copper/3
+				sand/3
 			]
 		}
 	}
