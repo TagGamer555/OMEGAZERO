@@ -15,14 +15,14 @@
 	consumes: {
 		power: 10
 	}
-	ammo: [
+	ammoTypes: {
 		surge-alloy: {
 			damage: 240
 			speed: 12
 			lifetime: 30
 			ammoMultiplier: 3
 		}
-	]
+	}
 	
 	category: turret
 	research: cyclone
