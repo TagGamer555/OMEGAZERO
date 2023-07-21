@@ -1,1 +1,0 @@
-//const barricade = extend(ConnectBlock, "barricade");
