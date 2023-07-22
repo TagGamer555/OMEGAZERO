@@ -1,7 +1,7 @@
 {
 	name: Silox
 	description: An extremely large silo which shoots numerous amounts of unstable, homing energy.
-	type: ItemTurret
+	type: PowerTurret
 	health: 14400
 	range: 500
 	recoil: 0
