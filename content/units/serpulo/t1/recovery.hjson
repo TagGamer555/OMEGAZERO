@@ -51,7 +51,6 @@
 				trailChance: 0.5
 				trailEffect:
 					{
-						effectY: -1
 						type: ParticleEffect
 						particles: 1
 						lifetime: 60
