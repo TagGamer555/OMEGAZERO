@@ -19,7 +19,7 @@
 	}
 	ammoTypes: {
 		surge-alloy: {
-			damage: 300
+			damage: 200
 			speed: 24
 			lifetime: 15
 			ammoMultiplier: 3
@@ -27,21 +27,27 @@
 			height: 20
 			trailWidth: 2
 			trailLength: 12
+			pierce: true
 			buildingDamageMultiplier: 0.65
 			trailColor: FCF287
 			backColor: FCF287
 			frontColor: FFFFFF
+			fragBullets: 6
+			fragBullet: {
+				type: LightningBulletType
+				lightningLength: 5
+				damage: 10
+				lightningColor: FCF287
+				buildingDamageMultiplier: 0.20
+			}
 		}
 	}
 	
 	category: turret
-	research: cyclone
+	research: atomic-reconstructor
 	requirements: [
-		alpha-item/850
-		experience/240
-		thermite/240
-		silicon/120
-		thorium/450
+		copper/1250
+		palladium/650
 	]
 	
 	drawer: {
