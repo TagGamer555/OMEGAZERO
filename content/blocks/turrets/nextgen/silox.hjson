@@ -5,12 +5,12 @@
 	health: 14400
 	range: 500
 	recoil: 0
-	drawShadow: false
 	targetAir: true
 	targetGround: true
 	reload: 5
-	inaccuracy: 50
-	rotateSpeed: 1
+	inaccuracy: 360
+	shootCone: 360
+	rotateSpeed: 0
 	outlineColor: 1E1E26
 	shootEffect: none
 	smokeEffect: none
@@ -50,8 +50,7 @@
 		parts: [
 			{
 				type: RegionPart
-				drawShadow: false
-				suffix: -right
+				suffix: -extra
 				mirror: false
 				progress: recoil
 				rotate: false
