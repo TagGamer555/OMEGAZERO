@@ -20,7 +20,7 @@
 	consumes: {
 		power: 20
 	}
-	bullet: {
+	shootType: {
 		damage: 25
 		speed: 5
 		lifetime: 110
