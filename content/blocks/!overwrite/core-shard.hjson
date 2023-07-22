@@ -1,0 +1,4 @@
+{
+	buildVisibility: shown
+	description: "Core of the base. Once destroyed, the sector is lost. [stat]\nOMEGAZERO - build visibility is shown everywhere.[]"
+}

@@ -36,8 +36,8 @@
 			shrinkX: -2
 			shootEffect: none
 			smokeEffect: none
-			hitEffect: none
 			despawnEffect: none
+			hitEffect: none
 		}
 		metaglass: {
 			width: 8
