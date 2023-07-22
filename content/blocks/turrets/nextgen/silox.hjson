@@ -5,7 +5,7 @@
 	health: 14400
 	range: 500
 	recoil: 0
-	heatColor: FFC97F
+	drawShadow: false
 	targetAir: true
 	targetGround: true
 	reload: 5
@@ -34,6 +34,8 @@
 		trailColor: FCF287
 		backColor: FCF287
 		frontColor: FFFFFF
+		homingRange: 60
+		homingPower: 0.01
 	}
 	
 	category: turret
@@ -48,10 +50,12 @@
 		parts: [
 			{
 				type: RegionPart
+				drawShadow: false
 				suffix: -right
 				mirror: false
 				progress: recoil
-				moveX: 5
+				rotate: false
+				moveX: 0
 				moveY: 0
 				moveRot: 0
 				heatColor: FFC97F
@@ -60,6 +64,27 @@
 					{
 						type: PartMove
 						progress: recoil
+						moveRot: 0
+						moveX: 0
+						moveY: 0
+					}
+				]
+			}
+			{
+				type: RegionPart
+				suffix: -right
+				mirror: false
+				progress: warmup
+				rotate: false
+				moveX: 5
+				moveY: 0
+				moveRot: 0
+				heatColor: FFC97F
+				under: true
+				moves: [
+					{
+						type: PartMove
+						progress: warmup
 						moveRot: 0
 						moveX: 5
 						moveY: 0
