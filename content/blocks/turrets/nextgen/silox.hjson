@@ -1,0 +1,71 @@
+{
+	name: Silox
+	description: An extremely large silo which shoots numerous amounts of unstable, homing energy.
+	type: ItemTurret
+	health: 14400
+	range: 500
+	recoil: 0
+	heatColor: FFC97F
+	targetAir: true
+	targetGround: true
+	reload: 5
+	inaccuracy: 50
+	rotateSpeed: 1
+	outlineColor: 1E1E26
+	shootEffect: none
+	smokeEffect: none
+	shootY: 0
+	size: 5
+	shootSound: blaster
+	consumes: {
+		power: 20
+	}
+	bullet: {
+		damage: 25
+		speed: 5
+		lifetime: 110
+		ammoMultiplier: 1
+		width: 0
+		height: 0
+		trailWidth: 1
+		trailLength: 12
+		pierce: false
+		buildingDamageMultiplier: 0.90
+		trailColor: FCF287
+		backColor: FCF287
+		frontColor: FFFFFF
+	}
+	
+	category: turret
+	research: atomic-reconstructor
+	requirements: [
+		darksteel/1100
+		palladium/800
+	]
+	
+	drawer: {
+		type: DrawTurret
+		parts: [
+			{
+				type: RegionPart
+				suffix: -right
+				mirror: false
+				progress: recoil
+				moveX: 5
+				moveY: 0
+				moveRot: 0
+				heatColor: FFC97F
+				under: true
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: 0
+						moveX: 5
+						moveY: 0
+					}
+				]
+			}
+		]
+	}
+}

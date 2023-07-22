@@ -79,7 +79,7 @@
 	category: turret
 	research: atomic-reconstructor
 	requirements: [
-		copper/1250
+		darksteel/1250
 		palladium/650
 	]
 	
