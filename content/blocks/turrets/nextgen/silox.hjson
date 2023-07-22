@@ -79,13 +79,34 @@
 				moveY: 0
 				moveRot: 0
 				heatColor: FFC97F
-				under: true
+				under: false
 				moves: [
 					{
 						type: PartMove
 						progress: warmup
 						moveRot: 0
 						moveX: 5
+						moveY: 0
+					}
+				]
+			}
+			{
+				type: RegionPart
+				suffix: -left
+				mirror: false
+				progress: warmup
+				rotate: false
+				moveX: -5
+				moveY: 0
+				moveRot: 0
+				heatColor: FFC97F
+				under: false
+				moves: [
+					{
+						type: PartMove
+						progress: warmup
+						moveRot: 0
+						moveX: -5
 						moveY: 0
 					}
 				]
