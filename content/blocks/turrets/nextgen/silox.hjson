@@ -111,6 +111,48 @@
 					}
 				]
 			}
+			{
+				type: RegionPart
+				suffix: -up
+				mirror: false
+				progress: warmup
+				rotate: false
+				moveX: 0
+				moveY: 5
+				moveRot: 0
+				heatColor: FFC97F
+				under: false
+				moves: [
+					{
+						type: PartMove
+						progress: warmup
+						moveRot: 0
+						moveX: 0
+						moveY: 5
+					}
+				]
+			}
+			{
+				type: RegionPart
+				suffix: -down
+				mirror: false
+				progress: warmup
+				rotate: false
+				moveX: 0
+				moveY: -5
+				moveRot: 0
+				heatColor: FFC97F
+				under: false
+				moves: [
+					{
+						type: PartMove
+						progress: warmup
+						moveRot: 0
+						moveX: 0
+						moveY: -5
+					}
+				]
+			}
 		]
 	}
 }
