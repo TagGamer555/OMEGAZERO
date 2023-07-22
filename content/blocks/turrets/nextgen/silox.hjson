@@ -21,7 +21,7 @@
 		power: 20
 	}
 	shootType: {
-		damage: 25
+		damage: 250
 		speed: 5
 		lifetime: 110
 		ammoMultiplier: 1
@@ -31,11 +31,19 @@
 		trailLength: 12
 		pierce: false
 		buildingDamageMultiplier: 0.90
-		trailColor: FCF287
-		backColor: FCF287
+		trailColor: FFC97F
+		backColor: FFC97F
 		frontColor: FFFFFF
 		homingRange: 60
 		homingPower: 0.01
+		fragBullets: 1
+		fragBullet: {
+			type: LightningBulletType
+			lightningLength: 3
+			damage: 250
+			lightningColor: FFC97F
+			buildingDamageMultiplier: 0.90
+		}
 	}
 	
 	category: turret
