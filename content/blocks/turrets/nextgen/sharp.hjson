@@ -8,6 +8,7 @@
 	targetAir: false
 	targetGround: false
 	reload: 10
+	rotateSpeed: 3
 	outlineColor: 1E1E26
 	shootEffect: none
 	smokeEffect: none
@@ -32,14 +33,30 @@
 			trailColor: FCF287
 			backColor: FCF287
 			frontColor: FFFFFF
-			fragBullets: 6
+			fragBullets: 1
 			fragBullet: {
 				type: LightningBulletType
-				lightningLength: 5
-				damage: 10
+				lightningLength: 8
+				damage: 25
 				lightningColor: FCF287
 				buildingDamageMultiplier: 0.20
 			}
+		}
+		palladium: {
+			damage: 240
+			speed: 48
+			lifetime: 7.5
+			ammoMultiplier: 3
+			width: 5
+			height: 24
+			trailWidth: 1
+			trailLength: 24
+			pierce: true
+			buildingDamageMultiplier: 0.5
+			trailColor: FFC97F
+			backColor: FFC97F
+			frontColor: FFFFFF
+			fragBullets: 1
 		}
 	}
 	
