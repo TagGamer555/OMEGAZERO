@@ -21,7 +21,7 @@
 		power: 30
 	}
 	shootType: {
-		damage: 300
+		damage: 200
 		speed: 5
 		lifetime: 110
 		ammoMultiplier: 1
@@ -35,13 +35,13 @@
 		backColor: FFC97F
 		frontColor: FFFFFF
 		homingRange: 60
-		homingPower: 0.01
+		homingPower: 0.1
 		fragRandomSpread: 0
 		fragBullets: 1
 		fragBullet: {
 			type: LightningBulletType
 			lightningLength: 10
-			damage: 200
+			damage: 25
 			lightningColor: FFC97F
 			buildingDamageMultiplier: 0.90
 		}
