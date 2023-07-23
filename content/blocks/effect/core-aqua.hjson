@@ -12,6 +12,6 @@
 		copper/800
 		lead/1000
 	]
-	squareSprite: true
+	squareSprite: false
 	category: effect
 }
