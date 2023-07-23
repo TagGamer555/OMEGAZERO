@@ -27,6 +27,7 @@
 			inaccuracy: 3
 			rotate: true
 			shootY: 4.25
+			shootSound: shootAlt
 			x: 0
 			y: 0
 			reload: 20
@@ -40,10 +41,12 @@
 				lifetime: 30
 				status: wet
 				statusDuration: 150
-				width: 3
-				height: 8
+				width: 5
+				height: 12
+				frontColor: FFFFFF
+				backColor: 88A4FF
 				trailColor: 88A4FF
-				trailWidth: 0.2
+				trailWidth: 0.5
 				trailLength: 14
 				knockback: 0.25
 				buildingDamageMultiplier: 0
