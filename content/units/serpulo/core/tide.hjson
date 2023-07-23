@@ -1,7 +1,7 @@
 {
 	type: flying
 	name: Tide
-	description: A core unit, protecting it's core - Core: Aqua. Creation of [blue]Blue[] faction.
+	description: "A core unit, protecting it's core - Core: Aqua. Creation of [blue]Blue[] faction."
 	health: 150
 	armor: 0
 	speed: 3.75
