@@ -1,0 +1,48 @@
+{
+	type: flying
+	name: Tide
+	description: A core unit, protecting it's core - Core: Aqua. Creation of [blue]Blue[] faction.
+	health: 150
+	armor: 0
+	speed: 3.75
+	drag: 0.04
+	accel: 0.08
+	drawCell: false
+	controller: BuilderAI
+
+	engineSize: 0
+
+	itemCapacity: 30
+	mineTier: 1
+	mineSpeed: 5
+	lowAltitude: true
+	flying: true
+
+	buildSpeed: 2.25
+
+	weapons: [
+		{
+			sprite: tide-weapon
+			shootSound: none
+			inaccuracy: 3
+			x: 0
+			y: 0
+			reload: 10
+			bullet: {
+				type: LiquidBulletType
+				ejectEffect: none
+				liquid: water
+				damage: 5
+				drag: 0.009
+				speed: 2.5
+				shootEffect: none
+				lifetime: 55
+				collidesAir: true
+				status: wet
+				statusDuration: 120
+				width: 5
+				height: 5
+			}
+		}
+	]
+}
