@@ -30,18 +30,18 @@
 			shootSound: mineDeploy
 			x: 0
 			y: 0
-			reload: 90
+			reload: 80
 			shoot: {
-				shots: 3
-				shotDelay: 3
+				shots: 4
+				shotDelay: 10
 			}
 			mirror: false
 			alternate: false
 			bullet: {
-				weaveScale: 3
-				weaveMag: 1
+				weaveScale: 5
+				weaveMag: 2.5
 				damage: 10
-				homingRange: 40
+				homingRange: 150
 				homingPower: 0.01
 				speed: 4
 				lifetime: 40
@@ -58,6 +58,8 @@
 				trailLength: 10
 				knockback: 0.45
 				buildingDamageMultiplier: 0
+				smokeEffect: none
+				shootEffect: none
 			}
 		}
 	]
