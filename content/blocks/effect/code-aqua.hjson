@@ -1,0 +1,13 @@
+	type: CoreBlock
+	name: Core: Aqua
+	description: "The first core of the [blue]Blue[] faction."
+	size: 3
+	research: core-shard
+	health: 1200
+	itemCapacity: 4000
+	unitType: tide
+	unitCapModifier: 8
+	requirements: [
+		copper/800
+		lead/1000
+	]
