@@ -2,8 +2,8 @@
 	type: flying
 	name: Pressure
 	description: "A core unit, protecting it's core - Core: Fluid. Creation of [blue]Blue[] faction."
-	health: 170
-	armor: 0
+	health: 180
+	armor: 2
 	speed: 3
 	drag: 0.04
 	accel: 0.08
@@ -17,6 +17,7 @@
 	mineSpeed: 4
 	lowAltitude: true
 	flying: true
+	hitSize: 10
 
 	buildSpeed: 1
 
@@ -26,7 +27,7 @@
 			recoil: 2
 			inaccuracy: 3
 			rotate: true
-			shootY: 4.25
+			shootY: 6
 			shootSound: shootAlt
 			x: 0
 			y: 0
@@ -35,18 +36,18 @@
 			alternate: false
 			rotateSpeed: 2.75
 			bullet: {
-				damage: 20
+				damage: 10
 				pierce: true
 				speed: 10
-				lifetime: 30
+				lifetime: 27.5
 				status: wet
 				statusDuration: 150
-				width: 5
-				height: 12
+				width: 6
+				height: 14
 				frontColor: FFFFFF
 				backColor: 88A4FF
 				trailColor: 88A4FF
-				trailWidth: 0.5
+				trailWidth: 1
 				trailLength: 14
 				knockback: 0.25
 				buildingDamageMultiplier: 0
