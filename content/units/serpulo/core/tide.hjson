@@ -22,26 +22,30 @@
 
 	weapons: [
 		{
-			sprite: tide-weapon
+			name: tide-weapon
 			shootSound: none
 			inaccuracy: 3
+			rotate: true
+			shootY: 3.75
 			x: 0
 			y: 0
-			reload: 10
+			reload: 5
+			mirror: false
+			alternate: false
 			bullet: {
 				type: LiquidBulletType
 				ejectEffect: none
 				liquid: water
-				damage: 5
-				drag: 0.009
+				damage: 2
+				drag: 0.01
 				speed: 2.5
 				shootEffect: none
-				lifetime: 55
+				lifetime: 40
 				collidesAir: true
 				status: wet
 				statusDuration: 120
-				width: 5
-				height: 5
+				orbSize: 1
+				knockback: 0.1
 			}
 		}
 	]
