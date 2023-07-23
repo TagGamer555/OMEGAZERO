@@ -67,7 +67,6 @@
 				moveRot: 0
 				heatColor: FFC97F
 				under: true
-				drawShadow: false
 				moves: [
 					{
 						type: PartMove

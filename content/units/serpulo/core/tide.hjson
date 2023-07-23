@@ -32,14 +32,13 @@
 			reload: 5
 			mirror: false
 			alternate: false
+			rotateSpeed: 3
 			bullet: {
 				type: LiquidBulletType
-				ejectEffect: none
 				liquid: water
 				damage: 10
 				drag: 0.01
 				speed: 2.5
-				shootEffect: none
 				lifetime: 60
 				collidesAir: true
 				status: wet
