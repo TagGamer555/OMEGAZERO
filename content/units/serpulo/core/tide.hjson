@@ -23,6 +23,7 @@
 	weapons: [
 		{
 			name: tide-weapon
+			recoil: 0
 			shootSound: none
 			inaccuracy: 3
 			rotate: true
