@@ -36,16 +36,16 @@
 				type: LiquidBulletType
 				ejectEffect: none
 				liquid: water
-				damage: 2
+				damage: 10
 				drag: 0.01
 				speed: 2.5
 				shootEffect: none
-				lifetime: 40
+				lifetime: 60
 				collidesAir: true
 				status: wet
 				statusDuration: 120
-				orbSize: 1
-				knockback: 0.1
+				orbSize: 2
+				knockback: 0.25
 			}
 		}
 	]
