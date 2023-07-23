@@ -1,13 +1,13 @@
 {
 	type: CoreBlock
 	name: Core: Fluid
-	description: "The second core of the [blue]Blue[] faction."
-	size: 4
+	description: "The third core of the [blue]Blue[] faction."
+	size: 5
 	research: core-aqua
-	health: 3500
-	itemCapacity: 9000
+	health: 6000
+	itemCapacity: 13000
 	unitType: pressure
-	unitCapModifier: 16
+	unitCapModifier: 24
 	requirements: [
 		copper/3000
 		lead/3000
