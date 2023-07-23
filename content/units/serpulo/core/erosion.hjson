@@ -32,7 +32,7 @@
 			y: 0
 			reload: 90
 			shoot: {
-				bullets: 3
+				shots: 3
 				shotDelay: 3
 			}
 			mirror: false
@@ -47,6 +47,8 @@
 				lifetime: 40
 				status: wet
 				statusDuration: 180
+				shrinkY: 0
+				sprite: mine-bullet
 				width: 8
 				height: 8
 				frontColor: FFFFFF
