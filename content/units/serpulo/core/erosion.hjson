@@ -1,0 +1,62 @@
+{
+	type: flying
+	name: Erosion
+	description: "A core unit, protecting it's core - Core: Fluid. Creation of [blue]Blue[] faction."
+	health: 230
+	armor: 4
+	speed: 3.5
+	drag: 0.04
+	accel: 0.08
+	drawCell: true
+	controller: BuilderAI
+
+	engineSize: 0
+
+	itemCapacity: 70
+	mineTier: 2
+	mineSpeed: 8
+	lowAltitude: true
+	flying: true
+	hitSize: 10
+
+	buildSpeed: 1
+
+	weapons: [
+		{
+			recoil: 2
+			inaccuracy: 3
+			rotate: false
+			shootY: 0
+			shootSound: mineDeploy
+			x: 0
+			y: 0
+			reload: 90
+			shoot: {
+				bullets: 3
+				shotDelay: 3
+			}
+			mirror: false
+			alternate: false
+			bullet: {
+				weaveScale: 3
+				weaveMag: 1
+				damage: 10
+				homingRange: 40
+				homingPower: 0.01
+				speed: 4
+				lifetime: 40
+				status: wet
+				statusDuration: 180
+				width: 8
+				height: 8
+				frontColor: FFFFFF
+				backColor: 88A4FF
+				trailColor: 88A4FF
+				trailWidth: 1
+				trailLength: 10
+				knockback: 0.45
+				buildingDamageMultiplier: 0
+			}
+		}
+	]
+}

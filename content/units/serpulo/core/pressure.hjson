@@ -1,7 +1,7 @@
 {
 	type: flying
 	name: Pressure
-	description: "A core unit, protecting it's core - Core: Fluid. Creation of [blue]Blue[] faction."
+	description: "A core unit, protecting it's core - Core: Liquid. Creation of [blue]Blue[] faction."
 	health: 180
 	armor: 2
 	speed: 3
@@ -14,12 +14,12 @@
 
 	itemCapacity: 50
 	mineTier: 1
-	mineSpeed: 4
+	mineSpeed: 7
 	lowAltitude: true
 	flying: true
 	hitSize: 10
 
-	buildSpeed: 1
+	buildSpeed: 0.75
 
 	weapons: [
 		{

@@ -14,7 +14,7 @@
 
 	itemCapacity: 30
 	mineTier: 1
-	mineSpeed: 3.75
+	mineSpeed: 6.5
 	lowAltitude: true
 	flying: true
 

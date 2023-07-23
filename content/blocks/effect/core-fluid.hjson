@@ -6,7 +6,7 @@
 	research: core-aqua
 	health: 6000
 	itemCapacity: 13000
-	unitType: pressure
+	unitType: erosion
 	unitCapModifier: 24
 	requirements: [
 		copper/8000
