@@ -1,0 +1,53 @@
+{
+	type: flying
+	name: Pressure
+	description: "A core unit, protecting it's core - Core: Fluid. Creation of [blue]Blue[] faction."
+	health: 170
+	armor: 0
+	speed: 3
+	drag: 0.04
+	accel: 0.08
+	drawCell: false
+	controller: BuilderAI
+
+	engineSize: 0
+
+	itemCapacity: 50
+	mineTier: 1
+	mineSpeed: 4
+	lowAltitude: true
+	flying: true
+
+	buildSpeed: 1
+
+	weapons: [
+		{
+			name: pressure-weapon
+			recoil: 2
+			inaccuracy: 3
+			rotate: true
+			shootY: 4.25
+			x: 0
+			y: 0
+			reload: 20
+			mirror: false
+			alternate: false
+			rotateSpeed: 2.75
+			bullet: {
+				damage: 20
+				pierce: true
+				speed: 10
+				lifetime: 30
+				status: wet
+				statusDuration: 150
+				width: 3
+				height: 8
+				trailColor: 88A4FF
+				trailWidth: 0.2
+				trailLength: 14
+				knockback: 0.25
+				buildingDamageMultiplier: 0
+			}
+		}
+	]
+}

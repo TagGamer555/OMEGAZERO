@@ -4,7 +4,7 @@
 	description: "A core unit, protecting it's core - Core: Aqua. Creation of [blue]Blue[] faction."
 	health: 150
 	armor: 0
-	speed: 3.75
+	speed: 2.75
 	drag: 0.04
 	accel: 0.08
 	drawCell: false
@@ -14,11 +14,11 @@
 
 	itemCapacity: 30
 	mineTier: 1
-	mineSpeed: 5
+	mineSpeed: 3.75
 	lowAltitude: true
 	flying: true
 
-	buildSpeed: 2.25
+	buildSpeed: 0.5
 
 	weapons: [
 		{
@@ -46,6 +46,7 @@
 				statusDuration: 120
 				orbSize: 2
 				knockback: 0.25
+				buildingDamageMultiplier: 0
 			}
 		}
 	]
