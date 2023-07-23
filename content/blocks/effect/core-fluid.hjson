@@ -9,10 +9,10 @@
 	unitType: pressure
 	unitCapModifier: 24
 	requirements: [
-		copper/3000
-		lead/3000
-		graphite/1000
-		silicon/2000
+		copper/8000
+		lead/8000
+		thorium/5000
+		silicon/4000
 	]
 	squareSprite: false
 	category: effect

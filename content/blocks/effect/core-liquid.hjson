@@ -1,0 +1,19 @@
+{
+	type: CoreBlock
+	name: Core: Liquid
+	description: "The second core of the [blue]Blue[] faction."
+	size: 4
+	research: core-aqua
+	health: 3500
+	itemCapacity: 9000
+	unitType: pressure
+	unitCapModifier: 16
+	requirements: [
+		copper/3000
+		lead/3000
+		graphite/500
+		silicon/1500
+	]
+	squareSprite: false
+	category: effect
+}
