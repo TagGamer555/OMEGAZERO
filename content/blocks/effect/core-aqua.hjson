@@ -1,3 +1,4 @@
+{
 	type: CoreBlock
 	name: Core: Aqua
 	description: "The first core of the [blue]Blue[] faction."
@@ -11,3 +12,6 @@
 		copper/800
 		lead/1000
 	]
+	squareSprite: true
+	category: effect
+}
