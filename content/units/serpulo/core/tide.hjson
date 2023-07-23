@@ -37,7 +37,7 @@
 			bullet: {
 				type: LiquidBulletType
 				liquid: water
-				damage: 10
+				damage: 5
 				drag: 0.01
 				speed: 2.5
 				lifetime: 60

@@ -27,7 +27,7 @@
 			recoil: 2
 			inaccuracy: 3
 			rotate: true
-			shootY: 6
+			shootY: 6.75
 			shootSound: shootAlt
 			x: 0
 			y: 0
@@ -36,10 +36,10 @@
 			alternate: false
 			rotateSpeed: 2.75
 			bullet: {
-				damage: 10
+				damage: 12
 				pierce: true
 				speed: 10
-				lifetime: 27.5
+				lifetime: 10
 				status: wet
 				statusDuration: 150
 				width: 6
