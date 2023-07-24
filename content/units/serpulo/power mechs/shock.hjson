@@ -14,8 +14,8 @@
 	targetAir: false
 	targetGround: false
 	logicControllable: false
-	engineOffset: 4
-	engineSize: 2.5
+	engineOffset: 3
+	engineSize: 3
 	bounded: true
 	useUnitCap: false
 	
@@ -24,7 +24,7 @@
 		name: shock-weapon
 		shootSound: spark
 		x: 4
-		y: 5
+		y: 4
 		recoil: 0
 		reload: 60
 		mirror: true
