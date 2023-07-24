@@ -10,9 +10,9 @@ canPlaceOn(tile, team, rotation){
     	return true;
     },
     setStats(){
-this.super$setStats();
-if(this.canBeBuilt() && this.requirements.length > 0){
-this.stats.add(Stat.buildTime, this.buildCost / 60, StatUnit.seconds);
-        }
+		this.super$setStats();
+		/*if(this.canBeBuilt() && this.requirements.length > 0){
+		this.stats.add(Stat.buildTime, this.buildCost / 60, StatUnit.seconds);
+        }*/
     }
 });

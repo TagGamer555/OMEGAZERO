@@ -1,5 +1,4 @@
 {
-	type: CoreBlock
 	name: Core: Micro
 	description: Smallest Core ever possible!
 	size: 1
