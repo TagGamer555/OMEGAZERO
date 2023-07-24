@@ -24,9 +24,9 @@
 		name: shock-weapon
 		shootSound: spark
 		x: 4
-		y: 3
+		y: 5
 		recoil: 0
-		reload: 90
+		reload: 60
 		mirror: true
 		alternate: true
 		inaccuracy: 10
@@ -37,7 +37,7 @@
 			bullet: {
 				type: LightningBulletType
 				
-				lightningLength: 8
+				lightningLength: 12
 				lightningColor: 84F490
 				
 				lightRadius: 3
