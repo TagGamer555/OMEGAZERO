@@ -1,0 +1,19 @@
+{
+	type: CoreBlock
+	name: Core: Micro
+	description: Smallest Core ever possible!
+	size: 1
+	research: core-nucleus
+	health: 750
+	itemCapacity: 1000
+	unitType: core-control
+	unitCapModifier: 2
+	requirements: [
+		copper/2000
+		lead/2000
+		silicon/2000
+		surge-alloy/100
+	]
+	squareSprite: false
+	category: effect
+}

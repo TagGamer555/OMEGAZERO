@@ -1,0 +1,44 @@
+{
+	name: Core Control
+	description: Bush hid the facts!
+	type: flying
+	hidden: true
+	flying: true
+	hittable: false
+	hitSize: 0.1
+	killable: false
+	targetable: false
+	healFlash: false
+	canBoost: false
+	canAttack: true
+	canDrown: false
+	canHeal: false
+	speed: 0
+	rotateSpeed: 0
+	buildRange: 100
+	buildSpeed: 0.25
+	drawBuildBeam: true
+	buildBeamOffset: 0
+	drawCell: false
+	drawItems: false
+	itemCapacity: 0
+	drawShields: false
+	drawMinimap: false
+	engineSize: 0
+	coreUnitDock: false
+	createWreck: false
+	createScorch: false
+	lightColor: ffffff
+	lightRadius: 0
+	lowAltitude: true
+	mineFloor: true
+	mineWalls: true
+	mineRange: 20
+	mineHardnessScaling: true
+	mineSpeed: 10
+	mineTier: 2
+	physics: false
+	playerControllable: true
+	useUnitCap: false
+	bounded: true
+}
