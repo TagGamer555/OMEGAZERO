@@ -11,7 +11,7 @@
 	category: crafting
 	research: atomic-reconstructor
 	craftTime: 600
-	itemCapacity: 20
+	itemCapacity: 60
 	consumes: {
 		items: {
 			items: [
@@ -32,7 +32,7 @@
 				type: DrawGlowRegion
 				alpha: 1
 				color: D1C975
-				glowIntensity: 0.5
+				glowIntensity: 1
 				glowScale: 1
 				suffix: -glow1
 			}
@@ -40,7 +40,7 @@
 				type: DrawGlowRegion
 				alpha: 1
 				color: B7C8CC
-				glowIntensity: 0.25
+				glowIntensity: 0.5
 				glowScale: 1
 				suffix: -glow2
 			}

@@ -34,7 +34,7 @@
 				type: DrawGlowRegion
 				alpha: 1
 				color: D1C975
-				glowIntensity: 0.2
+				glowIntensity: 0.75
 				glowScale: 1
 			}
 		]
