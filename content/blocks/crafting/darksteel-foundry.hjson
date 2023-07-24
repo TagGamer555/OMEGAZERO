@@ -1,0 +1,54 @@
+{
+	type: GenericCrafter
+	name: Darksteel Foundry
+	description: Smelts Palladium with Electron Fluid together to crate moderate amounts of Darksteel.
+	size: 5
+	health: 4800
+	requirements: [
+		palladium/250
+		darksteel/400
+	]
+	category: crafting
+	research: atomic-reconstructor
+	craftTime: 600
+	itemCapacity: 20
+	consumes: {
+		items: {
+			items: [
+				palladium/12
+				graphite/30
+			]
+		}
+		power: 150
+		liquid: electron-fluid/1.5
+	}
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: D1C975
+				glowIntensity: 0.5
+				glowScale: 1
+				suffix: -glow1
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: B7C8CC
+				glowIntensity: 0.25
+				glowScale: 1
+				suffix: -glow2
+			}
+		]
+	}
+	ambientSound: none
+	outputItem: {
+		item: darksteel
+		amount: 4
+	}
+}
