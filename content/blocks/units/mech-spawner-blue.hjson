@@ -20,5 +20,9 @@
 	droneRange: 0
 	droneConstructTime: 30
 	unitsSpawned: 1
-	unitType: flood
+	droneType: flood
+	
+	consumes: {
+		power/0.75
+	}
 }
