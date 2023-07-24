@@ -77,14 +77,18 @@
 					length: 0
 				}
 				
+				despawnSound: sap
+				
 				fragRandomSpread: 0
 				fragBullets: 1
 				fragBullet: {
 					type: LightningBulletType
-					lightningLength: 5
+					lightningLength: 8
 					damage: 5
-					lightningColor: 7090EA
+					lightningColor: 363F9A
 					buildingDamageMultiplier: 0
+					
+					hitSound: spark
 				}
 			}
 		}
