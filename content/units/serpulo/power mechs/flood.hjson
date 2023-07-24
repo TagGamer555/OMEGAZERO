@@ -1,0 +1,57 @@
+{
+	type: mech
+	name: Flood
+	description: "[yellow]POWER MECH[]\n[coral]Class: Blue[]\n[green]Weapon: Flood Blasters[]"
+	speed: 0.45
+	flying: false
+	canBoost: true
+	itemCapacity: 40
+	health: 400
+	canBoost: true
+	boostMultiplier: 1.25
+	buildSpeed: 0.3
+	targetAir: false
+	targetGround: false
+	logicControlled: false
+	
+	weapons: [
+		{
+		name: flood-weapon
+		x: 4
+		y: 1
+		reload: 60
+		mirror: true
+		alternate: true
+		inaccuracy: 10
+		shoot: {
+			shots: 3
+			shotDelay: 5
+		}
+			bullet: {
+				height: 8
+				width: 6
+				shrinkY: 0
+				
+				trailColor: 363F9A
+				frontColor: 7090EA
+				backColor: 486ACD
+				
+				lightRadius: 0
+				
+				trailWidth: 1
+				trailLength: 4
+				
+				damage: 20
+				knockback: 0.2
+				homingRange: 40
+				homingPower: 0.375
+				
+				status: wet
+				statusDuration: 60
+				
+				lifetime: 30
+				speed: 6
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	type: DroneCenter
+	
+	name: Power Mech (Blue)
+	description: Spawns Power Mech "Flood".
+	
+	health: 480
+	
+	requirements: [
+		copper/60
+		silicon/40
+		graphite/30
+	]
+	
+	research: core-shard
+	
+	configurable: false
+	solid: false
+	
+	droneRange: 0
+	droneConstructTime: 30
+	unitsSpawned: 1
+	unitType: flood
+}
