@@ -6,6 +6,7 @@
 	
 	health: 480
 	size: 2
+	category: units
 	
 	requirements: [
 		copper/60

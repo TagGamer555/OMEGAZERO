@@ -13,6 +13,8 @@
 	targetAir: false
 	targetGround: false
 	logicControlled: false
+	engineOffset: -0.5
+	engineSize: 5
 	
 	weapons: [
 		{
@@ -61,7 +63,7 @@
 					colorFrom: 7090EA
 					colorTo: 363F9A
 				}
-				despawn: {
+				despawnEffect: {
 					type: ParticleEffect
 					sizeFrom: 2
 					sizeTo: 0
