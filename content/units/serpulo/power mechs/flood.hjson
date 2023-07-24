@@ -65,7 +65,7 @@
 					lifetime: 45
 					colorFrom: 7090EA
 					colorTo: 363F9A
-					count: 1
+					particles: 1
 					length: 0
 				}
 				despawnEffect: {
@@ -75,7 +75,7 @@
 					lifetime: 45
 					colorFrom: 7090EA
 					colorTo: 363F9A
-					count: 1
+					particles: 1
 					length: 0
 				}
 				
@@ -89,9 +89,10 @@
 					damage: 5
 					sapStrength: 0
 					length: 40
-					knockback: -1
+					knockback: -0.2
 					damage: 5
-					sapColor: 363F9A
+					color: 363F9A
+					hitColor: 363F9A
 					buildingDamageMultiplier: 0
 					
 					status: wet
