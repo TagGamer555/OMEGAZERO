@@ -1,0 +1,47 @@
+{
+	type: GenericCrafter
+	name: Darksteel Forge
+	description: Combines raw materials into one, strong alloy.
+	size: 3
+	health: 2400
+	requirements: [
+		palladium/30
+		thorium/3000
+		surge-alloy/1000
+		copper/4000
+	]
+	category: crafting
+	research: atomic-reconstructor
+	craftTime: 600
+	itemCapacity: 200
+	consumes: {
+		items: {
+			items: [
+				coal/50
+				thorium/25
+				copper/100
+			]
+		}
+		power: 100
+	}
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: D1C975
+				glowIntensity: 2
+				glowScale: 1
+			}
+		]
+	}
+	ambientSound: none
+	outputItem: {
+		item: darksteel
+		amount: 1
+	}
+}
