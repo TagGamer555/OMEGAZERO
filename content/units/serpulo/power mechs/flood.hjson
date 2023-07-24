@@ -27,6 +27,7 @@
 		mirror: true
 		alternate: true
 		inaccuracy: 10
+		top: false
 		shoot: {
 			shots: 3
 			shotDelay: 5
@@ -79,17 +80,22 @@
 				}
 				
 				despawnSound: sap
+				hitSound: spark
 				
 				fragRandomSpread: 0
 				fragBullets: 1
 				fragBullet: {
-					type: LightningBulletType
-					lightningLength: 8
+					type: SapBulletType
 					damage: 5
-					lightningColor: 363F9A
+					sapStrength: 0
+					length: 40
+					knockback: -1
+					damage: 5
+					sapColor: 363F9A
 					buildingDamageMultiplier: 0
 					
-					hitSound: spark
+					status: wet
+					statusDuration: 60
 				}
 			}
 		}
