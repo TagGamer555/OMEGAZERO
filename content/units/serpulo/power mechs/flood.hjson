@@ -13,8 +13,8 @@
 	targetAir: false
 	targetGround: false
 	logicControlled: false
-	engineOffset: 1.75
-	engineSize: 2
+	engineOffset: 4
+	engineSize: 2.5
 	
 	weapons: [
 		{
@@ -44,10 +44,11 @@
 				trailWidth: 1
 				trailLength: 4
 				
-				damage: 20
+				damage: 15
+				buildingDamageMultiplier: 0
 				knockback: 0.2
 				homingRange: 120
-				homingPower: 0.01
+				homingPower: 0.025
 				
 				status: wet
 				statusDuration: 60
@@ -74,6 +75,16 @@
 					colorTo: 363F9A
 					amount: 1
 					length: 0
+				}
+				
+				fragRandomSpread: 0
+				fragBullets: 1
+				fragBullet: {
+					type: LightningBulletType
+					lightningLength: 5
+					damage: 5
+					lightningColor: 7090EA
+					buildingDamageMultiplier: 0
 				}
 			}
 		}
