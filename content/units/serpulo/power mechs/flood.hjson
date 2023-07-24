@@ -23,7 +23,7 @@
 		reload: 60
 		mirror: true
 		alternate: true
-		inaccuracy: 10
+		inaccuracy: 5
 		shoot: {
 			shots: 3
 			shotDelay: 5
@@ -44,8 +44,8 @@
 				
 				damage: 20
 				knockback: 0.2
-				homingRange: 40
-				homingPower: 0.375
+				homingRange: 120
+				homingPower: 0.01
 				
 				status: wet
 				statusDuration: 60
