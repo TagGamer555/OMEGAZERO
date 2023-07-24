@@ -5,6 +5,7 @@
 	description: Spawns Power Mech "Flood".
 	
 	health: 480
+	size: 2
 	
 	requirements: [
 		copper/60
@@ -22,7 +23,7 @@
 	unitsSpawned: 1
 	droneType: flood
 	
-	//consumes: {
-	//	power/0.75
-	//}
+	consumes: {
+		power: 1
+	}
 }

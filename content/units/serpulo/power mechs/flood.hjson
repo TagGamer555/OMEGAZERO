@@ -17,8 +17,9 @@
 	weapons: [
 		{
 		name: flood-weapon
+		shootSound: mineDeploy
 		x: 4
-		y: 1
+		y: 3
 		reload: 60
 		mirror: true
 		alternate: true
@@ -51,6 +52,23 @@
 				
 				lifetime: 30
 				speed: 6
+				
+				hitEffect: {
+					type: ParticleEffect
+					sizeFrom: 2
+					sizeTo: 0
+					lifetime: 45
+					colorFrom: 7090EA
+					colorTo: 363F9A
+				}
+				despawn: {
+					type: ParticleEffect
+					sizeFrom: 2
+					sizeTo: 0
+					lifetime: 45
+					colorFrom: 7090EA
+					colorTo: 363F9A
+				}
 			}
 		}
 	]
