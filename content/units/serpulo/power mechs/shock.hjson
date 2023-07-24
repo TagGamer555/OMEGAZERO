@@ -1,0 +1,67 @@
+{
+	type: mech
+	name: Shock
+	description: "[yellow]POWER MECH[]\n[coral]Class: Green[]\n[green]Weapon: Shock Pulsers[]"
+	speed: 0.475
+	flying: false
+	canBoost: true
+	itemCapacity: 45
+	health: 425
+	armor: 4
+	canBoost: true
+	boostMultiplier: 2
+	buildSpeed: 0.4
+	targetAir: false
+	targetGround: false
+	logicControllable: false
+	engineOffset: 4
+	engineSize: 2.5
+	bounded: true
+	useUnitCap: false
+	
+	weapons: [
+		{
+		name: shock-weapon
+		shootSound: spark
+		x: 4
+		y: 3
+		recoil: 0
+		reload: 90
+		mirror: true
+		alternate: true
+		inaccuracy: 10
+		top: false
+		shoot: {
+			shots: 3
+		}
+			bullet: {
+				type: LightningBulletType
+				
+				lightningLength: 8
+				lightningColor: 84F490
+				
+				lightRadius: 3
+				lightColor: 84F490
+				
+				damage: 10
+				buildingDamageMultiplier: 0
+				healPercent: 1
+				collidesTeam: true
+				
+				status: electrified
+				statusDuration: 120
+				
+				hitEffect: {
+					type: ParticleEffect
+					sizeFrom: 5
+					sizeTo: 0
+					lifetime: 45
+					colorFrom: 84F490
+					colorTo: 84F490
+					particles: 1
+					length: 0
+				}
+			}
+		}
+	]
+}
