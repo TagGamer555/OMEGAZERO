@@ -1,0 +1,30 @@
+{
+	type: DroneCenter
+	
+	name: Power Mech (Green)
+	description: Spawns Power Mech "Shock". Requires power to operate.
+	
+	health: 480
+	size: 2
+	category: units
+	
+	requirements: [
+		titanium/70
+		silicon/50
+		graphite/40
+	]
+	
+	research: core-shard
+	
+	configurable: false
+	solid: false
+	
+	droneRange: 0
+	droneConstructTime: 30
+	unitsSpawned: 1
+	droneType: shock
+	
+	consumes: {
+		power: 2
+	}
+}
