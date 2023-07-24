@@ -13,7 +13,7 @@
 			}
 			{
 				type: DrawLiquidTile
-				drawLiquid: cryofluid
+				drawLiquid: electron-fluid
 			}
 			{
 				type: DrawDefault
