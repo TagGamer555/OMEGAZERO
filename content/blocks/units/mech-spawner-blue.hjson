@@ -22,7 +22,7 @@
 	unitsSpawned: 1
 	droneType: flood
 	
-	consumes: {
-		power/0.75
-	}
+	//consumes: {
+	//	power/0.75
+	//}
 }
