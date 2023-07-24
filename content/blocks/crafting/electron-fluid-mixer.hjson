@@ -13,7 +13,7 @@
 			}
 			{
 				type: DrawLiquidTile
-				drawLiquid: electron-fluid
+				drawLiquid: cryofluid
 			}
 			{
 				type: DrawDefault
@@ -26,6 +26,7 @@
 	hasItems: true
 	hasLiquids: true
 	craftTime: 60
+	liquidCapacity: 30
 	itemCapacity: 10
 	consumes: {
 		power: 7.5
