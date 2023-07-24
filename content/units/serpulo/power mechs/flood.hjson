@@ -23,6 +23,7 @@
 		shootSound: mineDeploy
 		x: 4
 		y: 3
+		recoil: 0
 		reload: 60
 		mirror: true
 		alternate: true
@@ -30,7 +31,7 @@
 		top: false
 		shoot: {
 			shots: 3
-			shotDelay: 5
+			shotDelay: 7.5
 		}
 			bullet: {
 				height: 8
@@ -49,8 +50,11 @@
 				damage: 15
 				buildingDamageMultiplier: 0
 				knockback: 0.2
-				homingRange: 120
+				homingRange: 40
 				homingPower: 0.05
+				
+				weaveScale: 2.75
+				weaveMag: 1
 				
 				status: wet
 				statusDuration: 60
@@ -80,7 +84,7 @@
 				}
 				
 				despawnSound: sap
-				hitSound: spark
+				hitSound: none
 				
 				fragRandomSpread: 0
 				fragBullets: 1

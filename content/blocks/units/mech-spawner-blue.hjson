@@ -2,7 +2,7 @@
 	type: DroneCenter
 	
 	name: Power Mech (Blue)
-	description: Spawns Power Mech "Flood".
+	description: Spawns Power Mech "Flood". Requires power to operate.
 	
 	health: 480
 	size: 2
