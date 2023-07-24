@@ -1,0 +1,20 @@
+name: Electron Liquid
+description: Electron liquid is a superior form of Cryofluid.
+color: B7C8CC
+colorFrom: B7C8CC
+colorTo: B7C8CC
+effect: slow
+temperature: 0.1
+heatCapacity: 1.5
+flammability: 0.15
+explosiveness: 0.15
+viscosity: 0.5
+lightColor: B7C8CC08
+boilPoint: 1
+gasColor: B7C8CC
+moveThroughBlocks: false
+canStayOn: []
+incinerable: true
+spreadDamage: 0
+coolant: true
+research: cryofluid

@@ -1,0 +1,56 @@
+{
+	type: GenericCrafter
+	name: Electron Fluid Mixer
+	description: By using expensive materials, this facotry makes Electron fluid.
+	size: 3
+	squareSprite: true
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawLiquidTile
+				drawLiquid: electron-fluid
+			}
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasPower: true
+	envDisabled: 16
+	hasItems: true
+	hasLiquids: true
+	craftTime: 60
+	itemCapacity: 10
+	consumes: {
+		power: 7.5
+		items: {
+			items: [
+				surge-alloy/2
+				thorium/3
+				titanium/5
+			]
+		}
+		liquid: cryofluid/0.1
+	}
+	
+	outputLiquid: {
+		liquid: electron-fluid
+		amount: 0.5
+	}
+	
+	research: cryofluid-mixer
+	category: crafting
+	
+	requirements: [
+		surge-alloy/50
+		thorium/90
+		phase-fabric/80
+		silicon/150
+	]
+}
