@@ -8,7 +8,7 @@
 	itemCapacity: 40
 	health: 400
 	canBoost: true
-	boostMultiplier: 1.25
+	boostMultiplier: 1.75
 	buildSpeed: 0.3
 	targetAir: false
 	targetGround: false
@@ -16,6 +16,7 @@
 	engineOffset: 4
 	engineSize: 2.5
 	bounded: true
+	useUnitCap: false
 	
 	weapons: [
 		{
@@ -53,7 +54,7 @@
 				homingRange: 40
 				homingPower: 0.05
 				
-				weaveScale: 2.75
+				weaveScale: 3
 				weaveMag: 1
 				
 				status: wet
