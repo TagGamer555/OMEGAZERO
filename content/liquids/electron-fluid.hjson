@@ -5,8 +5,8 @@
 	effect: slow
 	temperature: 0.1
 	heatCapacity: 1.5
-	flammability: 0.15
-	explosiveness: 0.15
+	flammability: 0
+	explosiveness: 0.3
 	viscosity: 0.5
 	lightColor: B7C8CC08
 	boilPoint: 1
