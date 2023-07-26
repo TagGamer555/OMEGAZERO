@@ -1,0 +1,41 @@
+{
+	type: GenericCrafter
+	
+	name: Forge
+	description: An upgraded Kiln, that uses Sand, Lead and Blast Compound to forge large amounts of Metaglass.
+	
+	category: crafting
+	
+	research: kiln
+	requirements: [
+		metaglass/80
+		thorium/120
+		silicon/60
+		phase-fabric/35
+		thermite/70
+		experience/30
+	]
+	
+	size: 3
+	
+	craftEffect: smeltsmoke
+	drawer: {
+		type: DrawMulti
+		drawers: [DrawDefault, DrawFlame]
+	}
+	
+	ambientSound: smelter
+	ambientSoundVolume: 0.1
+	
+	consumes: {
+		power: 4
+		items: {
+			items: [
+				sand/6
+				lead/6
+				blast-compound/1
+			]
+		}
+	}
+	craftTime: 50
+}
