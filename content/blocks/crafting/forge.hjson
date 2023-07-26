@@ -39,7 +39,8 @@
 	}
 	
 	outputItem: {
-		metaglass/4
+		item: metaglass
+		amount: 4
 	}
 	craftTime: 50
 }
