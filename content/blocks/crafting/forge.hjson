@@ -37,5 +37,9 @@
 			]
 		}
 	}
+	
+	outputItem: {
+		metaglass/4
+	}
 	craftTime: 50
 }
