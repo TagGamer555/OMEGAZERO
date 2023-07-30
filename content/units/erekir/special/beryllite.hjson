@@ -21,7 +21,7 @@
 	itemCapacity: 0
 	engineSize: 1.25
 	engineOffset: 1.25
-	trailLength: 2
+	trailLength: 5
 	research: core-bastion
 	lifetime: 120
 	useUnitCap: false
@@ -39,21 +39,21 @@
 			alternate: false
 			shootSound: shootAlt
 			inaccuracy: 3
-			shootStatus: acb
+			shootStatus: corroded
 			shootStatusDuration: 45.1
 			bullet: {
 				damage: 20
 				lifetime: 20
-				height: 7
-				width: 5
-				trailWidth: 1.2
+				height: 6
+				width: 4
+				trailWidth: 1.05
 				trailLength: 8
 				trailColor: 92DD7E
 				backColor: 92DD7E
 				frontColor: FFFFFF
 				speed: 5
 				knockback: 0
-				buildingDamageMultiplier: 0
+				buildingDamageMultiplier: -123
 				smokeEffect: none
 				shootEffect: 
 					{
