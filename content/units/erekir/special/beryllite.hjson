@@ -12,15 +12,16 @@
 	envEnabled: 4294967295
 	envDisabled: 0
 	circleTarget: false
-	health: 350
-	speed: 0
+	health: 100
+	speed: 3
 	rotateSpeed: 3
 	drag: 0.04
 	accel: 0.08
-	armor: 4
+	armor: 12
 	itemCapacity: 0
-	engineSize: 0
-	trailLength: 0
+	engineSize: 1.25
+	engineOffset: 1.25
+	trailLength: 2
 	research: core-bastion
 	lifetime: 120
 	useUnitCap: false
@@ -35,7 +36,7 @@
 			shootSound: shootAlt
 			inaccuracy: 3
 			shootStatus: corroded
-			shootStatusDuration: 30
+			shootStatusDuration: 30.1
 			bullet: {
 				damage: 10
 				lifetime: 20
@@ -48,6 +49,7 @@
 				frontColor: FFFFFF
 				speed: 5
 				knockback: 0
+				buildingDamageMultiplier: 0
 				smokeEffect: none
 				shootEffect: 
 					{
