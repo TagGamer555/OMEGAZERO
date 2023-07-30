@@ -1,0 +1,86 @@
+{
+	type: flying
+	flying: true
+	name: Beryllite
+	description: Bush hid the facts!
+	hidden: true
+	controller: FlyingAI
+	playerControllable: false
+	logicControllable: false
+	lowAltitude: true
+	outlineColor: 2D2F39
+	envEnabled: 4294967295
+	envDisabled: 0
+	circleTarget: false
+	health: 350
+	speed: 0
+	rotateSpeed: 1
+	drag: 0.04
+	accel: 0.08
+	armor: 4
+	itemCapacity: 0
+	engineSize: 0
+	trailLength: 0
+	research: core-bastion
+
+	weapons: [
+		{
+			x: 0
+			y: 2
+			reload: 90
+			mirror: false
+			alternate: false
+			shootSound: shootAlt
+			bullet: {
+				damage: 24
+				lifetime: 20
+				height: 7
+				width: 5
+				trailWidth: 1.2
+				trailLength: 8
+				trailColor: 92DD7E
+				backColor: 92DD7E
+				frontColor: FFFFFF
+				speed: 5
+				knockback: 0
+				smokeEffect: none
+				shootEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 92DD7E
+						region: kiky5-diamond-bullet
+					}
+				hitEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 92DD7E
+						region: kiky5-diamond-bullet
+					}
+				despawnEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 92DD7E
+						region: kiky5-diamond-bullet
+					}
+			}
+		}
+	]
+}
