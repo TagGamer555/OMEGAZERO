@@ -11,7 +11,7 @@
 	outlineColor: 2D2F39
 	envEnabled: 4294967295
 	envDisabled: 0
-	circleTarget: false
+	circleTarget: true
 	health: 100
 	speed: 3
 	rotateSpeed: 3
@@ -30,15 +30,19 @@
 		{
 			x: 0
 			y: 2
-			reload: 30
+			reload: 45
+			shoot: {
+				shots: 3
+				shotDelay: 5
+			}
 			mirror: false
 			alternate: false
 			shootSound: shootAlt
 			inaccuracy: 3
-			shootStatus: corroded
-			shootStatusDuration: 30.1
+			shootStatus: acb
+			shootStatusDuration: 45.1
 			bullet: {
-				damage: 10
+				damage: 20
 				lifetime: 20
 				height: 7
 				width: 5
