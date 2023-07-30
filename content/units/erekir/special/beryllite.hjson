@@ -3,7 +3,7 @@
 	flying: true
 	name: Beryllite
 	description: Bush hid the facts!
-	hidden: true
+	hidden: false
 	controller: FlyingAI
 	playerControllable: false
 	logicControllable: false
