@@ -26,12 +26,13 @@
 			mirror: false
 			alternate: false
 			top: true
+			range: 200
 			shootSound: shotgun
 			bullet: {
 				type: shrapnelBulletType
 				recoil: -40
-				length: 30
-				width: 18
+				length: 40
+				width: 10
 				damage: 200
 				toColor: 92DD7E
 				smokeEffect: none
@@ -60,6 +61,7 @@
 			alternate: false
 			top: false
 			shootSound: sap
+			range: 200
 			shoot: {
 				shots: 20
 				shotDelay: 1
