@@ -27,15 +27,15 @@
 			top: true
 			shootSound: sap
 			shoot: {
-				shots: 10
-				shotDelay: 10
+				shots: 100
+				shotDelay: 1
 			}
 			bullet: {
 				sprite: mine-bullet
-				recoil: -5
-				height: 10
-				width: 10
-				damage: 30
+				recoil: -1
+				height: 4
+				width: 4
+				damage: 10
 				speed: 0
 				drag: 2000
 				shrinkY: 0
@@ -50,13 +50,13 @@
 					particles: 1
 					region: kiky5-dash-ghost
 					length: 0
-					lifetime: 10
+					lifetime: 1
 					sizeFrom: 8
 					colorFrom: 92DD7E
 					colorTo: 3A5651
 					sizeTo: 8
 					rotWithParent: true
-					followParent: false
+					followParent: true
 				}
 			}
 		}
