@@ -75,7 +75,7 @@
 				smokeEffect: none
 				speed: 12
 				lifetime: 20
-				trailWidth: 1
+				trailWidth: 1.5
 				trailLength: 6
 			}
 		}
