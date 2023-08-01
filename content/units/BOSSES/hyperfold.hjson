@@ -36,7 +36,7 @@
 				height: 4
 				width: 4
 				damage: 10
-				speed: 0
+				speed: 120
 				drag: 2000
 				shrinkY: 0
 				shrinkX: 0
