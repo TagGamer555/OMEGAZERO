@@ -15,7 +15,8 @@
 	outlineColor: 2D2F39
 	engineColor: 92DD7E
 	trailColor: 92DD7E
-
+	range: 200
+	
 	weapons: [
 		{
 			x: 0
