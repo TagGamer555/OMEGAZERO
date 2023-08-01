@@ -19,7 +19,7 @@
 	weapons: [
 		{
 			x: 0
-			y: 2
+			y: 0
 			recoil: 0
 			reload: 120
 			mirror: false
@@ -49,8 +49,8 @@
 				shootEffect: {
 					particles: 1
 					region: kiky5-dash-ghost
-					length: -30
-					lifetime: 20
+					length: 0
+					lifetime: 10
 					sizeFrom: 8
 					colorFrom: 92DD7E
 					colorTo: 3A5651
