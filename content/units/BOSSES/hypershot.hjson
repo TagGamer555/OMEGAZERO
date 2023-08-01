@@ -4,9 +4,8 @@
 	name: "[forest]Hypershot[]"
 	description: Otherworldly minion, summed by Hyperfold.
 	lowAltitude: true
-	health: 200
+	health: 400
 	speed: 6.75
-	circleTarget: true
 	drag: 0.04
 	accel: 0.08
 	armor: 10
@@ -34,9 +33,10 @@
 			shoot: {
 				type: ShootSpread
 				shots: 3
-				spread: 5
+				spread: 1
 			}
 			bullet: {
+				recoil: 3
 				width: 6
 				height: 9
 				damage: 12

@@ -4,7 +4,7 @@
 	name: "[green]Hyperfold[]"
 	description: Otherworldly being from beyond. Be careful of it's charges.
 	lowAltitude: true
-	health: 10000
+	health: 20000
 	speed: 5
 	drag: 0.04
 	accel: 0.08
