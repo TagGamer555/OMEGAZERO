@@ -27,7 +27,7 @@
 			shootSound: sap
 			shoot: {
 				shots: 10
-				shotDelay: 5
+				shotDelay: 10
 			}
 			bullet: {
 				//type: ShrapnelBulletType
