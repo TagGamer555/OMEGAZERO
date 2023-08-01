@@ -27,16 +27,16 @@
 			top: true
 			shootSound: sap
 			shoot: {
-				shots: 100
+				shots: 20
 				shotDelay: 1
 			}
 			bullet: {
 				sprite: mine-bullet
-				recoil: -1
-				height: 4
-				width: 4
-				damage: 10
-				speed: 120
+				recoil: 0
+				height: 6
+				width: 6
+				damage: 30
+				speed: 0
 				drag: 2000
 				shrinkY: 0
 				shrinkX: 0
@@ -46,11 +46,32 @@
 				smokeEffect: none
 				hitEffect: none
 				despawnEffect: none
+			}
+		}
+		{
+			x: 0
+			y: 0
+			recoil: 0
+			reload: 120
+			mirror: false
+			alternate: false
+			top: true
+			shootSound: shotgun
+			bullet: {
+				type: shrapnelBulletType
+				recoil: -40
+				length: 30
+				width: 18
+				damage: 10
+				toColor: 92DD7E
+				smokeEffect: none
+				hitEffect: none
+				despawnEffect: none
 				shootEffect: {
 					particles: 1
 					region: kiky5-dash-ghost
 					length: 0
-					lifetime: 1
+					lifetime: 100
 					sizeFrom: 8
 					colorFrom: 92DD7E
 					colorTo: 3A5651
