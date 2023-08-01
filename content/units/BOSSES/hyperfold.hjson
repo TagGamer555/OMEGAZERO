@@ -71,6 +71,10 @@
 				homingRange: 180
 				shootEffect: none
 				smokeEffect: none
+				speed: 12
+				lifetime: 20
+				trailWidth: 0.75
+				trailLength: 6
 			}
 		}
 	]
