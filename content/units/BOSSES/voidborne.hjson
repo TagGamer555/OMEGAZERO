@@ -10,7 +10,7 @@
 	accel: 0.08
 	armor: 5
 	itemCapacity: 0
-	hitSize: 48
+	hitSize: 24
 	outlineColor: 2D2F39
 	engineSize: 0
 	rotateSpeed: 1
@@ -23,7 +23,7 @@
 			mirror: true
 			x: 0
 			y: 0
-			radius: 16
+			radius: 12
 			phase: 170
 			color: BF92F8
 			stroke: 2
@@ -69,17 +69,17 @@
 			shootSound: shot
 			shoot: {
 				type: ShootSpread
-				shots: 36
-				spread: 10
+				shots: 24
+				spread: 15
 			}
 			bullet: {
 				width: 6
 				height: 9
-				damage: 12
+				damage: 20
 				trailColor: BF92F8
 				frontColor: FFFFFF
 				backColor: BF92F8
-				homingPower: 0.025
+				homingPower: 0.25
 				homingRange: 180
 				shootEffect: none
 				smokeEffect: none
