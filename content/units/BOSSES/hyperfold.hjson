@@ -33,8 +33,8 @@
 			bullet: {
 				sprite: mine-bullet
 				recoil: -5
-				height: 15
-				width: 15
+				height: 10
+				width: 10
 				damage: 30
 				speed: 0
 				drag: 2000
@@ -48,13 +48,13 @@
 				despawnEffect: none
 				shootEffect: {
 					particles: 1
-					region: kiky5-hyperfold-dash
-					length: 0
-					lifetime: 10
-					sizeFrom: 16
+					region: kiky5-dash-ghost
+					length: -30
+					lifetime: 20
+					sizeFrom: 8
 					colorFrom: 92DD7E
 					colorTo: 3A5651
-					sizeTo: 0
+					sizeTo: 8
 					rotWithParent: true
 					followParent: false
 				}
