@@ -8,12 +8,13 @@
 	speed: 1
 	drag: 0.04
 	accel: 0.08
-	armor: 80
+	armor: 5
 	itemCapacity: 0
 	hitSize: 24
 	outlineColor: 2D2F39
 	engineSize: 0
 	rotateSpeed: 1
+	range: 60
 	
 	parts: [
 		{
