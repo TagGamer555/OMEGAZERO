@@ -25,6 +25,39 @@
 			mirror: false
 			alternate: false
 			top: true
+			shootSound: shotgun
+			bullet: {
+				type: shrapnelBulletType
+				recoil: -40
+				length: 30
+				width: 18
+				damage: 200
+				toColor: 92DD7E
+				smokeEffect: none
+				hitEffect: none
+				despawnEffect: none
+				shootEffect: {
+					particles: 1
+					region: kiky5-dash-ghost
+					length: 0
+					lifetime: 60
+					sizeFrom: 8
+					colorFrom: 92DD7E
+					colorTo: 3A5651
+					sizeTo: 8
+					rotWithParent: true
+					followParent: true
+				}
+			}
+		}
+		{
+			x: 0
+			y: 0
+			recoil: 0
+			reload: 120
+			mirror: false
+			alternate: false
+			top: false
 			shootSound: sap
 			shoot: {
 				shots: 20
@@ -46,39 +79,6 @@
 				smokeEffect: none
 				hitEffect: none
 				despawnEffect: none
-			}
-		}
-		{
-			x: 0
-			y: 0
-			recoil: 0
-			reload: 120
-			mirror: false
-			alternate: false
-			top: true
-			shootSound: shotgun
-			bullet: {
-				type: shrapnelBulletType
-				recoil: -40
-				length: 30
-				width: 18
-				damage: 10
-				toColor: 92DD7E
-				smokeEffect: none
-				hitEffect: none
-				despawnEffect: none
-				shootEffect: {
-					particles: 1
-					region: kiky5-dash-ghost
-					length: 0
-					lifetime: 100
-					sizeFrom: 8
-					colorFrom: 92DD7E
-					colorTo: 3A5651
-					sizeTo: 8
-					rotWithParent: true
-					followParent: true
-				}
 			}
 		}
 	]
