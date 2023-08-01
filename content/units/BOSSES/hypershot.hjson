@@ -18,6 +18,8 @@
 	trailColor: 92DD7E
 	omniMovement: false
 	rotateSpeed: 3.25
+	controllable: false
+	controller: FlyingAI
 	
 	weapons: [
 		{

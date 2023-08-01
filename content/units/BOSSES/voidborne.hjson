@@ -1,0 +1,41 @@
+{
+	type: flying
+	flying: true
+	name: "[green]Voidborne[]"
+	description: Otherworldly being from beyond. Summons various units to protect itself.
+	lowAltitude: true
+	health: 20000
+	speed: 1
+	drag: 0.04
+	accel: 0.08
+	armor: 80
+	itemCapacity: 0
+	hitSize: 24
+	outlineColor: 2D2F39
+	engineSize: 0
+	rotateSpeed: 1
+	
+	abilities: [
+		{
+			type: UnitSpawnAbility
+			unit: flare
+			spawnX: 0
+			spawnY: 0
+			spawnTime: 800
+		}
+		{
+			type: UnitSpawnAbility
+			unit: horizon
+			spawnX: 0
+			spawnY: 0
+			spawnTime: 1600
+		}
+		{
+			type: UnitSpawnAbility
+			unit: poly
+			spawnX: 0
+			spawnY: 0
+			spawnTime: 1600
+		}
+	]
+}
