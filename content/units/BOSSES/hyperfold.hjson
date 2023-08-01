@@ -31,10 +31,9 @@
 				shotDelay: 10
 			}
 			bullet: {
-				//type: ShrapnelBulletType
 				sprite: mine-bullet
 				recoil: -5
-				length: 13
+				height: 13
 				width: 13
 				damage: 30
 				speed: 0
@@ -44,13 +43,16 @@
 				backColor: 92DD7E
 				frontColor: 92DD7E
 				smokeEffect: none
+				hitEffect: none
+				despawnEffect: none
 				shootEffect: {
 					particles: 1
-					region: hyperfold
-					alpha: 0.5
+					region: hyperfold-dash
 					length: 0
 					lifetime: 10
 					sizeFrom: 16
+					colorFrom: 92DD7E
+					colorTo: 3A5651
 					sizeTo: 0
 					rotWithParent: true
 					followParent: false
