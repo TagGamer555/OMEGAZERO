@@ -56,15 +56,20 @@
 			x: 0
 			y: 0
 			recoil: 0
-			reload: 20
+			reload: 30
 			mirror: false
 			alternate: false
 			top: true
 			rotate: true
 			shootSound: blaster
+			shoot: {
+				type: ShootSpread
+				shots: 5
+				spread: 5
+			}
 			bullet: {
-				width: 12
-				height: 17.5
+				width: 10
+				height: 15
 				damage: 50
 				trailColor: 92DD7E
 				frontColor: FFFFFF
@@ -75,9 +80,19 @@
 				smokeEffect: none
 				speed: 12
 				lifetime: 20
-				trailWidth: 1.5
+				trailWidth: 1.75
 				trailLength: 6
 			}
+		}
+	]
+	
+	abilities: [
+		{
+			type: UnitSpawnAbility
+			unit: hypershot
+			spawnX: 0
+			spawnY: 0
+			spawnTime: 200
 		}
 	]
 }
