@@ -6,7 +6,7 @@
 	lowAltitude: true
 	health: 200
 	speed: 6.75
-	circleAroundTarget: true
+	circleTarget: true
 	drag: 0.04
 	accel: 0.08
 	armor: 10
@@ -18,7 +18,6 @@
 	trailColor: 92DD7E
 	omniMovement: false
 	rotateSpeed: 3.25
-	controllable: false
 	controller: FlyingAI
 	
 	weapons: [
