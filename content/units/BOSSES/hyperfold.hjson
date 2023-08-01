@@ -14,13 +14,14 @@
 	hitSize: 10
 	outlineColor: 2D2F39
 	engineColor: 92DD7E
+	trailColor: 92DD7E
 
 	weapons: [
 		{
 			x: 0
 			y: 2
 			recoil: 0
-			reload: 30
+			reload: 120
 			mirror: false
 			alternate: false
 			top: true
@@ -33,25 +34,26 @@
 				//type: ShrapnelBulletType
 				sprite: mine-bullet
 				recoil: -5
-				length: 10
-				width: 10
+				length: 13
+				width: 13
 				damage: 30
 				speed: 0
 				shrinkY: 1
 				shrinkX: 1
 				lifetime: 60
-				colorBack: 92DD7E
-				colorBack: 92DD7E
+				backColor: 92DD7E
+				frontColor: 92DD7E
 				smokeEffect: none
 				shootEffect: {
 					particles: 1
-					sprite: hyperfold
+					region: hyperfold
 					alpha: 0.5
 					length: 0
 					lifetime: 10
 					sizeFrom: 16
 					sizeTo: 0
 					rotWithParent: true
+					followParent: false
 				}
 			}
 		}
