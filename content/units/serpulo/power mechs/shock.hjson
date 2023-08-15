@@ -50,6 +50,7 @@
 				
 				trailWidth: 1
 				trailLength: 24
+				trailColor: 84F490
 				
 				drag: 0.09
 				
@@ -66,7 +67,7 @@
 					sizeFrom: 5
 					sizeTo: 0
 					lifetime: 45
-					colorFrom: 84F490
+					colorFrom: FFFFFF
 					colorTo: 84F490
 					particles: 1
 					length: 0
@@ -76,7 +77,7 @@
 					sizeFrom: 5
 					sizeTo: 0
 					lifetime: 45
-					colorFrom: 84F490
+					colorFrom: FFFFFF
 					colorTo: 84F490
 					particles: 1
 					length: 0
