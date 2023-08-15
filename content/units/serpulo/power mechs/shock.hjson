@@ -22,7 +22,7 @@
 	weapons: [
 		{
 			name: shock-weapon
-			shootSound: spark
+			shootSound: lasershoot
 			x: 4
 			y: 4
 			recoil: 0
@@ -40,25 +40,38 @@
 				type: RegularBulletType
 				backColor: 84F490
 				frontColor: FFFFFF
-				width: 4
-				height: 4
+				width: 6
+				height: 8
 				shrinkY: 0
-				lifetime: 66.66666666666666666666
-				speed: 0.75
+				lifetime: 120
+				speed: 5
 				homingRange: 80
 				homingPower: 0.05
 				
-				drag: 0.01
+				trailWidth: 1
+				trailLength: 24
 				
-				damage: 5
+				drag: 0.09
+				
+				damage: 12
 				buildingDamageMultiplier: 0
-				healPercent: 100
+				healPercent: 5
 				collidesTeam: true
 				
 				status: electrified
 				statusDuration: 120
 				
 				hitEffect: {
+					type: ParticleEffect
+					sizeFrom: 5
+					sizeTo: 0
+					lifetime: 45
+					colorFrom: 84F490
+					colorTo: 84F490
+					particles: 1
+					length: 0
+				}
+				despawnEffect: {
 					type: ParticleEffect
 					sizeFrom: 5
 					sizeTo: 0
