@@ -48,6 +48,8 @@
 				homingRange: 80
 				homingPower: 0.05
 				
+				drag: 0.01
+				
 				damage: 5
 				buildingDamageMultiplier: 0
 				healPercent: 100
