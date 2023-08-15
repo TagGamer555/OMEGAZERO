@@ -21,31 +21,36 @@
 	
 	weapons: [
 		{
-		name: shock-weapon
-		shootSound: spark
-		x: 4
-		y: 4
-		recoil: 0
-		reload: 60
-		mirror: true
-		alternate: true
-		inaccuracy: 10
-		top: false
-		shoot: {
-			shots: 3
-		}
+			name: shock-weapon
+			shootSound: spark
+			x: 4
+			y: 4
+			recoil: 0
+			reload: 60
+			mirror: true
+			alternate: true
+			inaccuracy: 2
+			top: false
+			shoot: {
+				type: ShootSpread
+				shots: 4
+				spread: 5
+			}
 			bullet: {
-				type: LightningBulletType
+				type: RegularBulletType
+				backColor: 84F490
+				frontColor: FFFFFF
+				width: 4
+				height: 4
+				shrinkY: 0
+				lifetime: 66.66666666666666666666
+				speed: 0.75
+				homingRange: 80
+				homingPower: 0.05
 				
-				lightningLength: 12
-				lightningColor: 84F490
-				
-				lightRadius: 3
-				lightColor: 84F490
-				
-				damage: 10
+				damage: 5
 				buildingDamageMultiplier: 0
-				healPercent: 1
+				healPercent: 100
 				collidesTeam: true
 				
 				status: electrified
