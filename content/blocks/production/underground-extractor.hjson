@@ -1,0 +1,45 @@
+{
+	type: Separator
+	name: Underground Extractor
+	description: Extracts more valuable resources underground. Requires constant supply of radioactive items as fuel.
+	
+	consumes: {
+		itemRadioactive: {}
+	}
+	
+	size: 2
+	squareSprite: false
+	research: laser-drill
+	craftTime: 240
+	category: production
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawRegion
+				spinSprite: true
+				rotateSpeed: 3
+				suffix: -rotator
+			}
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: true
+	itemCapacity: 20
+	health: 880
+	
+	requirements: [
+		darksteel/200
+		graphite/600
+	]
+	
+	results: [graphite,titanium,palladium,sand,coal]
+}

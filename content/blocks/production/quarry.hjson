@@ -1,16 +1,16 @@
 {
-	type: GenericCrafter
-	name: Fluxite Extractor
-	description: Extracts Fluxite deep underground. Uses burnable items as fuel. Produces sand as by-product.
+	type: Separator
+	name: Quarry
+	description: Extracts valuable resources underground. Requires constant supply of flammable items as fuel.
 	
 	consumes: {
 		itemFlammable: {}
 	}
 	
-	size: 3
+	size: 2
 	squareSprite: false
-	research: alpha-fuser
-	craftTime: 180
+	research: mechanical-drill
+	craftTime: 240
 	category: production
 	
 	drawer: {
@@ -33,23 +33,13 @@
 	}
 	
 	hasItems: true
-	itemCapacity: 10
+	itemCapacity: 20
 	health: 440
 	
 	requirements: [
-		copper/60
-		lead/40
-		alpha-item/12
+		copper/80
+		lead/60
 	]
 	
-	outputItems: [
-		{
-			item: sand
-			amount: 3
-		}
-		{
-			item: fluxite
-			amount: 1
-		}
-	]
+	results: [sand,copper,lead,fluxite]
 }

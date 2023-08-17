@@ -1,0 +1,17 @@
+{
+	name: Power FLuid
+	description: Highly energy-dense fluid.
+	color: F7E87E
+	effect: shocked
+	temperature: 0.5
+	heatCapacity: 0
+	flammability: 0
+	explosiveness: 1.6
+	viscosity: 0
+	lightColor: F7E87E
+	boilPoint: 0
+	gasColor: F7E87E
+	incinerable: false
+	coolant: true
+	research: copper
+}

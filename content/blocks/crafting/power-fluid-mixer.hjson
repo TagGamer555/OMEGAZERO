@@ -1,0 +1,58 @@
+{
+	type: GenericCrafter
+	name: Power Fluid Mixer
+	description: Makes highly energy-dense liquid, called Power Fluid. Uses Copper as vessel for the fluid.
+	size: 2
+	squareSprite: false
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawLiquidTile
+				liquid: power-fluid
+			}
+			{
+				type: DrawRegion
+				spinSprite: true
+				rotateSpeed: 2
+				suffix: -rotator
+			}
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasPower: true
+	envDisabled: 16
+	hasItems: true
+	hasLiquids: true
+	craftTime: 60
+	itemCapacity: 10
+	consumes: {
+		power: 2.5
+		items: {
+			items: [
+				copper/2
+			]
+		}
+	}
+	
+	outputLiquid: {
+		item: power-fluid
+		amount: 0.1666666666666666666
+	}
+	
+	research: graphite-press
+	category: crafting
+	
+	requirements: [
+		copper/125
+		lead/140
+		fluxite/80
+	]
+}
