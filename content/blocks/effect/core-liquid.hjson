@@ -16,4 +16,5 @@
 	]
 	squareSprite: false
 	category: effect
+	placeableLiquid: true
 }

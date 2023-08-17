@@ -23,9 +23,10 @@
 
 	weapons: [
 		{
+			name: erosion-weapon
 			recoil: 2
 			inaccuracy: 3
-			rotate: false
+			rotate: true
 			shootY: 0
 			shootSound: mineDeploy
 			x: 0
@@ -43,7 +44,8 @@
 				damage: 10
 				homingRange: 150
 				homingPower: 0.01
-				speed: 4
+				speed: 3.25
+				drag: -0.03
 				lifetime: 40
 				status: wet
 				statusDuration: 180
