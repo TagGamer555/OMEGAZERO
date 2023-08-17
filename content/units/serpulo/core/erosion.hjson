@@ -27,7 +27,7 @@
 			recoil: 2
 			inaccuracy: 3
 			rotate: true
-			shootY: 2.25
+			shootY: 2.75
 			shootSound: mineDeploy
 			x: 0
 			y: 0
@@ -46,7 +46,7 @@
 				homingRange: 150
 				homingPower: 0.01
 				speed: 1
-				drag: -0.09
+				drag: -0.03
 				lifetime: 40
 				status: wet
 				statusDuration: 180
