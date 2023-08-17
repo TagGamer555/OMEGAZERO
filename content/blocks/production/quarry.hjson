@@ -1,10 +1,9 @@
 {
 	type: Separator
 	name: Quarry
-	description: Extracts valuable resources underground. Requires constant supply of flammable items and Energy Fluid as fuel.
+	description: Extracts valuable resources underground. Requires constant supply of Energy Fluid as fuel.
 	
 	consumes: {
-		itemFlammable: {}
 		liquid: energy-fluid/0.05
 	}
 	

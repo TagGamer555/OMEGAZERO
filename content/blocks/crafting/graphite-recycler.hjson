@@ -17,7 +17,7 @@
 				graphite/3
 			]
 		}
-		liquid: water/0.8
+		liquid: water/0.08
 	}
 	
 	outputItem: {

@@ -1,11 +1,11 @@
 {
 	type: Separator
 	name: Underground Extractor
-	description: Extracts more valuable resources underground. Requires constant supply of radioactive items and Energy Fluid as fuel.
+	description: Extracts more valuable resources underground. Requires constant supply of Neutron Fluid as fuel.
 	
 	consumes: {
 		itemRadioactive: {}
-		liquid: energy-fluid/0.2
+		liquid: neutron-fluid/0.2
 	}
 	
 	size: 2
