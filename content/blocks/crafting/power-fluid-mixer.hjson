@@ -12,10 +12,6 @@
 				suffix: -bottom
 			}
 			{
-				type: DrawLiquidTile
-				liquid: power-fluid
-			}
-			{
 				type: DrawRegion
 				spinSprite: true
 				rotateSpeed: 2

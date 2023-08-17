@@ -41,5 +41,18 @@
 		lead/60
 	]
 	
-	results: [sand,copper,lead,fluxite]
+	results: [
+		{
+			item: sand
+		}
+		{
+			item: copper
+		}
+		{
+			item: lead
+		}
+		{
+			item: fluxite
+		}
+	]
 }

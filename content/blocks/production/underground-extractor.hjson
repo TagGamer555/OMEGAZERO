@@ -41,5 +41,21 @@
 		graphite/600
 	]
 	
-	results: [graphite,titanium,palladium,sand,coal]
+	results: [
+		{
+			item: grpahite
+		}
+		{
+			item: titanium
+		}
+		{
+			item: palladium
+		}
+		{
+			item: sand
+		}
+		{
+			item: coal
+		}
+	]
 }
