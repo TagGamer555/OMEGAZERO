@@ -1,0 +1,35 @@
+{
+	type: GenericCrafter
+	name: Graphite Recycler
+	description: Recycles Graphite back into Coal. Uses Water.
+	size: 2
+	squareSprite: false
+	
+	hasPower: false
+	envDisabled: 16
+	hasItems: true
+	hasLiquids: true
+	craftTime: 120
+	itemCapacity: 10
+	consumes: {
+		items: {
+			items: [
+				graphite/3
+			]
+		}
+		liquid: water/0.8
+	}
+	
+	outputItem: {
+		coal/2
+	}
+	
+	research: graphite-press
+	category: crafting
+	
+	requirements: [
+		graphite/40
+		silicon/60
+		lead/120
+	]
+}
