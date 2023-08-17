@@ -39,8 +39,8 @@
 	}
 	
 	outputLiquid: {
-		item: energy-fluid
-		amount: 0.1666666666666666666
+		liquid: energy-fluid
+		amount: 0.2
 	}
 	
 	research: graphite-press
