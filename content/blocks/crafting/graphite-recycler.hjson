@@ -21,7 +21,8 @@
 	}
 	
 	outputItem: {
-		coal/2
+		item: coal
+		amount: 2
 	}
 	
 	research: graphite-press
