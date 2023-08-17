@@ -44,15 +44,19 @@
 	results: [
 		{
 			item: sand
+			amount: 3
 		}
 		{
 			item: copper
+			amount: 1
 		}
 		{
 			item: lead
+			amount: 1
 		}
 		{
 			item: fluxite
+			amount: 4
 		}
 	]
 }

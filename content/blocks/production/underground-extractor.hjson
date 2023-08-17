@@ -44,18 +44,23 @@
 	results: [
 		{
 			item: graphite
+			amount: 2
 		}
 		{
 			item: titanium
+			amount: 4
 		}
 		{
 			item: palladium
+			amount: 8
 		}
 		{
 			item: sand
+			amount: 4
 		}
 		{
-			item: coal
+			item: scrap
+			amount: 1
 		}
 	]
 }
