@@ -1,10 +1,11 @@
 {
 	type: Separator
 	name: Underground Extractor
-	description: Extracts more valuable resources underground. Requires constant supply of radioactive items as fuel.
+	description: Extracts more valuable resources underground. Requires constant supply of radioactive items and Energy Fluid as fuel.
 	
 	consumes: {
 		itemRadioactive: {}
+		liquid: energy-fluid/0.4
 	}
 	
 	size: 2
@@ -12,7 +13,6 @@
 	research: laser-drill
 	craftTime: 240
 	category: production
-	hasLiquids: false
 	
 	drawer: {
 		type: DrawMulti
