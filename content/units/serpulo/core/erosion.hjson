@@ -33,16 +33,16 @@
 			y: 0
 			reload: 80
 			shoot: {
-				shots: 4
-				shotDelay: 10
+				shots: 8
+				shotDelay: 5
 			}
 			mirror: false
 			alternate: false
 			rotateSpeed: 1.75
 			bullet: {
-				damage: 12
+				damage: 10
 				homingRange: 150
-				homingPower: 0.01
+				homingPower: 0.025
 				speed: 1
 				drag: -0.04
 				lifetime: 40
