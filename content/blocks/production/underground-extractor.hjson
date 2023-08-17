@@ -4,7 +4,6 @@
 	description: Extracts more valuable resources underground. Requires constant supply of Electron Fluid as fuel.
 	
 	consumes: {
-		itemRadioactive: {}
 		liquid: electron-fluid/0.2
 	}
 	
