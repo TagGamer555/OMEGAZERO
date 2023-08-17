@@ -12,6 +12,7 @@
 	research: laser-drill
 	craftTime: 240
 	category: production
+	hasLiquids: false
 	
 	drawer: {
 		type: DrawMulti

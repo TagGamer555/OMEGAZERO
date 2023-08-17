@@ -1,7 +1,7 @@
 {
 	type: GenericCrafter
-	name: Power Fluid Mixer
-	description: Makes highly energy-dense liquid, called Power Fluid. Uses Copper as vessel for the fluid.
+	name: Energy Fluid Mixer
+	description: Makes highly energy-dense liquid, called Energy Fluid. Uses Copper as vessel for the fluid.
 	size: 2
 	squareSprite: false
 	drawer: {
@@ -39,7 +39,7 @@
 	}
 	
 	outputLiquid: {
-		item: power-fluid
+		item: energy-fluid
 		amount: 0.1666666666666666666
 	}
 	
