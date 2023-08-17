@@ -27,7 +27,7 @@
 			recoil: 2
 			inaccuracy: 3
 			rotate: true
-			shootY: 0
+			shootY: 2.25
 			shootSound: mineDeploy
 			x: 0
 			y: 0
@@ -38,14 +38,15 @@
 			}
 			mirror: false
 			alternate: false
+			rotateSpeed: 1.75
 			bullet: {
 				weaveScale: 5
 				weaveMag: 2.5
-				damage: 10
+				damage: 12
 				homingRange: 150
 				homingPower: 0.01
-				speed: 3.25
-				drag: -0.03
+				speed: 1
+				drag: -0.09
 				lifetime: 40
 				status: wet
 				statusDuration: 180
@@ -62,6 +63,22 @@
 				buildingDamageMultiplier: 0
 				smokeEffect: none
 				shootEffect: none
+				hitEffect: {
+					particles: 1
+					length: 0
+					sizeFrom: 3
+					sizeTo: 0
+					colorFrom: FFFFFF
+					colorTo: 88A4FF					
+				}
+				despawnEffect: {
+					particles: 1
+					length: 0
+					sizeFrom: 3
+					sizeTo: 0
+					colorFrom: FFFFFF
+					colorTo: 88A4FF					
+				}
 			}
 		}
 	]
