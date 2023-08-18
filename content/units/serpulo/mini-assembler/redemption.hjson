@@ -1,0 +1,65 @@
+{
+	type: legs
+	name: Redemption
+	description: T1 unit, that will protect your base from enemies.
+	speed: 1.1
+	health: 200
+	itemCapacity: 0
+	armor: 8
+	drag: 0.4
+	rotateSpeed: 3.5
+	
+	legCount: 4
+	legLength: 14
+	lockLegBase: true
+	legContinuousMove: true
+	legExtension: -3
+	legBaseOffset: 5
+	legMaxLength: 1.1
+	legMinLength: 0.2
+	legLengthScl: 0.95
+	legForwardScl: 0.7
+	legGroupSize: 2
+	//rippleScale: 0.2
+	//legStraightness: 0.3
+	
+	hovering: true
+	shadowElevation: 0.2
+	research: upgrade-module
+	weapons: [
+		{
+			x: 0
+			y: 1
+			reload: 20
+			mirror: false
+			alternate: false
+			shootSound: spark
+			shoot: {
+				type: ShootSpread
+				shots: 3
+				spread: 5
+			}
+			bullet: {
+				type: LightningBulletType
+				damage: 10
+				length: 50
+				knockback: 0
+				color: BF92F8
+				buildingDamageMultiplier: 0
+				smokeEffect: none
+				shootEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 4
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: BF92F8
+						region: kiky5-diamond-bullet
+					}
+			}
+		}
+	]
+}
