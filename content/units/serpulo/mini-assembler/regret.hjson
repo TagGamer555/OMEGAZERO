@@ -34,6 +34,11 @@
 			mirror: false
 			alternate: false
 			shootSound: sap
+			shoot: {
+				type: ShootSpread
+				shots: 3
+				spread: 5
+			}
 			bullet: {
 				type: SapBulletType
 				damage: 5
