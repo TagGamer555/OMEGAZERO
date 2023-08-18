@@ -1,7 +1,7 @@
 {
 	type: UnitAssembler
-	name: Mini-Assembler (Repair)
-	description: Makes very basic repair units.
+	name: Mini-Assembler (Defense)
+	description: Makes very basic defense units.
 	health: 250
 	requirements: [
 		copper/25
@@ -13,10 +13,10 @@
 	areaSize: 3
 	category: units
 	//droneType: regret
-	research: alpha-fuser
+	research: mini-assembler-repair
 	plans: [
 		{
-			unit: salvager
+			unit: regret
 			requirements: []
 			time: 600
 		}

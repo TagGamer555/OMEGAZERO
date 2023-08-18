@@ -1,0 +1,25 @@
+{
+	type: UnitAssemblerModule
+	
+	name: Upgrade Module
+	description: Upgrades assembler output to the higher level.
+	
+	research: mini-assembler-repair
+	
+	requirements: [
+		silicon/150
+		titanium/200
+		alpha/300
+	]
+	
+	consumes: {
+		items: {
+			items: [
+				silicon/4
+				alpha/4
+			]
+		}
+		power: 1
+		liquid: oil/1.25
+	}
+}
