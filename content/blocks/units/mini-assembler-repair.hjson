@@ -22,6 +22,7 @@
 		}
 		{
 			unit: enhancer
+			requirements: []
 			time: 1200
 		}
 	]
