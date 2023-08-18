@@ -37,7 +37,7 @@
 				healPercent: 1.25
 				knockback: 0
 				smokeEffect: none
-				width: 1
+				width: 2
 				height: 6
 				shootEffect: 
 					{

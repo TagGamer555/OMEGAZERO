@@ -31,7 +31,7 @@
 				collidesTeam: true
 				healPercent: 1
 				knockback: 0
-				width: 1
+				width: 2
 				height: 6
 				smokeEffect: none
 				shootEffect: 
