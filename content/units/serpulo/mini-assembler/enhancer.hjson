@@ -25,6 +25,7 @@
 			shootSound: sap
 			inaccuracy: 3
 			shoot: {
+				type: ShootSpread
 				shots: 3
 				spread: 4
 			}
