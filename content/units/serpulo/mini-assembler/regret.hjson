@@ -11,8 +11,8 @@
 	legGroupSize: 2
 	legCount: 4
 	legLength: 10
-	legForwardScl: 0.6
-	legMoveSpace: 1.4
+	legForwardScl: 0.2
+	legMoveSpace: 1.2
 	hovering: true
 	shadowElevation: 0.2
 	legContinuousMove: true
@@ -31,7 +31,8 @@
 				sapStrength: 0.05
 				length: 50
 				knockback: 0
-				sapColor: BF92F8
+				colorFrom: BF92F8
+				colorTo: BF92F8
 				buildingDamageMultiplier: 0
 				smokeEffect: none
 				shootEffect: 
