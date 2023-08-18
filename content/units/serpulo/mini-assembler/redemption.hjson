@@ -29,7 +29,7 @@
 	weapons: [
 		{
 			x: 0
-			y: 0
+			y: -0.75
 			reload: 20
 			mirror: false
 			alternate: false
@@ -40,9 +40,8 @@
 			bullet: {
 				type: LightningBulletType
 				damage: 10
-				length: 50
 				knockback: 0
-				color: BF92F8
+				lightningColor: BF92F8
 				buildingDamageMultiplier: 0
 				lightningLength: 6
 				smokeEffect: none
