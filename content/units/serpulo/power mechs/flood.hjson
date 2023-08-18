@@ -17,6 +17,7 @@
 	engineSize: 2.5
 	bounded: true
 	useUnitCap: false
+	allowedInPayloads: false
 	
 	weapons: [
 		{

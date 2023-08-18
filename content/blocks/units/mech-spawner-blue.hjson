@@ -26,6 +26,6 @@
 	
 	consumes: {
 		power: 1
-		liquid: energy-fluid/1
+		liquid: energy-fluid/0.1
 	}
 }
