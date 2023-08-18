@@ -1,0 +1,79 @@
+{
+	type: flying
+	flying: true
+	name: Enhancer
+	description: T1 unit, that will repair allied blocks.
+	lowAltitude: true
+	health: 200
+	speed: 3
+	drag: 0.04
+	accel: 0.08
+	armor: 2
+	itemCapacity: 0
+	trailLength: 10
+	targetAir: false
+	targetGround: false
+	research: upgrade-module
+
+	weapons: [
+		{
+			x: 0
+			y: 2
+			reload: 60
+			mirror: false
+			alternate: false
+			shootSound: sap
+			inaccuracy: 10
+			shoot: {
+				shots: 3
+			}
+			bullet: {
+				type: LaserBoltBulletType
+				damage: 0
+				lifetime: 12.5
+				speed: 5
+				collidesTeam: true
+				healPercent: 1.25
+				knockback: 0
+				velocityRnd: 0.05
+				smokeEffect: none
+				shootEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 84F490
+						region: kiky5-diamond-bullet
+					}
+				hitEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 84F490
+						region: kiky5-diamond-bullet
+					}
+				despawnEffect: 
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 3
+						sizeTo: 0
+						length: 0
+						colorFrom: FFFFFF
+						colorTo: 84F490
+						region: kiky5-diamond-bullet
+					}
+			}
+		}
+	]
+}
