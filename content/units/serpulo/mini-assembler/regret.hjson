@@ -10,7 +10,7 @@
 	rotateSpeed: 3.75
 	legGroupSize: 2
 	legCount: 4
-	legLength: 10
+	legLength: 13
 	legForwardScl: 0.2
 	legMoveSpace: 1.2
 	hovering: true
@@ -31,8 +31,7 @@
 				sapStrength: 0.05
 				length: 50
 				knockback: 0
-				colorFrom: BF92F8
-				colorTo: BF92F8
+				color: BF92F8
 				buildingDamageMultiplier: 0
 				smokeEffect: none
 				shootEffect: 
