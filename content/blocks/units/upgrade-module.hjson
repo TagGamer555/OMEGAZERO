@@ -16,7 +16,7 @@
 		items: {
 			items: [
 				silicon/4
-				alpha/4
+				alpha-item/4
 			]
 		}
 		power: 1
