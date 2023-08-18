@@ -4,7 +4,6 @@
 	name: Salvager
 	description: T0 unit, that will repair allied blocks.
 	lowAltitude: true
-	outlineColor: 1E1E26
 	health: 100
 	speed: 2.75
 	drag: 0.04
@@ -42,7 +41,7 @@
 						sizeTo: 0
 						length: 0
 						colorFrom: FFFFFF
-						colorTo: EDA666
+						colorTo: 84F490
 						region: kiky5-diamond-bullet
 					}
 				hitEffect: 
@@ -54,7 +53,7 @@
 						sizeTo: 0
 						length: 0
 						colorFrom: FFFFFF
-						colorTo: EDA666
+						colorTo: 84F490
 						region: kiky5-diamond-bullet
 					}
 				despawnEffect: 
@@ -66,7 +65,7 @@
 						sizeTo: 0
 						length: 0
 						colorFrom: FFFFFF
-						colorTo: EDA666
+						colorTo: 84F490
 						region: kiky5-diamond-bullet
 					}
 			}
