@@ -9,7 +9,7 @@
 	drag: 0.4
 	rotateSpeed: 3.75
 	
-	legCount: 4
+	legCount: 6
 	legLength: 8
 	lockLegBase: true
 	legContinuousMove: true
@@ -19,7 +19,7 @@
 	legMinLength: 0.2
 	legLengthScl: 0.96
 	legForwardScl: 1.1
-	legGroupSize: 2
+	legGroupSize: 3
 	rippleScale: 0.2
 	legStraightness: 0.3
 	
