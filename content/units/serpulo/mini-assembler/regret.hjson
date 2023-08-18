@@ -10,7 +10,7 @@
 	rotateSpeed: 3.75
 	legGroupSize: 2
 	legCount: 4
-	legLength: 6
+	legLength: 16
 	legForwardScl: 0.6
 	legMoveSpace: 1.4
 	hovering: true
