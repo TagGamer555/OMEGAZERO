@@ -12,14 +12,5 @@
 		alpha-item/300
 	]
 	
-	consumes: {
-		items: {
-			items: [
-				silicon/4
-				alpha-item/4
-			]
-		}
-		power: 1
-		liquid: oil/0.0625
-	}
+	consumes: {}
 }

@@ -2,7 +2,7 @@
 	type: flying
 	flying: true
 	name: Salvager
-	description: T0 unit, that will repair allied blocks.
+	description: T0 unit that will repair allied blocks.
 	lowAltitude: true
 	health: 100
 	speed: 2.75
@@ -70,6 +70,22 @@
 						colorTo: 84F490
 						region: kiky5-diamond-bullet
 					}
+			}
+		}
+	]
+	abilities: [
+		{
+			type: RepairFieldAbility 
+			range: 40
+			amount: 10
+			reload: 60
+			activeEffect: {
+				type: WaveEffect
+				sizeFrom: 0
+				sizeTo: 10
+				colorFrom: FFFFFF
+				colorTo: 84F490
+				region: kiky5-diamond-bullet
 			}
 		}
 	]

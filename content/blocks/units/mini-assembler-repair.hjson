@@ -22,7 +22,10 @@
 		}
 		{
 			unit: enhancer
-			requirements: []
+			requirements: [
+				liquid: oil/0.1
+				item: silicon/4
+			]
 			time: 1800
 		}
 	]

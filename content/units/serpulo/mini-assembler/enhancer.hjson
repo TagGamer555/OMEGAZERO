@@ -79,4 +79,20 @@
 			}
 		}
 	]
+	abilities: [
+		{
+			type: RepairFieldAbility 
+			range: 40
+			amount: 20
+			reload: 60
+			activeEffect: {
+				type: WaveEffect
+				sizeFrom: 0
+				sizeTo: 10
+				colorFrom: FFFFFF
+				colorTo: 84F490
+				region: kiky5-diamond-bullet
+			}
+		}
+	]
 }
