@@ -76,15 +76,17 @@
 	abilities: [
 		{
 			type: RepairFieldAbility 
-			range: 40
-			amount: 10
+			range: 20
+			amount: 5
 			reload: 60
 			activeEffect: {
-				type: WaveEffect
+				length: 0
+				particles: 1
 				sizeFrom: 0
 				sizeTo: 10
 				colorFrom: FFFFFF
 				colorTo: 84F490
+				region: kiky5-diamond-bullet
 			}
 		}
 	]
