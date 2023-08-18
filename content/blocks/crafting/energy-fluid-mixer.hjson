@@ -49,6 +49,6 @@
 	requirements: [
 		copper/125
 		lead/140
-		fluxite/80
+		metaglass/80
 	]
 }

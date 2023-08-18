@@ -26,5 +26,6 @@
 	
 	consumes: {
 		power: 2
+		liquid: energy-fluid/1.2
 	}
 }
