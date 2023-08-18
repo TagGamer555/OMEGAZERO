@@ -2,7 +2,7 @@
 	type: flying
 	flying: true
 	name: Enhancer
-	description: T1 unit, that will repair allied blocks.
+	description: T1 unit, that will repair allied blocks faster.
 	lowAltitude: true
 	health: 200
 	speed: 3
@@ -23,7 +23,7 @@
 			mirror: false
 			alternate: false
 			shootSound: sap
-			inaccuracy: 10
+			inaccuracy: 3
 			shoot: {
 				shots: 3
 			}
@@ -35,8 +35,10 @@
 				collidesTeam: true
 				healPercent: 1.25
 				knockback: 0
-				velocityRnd: 0.05
+				velocityRnd: 0.03
 				smokeEffect: none
+				width: 4
+				height: 6
 				shootEffect: 
 					{
 						type: ParticleEffect
