@@ -20,6 +20,11 @@
 			requirements: []
 			time: 600
 		}
+		{
+			unit: enhancer
+			requirements: []
+			time: 1800
+		}
 	]
 	consumes: {
 		power: 0.75
