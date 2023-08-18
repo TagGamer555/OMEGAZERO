@@ -20,6 +20,6 @@
 			]
 		}
 		power: 1
-		liquid: oil/1.25
+		liquid: oil/0.0625
 	}
 }
