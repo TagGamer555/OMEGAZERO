@@ -22,14 +22,7 @@
 		}
 		{
 			unit: enhancer
-			requirements: [
-				items: {
-					items: [
-						silicon/4
-					]
-				}
-			]
-			time: 1800
+			time: 1200
 		}
 	]
 	consumes: {
