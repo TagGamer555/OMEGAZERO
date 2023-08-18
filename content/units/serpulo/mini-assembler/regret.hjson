@@ -8,14 +8,23 @@
 	armor: 4
 	drag: 0.4
 	rotateSpeed: 3.75
-	legGroupSize: 2
+	
 	legCount: 4
-	legLength: 13
-	legForwardScl: 0.2
-	legMoveSpace: 1.2
+	legLength: 8
+	lockLegBase: true
+	legContinuousMove: true
+	legExtension: -2
+	legBaseOffset: 3
+	legMaxLength: 1.1
+	legMinLength: 0.2
+	legLengthScl: 0.96
+	legForwardScl: 1.1
+	legGroupSize: 2
+	rippleScale: 0.2
+	legStraightness: 0.3
+	
 	hovering: true
 	shadowElevation: 0.2
-	legContinuousMove: true
 	research: mini-assembler-defense
 	weapons: [
 		{
