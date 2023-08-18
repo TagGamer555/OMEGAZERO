@@ -9,7 +9,7 @@
 	requirements: [
 		silicon/150
 		titanium/200
-		alpha/300
+		alpha-item/300
 	]
 	
 	consumes: {
