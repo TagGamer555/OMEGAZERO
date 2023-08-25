@@ -20,9 +20,14 @@
 			requirements: []
 			time: 600
 		}
+		{
+			unit: redemption
+			requirements: []
+			time: 1200
+		}
 	]
 	consumes: {
 		power: 0.75
-		liquid: water/0.2
+		liquid: oil/0.2
 	}
 }
