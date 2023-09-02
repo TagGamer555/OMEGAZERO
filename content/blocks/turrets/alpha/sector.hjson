@@ -4,7 +4,6 @@
 	description: A medium turret, made out of alpha, which shoots queues of slow-moving sound waves.
 	health: 1440
 	size: 2
-	outlineColor: 1E1E26
 	squareSprite: false
 	requirements: [
 		alpha-item/90

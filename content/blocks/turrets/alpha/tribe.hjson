@@ -6,7 +6,6 @@
 	loopSound: none
 	targetAir: false
 	size: 1
-	outlineColor: 1E1E26
 	squareSprite: false
 	requirements: [
 		metaglass/10

@@ -4,7 +4,6 @@
 	description: A medium turret, made out of alpha, which shoots bullets rapidly.
 	health: 1440
 	size: 2
-	outlineColor: 1E1E26
 	squareSprite: false
 	requirements: [
 		lead/80
