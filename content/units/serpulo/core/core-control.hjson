@@ -15,7 +15,7 @@
 	canHeal: false
 	speed: 0
 	rotateSpeed: 0
-	buildRange: 200
+	buildRange: 2000
 	buildSpeed: 0.25
 	drawBuildBeam: true
 	buildBeamOffset: 0
@@ -32,8 +32,8 @@
 	lightRadius: 0
 	lowAltitude: true
 	mineFloor: true
-	mineWalls: true
-	mineRange: 100
+	mineWalls: false
+	mineRange: 2000
 	mineHardnessScaling: true
 	mineSpeed: 10
 	mineTier: 2
