@@ -35,7 +35,7 @@
 			smokeEffect: none
 			hitEffect: none
 			despawnEffect: none
-			trailChance: 0.2
+			trailChance: -1
 			trailWidth: 1
 			trailLength: 10
 			trailColor: EBEDF5
@@ -48,6 +48,7 @@
 				region: kiky5-soundwave
 				colorFrom: FFFFFF
 				colorTo: EBEDF5
+				trailRotation: true
 			}
 		}
 	}
