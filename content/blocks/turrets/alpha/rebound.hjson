@@ -28,7 +28,7 @@
 			pierceBuilding: true
 			buildingDamageMultiplier: 0.25
 			damage: 30
-			speed: 3.25
+			speed: 4
 			lifetime: 100
 			drag: 0.0325
 			shrinkY: 0
