@@ -1,7 +1,7 @@
 {
 	type: itemTurret
 	name: Rebound
-	description: A small turret, made out of alpha, which shoots slow-moving sound waves.
+	description: Shoots powerful, piercing bullets.
 	health: 360
 	size: 1
 	squareSprite: false
@@ -17,45 +17,38 @@
 	reload: 180
 	recoil: 0.5
 	shootY: 3
-	range: 180
+	range: 150
 	ammoTypes: {
-		copper: {
-			width: 8
-			height: 4
-			sprite: kiky5-soundwave
-			frontColor: C8A58F
-			backColor: C8A58F
-			pierce: true
-			pierceBuilding: true
-			buildingDamageMultiplier: 0
-			damage: 10
-			speed: 2
-			lifetime: 90
-			shrinkY: 0
-			shrinkX: -2
-			shootEffect: none
-			smokeEffect: none
-			despawnEffect: none
-			hitEffect: none
-		}
 		metaglass: {
-			width: 8
-			height: 4
-			sprite: kiky5-soundwave
-			frontColor: EBEDF5
+			width: 6
+			height: 8
+			frontColor: FFFFFF
 			backColor: EBEDF5
 			pierce: true
 			pierceBuilding: true
-			buildingDamageMultiplier: 0
-			damage: 20
-			speed: 2
-			lifetime: 90
+			buildingDamageMultiplier: 0.25
+			damage: 30
+			speed: 3
+			lifetime: 50
 			shrinkY: 0
-			shrinkX: -2
 			shootEffect: none
 			smokeEffect: none
 			hitEffect: none
 			despawnEffect: none
+			trailChance: 0.02
+			trailWidth: 1
+			trailLength: 10
+			trailColor: EBEDF5
+			trailEffect: {
+				particles: 1
+				length: 0
+				sizeFrom: 1.75
+				sizeTo: 0
+				lifetime: 20
+				region: kiky5-soundwave
+				colorFrom: FFFFFF
+				colorTo: EBEDF5
+			}
 		}
 	}
 }
