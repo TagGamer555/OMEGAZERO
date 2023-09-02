@@ -59,7 +59,7 @@
 			}
 			trailWidth: 1
 			trailLength: 4
-			status: shock
+			status: shocked
 			statusDuration: 60
 		}
 		pyratite: {
