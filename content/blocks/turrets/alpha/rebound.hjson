@@ -30,7 +30,7 @@
 			damage: 30
 			speed: 3
 			lifetime: 100
-			drag: 0.01
+			drag: 0.0225
 			shrinkY: 0
 			shootEffect: none
 			smokeEffect: none
