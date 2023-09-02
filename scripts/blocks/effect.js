@@ -1,4 +1,4 @@
-const core-micro = extend(CoreBlock, "core-micro", {
+const coreMicro = extend(CoreBlock, "core-micro", {
 	canPlaceOn(tile, team, rotation){
 		return true;
 	},
