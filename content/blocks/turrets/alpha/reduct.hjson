@@ -1,59 +1,61 @@
 {
 	type: itemTurret
 	name: Reduct
-	description: A small turret, made out of alpha, which shoots some flames.
+	description: A turret which shoots bursts of electrical discharges which home into enemies. Uses flammable fuel as ammo.
 	health: 360
 	size: 1
 	squareSprite: false
 	requirements: [
-		lead/20
-		alpha-item/35
-		graphite/10
+		alpha-item/10
+		titanium/10
+		silicon/10
 	]
 	category: turret
 	research: minima
 	inaccuracy: 12
-	shootSound: flame
+	shootSound: spark
 	shoot: {
 		type: shootPattern
 		shots: 6
 		shotDelay: 2.5
 	}
-	reload: 20
-	recoil: 0.1
+	reload: 40
+	recoil: 0
 	shootY: 4
 	range: 70
 	ammoTypes: {
 		coal: {
 			weaveScale: 2
 			weaveMag: 2
-			damage: 9
+			damage: 12
 			speed: 4
 			lifetime: 20
 			ammoMultiplier: 4
 			reloadMultiplier: 1
 			width: 0
 			height: 0
-			trailColor: FF785E
+			homingRange: 180
+			homingPower: 0.02
+			trailColor: A8D8FF
 			hitEffect: {
 				type: ParticleEffect
-				particles: 3
+				particles: 1
 				lifetime: 60
-				sizeFrom: 2
+				sizeFrom: 3
 				sizeTo: 0
-				length: 20
-				colorFrom: 333333
-				colorTo: 111111
+				length: 0
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
 			}
 			despawnEffect: {
 				type: ParticleEffect
-				particles: 3
+				particles: 1
 				lifetime: 60
-				sizeFrom: 2
+				sizeFrom: 3
 				sizeTo: 0
-				length: 20
-				colorFrom: 333333
-				colorTo: 111111
+				length: 0
+				colorFrom: FFFFFF
+				colorTo: A8D8FF
 			}
 			trailWidth: 1
 			trailLength: 4
