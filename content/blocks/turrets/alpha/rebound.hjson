@@ -27,7 +27,7 @@
 			pierce: true
 			pierceBuilding: true
 			buildingDamageMultiplier: 0.25
-			damage: 30
+			damage: 60
 			speed: 4
 			lifetime: 100
 			drag: 0.0325
@@ -49,7 +49,7 @@
 				shrinkY: 0
 				despawnEffect: none
 				hitEffect: none
-				damage: 4
+				damage: 10
 				trailWidth: 0.5
 				trailLength: 5
 				trailColor: EBEDF5
@@ -65,7 +65,7 @@
 				shrinkY: 0
 				despawnEffect: none
 				hitEffect: none
-				damage: 8
+				damage: 12
 				trailWidth: 0.5
 				trailLength: 5
 				trailColor: EBEDF5
