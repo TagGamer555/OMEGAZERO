@@ -17,6 +17,7 @@
 	shoot: {
 		type: shootPattern
 		shots: 6
+		shotDelay: 2.5
 	}
 	reload: 20
 	recoil: 0.1
