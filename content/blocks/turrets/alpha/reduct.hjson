@@ -6,9 +6,9 @@
 	size: 1
 	squareSprite: false
 	requirements: [
-		alpha-item/10
-		titanium/10
-		silicon/10
+		alpha-item/15
+		titanium/15
+		silicon/15
 	]
 	category: turret
 	research: minima
