@@ -16,7 +16,7 @@
 	logicControllable: false
 	engineOffset: 3
 	engineSize: 3
-	bounded: true
+	bounded: false
 	useUnitCap: false
 	allowedInPayloads: false
 	
