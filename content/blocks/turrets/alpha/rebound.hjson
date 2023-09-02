@@ -35,14 +35,14 @@
 			smokeEffect: none
 			hitEffect: none
 			despawnEffect: none
-			trailChance: 0.02
+			trailChance: 0.2
 			trailWidth: 1
 			trailLength: 10
 			trailColor: EBEDF5
 			trailEffect: {
 				particles: 1
 				length: 0
-				sizeFrom: 1.75
+				sizeFrom: 3
 				sizeTo: 0
 				lifetime: 20
 				region: kiky5-soundwave
