@@ -56,6 +56,22 @@
 				frontColor: FFFFFF
 				backColor: EBEDF5
 			}
+			fragBullets: 8
+			fragBullet: {
+				lifetime: 20
+				speed: 2
+				width: 3
+				height: 3
+				shrinkY: 0
+				despawnEffect: none
+				hitEffect: none
+				damage: 8
+				trailWidth: 0.5
+				trailLength: 5
+				trailColor: EBEDF5
+				frontColor: FFFFFF
+				backColor: EBEDF5
+			}
 		}
 	}
 }
