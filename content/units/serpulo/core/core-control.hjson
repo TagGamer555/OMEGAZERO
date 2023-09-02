@@ -5,7 +5,7 @@
 	hidden: true
 	flying: true
 	hittable: false
-	hitSize: 1
+	hitSize: 100000000
 	killable: false
 	targetable: false
 	healFlash: false
