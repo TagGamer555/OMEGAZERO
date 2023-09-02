@@ -1,0 +1,18 @@
+{
+	name: Core: Micro
+	description: Smallest core imaginable.
+	size: 1
+	research: core-shard
+	health: 1200
+	itemCapacity: 1000
+	unitType: core-control
+	unitCapModifier: 0
+	requirements: [
+		thorium/2000
+		silicon/2000
+		titanium/2000
+	]
+	squareSprite: false
+	category: effect
+	placeableLiquid: true
+}
