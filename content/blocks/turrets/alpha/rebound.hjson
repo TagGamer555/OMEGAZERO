@@ -39,6 +39,7 @@
 			trailLength: 10
 			trailColor: EBEDF5
 			intervalBullets: 1
+			bulletInterval: 5
 			intervalBullet: {
 				lifetime: 10
 				speed: 2
