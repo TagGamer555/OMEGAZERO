@@ -17,7 +17,7 @@
 	reload: 180
 	recoil: 0.5
 	shootY: 3
-	range: 150
+	range: 125
 	ammoTypes: {
 		metaglass: {
 			width: 6
