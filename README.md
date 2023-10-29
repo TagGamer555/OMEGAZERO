@@ -1,3 +1,7 @@
+**THIS MOD IS NO LONGER UNDER DEVELOPMENT**
+
+**FOR OMEGAONE, VISIT MY GITHUB PROFILE**
+
 <h1 align="center"> OMEGAZERO </h1>
 
 <p align="center"><a href="https://discord.gg/TBu48g2hMT"><img src="https://discordapp.com/api/guilds/1059065805150617650/widget.png?style=banner2" alt="discord"/></a></p>
